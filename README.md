@@ -1,6 +1,6 @@
 # OSM-SouthBay
 
-This is project towards improving the quality of OSM data in the South Bay as well as improving the community!
+This is project towards improving the quality of [OSM data in the South Bay](https://wiki.openstreetmap.org/wiki/South_Bay_%28SF%29,_California) as well as improving the community!
 
 Mappers in the South Bay need to meet each other!
 
