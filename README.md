@@ -15,5 +15,9 @@ A better OpenStreetMap will make a difference for tripplanners, mappers, planner
 
 ## Resources
 [Code for San Jose Slack](https://slackin-c4sj.herokuapp.com/) and then channel #osm
+
 [OSMUS Slack](https://osmus-slack.herokuapp.com/)
+
 [Bay Area OSM email list](https://lists.openstreetmap.org/listinfo/talk-us-sfbay/)
+
+[South Bay GIS Resources Compiled by the VTA](https://github.com/vta/GIS-Resources-Santa-Clara-County)
