@@ -12,3 +12,8 @@ OpenStreetMap is open data: Open Maps.  you are free to use it for any purpose a
 and its contributors. 
 
 A better OpenStreetMap will make a difference for tripplanners, mappers, planners, and businesses!
+
+## Resources
+[Code for San Jose Slack](https://slackin-c4sj.herokuapp.com/) and then channel #osm
+[OSMUS Slack](https://osmus-slack.herokuapp.com/)
+[Bay Area OSM email list](https://lists.openstreetmap.org/listinfo/talk-us-sfbay/)
