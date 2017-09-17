@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmizer">
+  <way id="-319445887" action="modify" visible="true">
+    <nd ref="-71930433"/>
+    <nd ref="-1390467163"/>
+    <nd ref="-2653871500"/>
+    <nd ref="-3162001326"/>
+    <nd ref="-659787757"/>
+    <nd ref="-71930433"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-1390467163" lon="-121.90864211406091" lat="37.333476646933505" visible="true"/>
+  <node id="-2653871500" lon="-121.90985526397057" lat="37.333423535169175" visible="true"/>
+  <node id="-3162001326" lon="-121.90974208443114" lat="37.33174734742701" visible="true"/>
+  <node id="-659787757" lon="-121.90973037810906" lat="37.33173689272755" visible="true"/>
+  <way id="-3947102159" action="modify" visible="true">
+    <nd ref="-2376450885"/>
+    <nd ref="-1614944332"/>
+    <nd ref="-1064817527"/>
+    <nd ref="-11410465"/>
+    <nd ref="-2376450885"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-1614944332" lon="-121.90739169059557" lat="37.333528919006696" visible="true"/>
+  <node id="-1064817527" lon="-121.90725143118866" lat="37.3318413921189" visible="true"/>
+  <node id="-11410465" lon="-121.90832477423558" lat="37.33178958342528" visible="true"/>
+  <node id="-2376450885" lon="-121.90844136488096" lat="37.33348274253751" visible="true"/>
+  <way id="-1210973749" action="modify" visible="true">
+    <nd ref="-4058696475"/>
+    <nd ref="-2683898633"/>
+    <nd ref="-1490464855"/>
+    <nd ref="-890345972"/>
+    <nd ref="-1048702089"/>
+    <nd ref="-4043854008"/>
+    <nd ref="-510988273"/>
+    <nd ref="-3307121181"/>
+    <nd ref="-228603078"/>
+    <nd ref="-3276240446"/>
+    <nd ref="-2001730937"/>
+    <nd ref="-3963128635"/>
+    <nd ref="-1948027315"/>
+    <nd ref="-6698541"/>
+    <nd ref="-1446747184"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-4058696475" lon="-121.90654673585354" lat="37.33307667315353" visible="true"/>
+  <node id="-2683898633" lon="-121.90560323342143" lat="37.333228652855496" visible="true"/>
+  <node id="-1490464855" lon="-121.90548926508708" lat="37.33320729859271" visible="true"/>
+  <node id="-890345972" lon="-121.90418104579581" lat="37.33199965200684" visible="true"/>
+  <node id="-1048702089" lon="-121.9041932212632" lat="37.33198687034485" visible="true"/>
+  <node id="-4043854008" lon="-121.90621724294988" lat="37.33190330089056" visible="true"/>
+  <node id="-510988273" lon="-121.9071014314656" lat="37.33184801298354" visible="true"/>
+  <node id="-3307121181" lon="-121.9072422816941" lat="37.33353787237367" visible="true"/>
+  <node id="-228603078" lon="-121.9059994774914" lat="37.33359327857305" visible="true"/>
+  <node id="-3276240446" lon="-121.90591679642412" lat="37.333611567513444" visible="true"/>
+  <node id="-2001730937" lon="-121.90586755640868" lat="37.33357987619435" visible="true"/>
+  <node id="-3963128635" lon="-121.9058691718931" lat="37.33355911900992" visible="true"/>
+  <node id="-1948027315" lon="-121.90565787492895" lat="37.3333549159878" visible="true"/>
+  <node id="-6698541" lon="-121.90568489776913" lat="37.333339437867906" visible="true"/>
+  <node id="-1446747184" lon="-121.906175927085" lat="37.333255879558564" visible="true"/>
+  <way id="-1157521034" action="modify" visible="true">
+    <nd ref="-1805715626"/>
+    <nd ref="-3185950727"/>
+    <nd ref="-2133147515"/>
+    <nd ref="-884096398"/>
+    <nd ref="-1832870957"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-3185950727" lon="-121.91017800277692" lat="37.33362538979654" visible="true"/>
+  <node id="-2133147515" lon="-121.9101910271016" lat="37.33360693644303" visible="true"/>
+  <node id="-884096398" lon="-121.91056915840994" lat="37.333559846428685" visible="true"/>
+  <way id="-2464550239" action="modify" visible="true">
+    <nd ref="-1805715626"/>
+    <nd ref="-715925114"/>
+    <nd ref="-2048712804"/>
+    <nd ref="-1832870957"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-715925114" lon="-121.9103445661369" lat="37.33381237470809" visible="true"/>
+  <node id="-2048712804" lon="-121.91076881341496" lat="37.333514389485714" visible="true"/>
+  <way id="-488632372" action="modify" visible="true">
+    <nd ref="-2088199366"/>
+    <nd ref="-232206083"/>
+    <nd ref="-1583169616"/>
+    <nd ref="-2589674992"/>
+    <nd ref="-1142763795"/>
+    <nd ref="-2682528798"/>
+    <nd ref="-1037129980"/>
+    <nd ref="-244156115"/>
+    <nd ref="-2088199366"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-232206083" lon="-121.9100710648224" lat="37.33380530283986" visible="true"/>
+  <node id="-1583169616" lon="-121.91005721828083" lat="37.33377686719352" visible="true"/>
+  <node id="-2589674992" lon="-121.90990073788325" lat="37.33363679921341" visible="true"/>
+  <node id="-1142763795" lon="-121.90983982661163" lat="37.33361609806583" visible="true"/>
+  <node id="-2682528798" lon="-121.90884171294186" lat="37.333660338903826" visible="true"/>
+  <node id="-1037129980" lon="-121.90877773716727" lat="37.33370202576138" visible="true"/>
+  <node id="-244156115" lon="-121.90878462359228" lat="37.33376656669769" visible="true"/>
+  <node id="-2088199366" lon="-121.90937256947134" lat="37.334291270003575" visible="true"/>
+  <way id="-3885225006" action="modify" visible="true">
+    <nd ref="-1218604180"/>
+    <nd ref="-2798446779"/>
+    <nd ref="-2376367433"/>
+    <nd ref="-2802019637"/>
+    <nd ref="-290621433"/>
+    <nd ref="-1352840709"/>
+    <nd ref="-1218604180"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-2798446779" lon="-121.90783924924992" lat="37.33536626728193" visible="true"/>
+  <node id="-2376367433" lon="-121.90613431604737" lat="37.33381080140664" visible="true"/>
+  <node id="-2802019637" lon="-121.90614389016861" lat="37.333785524697035" visible="true"/>
+  <node id="-290621433" lon="-121.90617017832733" lat="37.33377438739775" visible="true"/>
+  <node id="-1352840709" lon="-121.90842157399737" lat="37.333671585966414" visible="true"/>
+  <node id="-1218604180" lon="-121.90922517934038" lat="37.33440082974607" visible="true"/>
+  <way id="-1207280062" action="modify" visible="true">
+    <nd ref="-1805715626"/>
+    <nd ref="-4202605911"/>
+    <nd ref="-2565429990"/>
+    <nd ref="-1245304842"/>
+    <nd ref="-3054591820"/>
+    <nd ref="-441828675"/>
+    <nd ref="-3755702443"/>
+    <nd ref="-7835125"/>
+    <nd ref="-913040174"/>
+    <nd ref="-2374556654"/>
+    <nd ref="-1332209274"/>
+    <nd ref="-2948568156"/>
+    <nd ref="-2237955075"/>
+    <nd ref="-3937536486"/>
+    <nd ref="-779017033"/>
+    <nd ref="-830718998"/>
+    <nd ref="-1165143427"/>
+    <nd ref="-3057346763"/>
+    <nd ref="-395988387"/>
+    <nd ref="-3285631534"/>
+    <nd ref="-3014812607"/>
+    <nd ref="-1060961268"/>
+    <nd ref="-949898609"/>
+    <nd ref="-807581592"/>
+    <nd ref="-3480973730"/>
+    <nd ref="-2199508822"/>
+    <nd ref="-1832870957"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-1805715626" lon="-121.9102486149105" lat="37.33378443213557" visible="true"/>
+  <node id="-4202605911" lon="-121.9102361303612" lat="37.33385470283967" visible="true"/>
+  <node id="-2565429990" lon="-121.91019447016134" lat="37.333906458394324" visible="true"/>
+  <node id="-1245304842" lon="-121.9095276249152" lat="37.33437790597361" visible="true"/>
+  <node id="-3054591820" lon="-121.90966060823615" lat="37.33451613743762" visible="true"/>
+  <node id="-441828675" lon="-121.91009796084444" lat="37.33489968826707" visible="true"/>
+  <node id="-3755702443" lon="-121.9101032711003" lat="37.334922415473216" visible="true"/>
+  <node id="-7835125" lon="-121.910165535532" lat="37.33496281291711" visible="true"/>
+  <node id="-913040174" lon="-121.91018009514397" lat="37.33501911279784" visible="true"/>
+  <node id="-2374556654" lon="-121.91015215805666" lat="37.33506824666024" visible="true"/>
+  <node id="-1332209274" lon="-121.9100661641383" lat="37.33509858972994" visible="true"/>
+  <node id="-2948568156" lon="-121.90998787062898" lat="37.33507086915827" visible="true"/>
+  <node id="-2237955075" lon="-121.90995869589196" lat="37.33502716460521" visible="true"/>
+  <node id="-3937536486" lon="-121.90994780348257" lat="37.334940397458524" visible="true"/>
+  <node id="-779017033" lon="-121.9097541242567" lat="37.33477247044124" visible="true"/>
+  <node id="-830718998" lon="-121.90975696707335" lat="37.334755812415494" visible="true"/>
+  <node id="-1165143427" lon="-121.9094632994142" lat="37.334484537927025" visible="true"/>
+  <node id="-3057346763" lon="-121.90939622023714" lat="37.3344661828021" visible="true"/>
+  <node id="-395988387" lon="-121.9079660104141" lat="37.33547323063162" visible="true"/>
+  <node id="-3285631534" lon="-121.90929453754609" lat="37.336685388331986" visible="true"/>
+  <node id="-3014812607" lon="-121.91383833776752" lat="37.33325847104243" visible="true"/>
+  <node id="-1060961268" lon="-121.91273313627931" lat="37.33232829881858" visible="true"/>
+  <node id="-949898609" lon="-121.91265543506168" lat="37.33228878703902" visible="true"/>
+  <node id="-807581592" lon="-121.9126032455905" lat="37.33228439929343" visible="true"/>
+  <node id="-3480973730" lon="-121.91235573882668" lat="37.33240750524966" visible="true"/>
+  <node id="-2199508822" lon="-121.91093203255105" lat="37.333408971931675" visible="true"/>
+  <node id="-1832870957" lon="-121.91076295527293" lat="37.33350531678731" visible="true"/>
+  <way id="-710059047" action="modify" visible="true">
+    <nd ref="-1602197150"/>
+    <nd ref="-1227014328"/>
+    <nd ref="-3062512311"/>
+    <nd ref="-3513649678"/>
+    <nd ref="-1305046694"/>
+    <nd ref="-1356381034"/>
+    <nd ref="-1602197150"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-1227014328" lon="-121.9140123204453" lat="37.33341811198896" visible="true"/>
+  <node id="-3062512311" lon="-121.91492052291576" lat="37.334169412250176" visible="true"/>
+  <node id="-3513649678" lon="-121.91286237815214" lat="37.33572746510028" visible="true"/>
+  <node id="-1305046694" lon="-121.9102524726606" lat="37.33756063262494" visible="true"/>
+  <node id="-1356381034" lon="-121.90945654286216" lat="37.336844561455194" visible="true"/>
+  <node id="-1602197150" lon="-121.91400468413079" lat="37.33339527393677" visible="true"/>
+  <way id="-583821627" action="modify" visible="true">
+    <nd ref="-668071697"/>
+    <nd ref="-3028496779"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-668071697" lon="-121.90924653222913" lat="37.3367063896203" visible="true"/>
+  <node id="-3028496779" lon="-121.9092910211404" lat="37.336697829761306" visible="true"/>
+  <way id="-2734530843" action="modify" visible="true">
+    <nd ref="-1183822274"/>
+    <nd ref="-1785825130"/>
+    <nd ref="-71930433"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-1183822274" lon="-121.90853195122332" lat="37.33175723600539" visible="true"/>
+  <node id="-1785825130" lon="-121.90851993550314" lat="37.33178311103866" visible="true"/>
+  <node id="-71930433" lon="-121.90852931046379" lat="37.33179725831282" visible="true"/>
+  <way id="-3247825769" action="modify" visible="true">
+    <nd ref="-492587422"/>
+    <nd ref="-2942153119"/>
+    <nd ref="-237025766"/>
+    <nd ref="-207339388"/>
+    <nd ref="-680940544"/>
+    <nd ref="-1527429921"/>
+    <nd ref="-183722676"/>
+    <nd ref="-3285944003"/>
+    <nd ref="-2051000314"/>
+    <nd ref="-2679135483"/>
+    <nd ref="-2678849744"/>
+    <nd ref="-744830735"/>
+    <nd ref="-492587422"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-2942153119" lon="-121.91245635650256" lat="37.33214209023603" visible="true"/>
+  <node id="-237025766" lon="-121.91063579242791" lat="37.33340461031402" visible="true"/>
+  <node id="-207339388" lon="-121.91052943060134" lat="37.333418301156186" visible="true"/>
+  <node id="-680940544" lon="-121.91005528825056" lat="37.3334217089881" visible="true"/>
+  <node id="-1527429921" lon="-121.91002841174173" lat="37.33339794720878" visible="true"/>
+  <node id="-183722676" lon="-121.91003290199839" lat="37.333299515134186" visible="true"/>
+  <node id="-3285944003" lon="-121.9099194252824" lat="37.3317315085059" visible="true"/>
+  <node id="-2051000314" lon="-121.91153750844285" lat="37.33165064969141" visible="true"/>
+  <node id="-2679135483" lon="-121.9117608494308" lat="37.331653292054" visible="true"/>
+  <node id="-2678849744" lon="-121.91187152770087" lat="37.33168179676386" visible="true"/>
+  <node id="-744830735" lon="-121.9119677890221" lat="37.331728210905666" visible="true"/>
+  <node id="-492587422" lon="-121.91245577421523" lat="37.33212811824296" visible="true"/>
+</osm>
