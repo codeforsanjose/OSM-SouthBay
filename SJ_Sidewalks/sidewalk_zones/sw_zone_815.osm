@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmizer">
+  <way id="-4238890538" action="modify" visible="true">
+    <nd ref="-3049497649"/>
+    <nd ref="-3789384658"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-3049497649" lon="-121.86591563466212" lat="37.314818213734384" visible="true"/>
+  <node id="-3789384658" lon="-121.86630774840827" lat="37.315349785538686" visible="true"/>
+  <way id="-835043618" action="modify" visible="true">
+    <nd ref="-1860178669"/>
+    <nd ref="-2562869801"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-1860178669" lon="-121.8673286385266" lat="37.3167167912481" visible="true"/>
+  <node id="-2562869801" lon="-121.86777548365717" lat="37.31731758382661" visible="true"/>
+  <way id="-292649094" action="modify" visible="true">
+    <nd ref="-2980781239"/>
+    <nd ref="-3288565258"/>
+    <nd ref="-1010405367"/>
+    <nd ref="-2863391922"/>
+    <nd ref="-4043941809"/>
+    <nd ref="-3166101327"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-2980781239" lon="-121.86310400669274" lat="37.31537205862634" visible="true"/>
+  <node id="-3288565258" lon="-121.8626473036824" lat="37.31568043885697" visible="true"/>
+  <node id="-1010405367" lon="-121.8626170821689" lat="37.315726938831574" visible="true"/>
+  <node id="-2863391922" lon="-121.86262795536473" lat="37.315776565109985" visible="true"/>
+  <node id="-4043941809" lon="-121.86560535968823" lat="37.31977290073981" visible="true"/>
+  <node id="-3166101327" lon="-121.86695965490335" lat="37.31913418347723" visible="true"/>
+  <way id="-2103483759" action="modify" visible="true">
+    <nd ref="-665698719"/>
+    <nd ref="-997530315"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-665698719" lon="-121.86820707721256" lat="37.31791749908244" visible="true"/>
+  <node id="-997530315" lon="-121.86853299677429" lat="37.31836362745376" visible="true"/>
+</osm>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmizer">
+  <way id="-2329075851" action="modify" visible="true">
+    <nd ref="-2746182129"/>
+    <nd ref="-2351661098"/>
+    <nd ref="-1617849395"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-2746182129" lon="-121.94067378993046" lat="37.33780675376181" visible="true"/>
+  <node id="-2351661098" lon="-121.94031314110254" lat="37.33784465256028" visible="true"/>
+  <node id="-1617849395" lon="-121.94007617061277" lat="37.33789124492462" visible="true"/>
+</osm>

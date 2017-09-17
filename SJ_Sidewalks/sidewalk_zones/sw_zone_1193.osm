@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmizer">
+  <way id="-3254745170" action="modify" visible="true">
+    <nd ref="-4202072331"/>
+    <nd ref="-4042181182"/>
+    <nd ref="-391602246"/>
+    <nd ref="-3754987141"/>
+    <nd ref="-642231463"/>
+    <nd ref="-3072417442"/>
+    <nd ref="-3614569312"/>
+    <nd ref="-4202072331"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-4042181182" lon="-121.89461838042752" lat="37.33910885551296" visible="true"/>
+  <node id="-391602246" lon="-121.89461272169811" lat="37.33913190070464" visible="true"/>
+  <node id="-3754987141" lon="-121.89343981640732" lat="37.33969599765565" visible="true"/>
+  <node id="-642231463" lon="-121.89337301869344" lat="37.3397414143238" visible="true"/>
+  <node id="-3072417442" lon="-121.89291132349965" lat="37.339130328941636" visible="true"/>
+  <node id="-3614569312" lon="-121.8941610818714" lat="37.338525233032826" visible="true"/>
+  <node id="-4202072331" lon="-121.89419347415154" lat="37.33853785996425" visible="true"/>
+  <way id="-3272773499" action="modify" visible="true">
+    <nd ref="-435218696"/>
+    <nd ref="-1213796152"/>
+    <nd ref="-1346925018"/>
+    <nd ref="-4032321358"/>
+    <nd ref="-2803258643"/>
+    <nd ref="-2888094030"/>
+    <nd ref="-435218696"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-1213796152" lon="-121.8938881793353" lat="37.340441709855654" visible="true"/>
+  <node id="-1346925018" lon="-121.89343363960643" lat="37.339847185061956" visible="true"/>
+  <node id="-4032321358" lon="-121.89345201858606" lat="37.33982627554869" visible="true"/>
+  <node id="-2803258643" lon="-121.89469556702318" lat="37.33924333730299" visible="true"/>
+  <node id="-2888094030" lon="-121.89471635815599" lat="37.339252391790126" visible="true"/>
+  <node id="-435218696" lon="-121.89514137476141" lat="37.33984607047857" visible="true"/>
+</osm>

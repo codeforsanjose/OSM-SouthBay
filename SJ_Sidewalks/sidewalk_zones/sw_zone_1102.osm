@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmizer">
+  <way id="-1899369892" action="modify" visible="true">
+    <nd ref="-224567065"/>
+    <nd ref="-2988603889"/>
+    <nd ref="-4129071059"/>
+    <nd ref="-1715664019"/>
+    <nd ref="-468073525"/>
+    <nd ref="-1070904921"/>
+    <nd ref="-2054226036"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-224567065" lon="-121.89213162708876" lat="37.350132867845886" visible="true"/>
+  <node id="-2988603889" lon="-121.89029877955429" lat="37.351016192240564" visible="true"/>
+  <node id="-4129071059" lon="-121.89175466934137" lat="37.35297691092853" visible="true"/>
+  <node id="-1715664019" lon="-121.8917849984646" lat="37.35297742234124" visible="true"/>
+  <node id="-468073525" lon="-121.89242998460313" lat="37.35267259037704" visible="true"/>
+  <node id="-1070904921" lon="-121.89245978161716" lat="37.352680260042746" visible="true"/>
+  <node id="-2054226036" lon="-121.8928713339617" lat="37.35248323753882" visible="true"/>
+  <way id="-405292235" action="modify" visible="true">
+    <nd ref="-1709588797"/>
+    <nd ref="-3560253572"/>
+    <nd ref="-516332243"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-1709588797" lon="-121.89300939308421" lat="37.352402077374194" visible="true"/>
+  <node id="-3560253572" lon="-121.89366795771306" lat="37.35210626959157" visible="true"/>
+  <node id="-516332243" lon="-121.89367765462566" lat="37.3520738237936" visible="true"/>
+  <way id="-1523934924" action="modify" visible="true">
+    <nd ref="-3448836701"/>
+    <nd ref="-1296532625"/>
+    <nd ref="-2131857021"/>
+    <nd ref="-1350639342"/>
+    <nd ref="-3542757950"/>
+    <nd ref="-1703710385"/>
+    <nd ref="-3934735980"/>
+    <tag k="surface" v="paved"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="sidewalk"/>
+  </way>
+  <node id="-3448836701" lon="-121.8909211856556" lat="37.352195194283766" visible="true"/>
+  <node id="-1296532625" lon="-121.89158190684162" lat="37.353093086622536" visible="true"/>
+  <node id="-2131857021" lon="-121.89075909632382" lat="37.35349003644376" visible="true"/>
+  <node id="-1350639342" lon="-121.89071456452058" lat="37.353495617893856" visible="true"/>
+  <node id="-3542757950" lon="-121.88925553516907" lat="37.35152853796011" visible="true"/>
+  <node id="-1703710385" lon="-121.8892475493839" lat="37.35150046404148" visible="true"/>
+  <node id="-3934735980" lon="-121.89009891986365" lat="37.35110831873669" visible="true"/>
+</osm>
