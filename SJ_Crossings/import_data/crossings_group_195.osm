@@ -1,0 +1,647 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="0.6" generator="osmizer">
+  <way id="-2432452462" action="modify" visible="true">
+    <nd ref="-2191504632"/>
+    <nd ref="-3165776137"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2191504632" lon="-121.79553345654621" lat="37.35214847078663" visible="true"/>
+  <node id="-3165776137" lon="-121.79538490580403" lat="37.352046150027284" visible="true"/>
+  <way id="-949780595" action="modify" visible="true">
+    <nd ref="-2851982836"/>
+    <nd ref="-3903569091"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2851982836" lon="-121.79503981143942" lat="37.352381995457726" visible="true"/>
+  <node id="-3903569091" lon="-121.79517940085842" lat="37.35247116362252" visible="true"/>
+  <way id="-669850502" action="modify" visible="true">
+    <nd ref="-6232791"/>
+    <nd ref="-63154335"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-6232791" lon="-121.799759" lat="37.352337699999985" visible="true"/>
+  <way id="-141000839" action="modify" visible="true">
+    <nd ref="-2914671899"/>
+    <nd ref="-63154335"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2914671899" lon="-121.79943020000002" lat="37.3524116" visible="true"/>
+  <node id="-63154335" lon="-121.7995844" lat="37.3525248" visible="true"/>
+  <way id="-2133148934" action="modify" visible="true">
+    <nd ref="-3701824562"/>
+    <nd ref="-3896070268"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-3701824562" lon="-121.79972959232127" lat="37.3526111632824" visible="true"/>
+  <node id="-3896070268" lon="-121.79990416688804" lat="37.35242361509935" visible="true"/>
+  <way id="-1288769021" action="modify" visible="true">
+    <nd ref="-1906042222"/>
+    <nd ref="-3781385310"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1906042222" lon="-121.7951575" lat="37.3525417" visible="true"/>
+  <node id="-3781385310" lon="-121.79507330000001" lat="37.3526967" visible="true"/>
+  <way id="-2154157158" action="modify" visible="true">
+    <nd ref="-1737752586"/>
+    <nd ref="-1924812908"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1737752586" lon="-121.80009767641378" lat="37.35256592870526" visible="true"/>
+  <node id="-1924812908" lon="-121.79987352137987" lat="37.35269677478296" visible="true"/>
+  <way id="-2250278574" action="modify" visible="true">
+    <nd ref="-1838141852"/>
+    <nd ref="-624745985"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1838141852" lon="-121.79502" lat="37.3527342" visible="true"/>
+  <node id="-624745985" lon="-121.79484500888779" lat="37.35270242963173" visible="true"/>
+  <way id="-1525174084" action="modify" visible="true">
+    <nd ref="-2629266424"/>
+    <nd ref="-4209778070"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2629266424" lon="-121.79480082321753" lat="37.35297953276026" visible="true"/>
+  <node id="-4209778070" lon="-121.79498706600046" lat="37.352974711937044" visible="true"/>
+  <way id="-893378006" action="modify" visible="true">
+    <nd ref="-2603401880"/>
+    <nd ref="-1490803052"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2603401880" lon="-121.80020070913233" lat="37.353046995597616" visible="true"/>
+  <node id="-1490803052" lon="-121.800453438909" lat="37.35293026613951" visible="true"/>
+  <way id="-130661455" action="modify" visible="true">
+    <nd ref="-956210525"/>
+    <nd ref="-4009761995"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <way id="-601027665" action="modify" visible="true">
+    <nd ref="-4009761995"/>
+    <nd ref="-956210525"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-956210525" lon="-121.79479960000002" lat="37.3529951" visible="true"/>
+  <way id="-2497483654" action="modify" visible="true">
+    <nd ref="-2352826766"/>
+    <nd ref="-3296172660"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2352826766" lon="-121.80051720000002" lat="37.3529811" visible="true"/>
+  <node id="-3296172660" lon="-121.80056619422994" lat="37.35313457482378" visible="true"/>
+  <way id="-1812272004" action="modify" visible="true">
+    <nd ref="-2650003477"/>
+    <nd ref="-4009761995"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2650003477" lon="-121.79500013230121" lat="37.353063348284415" visible="true"/>
+  <node id="-4009761995" lon="-121.7948151" lat="37.3530814" visible="true"/>
+  <way id="-552687328" action="modify" visible="true">
+    <nd ref="-569368754"/>
+    <nd ref="-2546179526"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-569368754" lon="-121.80056139172011" lat="37.353140816789534" visible="true"/>
+  <node id="-2546179526" lon="-121.8002349526349" lat="37.35314662455162" visible="true"/>
+  <way id="-1512305585" action="modify" visible="true">
+    <nd ref="-2400453446"/>
+    <nd ref="-2264302090"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2264302090" lon="-121.80055356915395" lat="37.353320982307764" visible="true"/>
+  <way id="-1005131682" action="modify" visible="true">
+    <nd ref="-1231381205"/>
+    <nd ref="-1694286986"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1231381205" lon="-121.7948417" lat="37.3533809" visible="true"/>
+  <way id="-1473771728" action="modify" visible="true">
+    <nd ref="-2477819939"/>
+    <nd ref="-2400453446"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2477819939" lon="-121.80026076613589" lat="37.353473994632004" visible="true"/>
+  <node id="-2400453446" lon="-121.800254" lat="37.3532991" visible="true"/>
+  <way id="-1316500829" action="modify" visible="true">
+    <nd ref="-2492629316"/>
+    <nd ref="-1177694518"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2492629316" lon="-121.7978528" lat="37.3534766" visible="true"/>
+  <node id="-1177694518" lon="-121.7978530259756" lat="37.35332261025984" visible="true"/>
+  <way id="-2864680802" action="modify" visible="true">
+    <nd ref="-1948615583"/>
+    <nd ref="-1828337927"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1948615583" lon="-121.79668436798198" lat="37.353326416675316" visible="true"/>
+  <node id="-1828337927" lon="-121.79668482794867" lat="37.35347749141084" visible="true"/>
+  <way id="-1547350794" action="modify" visible="true">
+    <nd ref="-4120583076"/>
+    <nd ref="-2551054647"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-4120583076" lon="-121.79807880168353" lat="37.3533218735585" visible="true"/>
+  <node id="-2551054647" lon="-121.798117252288" lat="37.35348749325224" visible="true"/>
+  <way id="-767526765" action="modify" visible="true">
+    <nd ref="-984622256"/>
+    <nd ref="-1557953497"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1557953497" lon="-121.79645860045794" lat="37.35332715068758" visible="true"/>
+  <way id="-1135910172" action="modify" visible="true">
+    <nd ref="-1694286986"/>
+    <nd ref="-1476154664"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1694286986" lon="-121.79506250000001" lat="37.3533669" visible="true"/>
+  <way id="-2751360516" action="modify" visible="true">
+    <nd ref="-1005359027"/>
+    <nd ref="-984622256"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1005359027" lon="-121.79662680000001" lat="37.35349090000001" visible="true"/>
+  <node id="-984622256" lon="-121.7964107" lat="37.3534941" visible="true"/>
+  <way id="-2659345925" action="modify" visible="true">
+    <nd ref="-1995928762"/>
+    <nd ref="-1155157812"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1995928762" lon="-121.80056846132379" lat="37.353482770077335" visible="true"/>
+  <node id="-1155157812" lon="-121.80029079999998" lat="37.353508" visible="true"/>
+  <way id="-1250895942" action="modify" visible="true">
+    <nd ref="-1476154664"/>
+    <nd ref="-1874617325"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1476154664" lon="-121.79508479999998" lat="37.3535457" visible="true"/>
+  <node id="-1874617325" lon="-121.794863" lat="37.3535604" visible="true"/>
+  <way id="-4041179814" action="modify" visible="true">
+    <nd ref="-2598979080"/>
+    <nd ref="-36210041"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2598979080" lon="-121.80136648435209" lat="37.35390027120825" visible="true"/>
+  <way id="-626092177" action="modify" visible="true">
+    <nd ref="-36210041"/>
+    <nd ref="-2307999604"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-36210041" lon="-121.80157" lat="37.3538625" visible="true"/>
+  <node id="-2307999604" lon="-121.80159128838" lat="37.35403883980465" visible="true"/>
+  <way id="-2855935262" action="modify" visible="true">
+    <nd ref="-2901734218"/>
+    <nd ref="-3505783651"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2901734218" lon="-121.80158830000002" lat="37.3540395" visible="true"/>
+  <node id="-3505783651" lon="-121.80137818442934" lat="37.35402604004652" visible="true"/>
+  <way id="-2916379865" action="modify" visible="true">
+    <nd ref="-3472869410"/>
+    <nd ref="-2131376974"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2131376974" lon="-121.80062051396274" lat="37.3540482625882" visible="true"/>
+  <way id="-178603725" action="modify" visible="true">
+    <nd ref="-2378120841"/>
+    <nd ref="-3472869410"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2378120841" lon="-121.8003216422697" lat="37.354209971506755" visible="true"/>
+  <node id="-3472869410" lon="-121.8003177" lat="37.3540378" visible="true"/>
+  <way id="-3053853502" action="modify" visible="true">
+    <nd ref="-239105247"/>
+    <nd ref="-182556023"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-239105247" lon="-121.79945440917771" lat="37.354206826905106" visible="true"/>
+  <node id="-182556023" lon="-121.7994514431057" lat="37.354054353468484" visible="true"/>
+  <way id="-1863001513" action="modify" visible="true">
+    <nd ref="-3650564589"/>
+    <nd ref="-3206803212"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-3650564589" lon="-121.79965463564263" lat="37.35405400741616" visible="true"/>
+  <node id="-3206803212" lon="-121.7996596" lat="37.3542118" visible="true"/>
+  <way id="-1716993340" action="modify" visible="true">
+    <nd ref="-3477766816"/>
+    <nd ref="-1362296113"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-3477766816" lon="-121.79493721124288" lat="37.35414676834586" visible="true"/>
+  <node id="-1362296113" lon="-121.79514503106147" lat="37.35415484371479" visible="true"/>
+  <way id="-1063235329" action="modify" visible="true">
+    <nd ref="-1087547906"/>
+    <nd ref="-1560124929"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1087547906" lon="-121.80032790000001" lat="37.3542114" visible="true"/>
+  <node id="-1560124929" lon="-121.80063209695462" lat="37.35417409758267" visible="true"/>
+  <way id="-2864900756" action="modify" visible="true">
+    <nd ref="-4035821668"/>
+    <nd ref="-2478553141"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-4035821668" lon="-121.79863241175407" lat="37.354589277909895" visible="true"/>
+  <node id="-2478553141" lon="-121.79881869896217" lat="37.35461557478875" visible="true"/>
+  <way id="-2912017342" action="modify" visible="true">
+    <nd ref="-3249814420"/>
+    <nd ref="-2137298096"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-3249814420" lon="-121.80143653716071" lat="37.35465329164017" visible="true"/>
+  <node id="-2137298096" lon="-121.80163385876946" lat="37.35462161321522" visible="true"/>
+  <way id="-139747955" action="modify" visible="true">
+    <nd ref="-1150124587"/>
+    <nd ref="-3880502256"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1150124587" lon="-121.79854889885817" lat="37.35477628774732" visible="true"/>
+  <node id="-3880502256" lon="-121.7986149" lat="37.3546091" visible="true"/>
+  <way id="-1509689322" action="modify" visible="true">
+    <nd ref="-3949660509"/>
+    <nd ref="-2264531144"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-3949660509" lon="-121.79877411340368" lat="37.35481060154389" visible="true"/>
+  <node id="-2264531144" lon="-121.79857505396411" lat="37.35480074310182" visible="true"/>
+  <way id="-3823684002" action="modify" visible="true">
+    <nd ref="-89367399"/>
+    <nd ref="-859909115"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-89367399" lon="-121.80164542096331" lat="37.35484279967601" visible="true"/>
+  <node id="-859909115" lon="-121.80145492761508" lat="37.35485097447063" visible="true"/>
+  <way id="-92171287" action="modify" visible="true">
+    <nd ref="-1207082517"/>
+    <nd ref="-350949621"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1207082517" lon="-121.8014835785207" lat="37.35540376248249" visible="true"/>
+  <node id="-350949621" lon="-121.80170902311993" lat="37.3553990709395" visible="true"/>
+  <way id="-3952609965" action="modify" visible="true">
+    <nd ref="-4248301220"/>
+    <nd ref="-3470348134"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-4248301220" lon="-121.8004463" lat="37.3554444" visible="true"/>
+  <node id="-3470348134" lon="-121.80075982913077" lat="37.355430023789516" visible="true"/>
+  <way id="-1217113083" action="modify" visible="true">
+    <nd ref="-1733051205"/>
+    <nd ref="-4230061250"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1733051205" lon="-121.80170920000002" lat="37.3553994" visible="true"/>
+  <node id="-4230061250" lon="-121.80171771993501" lat="37.35564313229504" visible="true"/>
+  <way id="-919316646" action="modify" visible="true">
+    <nd ref="-3637653348"/>
+    <nd ref="-2222962922"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-3637653348" lon="-121.79848101247335" lat="37.355537734143645" visible="true"/>
+  <node id="-2222962922" lon="-121.798708" lat="37.3555276" visible="true"/>
+  <way id="-744838984" action="modify" visible="true">
+    <nd ref="-806820535"/>
+    <nd ref="-2124377260"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-806820535" lon="-121.80153731306406" lat="37.355650282549426" visible="true"/>
+  <node id="-2124377260" lon="-121.8014729" lat="37.3554247" visible="true"/>
+  <way id="-3775836491" action="modify" visible="true">
+    <nd ref="-82009828"/>
+    <nd ref="-2395660322"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-82009828" lon="-121.79972698742849" lat="37.355680906617955" visible="true"/>
+  <node id="-2395660322" lon="-121.79972350287578" lat="37.35549095721333" visible="true"/>
+  <way id="-3891722092" action="modify" visible="true">
+    <nd ref="-3820597509"/>
+    <nd ref="-495040041"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-3820597509" lon="-121.79871695275958" lat="37.355527276992376" visible="true"/>
+  <node id="-495040041" lon="-121.79872930000002" lat="37.3556999" visible="true"/>
+  <way id="-2766718677" action="modify" visible="true">
+    <nd ref="-2375973183"/>
+    <nd ref="-2195058774"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2375973183" lon="-121.78945449975133" lat="37.34855857100713" visible="true"/>
+  <node id="-2195058774" lon="-121.7896112" lat="37.34856949999999" visible="true"/>
+  <way id="-2471806931" action="modify" visible="true">
+    <nd ref="-2583530014"/>
+    <nd ref="-3540348689"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2583530014" lon="-121.78975823078582" lat="37.34866868734202" visible="true"/>
+  <node id="-3540348689" lon="-121.7896997" lat="37.3487622" visible="true"/>
+  <way id="-3025776469" action="modify" visible="true">
+    <nd ref="-2852137179"/>
+    <nd ref="-2255764840"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2852137179" lon="-121.78956501666892" lat="37.34881467423841" visible="true"/>
+  <node id="-2255764840" lon="-121.789407370397" lat="37.34878868272352" visible="true"/>
+  <way id="-513975505" action="modify" visible="true">
+    <nd ref="-1720390384"/>
+    <nd ref="-1179892121"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1720390384" lon="-121.79228680290089" lat="37.349114547045836" visible="true"/>
+  <node id="-1179892121" lon="-121.79232501623716" lat="37.349004064409414" visible="true"/>
+  <way id="-3375388526" action="modify" visible="true">
+    <nd ref="-1404342566"/>
+    <nd ref="-3691720787"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1404342566" lon="-121.7949653332106" lat="37.34902668516902" visible="true"/>
+  <node id="-3691720787" lon="-121.79477144910722" lat="37.34921414692534" visible="true"/>
+  <way id="-3090793547" action="modify" visible="true">
+    <nd ref="-3710879185"/>
+    <nd ref="-1470973119"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-3710879185" lon="-121.79481628735148" lat="37.34924329181157" visible="true"/>
+  <node id="-1470973119" lon="-121.7950006" lat="37.3490504" visible="true"/>
+  <way id="-951065742" action="modify" visible="true">
+    <nd ref="-2303158486"/>
+    <nd ref="-3959263829"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2303158486" lon="-121.7891877969563" lat="37.34918338099623" visible="true"/>
+  <node id="-3959263829" lon="-121.7893228" lat="37.3492524" visible="true"/>
+  <way id="-3446110188" action="modify" visible="true">
+    <nd ref="-1558649602"/>
+    <nd ref="-3169378807"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1558649602" lon="-121.795198" lat="37.3491882" visible="true"/>
+  <node id="-3169378807" lon="-121.7949868494226" lat="37.34935688856487" visible="true"/>
+  <way id="-2408833454" action="modify" visible="true">
+    <nd ref="-27399238"/>
+    <nd ref="-3214033662"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-27399238" lon="-121.7891404" lat="37.34943280000001" visible="true"/>
+  <node id="-3214033662" lon="-121.78902122955448" lat="37.34935310442323" visible="true"/>
+  <way id="-4080650753" action="modify" visible="true">
+    <nd ref="-2534847151"/>
+    <nd ref="-993225951"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2534847151" lon="-121.7912788" lat="37.3496825" visible="true"/>
+  <node id="-993225951" lon="-121.79139166436237" lat="37.349579011595786" visible="true"/>
+  <way id="-2017296372" action="modify" visible="true">
+    <nd ref="-1591245623"/>
+    <nd ref="-3465567067"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1591245623" lon="-121.79154695061978" lat="37.34963305908096" visible="true"/>
+  <node id="-3465567067" lon="-121.7915183" lat="37.3497455" visible="true"/>
+  <way id="-410692511" action="modify" visible="true">
+    <nd ref="-1380496137"/>
+    <nd ref="-248829071"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1380496137" lon="-121.78867580575499" lat="37.34966519408455" visible="true"/>
+  <node id="-248829071" lon="-121.78878454691814" lat="37.34975764558696" visible="true"/>
+  <way id="-2649067609" action="modify" visible="true">
+    <nd ref="-586235500"/>
+    <nd ref="-4000429055"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-586235500" lon="-121.78853084724867" lat="37.34988355461565" visible="true"/>
+  <node id="-4000429055" lon="-121.78847742856556" lat="37.3497606983321" visible="true"/>
+  <way id="-3794089821" action="modify" visible="true">
+    <nd ref="-3155745958"/>
+    <nd ref="-2322561795"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <way id="-3780996741" action="modify" visible="true">
+    <nd ref="-1194747785"/>
+    <nd ref="-2335209191"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1194747785" lon="-121.792105" lat="37.3499033" visible="true"/>
+  <node id="-2335209191" lon="-121.79214667806787" lat="37.34978688620304" visible="true"/>
+  <way id="-3295853617" action="modify" visible="true">
+    <nd ref="-2409805082"/>
+    <nd ref="-260547341"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2409805082" lon="-121.7887605" lat="37.3498439" visible="true"/>
+  <node id="-260547341" lon="-121.78864527760048" lat="37.349921882767404" visible="true"/>
+  <way id="-876368549" action="modify" visible="true">
+    <nd ref="-1029691905"/>
+    <nd ref="-3155745958"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1029691905" lon="-121.79591775245285" lat="37.349986283313676" visible="true"/>
+  <node id="-3155745958" lon="-121.79609859999998" lat="37.3497859" visible="true"/>
+  <way id="-3255155602" action="modify" visible="true">
+    <nd ref="-2322561795"/>
+    <nd ref="-3748885260"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2322561795" lon="-121.7962611" lat="37.3499017" visible="true"/>
+  <node id="-3748885260" lon="-121.79602114526733" lat="37.35005671770137" visible="true"/>
+  <way id="-4168313782" action="modify" visible="true">
+    <nd ref="-243443174"/>
+    <nd ref="-474418066"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-243443174" lon="-121.79629804599462" lat="37.35024407160591" visible="true"/>
+  <node id="-474418066" lon="-121.79648321764927" lat="37.35006880630114" visible="true"/>
+  <way id="-3584784388" action="modify" visible="true">
+    <nd ref="-2954015206"/>
+    <nd ref="-180725686"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2954015206" lon="-121.79655230163827" lat="37.350115144438455" visible="true"/>
+  <node id="-180725686" lon="-121.79636689162115" lat="37.35029065302809" visible="true"/>
+  <way id="-56347782" action="modify" visible="true">
+    <nd ref="-4131381246"/>
+    <nd ref="-1581018237"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-4131381246" lon="-121.7970341" lat="37.3504116" visible="true"/>
+  <node id="-1581018237" lon="-121.79681950000001" lat="37.3506166" visible="true"/>
+  <way id="-788080617" action="modify" visible="true">
+    <nd ref="-669975225"/>
+    <nd ref="-716010579"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-669975225" lon="-121.7973138" lat="37.350577" visible="true"/>
+  <node id="-716010579" lon="-121.7970779" lat="37.3507698" visible="true"/>
+  <way id="-3020459737" action="modify" visible="true">
+    <nd ref="-1738540824"/>
+    <nd ref="-533215569"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1738540824" lon="-121.79683110000002" lat="37.3506088" visible="true"/>
+  <node id="-533215569" lon="-121.79707056796315" lat="37.35077331111777" visible="true"/>
+  <way id="-3024921769" action="modify" visible="true">
+    <nd ref="-110298260"/>
+    <nd ref="-2877210668"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-110298260" lon="-121.79762943179446" lat="37.35114093991101" visible="true"/>
+  <node id="-2877210668" lon="-121.79780981390265" lat="37.35096987410891" visible="true"/>
+  <way id="-3306752817" action="modify" visible="true">
+    <nd ref="-2375364234"/>
+    <nd ref="-1389304042"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2375364234" lon="-121.79639783011811" lat="37.35107283591898" visible="true"/>
+  <node id="-1389304042" lon="-121.79657418424772" lat="37.35119149856581" visible="true"/>
+  <way id="-740252064" action="modify" visible="true">
+    <nd ref="-2092730097"/>
+    <nd ref="-3979900996"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2092730097" lon="-121.79651293970633" lat="37.351244369141945" visible="true"/>
+  <node id="-3979900996" lon="-121.79634223431502" lat="37.35112957830775" visible="true"/>
+  <way id="-1391600097" action="modify" visible="true">
+    <nd ref="-3229654219"/>
+    <nd ref="-1032016254"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-3229654219" lon="-121.79779" lat="37.351257" visible="true"/>
+  <node id="-1032016254" lon="-121.7976371" lat="37.3511461" visible="true"/>
+  <way id="-3966949550" action="modify" visible="true">
+    <nd ref="-406908805"/>
+    <nd ref="-3150516331"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-406908805" lon="-121.79079405546014" lat="37.351352668608804" visible="true"/>
+  <node id="-3150516331" lon="-121.79092287533545" lat="37.35144659028873" visible="true"/>
+  <way id="-94421062" action="modify" visible="true">
+    <nd ref="-4151928193"/>
+    <nd ref="-1423831069"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-4151928193" lon="-121.7906381943266" lat="37.35146446611009" visible="true"/>
+  <node id="-1423831069" lon="-121.79074525987687" lat="37.351357492767505" visible="true"/>
+  <way id="-3750097026" action="modify" visible="true">
+    <nd ref="-1674675383"/>
+    <nd ref="-2701708104"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-1674675383" lon="-121.7958250765274" lat="37.35163198507271" visible="true"/>
+  <node id="-2701708104" lon="-121.79597583066422" lat="37.351736960387946" visible="true"/>
+  <way id="-3032202828" action="modify" visible="true">
+    <nd ref="-4071463341"/>
+    <nd ref="-3620026660"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-4071463341" lon="-121.79596950000001" lat="37.3517426" visible="true"/>
+  <node id="-3620026660" lon="-121.79582870000002" lat="37.3519089" visible="true"/>
+  <way id="-1779596962" action="modify" visible="true">
+    <nd ref="-2123849236"/>
+    <nd ref="-3784781057"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-2123849236" lon="-121.7957725" lat="37.3519306" visible="true"/>
+  <node id="-3784781057" lon="-121.7956205833695" lat="37.35182439733674" visible="true"/>
+  <way id="-3790761546" action="modify" visible="true">
+    <nd ref="-395339210"/>
+    <nd ref="-4031205592"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-395339210" lon="-121.79544333635926" lat="37.3519911719771" visible="true"/>
+  <node id="-4031205592" lon="-121.79559296094875" lat="37.35209423700177" visible="true"/>
+  <way id="-2328277634" action="modify" visible="true">
+    <nd ref="-3737029382"/>
+    <nd ref="-1705614120"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-3737029382" lon="-121.79127934534084" lat="37.3468614852092" visible="true"/>
+  <node id="-1705614120" lon="-121.7911077" lat="37.3467433" visible="true"/>
+  <way id="-58591350" action="modify" visible="true">
+    <nd ref="-872852604"/>
+    <nd ref="-3615932883"/>
+    <tag k="highway" v="footway"/>
+    <tag k="footway" v="crossing"/>
+  </way>
+  <node id="-872852604" lon="-121.79180060000002" lat="37.3472202" visible="true"/>
+  <node id="-3615932883" lon="-121.7919484" lat="37.3473209" visible="true"/>
+</osm>
