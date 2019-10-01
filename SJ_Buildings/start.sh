@@ -1,14 +1,14 @@
 DBNAME=svosm
 
-# From https://epsg.io/102643 , add ESRI:102643 to PostGIS
-psql --echo-all --file=102643.sql ${DBNAME} postgres
+# From https://github.com/Esri/projection-engine-db-doc/ , add ESRI:103240 to PostGIS
+psql --echo-all --file=103240.sql ${DBNAME} postgres
 
 # Import shapefiles
-shp2pgsql -d -s 102643 -I Basemap/Parcel.shp | psql -d ${DBNAME} >/dev/null
-shp2pgsql -d -s 102643 -I Basemap2/BuildingFootprint.shp | psql -d ${DBNAME} >/dev/null
-shp2pgsql -d -s 102643 -I Basemap2/CondoParcel.shp | psql -d ${DBNAME} >/dev/null
-shp2pgsql -d -s 102643 -k -I Basemap2/Site_Address_Points.shp | psql -d ${DBNAME} >/dev/null
-shp2pgsql -d -s 102643 -I Basemap2/TractBoundary.shp | psql -d ${DBNAME} >/dev/null
+shp2pgsql -d -s 103240 -I Basemap/Parcel.shp | psql -d ${DBNAME} >/dev/null
+shp2pgsql -d -s 103240 -I Basemap2/BuildingFootprint.shp | psql -d ${DBNAME} >/dev/null
+shp2pgsql -d -s 103240 -I Basemap2/CondoParcel.shp | psql -d ${DBNAME} >/dev/null
+shp2pgsql -d -s 103240 -k -I Basemap2/Site_Address_Points.shp | psql -d ${DBNAME} >/dev/null
+shp2pgsql -d -s 103240 -I Basemap2/TractBoundary.shp | psql -d ${DBNAME} >/dev/null
 
 # Import OSM
 osm2pgsql --database ${DBNAME} --create --prefix osm --slim --hstore --latlong --multi-geometry --bbox "-122.030997029163,37.1409001316686,-121.668646071535,37.4620825000623" norcal-latest.osm.pbf
