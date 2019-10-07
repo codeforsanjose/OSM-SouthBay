@@ -14,31 +14,60 @@ update "Site_Address_Points" as addr1
 		or abs(ST_Y(addr1.geom) - ST_Y(addr2.geom)) < 0.1);
 -- Add entries for aggregated clustered addresses
 alter table "Site_Address_Points" alter column "Add_Number" type text;
-alter table "Site_Address_Points" alter column "Unit_Type" type text;
 alter table "Site_Address_Points" alter column "Unit" type text;
 alter table "Site_Address_Points" alter column "Post_Code" type text;
-alter table "Site_Address_Points" alter column "Place_Type" type text;
 insert into "Site_Address_Points"
-	("Add_Number", "Unit_Type", "Unit", "Inc_Muni", "Post_Code", "Place_Type",
-	 "CompName", "CondoParce", "ParcelID", geom)
+	("Add_Number", "Unit", "Inc_Muni", "Post_Code",
+	 "CompName", "CondoParce", "ParcelID", "Place_Type", "Unit_Type", geom)
 	select
 		array_to_string(array_agg(distinct "Add_Number"), ';'),
-		array_to_string(array_agg(distinct "Unit_Type"), ';'),
 		array_to_string(array_agg(distinct "Unit"), ';'),
 		array_to_string(array_agg(distinct "Inc_Muni"), ';'),
 		array_to_string(array_agg(distinct "Post_Code"), ';'),
-		array_to_string(array_agg(distinct "Place_Type"), ';'),
 		"CompName",
 		"CondoParce",
 		"ParcelID",
+		"Place_Type",
+		"Unit_Type",
 		ST_Centroid(ST_Union(geom))
 	from "Site_Address_Points"
 	where clustered=true
-	group by "CompName", "CondoParce", "ParcelID";
+	group by "CompName", "CondoParce", "ParcelID", "Place_Type", "Unit_Type";
 -- Delete old clusters
 delete from "Site_Address_Points" where clustered=true;
 alter table "Site_Address_Points" drop column clustered;
 
+-- Project OSM data to local coordinates
+-- (losing accuracy is okay because it's only for conflation)
+alter table osm_polygon add column loc_geom geometry(multipolygon, 103240);
+update osm_polygon set loc_geom = ST_MakeValid(ST_Transform(ST_Multi(way), 103240));
+create index on osm_polygon using GIST(loc_geom);
+
+alter table osm_point add column loc_geom geometry(point, 103240);
+update osm_point set loc_geom = ST_MakeValid(ST_Transform(way, 103240));
+create index on osm_point using GIST(loc_geom);
+
+-- Find data that already exist in OSM, to split for later conflation
+alter table BuildingFootprint add column intersectsExisting boolean default false;
+update BuildingFootprint as bldg
+	set intersectsExisting = true
+	from osm_polygon
+	where osm_polygon.building is not null
+	and osm_polygon.building != 'no'
+	and ST_Intersects(bldg.geom, osm_polygon.loc_geom);
+
+alter table "Site_Address_Points" add column intersectsExisting boolean default false;
+update "Site_Address_Points" as addr
+	set intersectsExisting = true
+	from osm_point
+	where osm_point.highway is null
+	and ST_DWithin(addr.geom, osm_point.loc_geom, 80);
+update "Site_Address_Points" as addr
+	set intersectsExisting = true
+	from osm_polygon
+	where osm_polygon.landuse is null
+	and osm_polygon.natural is null
+	and ST_DWithin(addr.geom, osm_polygon.loc_geom, 80);
 
 alter table BuildingFootprint add column main boolean default false;
 -- Find buildings that are the only one on a property
