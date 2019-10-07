@@ -105,33 +105,36 @@ with sizeRankings as (
 	and sz1.gid != sz2.gid
 	and sz1.area > sz2.area*2;
 
-with addrParcels as (
-	-- Find parcels with only one address
-	select "Add_Number", "CompName", "Unit_Type", "Unit", "Inc_Muni", "Post_Code",
-		"FullAddres", "Place_Type",
-		parcel.geom, parcel.ParcelID
-		from Parcel
-		inner join (select "ParcelID"
-			from "Site_Address_Points"
-			group by "ParcelID"
-			having count(*) = 1)
-		as uniqParcel
-		on cast (parcel.ParcelID as int)=uniqParcel."ParcelID"
-		inner join "Site_Address_Points"
-		on "Site_Address_Points"."ParcelID"=uniqParcel."ParcelID"
-		where "Site_Address_Points"."Unit_Type" is null or "Site_Address_Points"."Unit_Type"!='Apartment'
-	)
-	-- Assign address to main building on parcel
-	select BuildingFootprint.*, addrParcels.ParcelID,
-		addrParcels."Add_Number", addrParcels."CompName",
-		addrParcels."Unit_Type", addrParcels."Unit", addrParcels."Inc_Muni",
-		addrParcels."Post_Code", addrParcels."FullAddres", addrParcels."Place_Type"
-	into table mergedBuildings
-	from BuildingFootprint
-	inner join addrParcels
-	on ST_Intersects(BuildingFootprint.geom, addrParcels.geom)
-	and ST_Area(ST_Intersection(BuildingFootprint.geom, addrParcels.geom)) > 0.9*ST_Area(BuildingFootprint.geom)
-	where BuildingFootprint.main;
+create table mergedBuildings as
+	with addrParcels as (
+		-- Find parcels with only one address
+		select "Add_Number", "CompName", "Unit_Type", "Unit", "Inc_Muni", "Post_Code",
+			"FullAddres", "Place_Type",
+			parcel.geom, parcel.ParcelID
+			from Parcel
+			inner join (select "ParcelID"
+				from "Site_Address_Points"
+				group by "ParcelID"
+				where "Unit" is null
+				or "Unit_Type" = 'Building'
+				or "Unit_Type" = 'Space'
+				or "Unit_Type" is null
+				having count(*) = 1)
+			as uniqParcel
+			on cast (parcel.ParcelID as int)=uniqParcel."ParcelID"
+			inner join "Site_Address_Points"
+			on "Site_Address_Points"."ParcelID"=uniqParcel."ParcelID"
+		)
+		-- Assign address to main building on parcel
+		select BuildingFootprint.*, addrParcels.ParcelID,
+			addrParcels."Add_Number", addrParcels."CompName",
+			addrParcels."Unit_Type", addrParcels."Unit", addrParcels."Inc_Muni",
+			addrParcels."Post_Code", addrParcels."FullAddres", addrParcels."Place_Type"
+		from BuildingFootprint
+		inner join addrParcels
+		on ST_Intersects(BuildingFootprint.geom, addrParcels.geom)
+		and ST_Area(ST_Intersection(BuildingFootprint.geom, addrParcels.geom)) > 0.9*ST_Area(BuildingFootprint.geom)
+		where BuildingFootprint.main;
 
 -- Delete merged buildings from the other tables
 delete from BuildingFootprint
