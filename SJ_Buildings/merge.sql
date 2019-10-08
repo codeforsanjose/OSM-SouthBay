@@ -17,7 +17,7 @@ alter table "Site_Address_Points" alter column "Add_Number" type text;
 alter table "Site_Address_Points" alter column "Unit" type text;
 insert into "Site_Address_Points"
 	("Place_Type", "Add_Number", "CompName",
-	 "Unit_Type", "Unit", "Inc_Muni", "Post_Code" "CondoParce", "ParcelID", geom)
+	 "Unit_Type", "Unit", "Inc_Muni", "Post_Code", "CondoParce", "ParcelID", geom)
 	select
 		"Place_Type",
 		array_to_string(array_agg(distinct "Add_Number"), ';'),
@@ -106,21 +106,22 @@ with sizeRankings as (
 	and sz1.gid != sz2.gid
 	and sz1.area > sz2.area*2;
 
+drop table if exists mergedBuildings;
 create table mergedBuildings as
 	with addrParcels as (
 		-- Find parcels with only one address
-		select "Place_Type", "Add_Number",
-				"CompName",
+		select "Place_Type", "Add_Number", "CompName",
 				"Unit_Type", "Unit", "Inc_Muni", "Post_Code",
+				"Site_Address_Points".gid,
 				parcel.geom, parcel.ParcelID
 			from Parcel
 			inner join (select "ParcelID"
 				from "Site_Address_Points"
-				group by "ParcelID"
 				where "Unit" is null
 				or "Unit_Type" = 'Building'
 				or "Unit_Type" = 'Space'
 				or "Unit_Type" is null
+				group by "ParcelID"
 				having count(*) = 1)
 			as uniqParcel
 			on cast (parcel.ParcelID as int)=uniqParcel."ParcelID"
@@ -128,7 +129,9 @@ create table mergedBuildings as
 			on "Site_Address_Points"."ParcelID"=uniqParcel."ParcelID"
 		)
 		-- Assign address to main building on parcel
-		select BuildingFootprint.*, addrParcels.ParcelID, addrParcels."Place_Type",
+		select BuildingFootprint.*,
+			addrParcels.gid as addr_gid,
+			addrParcels.ParcelID, addrParcels."Place_Type",
 			addrParcels."Add_Number",
 			addrParcels."CompName",
 			addrParcels."Unit_Type", addrParcels."Unit",
@@ -146,5 +149,5 @@ delete from BuildingFootprint
 	where BuildingFootprint.gid = mergedBuildings.gid;
 delete from "Site_Address_Points"
 	using mergedBuildings
-	where "Site_Address_Points"."ParcelID" = cast (mergedBuildings.ParcelID as int);
+	where "Site_Address_Points".gid = mergedBuildings.addr_gid;
 
