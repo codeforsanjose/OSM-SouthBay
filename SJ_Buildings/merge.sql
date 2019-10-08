@@ -15,24 +15,25 @@ update "Site_Address_Points" as addr1
 -- Add entries for aggregated clustered addresses
 alter table "Site_Address_Points" alter column "Add_Number" type text;
 alter table "Site_Address_Points" alter column "Unit" type text;
-alter table "Site_Address_Points" alter column "Post_Code" type text;
 insert into "Site_Address_Points"
-	("Add_Number", "Unit", "Inc_Muni", "Post_Code",
-	 "CompName", "CondoParce", "ParcelID", "Place_Type", "Unit_Type", geom)
+	("Place_Type", "Add_Number", "CompName",
+	 "Unit_Type", "Unit", "Inc_Muni", "Post_Code" "CondoParce", "ParcelID", geom)
 	select
-		array_to_string(array_agg(distinct "Add_Number"), ';'),
-		array_to_string(array_agg(distinct "Unit"), ';'),
-		array_to_string(array_agg(distinct "Inc_Muni"), ';'),
-		array_to_string(array_agg(distinct "Post_Code"), ';'),
-		"CompName",
-		"CondoParce",
-		"ParcelID",
 		"Place_Type",
+		array_to_string(array_agg(distinct "Add_Number"), ';'),
+		"CompName",
 		"Unit_Type",
-		ST_Centroid(ST_Union(geom))
+		array_to_string(array_agg(distinct "Unit"), ';'),
+		"Inc_Muni", "Post_Code",
+		"CondoParce", "ParcelID",
+		ST_Centroid(ST_Collect(geom))
 	from "Site_Address_Points"
 	where clustered=true
-	group by "CompName", "CondoParce", "ParcelID", "Place_Type", "Unit_Type";
+	group by "Place_Type",
+		"CompName",
+		"Unit_Type",
+		"Inc_Muni", "Post_Code",
+		"CondoParce", "ParcelID";
 -- Delete old clusters
 delete from "Site_Address_Points" where clustered=true;
 alter table "Site_Address_Points" drop column clustered;
@@ -108,9 +109,10 @@ with sizeRankings as (
 create table mergedBuildings as
 	with addrParcels as (
 		-- Find parcels with only one address
-		select "Add_Number", "CompName", "Unit_Type", "Unit", "Inc_Muni", "Post_Code",
-			"FullAddres", "Place_Type",
-			parcel.geom, parcel.ParcelID
+		select "Place_Type", "Add_Number",
+				"CompName",
+				"Unit_Type", "Unit", "Inc_Muni", "Post_Code",
+				parcel.geom, parcel.ParcelID
 			from Parcel
 			inner join (select "ParcelID"
 				from "Site_Address_Points"
@@ -126,10 +128,12 @@ create table mergedBuildings as
 			on "Site_Address_Points"."ParcelID"=uniqParcel."ParcelID"
 		)
 		-- Assign address to main building on parcel
-		select BuildingFootprint.*, addrParcels.ParcelID,
-			addrParcels."Add_Number", addrParcels."CompName",
-			addrParcels."Unit_Type", addrParcels."Unit", addrParcels."Inc_Muni",
-			addrParcels."Post_Code", addrParcels."FullAddres", addrParcels."Place_Type"
+		select BuildingFootprint.*, addrParcels.ParcelID, addrParcels."Place_Type",
+			addrParcels."Add_Number",
+			addrParcels."CompName",
+			addrParcels."Unit_Type", addrParcels."Unit",
+			addrParcels."Inc_Muni",
+			addrParcels."Post_Code"
 		from BuildingFootprint
 		inner join addrParcels
 		on ST_Intersects(BuildingFootprint.geom, addrParcels.geom)

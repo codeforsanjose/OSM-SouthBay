@@ -36,8 +36,13 @@ def filterTags(attrs):
         # Sometimes appear, has equivalent
         val = attrs["Add_Number"]
         if val: tags["addr:housenumber"] = val
-        val = attrs["CompName"]
-        if val: tags["addr:street"] = val
+        street = attrs["CompName"]
+        if street:
+            if street.startswith("St "): street = "Saint"+street[2:]
+            elif street.startswith("Mt "): street = "Mount"+street[2:]
+            elif street.startswith("East St "): street = "East Saint"+street[7:]
+            elif street.startswith("West St "): street = "West Saint"+street[7:]
+            tags["addr:street"] = street
         val = attrs["Unit"]
         if val: tags["addr:unit"] = val
         val = attrs["Post_Code"]
