@@ -8,6 +8,21 @@ def filterLayer(layer):
     if layer.GetName() in ["buildingfootprint", "Site_Address_Points", "mergedbuildings", ""]:
         return layer
 
+def mergeToRanges(ls):
+    if len(ls) < 2:
+        return ls
+    i = 0
+    while i < len(ls)-1 and \
+        ((ls[i].isdigit() and ls[i+1].isdigit() and \
+          int(ls[i])+1 == int(ls[i+1])) or \
+         (len(ls[i]) == 1 and len(ls[i+1]) == 1 and \
+          ord(ls[i])+1 == ord(ls[i+1]))):
+        i += 1
+    if i < 2:
+        return ls[0:i+1]+mergeToRanges(ls[i+1:])
+    else:
+        return [ls[0]+'-'+ls[i]]+mergeToRanges(ls[i+1:])
+
 SURVEY_FEET_TO_METER = 1200.0/3937.0
 
 def filterTags(attrs):
@@ -34,8 +49,12 @@ def filterTags(attrs):
         tags["addr:city"] = attrs["Inc_Muni"]
 
         # Sometimes appear, has equivalent
-        val = attrs["Add_Number"]
-        if val: tags["addr:housenumber"] = val
+        addr = attrs["Add_Number"]
+        if addr:
+            addr = addr.split(';')
+            addr = ';'.join(mergeToRanges(addr))
+            tags["addr:housenumber"] = addr
+        
         street = attrs["CompName"]
         if street:
             if street.startswith("St "): street = "Saint"+street[2:]
@@ -43,10 +62,15 @@ def filterTags(attrs):
             elif street.startswith("East St "): street = "East Saint"+street[7:]
             elif street.startswith("West St "): street = "West Saint"+street[7:]
             tags["addr:street"] = street
-        val = attrs["Unit"]
-        if val: tags["addr:unit"] = val
-        val = attrs["Post_Code"]
-        if val: tags["addr:postcode"] = val
+        
+        units = attrs["Unit"]
+        if units:
+            units = units.split(';')
+            units = ';'.join(mergeToRanges(units))
+            tags["addr:unit"] = units
+        
+        zipcode = attrs["Post_Code"]
+        if zipcode: tags["addr:postcode"] = zipcode
 
         pt = attrs["Place_Type"]
         #if pt == "Business":
