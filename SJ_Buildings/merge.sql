@@ -3,6 +3,8 @@ delete from "Site_Address_Points"
 	or "Status"='Temporary'
 	or "Status"='Retired';
 
+create index if not exists on "Site_Address_Points" ("ParcelID");
+
 -- Try to detect address "clusters"
 alter table "Site_Address_Points" add column clustered boolean default false;
 update "Site_Address_Points" as addr1
@@ -42,11 +44,11 @@ alter table "Site_Address_Points" drop column clustered;
 -- (losing accuracy is okay because it's only for conflation)
 alter table osm_polygon add column loc_geom geometry(multipolygon, 103240);
 update osm_polygon set loc_geom = ST_MakeValid(ST_Transform(ST_Multi(way), 103240));
-create index on osm_polygon using GIST(loc_geom);
+create index if not exists on osm_polygon using GIST(loc_geom);
 
 alter table osm_point add column loc_geom geometry(point, 103240);
 update osm_point set loc_geom = ST_MakeValid(ST_Transform(way, 103240));
-create index on osm_point using GIST(loc_geom);
+create index if not exists on osm_point using GIST(loc_geom);
 
 -- Find data that already exist in OSM, to split for later conflation
 alter table BuildingFootprint add column intersectsExisting boolean default false;
@@ -118,6 +120,7 @@ create table mergedBuildings as
 			inner join (select "ParcelID"
 				from "Site_Address_Points"
 				where "Unit" is null
+				or "Unit" like '%;%'
 				or "Unit_Type" = 'Building'
 				or "Unit_Type" = 'Space'
 				or "Unit_Type" is null
@@ -127,6 +130,11 @@ create table mergedBuildings as
 			on cast (parcel.ParcelID as int)=uniqParcel."ParcelID"
 			inner join "Site_Address_Points"
 			on "Site_Address_Points"."ParcelID"=uniqParcel."ParcelID"
+			where "Site_Address_Points"."Unit" is null
+			or "Site_Address_Points"."Unit" like '%;%'
+			or "Site_Address_Points"."Unit_Type" = 'Building'
+			or "Site_Address_Points"."Unit_Type" = 'Space'
+			or "Site_Address_Points"."Unit_Type" is null
 		)
 		-- Assign address to main building on parcel
 		select BuildingFootprint.*,
