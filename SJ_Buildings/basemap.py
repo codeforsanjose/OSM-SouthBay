@@ -5,10 +5,12 @@ def filterLayer(layer):
     
     print(layer.GetName())
     
-    if layer.GetName() in ["buildingfootprint", "Site_Address_Points", "mergedbuildings", ""]:
+    if layer.GetName() in ["buildingfootprint", "Site_Address_Points", "mergedbuildings", "namedparcels", ""]:
         return layer
 
 def mergeToRanges(ls):
+    """ Takes a list like ['1', '2', '3', '5', '8', 9'] and returns a list like
+    ['1-3', '5', '8', 9'] """
     if len(ls) < 2:
         return ls
     i = 0
@@ -23,6 +25,9 @@ def mergeToRanges(ls):
     else:
         return [ls[0]+'-'+ls[i]]+mergeToRanges(ls[i+1:])
 
+# I don't actually know if the building heights are in US standard feet or
+# survey feet. But the difference is less than the significant digits for the
+# tallest building.
 SURVEY_FEET_TO_METER = 1200.0/3937.0
 
 def filterTags(attrs):
@@ -53,6 +58,8 @@ def filterTags(attrs):
         if addr:
             addr = addr.split(';')
             addr = ';'.join(mergeToRanges(addr))
+            if attrs["AddNum_Suf"]:
+                addr += " " + attrs["AddNum_Suf"]
             tags["addr:housenumber"] = addr
         
         street = attrs["CompName"]
@@ -82,7 +89,7 @@ def filterTags(attrs):
         elif pt == "Government":
             tags["office"] = "government"
         elif pt == "Group Quarters":
-            # salvation army
+            # Salvation army
             tags["amenity"] = "social_facility"
         elif pt == "Hospital":
             tags["amenity"] = "hospital"
@@ -95,14 +102,14 @@ def filterTags(attrs):
         elif pt == "Retail":
             tags["shop"] = "yes"
 
-        # Always appear, no equivalent: Site_NGUID, ESN, Status, Juris_Auth, LastUpdate, LastEditor
-        # Sometimes appear, no equivalent: RCL_NGUID, StreetMast, ParcelID, CondoParce, UnitID, RSN, PSAP_ID, AddNum_Suf, Unit_Type, Building, FullUnit, Addtl_Loc, LSt_Name, LSt_Type, Uninc_Comm, Effective
-        # Always the same: Client_ID, County, State, Country, Placement, Post_Comm
-        # Not used here: FullMailin, Lat, Long, GlobalID, FullAddres
-        # Street name parts, could be used in a relation: St_PreDirA, St_PreTyp, StreetName, St_PosTyp, St_PosTypC, St_PosTypU, St_PosDir, Feanme, FullName
-        # Empty: Site_NGU00, AddNum_Pre, St_PreMod, St_PreDir, St_PreSep, St_PosMod, Floor, Room, Seat, Post_Code4, APN, LStPostDir, AddCode, AddDataURI, Nbrhd_Comm, MSAGComm, LandmkName, Mile_Post, Elev, Expire
+        # Always appear, no equivalent: OBJECTID, Site_NGUID, ESN, Lat, Long, Status, Juris_Auth, LastUpdate, LastEditor, GlobalID
+        # FullMailin could be used for addr:full, but it's unneeded.
+        # Sometimes appear, no equivalent: RCL_NGUID, StreetMast, ParcelID, CondoParce, UnitID, RSN, PSAP_ID, St_PreDirA, St_PreTyp, StreetName, St_PosTyp, St_PosTypC, St_PosTypU, St_PosDir, Feanme, FullName, Unit_Type, Building, FullUnit, FullAddres, Addtl_Loc, LSt_PreDir, LSt_Name, LSt_Type, Uninc_Comm, Post_Comm, Source, Effective, Notes
+        # Always the same: Client_ID, County, State, Country, Placement
+        # Always empty: Site_NGU00, AddNum_Pre, St_PreMod, St_PreDir, St_PreSep, St_PosMod, Floor, Room, Seat, Post_Code4, APN, LStPostDir, AddCode, AddDataURI, Nbrhd_Comm, MSAGComm, LandmkName, Mile_Post, Elev, Expire
     
-    if "Place_Type" in attrs and "bldgelev" in attrs:
+    if "Inc_Muni" in attrs and "bldgelev" in attrs:
+        # Merged address/buildings
         # other Place_Type are Common Area (multi-use), Miscellaneous
         tags["building"] = {"Business": "commercial",
                             "Educational": "school",
@@ -115,6 +122,11 @@ def filterTags(attrs):
                             "Restaurant": "retail",
                             "Retail": "retail",
                             "Single Family": "house"}.get(attrs["Place_Type"], "yes")
+    
+    if "Addtl_Loc" in attrs and "Inc_Muni" not in attrs:
+        # Named parcels
+        tags["name"] = attrs["Addtl_Loc"].title()
+        tags["landuse"] = "residential"
     
     return tags
 

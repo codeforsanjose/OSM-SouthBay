@@ -1,10 +1,20 @@
+-- Sample region
+/*delete from BuildingFootprint
+	where not geom && ST_SetSRID(ST_MakeBox2D(ST_Point(6161510, 1914285), ST_Point(6167021, 1919180)), 103240);
+delete from "Site_Address_Points"
+	where not geom && ST_SetSRID(ST_MakeBox2D(ST_Point(6161510, 1914285), ST_Point(6167021, 1919180)), 103240);*/
+
 delete from "Site_Address_Points"
 	where "Status"='Unverified'
 	or "Status"='Temporary'
 	or "Status"='Retired';
 
 create index if not exists "Site_Address_Points_ParcelID_idx"
-on "Site_Address_Points" ("ParcelID");
+	on "Site_Address_Points" ("ParcelID");
+
+alter table Parcel alter column ParcelID type int using cast (ParcelID as int);
+create index if not exists Parcel_ParcelID_idx
+	on Parcel (ParcelID);
 
 -- Try to detect address "clusters"
 alter table "Site_Address_Points" add column clustered boolean default false;
@@ -20,11 +30,12 @@ update "Site_Address_Points" as addr1
 alter table "Site_Address_Points" alter column "Add_Number" type text;
 alter table "Site_Address_Points" alter column "Unit" type text;
 insert into "Site_Address_Points"
-	("Place_Type", "Add_Number", "CompName",
+	("Place_Type", "Add_Number", "AddNum_Suf", "CompName",
 	 "Unit_Type", "Unit", "Inc_Muni", "Post_Code", "CondoParce", "ParcelID", geom)
 	select
 		"Place_Type",
 		array_to_string(array_agg(distinct "Add_Number"), ';'),
+		array_to_string(array_agg(distinct "AddNum_Suf"), ';'),
 		"CompName",
 		"Unit_Type",
 		array_to_string(array_agg(distinct "Unit"), ';'),
@@ -88,27 +99,28 @@ with uniqParcel as (
 	group by "ParcelID"
 	having count(*) = 1)
 select (row_number() over (partition by ParcelID order by ST_Distance("Site_Address_Points".geom, BuildingFootprint.geom))) as rn,
-BuildingFootprint.*,
-"Site_Address_Points".gid as addr_gid,
-ParcelID, "Place_Type",
-"Add_Number",
-"CompName",
-"Unit_Type", "Unit",
-"Inc_Muni",
-"Post_Code"
-from BuildingFootprint
-inner join Parcel
-on ST_Intersects(BuildingFootprint.geom, Parcel.geom)
-and ST_Area(ST_Intersection(BuildingFootprint.geom, Parcel.geom)) > 0.9*ST_Area(BuildingFootprint.geom)
-inner join uniqParcel
-on cast (Parcel.ParcelID as int)=uniqParcel."ParcelID"
-inner join "Site_Address_Points"
-on uniqParcel."ParcelID"="Site_Address_Points"."ParcelID"
-and ("Unit" is null
-	or "Unit" like '%;%'
-	or "Unit_Type" = 'Building'
-	or "Unit_Type" = 'Space'
-	or "Unit_Type" is null);
+	BuildingFootprint.*,
+	"Site_Address_Points".gid as addr_gid,
+	ParcelID, "Place_Type",
+	"Add_Number",
+	"AddNum_Suf",
+	"CompName",
+	"Unit_Type", "Unit",
+	"Inc_Muni",
+	"Post_Code"
+	from BuildingFootprint
+	inner join Parcel
+	on ST_Intersects(BuildingFootprint.geom, Parcel.geom)
+	and ST_Area(ST_Intersection(BuildingFootprint.geom, Parcel.geom)) > 0.9*ST_Area(BuildingFootprint.geom)
+	inner join uniqParcel
+	on Parcel.ParcelID=uniqParcel."ParcelID"
+	inner join "Site_Address_Points"
+	on uniqParcel."ParcelID"="Site_Address_Points"."ParcelID"
+	and ("Unit" is null
+		or "Unit" like '%;%'
+		or "Unit_Type" = 'Building'
+		or "Unit_Type" = 'Space'
+		or "Unit_Type" is null);
 -- Merge the address with the building closest to the address
 delete from mergedBuildings where rn != 1;
 
@@ -119,4 +131,23 @@ delete from BuildingFootprint
 delete from "Site_Address_Points"
 	using mergedBuildings
 	where "Site_Address_Points".gid = mergedBuildings.addr_gid;
+
+-- Find parcels with a single name
+drop table if exists namedParcels;
+create table namedParcels as
+with sites as (
+	select "ParcelID", min("Addtl_Loc") as "Addtl_Loc"
+		from "Site_Address_Points"
+		where "Addtl_Loc" is not null
+		group by "ParcelID"
+		having count(distinct "Addtl_Loc")=1)
+select "Addtl_Loc", ST_Force2D(Parcel.geom) as geom, false as intersectsExisting
+	from sites
+	join Parcel
+	on Parcel.ParcelID=sites."ParcelID";
+update namedParcels as p
+	set intersectsExisting = true
+	from osm_polygon
+	where osm_polygon.landuse is not null
+	and ST_Intersects(p.geom, osm_polygon.loc_geom);
 
