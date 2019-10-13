@@ -85,9 +85,41 @@ update "Site_Address_Points" as addr
 	and osm_polygon.natural is null
 	and ST_DWithin(addr.geom, osm_polygon.loc_geom, 80);
 
--- For each parcel where there is only one address, find all buildings on the parcel
+-- For each condo area where there is only one address, find all buildings in the condo area
 drop table if exists mergedBuildings;
 create table mergedBuildings as
+with uniqParcel as (
+	select "CondoParce"
+	from "Site_Address_Points"
+	group by "CondoParce"
+	having count(*) = 1)
+select (row_number() over (partition by CondoParce order by ST_Distance("Site_Address_Points".geom, BuildingFootprint.geom))) as rn,
+	BuildingFootprint.*,
+	"Site_Address_Points".gid as addr_gid, "Place_Type",
+	"Add_Number", "AddNum_Suf",
+	"CompName",
+	"Unit_Type", "Unit",
+	"Inc_Muni", "Post_Code"
+	from BuildingFootprint
+	inner join CondoParcel
+	on ST_Intersects(BuildingFootprint.geom, CondoParcel.geom)
+	and ST_Area(ST_Intersection(BuildingFootprint.geom, CondoParcel.geom)) > 0.7*ST_Area(BuildingFootprint.geom)
+	inner join uniqParcel
+	on CondoParcel.IntID=uniqParcel."CondoParce"
+	inner join "Site_Address_Points"
+	on uniqParcel."CondoParce"="Site_Address_Points"."CondoParce";
+-- Merge the address with the building closest to the address
+delete from mergedBuildings where rn != 1;
+
+-- Delete merged buildings from the other tables
+delete from BuildingFootprint
+	using mergedBuildings
+	where BuildingFootprint.gid = mergedBuildings.gid;
+delete from "Site_Address_Points"
+	using mergedBuildings
+	where "Site_Address_Points".gid = mergedBuildings.addr_gid;
+
+-- For each parcel where there is only one address, find all buildings on the parcel
 with uniqParcel as (
 	select "ParcelID"
 	from "Site_Address_Points"
@@ -98,16 +130,14 @@ with uniqParcel as (
 	or "Unit_Type" is null
 	group by "ParcelID"
 	having count(*) = 1)
+insert into mergedBuildings
 select (row_number() over (partition by ParcelID order by ST_Distance("Site_Address_Points".geom, BuildingFootprint.geom))) as rn,
 	BuildingFootprint.*,
-	"Site_Address_Points".gid as addr_gid,
-	ParcelID, "Place_Type",
-	"Add_Number",
-	"AddNum_Suf",
+	"Site_Address_Points".gid as addr_gid, "Place_Type",
+	"Add_Number", "AddNum_Suf",
 	"CompName",
 	"Unit_Type", "Unit",
-	"Inc_Muni",
-	"Post_Code"
+	"Inc_Muni", "Post_Code"
 	from BuildingFootprint
 	inner join Parcel
 	on ST_Intersects(BuildingFootprint.geom, Parcel.geom)
@@ -141,7 +171,7 @@ with sites as (
 		where "Addtl_Loc" is not null
 		group by "ParcelID"
 		having count(distinct "Addtl_Loc")=1)
-select "Addtl_Loc", ST_Force2D(Parcel.geom) as geom, false as intersectsExisting
+select "Addtl_Loc", ST_SimplifyPreserveTopology(ST_Force2D(Parcel.geom), 2) as geom, false as intersectsExisting
 	from sites
 	join Parcel
 	on Parcel.ParcelID=sites."ParcelID";
