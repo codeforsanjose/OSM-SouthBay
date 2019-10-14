@@ -93,7 +93,7 @@ def filterTags(attrs):
             tags["amenity"] = "social_facility"
         elif pt == "Hospital":
             tags["amenity"] = "hospital"
-        elif pt == "Hotel":
+        elif pt == "Hotel" and not units:
             tags["tourism"] = "hotel"
         elif pt == "Recreational":
             tags["club"] = "sport"

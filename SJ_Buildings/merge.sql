@@ -162,6 +162,70 @@ delete from "Site_Address_Points"
 	using mergedBuildings
 	where "Site_Address_Points".gid = mergedBuildings.addr_gid;
 
+with siteParcelsWithMatchingBuildings as (
+	-- Find sites with more buildings than addresses (i.e., a development/settlement)
+	with siteParcels as (
+		with parcelAddrs as (
+			select ParcelID, count(*) as addrCount
+			from Parcel
+			inner join "Site_Address_Points"
+			on Parcel.ParcelID="Site_Address_Points"."ParcelID"
+			group by ParcelID),
+		parcelBuildings as (
+			select ParcelID, count(*) as buildingCount
+			from Parcel
+			inner join BuildingFootprint
+			on ST_Intersects(BuildingFootprint.geom, Parcel.geom)
+			and ST_Area(ST_Intersection(BuildingFootprint.geom, Parcel.geom)) > 0.9*ST_Area(BuildingFootprint.geom)
+			group by ParcelID)
+		select parcelAddrs.ParcelID
+			from parcelAddrs
+			inner join parcelBuildings
+			on parcelAddrs.ParcelID=parcelBuildings.ParcelID
+			where buildingCount > addrCount)
+	select "Site_Address_Points"."ParcelID" from
+		-- Find addresses that intersect any building in the parcel
+		(select bool_or(ST_Within("Site_Address_Points".geom, BuildingFootprint.geom)) as intersects, "Site_Address_Points".gid
+			from siteParcels
+			inner join "Site_Address_Points"
+			on ParcelID="ParcelID"
+			inner join Parcel
+			on siteParcels.ParcelID=Parcel.ParcelID
+			inner join BuildingFootprint
+			on ST_Intersects(BuildingFootprint.geom, Parcel.geom)
+			and ST_Area(ST_Intersection(BuildingFootprint.geom, Parcel.geom)) > 0.9*ST_Area(BuildingFootprint.geom)
+			group by "Site_Address_Points".gid, "Site_Address_Points"."FullAddres") as addrsOnBuildings
+		-- Find parcels where *all* addresses intersect a building
+		inner join "Site_Address_Points"
+		on addrsOnBuildings.gid="Site_Address_Points".gid
+		group by "Site_Address_Points"."ParcelID"
+		having bool_and(intersects))
+-- Merge addresses to buildings
+insert into mergedBuildings
+select (count(*) over (partition by BuildingFootprint.gid)) as rn,
+	BuildingFootprint.*,
+	"Site_Address_Points".gid as addr_gid, "Place_Type",
+	"Add_Number", "AddNum_Suf",
+	"CompName",
+	"Unit_Type", "Unit",
+	"Inc_Muni", "Post_Code"
+	from BuildingFootprint
+	inner join Parcel
+	on ST_Intersects(BuildingFootprint.geom, Parcel.geom)
+	inner join siteParcelsWithMatchingBuildings
+	on Parcel.ParcelID=siteParcelsWithMatchingBuildings."ParcelID"
+	inner join "Site_Address_Points"
+	on siteParcelsWithMatchingBuildings."ParcelID"="Site_Address_Points"."ParcelID"
+	and ST_Within("Site_Address_Points".geom, BuildingFootprint.geom);
+-- Limit to buildings with only one intersecting address
+delete from mergedBuildings where rn != 1;
+delete from BuildingFootprint
+	using mergedBuildings
+	where BuildingFootprint.gid = mergedBuildings.gid;
+delete from "Site_Address_Points"
+	using mergedBuildings
+	where "Site_Address_Points".gid = mergedBuildings.addr_gid;
+
 -- Find parcels with a single name
 drop table if exists namedParcels;
 create table namedParcels as
