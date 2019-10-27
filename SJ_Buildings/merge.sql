@@ -24,8 +24,8 @@ update "Site_Address_Points" as addr1
 	where addr1."ParcelID" = addr2."ParcelID"
 	and addr1.gid != addr2.gid
 	and ST_DWithin(addr1.geom, addr2.geom, 10.1)
-	and (ST_X(addr1.geom) = ST_X(addr2.geom)
-		or ST_Y(addr1.geom) = ST_Y(addr2.geom));
+	and (abs(ST_X(addr1.geom) - ST_X(addr2.geom)) <= 0.1
+		or abs(ST_Y(addr1.geom) - ST_Y(addr2.geom)) <= 0.1);
 -- Add entries for aggregated clustered addresses
 alter table "Site_Address_Points" alter column "Add_Number" type text;
 alter table "Site_Address_Points" alter column "Unit" type text;
@@ -42,13 +42,19 @@ insert into "Site_Address_Points"
 		"Inc_Muni", "Post_Code",
 		"CondoParce", "ParcelID",
 		ST_Centroid(ST_Collect(geom))
-	from "Site_Address_Points"
-	where clustered=true
+	from (
+		select *,
+		ST_ClusterDBSCAN(geom, 10.1, 3) over () as cid
+		from "Site_Address_Points"
+		where clustered) sq
 	group by "Place_Type",
 		"CompName",
 		"Unit_Type",
 		"Inc_Muni", "Post_Code",
-		"CondoParce", "ParcelID";
+		"CondoParce", "ParcelID",
+		cid,
+		floor(mod(cast (ST_X(geom) as numeric), 10)*2),
+		floor(mod(cast (ST_Y(geom) as numeric), 10)*2);
 -- Delete old clusters
 delete from "Site_Address_Points" where clustered=true;
 alter table "Site_Address_Points" drop column clustered;

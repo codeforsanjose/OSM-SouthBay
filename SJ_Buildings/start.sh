@@ -18,3 +18,6 @@ psql --echo-queries --file=merge.sql ${DBNAME}
 # Export to OSM
 python ogr2osm.py "PG:dbname=${DBNAME} host=localhost" -t basemap.py -f --no-memory-copy -o buildings.osm
 
+# Add sample region outline
+#sed -i '3i<bounds minlat="37.2440898883458" minlon="-121.875007225253" maxlat="37.25775329679" maxlon="-121.855829662555" />' buildings.osm
+

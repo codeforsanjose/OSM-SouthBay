@@ -10,7 +10,7 @@ def filterLayer(layer):
 
 def mergeToRanges(ls):
     """ Takes a list like ['1', '2', '3', '5', '8', 9'] and returns a list like
-    ['1-3', '5', '8', 9'] """
+    ['1-3', '5', '8', '9'] """
     if len(ls) < 2:
         return ls
     i = 0
@@ -57,6 +57,8 @@ def filterTags(attrs):
         addr = attrs["Add_Number"]
         if addr:
             addr = addr.split(';')
+            m = max(map(len, addr))
+            addr.sort(key=lambda a: a.rjust(m))
             addr = ';'.join(mergeToRanges(addr))
             if attrs["AddNum_Suf"]:
                 addr += " " + attrs["AddNum_Suf"]
@@ -73,6 +75,8 @@ def filterTags(attrs):
         units = attrs["Unit"]
         if units:
             units = units.split(';')
+            m = max(map(len, units))
+            units.sort(key=lambda a: a.rjust(m))
             units = ';'.join(mergeToRanges(units))
             tags["addr:unit"] = units
         
@@ -125,8 +129,8 @@ def filterTags(attrs):
     
     if "Addtl_Loc" in attrs and "Inc_Muni" not in attrs:
         # Named parcels
-        tags["name"] = attrs["Addtl_Loc"].title()
         tags["landuse"] = "residential"
+        tags["name"] = attrs["Addtl_Loc"].title()
     
     return tags
 
