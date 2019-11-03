@@ -12,6 +12,8 @@ echo "Importing CondoParcel"
 shp2pgsql -d -D -s 103240 -I Basemap2/CondoParcel.shp | psql -d ${DBNAME} >/dev/null
 echo "Importing Site_Address_Points"
 shp2pgsql -d -D -s 2227 -k -I Basemap2/Site_Address_Points.shp | psql -d ${DBNAME} >/dev/null
+echo "Importing TAZ"
+shp2pgsql -d -D -s 103240 -I VTA_TAZ/VTATaz.shp | psql -d ${DBNAME} >/dev/null
 
 # Import OSM
 osm2pgsql --database ${DBNAME} --create --prefix osm --slim --hstore --latlong --multi-geometry --bbox "-122.034749578245,37.1439079487581,-121.594450627833,37.4601683238918" norcal-latest.osm.pbf

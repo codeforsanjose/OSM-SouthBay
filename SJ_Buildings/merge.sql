@@ -3,12 +3,15 @@
 \set ADDRESS_DISTANCE_THRESHOLD 80
 \set CONDO_WITHIN_PROPORTION 0.7
 \set PARCEL_WITHIN_PROPORTION 0.9
+\set PARTITIONS 200
+\set LARGE_PARCEL 400000
 
 -- Sample region
 /*delete from BuildingFootprint
 	where not geom && ST_SetSRID(ST_MakeBox2D(ST_Point(6161510, 1914285), ST_Point(6167021, 1919180)), :BUILDINGS_SRID);
 delete from "Site_Address_Points"
-	where not geom && ST_SetSRID(ST_MakeBox2D(ST_Point(6161506, 1914286), ST_Point(6167017, 1919181)), :ADDRESSES_SRID);*/
+	where not geom && ST_SetSRID(ST_MakeBox2D(ST_Point(6161506, 1914286), ST_Point(6167017, 1919181)), :ADDRESSES_SRID);
+\set PARTITIONS 5*/
 
 delete from "Site_Address_Points"
 	where "Status"='Unverified'
@@ -202,7 +205,8 @@ with siteParcelsWithMatchingBuildings as (
 			inner join BuildingFootprint
 			on ST_Intersects(BuildingFootprint.geom, Parcel.geom)
 			and ST_Area(ST_Intersection(BuildingFootprint.geom, Parcel.geom)) > :PARCEL_WITHIN_PROPORTION*ST_Area(BuildingFootprint.geom)
-			group by "Site_Address_Points".gid, "Site_Address_Points"."FullAddres") as addrsOnBuildings
+			group by "Site_Address_Points".gid, "Site_Address_Points"."FullAddres"
+		) as addrsOnBuildings
 		-- Find parcels where *all* addresses intersect a building
 		inner join "Site_Address_Points"
 		on addrsOnBuildings.gid="Site_Address_Points".gid
@@ -243,7 +247,9 @@ with sites as (
 		where "Addtl_Loc" is not null
 		group by "ParcelID"
 		having count(distinct "Addtl_Loc")=1)
-select "Addtl_Loc", ST_SimplifyPreserveTopology(ST_Force2D(Parcel.geom), 2) as geom, false as intersectsExisting
+select "Addtl_Loc", cast (ST_Multi(ST_SimplifyPreserveTopology(ST_Force2D(Parcel.geom), 2)) as geometry(MultiPolygon, :BUILDINGS_SRID)) as geom,
+	false as intersectsExisting,
+	gid
 	from sites
 	join Parcel
 	on Parcel.ParcelID=sites."ParcelID";
@@ -252,4 +258,81 @@ update namedParcels as p
 	from osm_polygon
 	where osm_polygon.landuse is not null
 	and ST_Intersects(p.geom, osm_polygon.loc_geom);
+
+-- Develop cluster centers
+drop table if exists clusterCenters;
+create table clusterCenters as
+	select cid, intersectsExisting, ST_Centroid(ST_Collect(geom)) as geom
+		from (
+			-- Generate clusters
+			select ST_ClusterKMeans(geom, :PARTITIONS) over (partition by intersectsExisting) as cid,
+				intersectsExisting, geom
+				from (
+					select ST_Transform(geom, :BUILDINGS_SRID) as geom, intersectsExisting
+						from "Site_Address_Points"
+					union select geom, intersectsExisting
+						from BuildingFootprint
+					union select geom, intersectsExisting
+						from mergedBuildings
+				) as u
+		) as c
+		group by cid, intersectsExisting;
+
+-- Find nearest cluster to each TAZ
+drop table if exists taggedTaz;
+create table taggedTaz as
+	select cid, intersectsExisting, ST_Union(geom) as geom
+		from (
+			select (row_number() over (partition by VTATaz.gid, intersectsExisting order by ST_Distance(VTATaz.geom, clusterCenters.geom))) as rn,
+				cid, intersectsExisting, VTATaz.geom
+				from VTATaz
+				join clusterCenters
+				on ST_DWithin(VTATaz.geom, clusterCenters.geom, 444826) -- size of largest TAZ
+		) as rankedTaz
+		where rn=1
+		group by cid, intersectsExisting;
+
+-- Schema for all data that will be grouped before export
+drop table if exists exportData;
+create table exportData (
+	gid integer,
+	intersectsExisting boolean,
+	cid integer,
+	geom geometry(MultiPolygon, :BUILDINGS_SRID)
+);
+alter table BuildingFootprint add column cid integer;
+alter table BuildingFootprint inherit exportData;
+
+alter table mergedBuildings add column cid integer;
+alter table mergedBuildings inherit exportData;
+
+alter table namedParcels add column cid integer;
+alter table namedParcels inherit exportData;
+
+-- Assign cluster to each data point
+update exportData as t
+	set cid = taggedThing.cid
+	from (
+		select (row_number() over (partition by exportData.gid order by ST_Distance(exportData.geom, taggedTaz.geom))) as rn,
+		taggedTaz.cid, exportData.gid
+		from exportData
+		join taggedTaz
+		on ST_Intersects(exportData.geom, taggedTaz.geom)
+		and exportData.intersectsExisting = taggedTaz.intersectsExisting
+	) as taggedThing
+	where t.gid = taggedThing.gid and rn = 1;
+
+-- Addresses are a different geometry type on a different spatial reference, so need to be done separately
+alter table "Site_Address_Points" add column cid integer;
+update "Site_Address_Points" as a
+	set cid = taggedAddr.cid
+	from (
+		select (row_number() over (partition by "Site_Address_Points".gid order by ST_Distance(ST_Transform("Site_Address_Points".geom, :BUILDINGS_SRID), taggedTaz.geom))) as rn,
+		taggedTaz.cid, "Site_Address_Points".gid
+		from "Site_Address_Points"
+		join taggedTaz
+		on ST_Intersects(ST_Transform("Site_Address_Points".geom, :BUILDINGS_SRID), taggedTaz.geom)
+		and "Site_Address_Points".intersectsExisting = taggedTaz.intersectsExisting
+	) as taggedAddr
+	where a.gid = taggedAddr.gid and rn = 1;
 
