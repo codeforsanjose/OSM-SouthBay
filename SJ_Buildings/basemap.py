@@ -5,7 +5,8 @@ def filterLayer(layer):
     
     print(layer.GetName())
     
-    if layer.GetName() in ["buildingfootprint", "Site_Address_Points", "mergedbuildings", "namedparcels", ""]:
+    #if layer.GetName() in ["buildingfootprint", "Site_Address_Points", "mergedbuildings", "namedparcels"]:
+    if layer.GetName() in ["buildingfootprint_filtered", "Site_Address_Points_filtered", "mergedbuildings_filtered", "namedparcels_filtered"]:
         return layer
 
 def mergeToRanges(ls):
