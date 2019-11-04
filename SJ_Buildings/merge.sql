@@ -18,6 +18,19 @@ delete from "Site_Address_Points"
 	or "Status"='Temporary'
 	or "Status"='Retired';
 
+-- Find and delete address points that don't have a matching street name in OSM
+drop table if exists missingStreets;
+create table missingStreets
+    as select "CompName", "StreetMast", ST_ConvexHull(ST_Collect(geom))
+    from "Site_Address_Points" as addr
+    left join osm_line
+    on upper(replace(replace("CompName", 'St ', 'Saint '), 'Mt ', 'Mount '))=upper(name)
+    where name is null
+    group by "StreetMast", "CompName";
+delete from "Site_Address_Points"
+	using missingStreets
+	where "Site_Address_Points"."StreetMast"=missingStreets."StreetMast";
+
 create index if not exists "Site_Address_Points_ParcelID_idx"
 	on "Site_Address_Points" ("ParcelID");
 
