@@ -92,8 +92,9 @@ alter table BuildingFootprint add column intersectsExisting boolean default fals
 update BuildingFootprint as bldg
 	set intersectsExisting = true
 	from osm_polygon
-	where osm_polygon.building is not null
-	and osm_polygon.building != 'no'
+	where ((osm_polygon.building is not null
+	and osm_polygon.building != 'no')
+	or osm_polygon.tags?'demolished:building')
 	and ST_Intersects(bldg.geom, osm_polygon.loc_geom);
 
 alter table "Site_Address_Points" add column intersectsExisting boolean default false;
