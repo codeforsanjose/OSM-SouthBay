@@ -18,7 +18,7 @@ echo "Importing TAZ"
 shp2pgsql -d -D -s 103240 -I VTA_TAZ/VTATaz.shp | psql -d ${DBNAME} >/dev/null
 
 # Import OSM
-osm2pgsql --database ${DBNAME} --create --prefix osm --slim --hstore --latlong --multi-geometry --bbox "-122.034749578245,37.1439079487581,-121.594450627833,37.4601683238918" norcal-latest.osm.pbf
+osm2pgsql --database ${DBNAME} --create --prefix osm --slim --hstore --latlong --multi-geometry --bbox "-122.038182903664,37.1409050504209,-121.593273327604,37.4640955052253" norcal-latest.osm.pbf
 
 # Merge addresses to buildings
 psql -v "ON_ERROR_STOP=true" --echo-queries --file=merge.sql ${DBNAME}
