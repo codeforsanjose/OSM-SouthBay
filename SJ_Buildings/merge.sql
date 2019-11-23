@@ -264,7 +264,7 @@ with sites as (
 		where "Addtl_Loc" is not null
 		group by "ParcelID"
 		having count(distinct "Addtl_Loc")=1)
-select "Addtl_Loc", cast (ST_Multi(ST_SimplifyPreserveTopology(ST_Force2D(Parcel.geom), 2)) as geometry(MultiPolygon, :BUILDINGS_SRID)) as geom,
+select "Addtl_Loc", cast (ST_Multi(ST_SimplifyPreserveTopology(Parcel.geom, 2)) as geometry(MultiPolygon, :BUILDINGS_SRID)) as geom,
 	false as intersectsExisting,
 	gid
 	from sites
