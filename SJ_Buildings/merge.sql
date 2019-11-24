@@ -83,9 +83,17 @@ alter table "Site_Address_Points" drop column clustered;
 
 -- Project OSM data to local coordinates
 -- (losing accuracy is okay because it's only for conflation)
-alter table osm_polygon add column if not exists loc_geom geometry(multipolygon, :BUILDINGS_SRID);
-update osm_polygon set loc_geom = ST_MakeValid(ST_Transform(ST_Multi(way), :BUILDINGS_SRID));
-create index if not exists "osm_polygon_loc_geom_idx" on osm_polygon using GIST(loc_geom);
+alter table osm_polygon add column if not exists geom_buildings geometry(multipolygon, :BUILDINGS_SRID);
+update osm_polygon set geom_buildings = ST_MakeValid(ST_Transform(ST_Multi(way), :BUILDINGS_SRID));
+create index if not exists "osm_polygon_geom_buildings_idx" on osm_polygon using GIST(geom_buildings);
+
+alter table osm_point add column if not exists geom_addr geometry(point, :ADDRESSES_SRID);
+update osm_point set geom_addr = ST_Transform(way, :ADDRESSES_SRID);
+create index if not exists "osm_point_geom_addr_idx" on osm_point using GIST(geom_addr);
+
+alter table osm_polygon add column if not exists geom_addr geometry(multipolygon, :ADDRESSES_SRID);
+update osm_polygon set geom_addr = ST_MakeValid(ST_Transform(ST_Multi(way), :ADDRESSES_SRID));
+create index if not exists "osm_polygon_geom_addr_idx" on osm_polygon using GIST(geom_addr);
 
 -- Find data that already exist in OSM, to split for later conflation
 alter table BuildingFootprint add column intersectsExisting boolean default false;
@@ -95,20 +103,25 @@ update BuildingFootprint as bldg
 	where ((osm_polygon.building is not null
 	and osm_polygon.building != 'no')
 	or osm_polygon.tags?'demolished:building')
-	and ST_Intersects(bldg.geom, osm_polygon.loc_geom);
+	and ST_Intersects(bldg.geom, osm_polygon.geom_buildings);
 
 alter table "Site_Address_Points" add column intersectsExisting boolean default false;
 update "Site_Address_Points" as addr
 	set intersectsExisting = true
 	from osm_point
 	where osm_point.highway is null
-	and ST_DWithin(addr.geom, ST_Transform(osm_point.way, :ADDRESSES_SRID), :ADDRESS_DISTANCE_THRESHOLD);
+	and ST_DWithin(addr.geom, osm_point.geom_addr, :ADDRESS_DISTANCE_THRESHOLD);
 update "Site_Address_Points" as addr
 	set intersectsExisting = true
 	from osm_polygon
 	where osm_polygon.landuse is null
 	and osm_polygon.natural is null
-	and ST_DWithin(addr.geom, ST_Transform(osm_polygon.way, :ADDRESSES_SRID), :ADDRESS_DISTANCE_THRESHOLD);
+	and ST_DWithin(addr.geom, osm_polygon.geom_addr, :ADDRESS_DISTANCE_THRESHOLD);
+
+-- Useful to have around
+alter table "Site_Address_Points" add column if not exists geom_buildings geometry(point, :BUILDINGS_SRID);
+update "Site_Address_Points" set geom_buildings = ST_Transform(geom, :BUILDINGS_SRID);
+create index if not exists "Site_Address_Points_geom_buildings_idx" on "Site_Address_Points" using GIST(geom_buildings);
 
 -- For each condo area where there is only one address, find all buildings in the condo area
 drop table if exists mergedBuildings;
@@ -118,7 +131,7 @@ with uniqParcel as (
 	from "Site_Address_Points"
 	group by "CondoParce"
 	having count(*) = 1)
-select (row_number() over (partition by CondoParce order by ST_Distance(ST_Transform("Site_Address_Points".geom, :BUILDINGS_SRID), BuildingFootprint.geom))) as rn,
+select (row_number() over (partition by CondoParce order by ST_Distance("Site_Address_Points".geom_buildings, BuildingFootprint.geom))) as rn,
 	BuildingFootprint.*,
 	"Site_Address_Points".gid as addr_gid, "Place_Type",
 	"Add_Number", "AddNum_Suf",
@@ -156,7 +169,7 @@ with uniqParcel as (
 	group by "ParcelID"
 	having count(*) = 1)
 insert into mergedBuildings
-select (row_number() over (partition by ParcelID order by ST_Distance(ST_Transform("Site_Address_Points".geom, :BUILDINGS_SRID), BuildingFootprint.geom))) as rn,
+select (row_number() over (partition by ParcelID order by ST_Distance("Site_Address_Points".geom_buildings, BuildingFootprint.geom))) as rn,
 	BuildingFootprint.*,
 	"Site_Address_Points".gid as addr_gid, "Place_Type",
 	"Add_Number", "AddNum_Suf",
@@ -213,7 +226,7 @@ with siteParcelsWithMatchingBuildings as (
 			where buildingCount > addrCount)
 	select "Site_Address_Points"."ParcelID" from
 		-- Find addresses that intersect any building in the parcel
-		(select bool_or(ST_Within(ST_Transform("Site_Address_Points".geom, :BUILDINGS_SRID), BuildingFootprint.geom)) as intersects, "Site_Address_Points".gid
+		(select bool_or(ST_Within("Site_Address_Points".geom_buildings, BuildingFootprint.geom)) as intersects, "Site_Address_Points".gid
 			from siteParcels
 			inner join "Site_Address_Points"
 			on ParcelID="ParcelID"
@@ -245,7 +258,7 @@ select (count(*) over (partition by BuildingFootprint.gid)) as rn,
 	on Parcel.ParcelID=siteParcelsWithMatchingBuildings."ParcelID"
 	inner join "Site_Address_Points"
 	on siteParcelsWithMatchingBuildings."ParcelID"="Site_Address_Points"."ParcelID"
-	and ST_Within(ST_Transform("Site_Address_Points".geom, :BUILDINGS_SRID), BuildingFootprint.geom);
+	and ST_Within("Site_Address_Points".geom_buildings, BuildingFootprint.geom);
 -- Limit to buildings with only one intersecting address
 delete from mergedBuildings where rn != 1;
 delete from BuildingFootprint
@@ -274,7 +287,7 @@ update namedParcels as p
 	set intersectsExisting = true
 	from osm_polygon
 	where osm_polygon.landuse is not null
-	and ST_Intersects(p.geom, osm_polygon.loc_geom);
+	and ST_Intersects(p.geom, osm_polygon.geom_buildings);
 
 -- Develop cluster centers
 drop table if exists clusterCenters;
@@ -285,7 +298,7 @@ create table clusterCenters as
 			select ST_ClusterKMeans(geom, :PARTITIONS) over (partition by intersectsExisting) as cid,
 				intersectsExisting, geom
 				from (
-					select ST_Transform(geom, :BUILDINGS_SRID) as geom, intersectsExisting
+					select geom_buildings as geom, intersectsExisting
 						from "Site_Address_Points"
 					union select geom, intersectsExisting
 						from BuildingFootprint
@@ -344,11 +357,11 @@ alter table "Site_Address_Points" add column cid integer;
 update "Site_Address_Points" as a
 	set cid = taggedAddr.cid
 	from (
-		select (row_number() over (partition by "Site_Address_Points".gid order by ST_Distance(ST_Transform("Site_Address_Points".geom, :BUILDINGS_SRID), taggedTaz.geom))) as rn,
+		select (row_number() over (partition by "Site_Address_Points".gid order by ST_Distance("Site_Address_Points".geom_buildings, taggedTaz.geom))) as rn,
 		taggedTaz.cid, "Site_Address_Points".gid
 		from "Site_Address_Points"
 		join taggedTaz
-		on ST_Intersects(ST_Transform("Site_Address_Points".geom, :BUILDINGS_SRID), taggedTaz.geom)
+		on ST_Intersects("Site_Address_Points".geom_buildings, taggedTaz.geom)
 		and "Site_Address_Points".intersectsExisting = taggedTaz.intersectsExisting
 	) as taggedAddr
 	where a.gid = taggedAddr.gid and rn = 1;
