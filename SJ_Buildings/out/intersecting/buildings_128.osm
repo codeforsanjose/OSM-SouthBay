@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<osm version="0.6" generator="uvmogr2osm" upload="false">
+<node visible="true" id="-2" lat="37.397524543" lon="-121.81476229500001"/>
+<node visible="true" id="-3" lat="37.397556183" lon="-121.814887517"/>
+<node visible="true" id="-4" lat="37.397719130000006" lon="-121.814822839"/>
+<node visible="true" id="-5" lat="37.39768749" lon="-121.81469761800001"/>
+<node visible="true" id="-6" lat="37.397404407" lon="-121.79911665300001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="18940"/><tag k="addr:street" v="Alum Rock Falls Road"/><tag k="addr:postcode" v="95132"/></node>
+<node visible="true" id="-7" lat="37.408037331" lon="-121.78639487500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="19741"/><tag k="addr:street" v="Alum Rock Falls Road"/><tag k="addr:postcode" v="95132"/></node>
+<node visible="true" id="-8" lat="37.432765967" lon="-121.810380522"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="5331"/><tag k="addr:street" v="Felter Road"/><tag k="addr:postcode" v="95132"/></node>
+<node visible="true" id="-9" lat="37.432556894" lon="-121.808933393"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="5407"/><tag k="addr:street" v="Felter Road"/><tag k="addr:postcode" v="95132"/></node>
+<node visible="true" id="-10" lat="37.432536695" lon="-121.808787612"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="5429"/><tag k="addr:street" v="Felter Road"/><tag k="addr:postcode" v="95132"/></node>
+<node visible="true" id="-11" lat="37.432492475000004" lon="-121.80865493900001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="5439"/><tag k="addr:street" v="Felter Road"/><tag k="addr:postcode" v="95132"/></node>
+<node visible="true" id="-12" lat="37.433109255000005" lon="-121.811344164"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="5303"/><tag k="addr:street" v="Felter Road"/><tag k="addr:postcode" v="95132"/></node>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="4.31"/><tag k="ele" v="247.82"/></way>
+</osm>
