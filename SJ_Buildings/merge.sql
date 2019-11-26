@@ -190,8 +190,8 @@ select (row_number() over (partition by ParcelID order by ST_Distance("Site_Addr
 		or "Unit_Type" = 'Space'
 		or "Unit_Type" is null)
 	and ST_Area(Parcel.geom) < :LARGE_PARCEL
-	and "Place_Type" != 'Educational'
-	and "Place_Type" != 'Hospital';
+	and ("Place_Type" is null or "Place_Type" != 'Educational')
+	and ("Place_Type" is null or "Place_Type" != 'Hospital');
 -- Merge the address with the building closest to the address
 delete from mergedBuildings where rn != 1;
 
