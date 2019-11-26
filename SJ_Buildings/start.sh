@@ -7,6 +7,10 @@
 DBNAME=svosm
 OGR2OSM=../../ogr2osm/ogr2osm.py
 
+# DB setup
+psql --echo-all --command="create extension if not exists hstore;" "${DBNAME}" postgres
+psql --echo-all --command="create extension if not exists postgis;" "${DBNAME}" postgres
+
 # Add ESRI:103240 to PostGIS
 # from https://github.com/Esri/projection-engine-db-doc/
 psql --echo-all --file="103240.sql" "${DBNAME}" postgres
@@ -16,6 +20,7 @@ echo "Importing TAZ"
 shp2pgsql -d -D -s 103240 -I "data/VTATaz" | psql -d "${DBNAME}" >/dev/null
 
 
+echo "Downloading Basemap"
 curl "https://www.sanjoseca.gov/DocumentCenter/View/17141" --output "Basemap.zip"
 unzip "Basemap.zip" "Parcel.*" -d "data"
 
@@ -23,6 +28,7 @@ echo "Importing Parcel"
 shp2pgsql -d -D -s 103240 -t 2D -I "data/Parcel" | psql -d "${DBNAME}" >/dev/null
 
 
+echo "Downloading Basemap_2"
 curl "http://www.sanjoseca.gov/DocumentCenter/View/44895" --output "Basemap_2.zip"
 unzip "Basemap_2.zip" "BuildingFootprint.*" "CondoParcel.*" "Site_Address_Points.*" \
     -d "data"
@@ -40,9 +46,12 @@ shp2pgsql -d -D -s 2227 -k -I "data/Site_Address_Points" \
 
 
 # Download and import existing OSM data
+echo "Downloading norcal-latest.osm.pbf"
 curl "https://download.geofabrik.de/north-america/us/california/norcal-latest.osm.pbf" \
     --output "data/norcal-latest.osm.pbf"
-osm2pgsql --database "${DBNAME} "--create \
+
+echo "Importing norcal-latest.osm.pbf"
+osm2pgsql --database "${DBNAME}" --create \
     --prefix osm \
     --slim --hstore \
     --latlong --multi-geometry \
@@ -52,6 +61,7 @@ osm2pgsql --database "${DBNAME} "--create \
 
 # Merge addresses to buildings
 psql -v "ON_ERROR_STOP=true" --echo-queries --file="merge.sql" "${DBNAME}"
+
 
 # Split into tasks
 mkdir "out"
