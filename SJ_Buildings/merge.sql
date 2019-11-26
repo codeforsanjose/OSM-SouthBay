@@ -318,6 +318,8 @@ create table taggedTaz as
 				from VTATaz
 				join clusterCenters
 				on ST_DWithin(VTATaz.geom, clusterCenters.geom, 444826) -- size of largest TAZ
+				inner join (select ST_ConvexHull(ST_Collect(geom_buildings)) as geom from "Site_Address_Points") as alladdr
+				on ST_Intersects(VTATaz.geom, alladdr.geom)
 		) as rankedTaz
 		where rn=1
 		group by cid, intersectsExisting;
