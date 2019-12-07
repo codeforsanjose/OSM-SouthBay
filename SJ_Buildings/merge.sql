@@ -289,41 +289,6 @@ update namedParcels as p
 	where osm_polygon.landuse is not null
 	and ST_Intersects(p.geom, osm_polygon.geom_buildings);
 
--- Develop cluster centers
-drop table if exists clusterCenters;
-create table clusterCenters as
-	select cid, intersectsExisting, ST_Centroid(ST_Collect(geom)) as geom
-		from (
-			-- Generate clusters
-			select ST_ClusterKMeans(geom, :PARTITIONS) over (partition by intersectsExisting) as cid,
-				intersectsExisting, geom
-				from (
-					select geom_buildings as geom, intersectsExisting
-						from "Site_Address_Points"
-					union select geom, intersectsExisting
-						from BuildingFootprint
-					union select geom, intersectsExisting
-						from mergedBuildings
-				) as u
-		) as c
-		group by cid, intersectsExisting;
-
--- Find nearest cluster to each TAZ
-drop table if exists taggedTaz;
-create table taggedTaz as
-	select cid, intersectsExisting, ST_Union(geom) as geom
-		from (
-			select (row_number() over (partition by VTATaz.gid, intersectsExisting order by ST_Distance(VTATaz.geom, clusterCenters.geom))) as rn,
-				cid, intersectsExisting, VTATaz.geom
-				from VTATaz
-				join clusterCenters
-				on ST_DWithin(VTATaz.geom, clusterCenters.geom, 444826) -- size of largest TAZ
-				inner join (select ST_ConvexHull(ST_Collect(geom_buildings)) as geom from "Site_Address_Points") as alladdr
-				on ST_Intersects(VTATaz.geom, alladdr.geom)
-		) as rankedTaz
-		where rn=1
-		group by cid, intersectsExisting;
-
 -- Schema for all data that will be grouped before export
 drop table if exists exportData;
 create table exportData (
@@ -341,30 +306,50 @@ alter table mergedBuildings inherit exportData;
 alter table namedParcels add column cid integer;
 alter table namedParcels inherit exportData;
 
+-- Drop TAZs that aren't near SJ
+with hull as (
+	select ST_ConvexHull(ST_Collect(geom)) as geom from (
+		select geom
+		from exportData
+		union select geom_buildings as geom
+		from "Site_Address_Points"
+	) as geom)
+	delete from VTATaz
+	using hull
+	where not ST_Intersects(VTATaz.geom, hull.geom);
+
 -- Assign cluster to each data point
 update exportData as t
-	set cid = taggedThing.cid
+	set cid = taggedThing.key
 	from (
-		select (row_number() over (partition by exportData.gid order by ST_Distance(exportData.geom, taggedTaz.geom))) as rn,
-		taggedTaz.cid, exportData.gid
+		select (row_number() over (partition by exportData.gid order by ST_Distance(exportData.geom, VTATaz.geom))) as rn,
+		VTATaz.key, exportData.gid
 		from exportData
-		join taggedTaz
-		on ST_Intersects(exportData.geom, taggedTaz.geom)
-		and exportData.intersectsExisting = taggedTaz.intersectsExisting
+		join VTATaz
+		on ST_Intersects(exportData.geom, VTATaz.geom)
 	) as taggedThing
 	where t.gid = taggedThing.gid and rn = 1;
 
 -- Addresses are a different geometry type on a different spatial reference, so need to be done separately
 alter table "Site_Address_Points" add column cid integer;
 update "Site_Address_Points" as a
-	set cid = taggedAddr.cid
+	set cid = taggedAddr.key
 	from (
-		select (row_number() over (partition by "Site_Address_Points".gid order by ST_Distance("Site_Address_Points".geom_buildings, taggedTaz.geom))) as rn,
-		taggedTaz.cid, "Site_Address_Points".gid
+		select (row_number() over (partition by "Site_Address_Points".gid order by ST_Distance("Site_Address_Points".geom_buildings, VTATaz.geom))) as rn,
+		VTATaz.key, "Site_Address_Points".gid
 		from "Site_Address_Points"
-		join taggedTaz
-		on ST_Intersects("Site_Address_Points".geom_buildings, taggedTaz.geom)
-		and "Site_Address_Points".intersectsExisting = taggedTaz.intersectsExisting
+		join VTATaz
+		on ST_Intersects("Site_Address_Points".geom_buildings, VTATaz.geom)
 	) as taggedAddr
 	where a.gid = taggedAddr.gid and rn = 1;
+
+-- More specifically drop TAZs that don't have any SJ data in them
+delete from "Site_Address_Points" where ST_IsEmpty(geom);
+delete from VTATaz
+	where key not in (
+		select distinct cid from exportData
+	)
+	and key not in (
+		select distinct cid from "Site_Address_Points"
+	);
 

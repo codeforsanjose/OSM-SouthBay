@@ -76,12 +76,17 @@ for intersects in false true; do
         intersectsQuery="not intersectsExisting"
     fi
     
-    ogr2ogr -sql "select 'https://codeforsanjose.github.io/OSM-SouthBay/SJ_Buildings/out/${outdir}/buildings_' || cid || '.osm' as import_url, geom from taggedTaz where ${intersectsQuery}" \
+    ogr2ogr -sql "select 'https://codeforsanjose.github.io/OSM-SouthBay/SJ_Buildings/out/${outdir}/buildings_' || key || '.osm' as import_url, geom from VTATaz" \
         -t_srs EPSG:4326 \
         "out/grouped_${outdir}_buildings_zones.geojson" \
         "PG:dbname=${DBNAME} host=localhost"
     
-    for cid in {0..199}; do
+    for cid in {1153..2632}; do
+        # Skip empty TAZs
+        if [ $(psql --command="copy (select count(*) from VTATaz where key=${cid}) to stdout csv" ${DBNAME}) = 0 ]; then
+            continue
+        fi
+
         output="out/${outdir}/buildings_${cid}.osm"
 
         # Filter export data to each CID
