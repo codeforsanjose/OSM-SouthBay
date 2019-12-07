@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<osm version="0.6" generator="uvmogr2osm" upload="false">
+<node visible="true" id="-2" lat="37.390049298" lon="-121.87903137900001"/>
+<node visible="true" id="-3" lat="37.390382162" lon="-121.87938780200001"/>
+<node visible="true" id="-4" lat="37.39040687" lon="-121.87935152700001"/>
+<node visible="true" id="-5" lat="37.390422793" lon="-121.87936855100001"/>
+<node visible="true" id="-6" lat="37.390482858000006" lon="-121.879280432"/>
+<node visible="true" id="-7" lat="37.390134098000004" lon="-121.87890698500001"/>
+<node visible="true" id="-8" lat="37.390129968000004" lon="-121.878656887"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1591"/><tag k="addr:street" v="Flickinger Avenue"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-9" lat="37.390083398" lon="-121.87874788500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1599"/><tag k="addr:street" v="Flickinger Avenue"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-10" lat="37.390248597" lon="-121.879136305"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1605;1611;1625;1633;1645"/><tag k="addr:street" v="Flickinger Avenue"/><tag k="addr:postcode" v="95131"/></node>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="4.27"/><tag k="ele" v="32.47"/></way>
+</osm>

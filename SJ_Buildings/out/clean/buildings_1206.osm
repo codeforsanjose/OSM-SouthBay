@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<osm version="0.6" generator="uvmogr2osm" upload="false">
+<node visible="true" id="-2" lat="37.384740347000005" lon="-121.918122052"/>
+<node visible="true" id="-3" lat="37.384820983000004" lon="-121.918224992"/>
+<node visible="true" id="-4" lat="37.384920552000004" lon="-121.91810251300001"/>
+<node visible="true" id="-5" lat="37.384839916000004" lon="-121.917999573"/>
+<node visible="true" id="-6" lat="37.384827174" lon="-121.91801523500001"/>
+<node visible="true" id="-7" lat="37.383542659" lon="-121.91962037100001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="2371"/><tag k="addr:street" v="Bering Drive"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-8" lat="37.386926405000004" lon="-121.92245290900001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="2470"/><tag k="addr:street" v="Zanker Road"/><tag k="addr:postcode" v="95131"/></node>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="5.28"/><tag k="ele" v="15.21"/></way>
+</osm>

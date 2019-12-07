@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<osm version="0.6" generator="uvmogr2osm" upload="false">
+<node visible="true" id="-2" lat="37.337448608" lon="-121.90003787100001"/>
+<node visible="true" id="-3" lat="37.33737509" lon="-121.90020918500001"/>
+<node visible="true" id="-4" lat="37.337370937" lon="-121.900218878"/>
+<node visible="true" id="-5" lat="37.337406279" lon="-121.900242657"/>
+<node visible="true" id="-6" lat="37.33748395" lon="-121.90006165000001"/>
+<node visible="true" id="-8" lat="37.337235507" lon="-121.899907318"/>
+<node visible="true" id="-9" lat="37.337307474" lon="-121.899955519"/>
+<node visible="true" id="-10" lat="37.337346386" lon="-121.89986439900001"/>
+<node visible="true" id="-11" lat="37.337274419" lon="-121.899816197"/>
+<node visible="true" id="-13" lat="37.337033346000005" lon="-121.899771501"/>
+<node visible="true" id="-14" lat="37.337105155" lon="-121.899819116"/>
+<node visible="true" id="-15" lat="37.337143992" lon="-121.89972733900001"/>
+<node visible="true" id="-16" lat="37.337072183000004" lon="-121.899679691"/>
+<node visible="true" id="-18" lat="37.336885460000005" lon="-121.899674817"/>
+<node visible="true" id="-19" lat="37.3369002" lon="-121.899684898"/>
+<node visible="true" id="-20" lat="37.33694851" lon="-121.89957269300001"/>
+<node visible="true" id="-21" lat="37.336927344" lon="-121.899571746"/>
+<node visible="true" id="-22" lat="37.336910131" lon="-121.899570943"/>
+<node visible="true" id="-23" lat="37.336869116" lon="-121.89966350300001"/>
+<node visible="true" id="-26" lat="37.337540922" lon="-121.89982222100001"/>
+<node visible="true" id="-27" lat="37.336981394000006" lon="-121.899445717"/>
+<node visible="true" id="-28" lat="37.336815537" lon="-121.89983267800001"/>
+<node visible="true" id="-29" lat="37.337480169" lon="-121.899964259"/>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="17.40"/><tag k="ele" v="41.83"/></way>
+<way visible="true" id="-7"><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-8"/><tag k="building" v="yes"/><tag k="height" v="26.37"/><tag k="ele" v="50.64"/></way>
+<way visible="true" id="-12"><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-13"/><tag k="building" v="yes"/><tag k="height" v="26.31"/><tag k="ele" v="50.64"/></way>
+<way visible="true" id="-17"><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-18"/><tag k="building" v="yes"/><tag k="height" v="24.99"/><tag k="ele" v="50.80"/></way>
+<way visible="true" id="-25"><nd ref="-26"/><nd ref="-27"/><nd ref="-21"/><nd ref="-20"/><nd ref="-19"/><nd ref="-18"/><nd ref="-28"/><nd ref="-3"/><nd ref="-2"/><nd ref="-29"/><nd ref="-26"/></way>
+<way visible="true" id="-30"><nd ref="-8"/><nd ref="-11"/><nd ref="-10"/><nd ref="-9"/><nd ref="-8"/></way>
+<way visible="true" id="-31"><nd ref="-13"/><nd ref="-16"/><nd ref="-15"/><nd ref="-14"/><nd ref="-13"/></way>
+<relation visible="true" id="-24"><member type="way" ref="-25" role="outer"/><member type="way" ref="-30" role="inner"/><member type="way" ref="-31" role="inner"/><tag k="type" v="multipolygon"/><tag k="building" v="yes"/><tag k="height" v="25.01"/><tag k="ele" v="46.60"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="333"/><tag k="addr:street" v="West Julian Street"/><tag k="addr:postcode" v="95110"/></relation>
+</osm>

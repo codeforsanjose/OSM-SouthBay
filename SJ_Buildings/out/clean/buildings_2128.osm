@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<osm version="0.6" generator="uvmogr2osm" upload="false">
+<node visible="true" id="-2" lat="37.291206966000004" lon="-121.99323872800001"/>
+<node visible="true" id="-3" lat="37.291214333" lon="-121.993296392"/>
+<node visible="true" id="-4" lat="37.29127054" lon="-121.993285138"/>
+<node visible="true" id="-5" lat="37.291263172" lon="-121.993227473"/>
+<node visible="true" id="-7" lat="37.289320450000005" lon="-121.995212745"/>
+<node visible="true" id="-8" lat="37.289543599000005" lon="-121.995552853"/>
+<node visible="true" id="-9" lat="37.289701109" lon="-121.99539098300001"/>
+<node visible="true" id="-10" lat="37.289669424" lon="-121.99534266500001"/>
+<node visible="true" id="-11" lat="37.289669006000004" lon="-121.995343105"/>
+<node visible="true" id="-12" lat="37.289617220000004" lon="-121.99526416500001"/>
+<node visible="true" id="-13" lat="37.28940277" lon="-121.995133361"/>
+<node visible="true" id="-15" lat="37.291275389" lon="-121.993245181"/>
+<node visible="true" id="-16" lat="37.291284225000005" lon="-121.99331274400001"/>
+<node visible="true" id="-17" lat="37.291330161000005" lon="-121.99330331200001"/>
+<node visible="true" id="-18" lat="37.291321299" lon="-121.99323575000001"/>
+<node visible="true" id="-20" lat="37.288967064000005" lon="-121.995746701"/>
+<node visible="true" id="-21" lat="37.289109796000005" lon="-121.995965595"/>
+<node visible="true" id="-22" lat="37.289148899000004" lon="-121.995925638"/>
+<node visible="true" id="-23" lat="37.289166841000004" lon="-121.99595315600001"/>
+<node visible="true" id="-24" lat="37.289208699" lon="-121.99591043500001"/>
+<node visible="true" id="-25" lat="37.289196494" lon="-121.995891764"/>
+<node visible="true" id="-26" lat="37.289312996" lon="-121.995772771"/>
+<node visible="true" id="-27" lat="37.28932504" lon="-121.99579119900001"/>
+<node visible="true" id="-28" lat="37.289368540000005" lon="-121.995746757"/>
+<node visible="true" id="-29" lat="37.28935173" lon="-121.995720946"/>
+<node visible="true" id="-30" lat="37.289392474" lon="-121.99567930200001"/>
+<node visible="true" id="-31" lat="37.289248774" lon="-121.99545891100001"/>
+<node visible="true" id="-32" lat="37.291206657000004" lon="-121.993857918"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="5220"/><tag k="addr:street" v="Prospect Road"/><tag k="addr:postcode" v="95129"/></node>
+<node visible="true" id="-33" lat="37.289560457" lon="-121.99536323500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1807"/><tag k="addr:street" v="Saratoga Avenue"/><tag k="addr:postcode" v="95129"/></node>
+<node visible="true" id="-34" lat="37.28917902" lon="-121.995670906"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1821"/><tag k="addr:street" v="Saratoga Avenue"/><tag k="addr:postcode" v="95129"/></node>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="8.15"/><tag k="ele" v="78.87"/></way>
+<way visible="true" id="-6"><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-7"/><tag k="building" v="yes"/><tag k="height" v="8.21"/><tag k="ele" v="87.79"/></way>
+<way visible="true" id="-14"><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-15"/><tag k="building" v="yes"/><tag k="height" v="7.96"/><tag k="ele" v="78.63"/></way>
+<way visible="true" id="-19"><nd ref="-20"/><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-26"/><nd ref="-27"/><nd ref="-28"/><nd ref="-29"/><nd ref="-30"/><nd ref="-31"/><nd ref="-20"/><tag k="building" v="yes"/><tag k="height" v="7.90"/><tag k="ele" v="88.57"/></way>
+</osm>

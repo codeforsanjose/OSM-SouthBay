@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<osm version="0.6" generator="uvmogr2osm" upload="false">
+<node visible="true" id="-2" lat="37.399650846" lon="-121.93490134800001"/>
+<node visible="true" id="-3" lat="37.399673612" lon="-121.934921927"/>
+<node visible="true" id="-4" lat="37.399703753000004" lon="-121.93486958800001"/>
+<node visible="true" id="-5" lat="37.399680987" lon="-121.93484897500001"/>
+<node visible="true" id="-7" lat="37.399568375" lon="-121.934747447"/>
+<node visible="true" id="-8" lat="37.399593803" lon="-121.93476825"/>
+<node visible="true" id="-9" lat="37.399622946" lon="-121.934712207"/>
+<node visible="true" id="-10" lat="37.399597517000004" lon="-121.93469140500001"/>
+<node visible="true" id="-12" lat="37.402277371000004" lon="-121.935860324"/>
+<node visible="true" id="-13" lat="37.402313069" lon="-121.93589027700001"/>
+<node visible="true" id="-14" lat="37.402354339000006" lon="-121.93581291400001"/>
+<node visible="true" id="-15" lat="37.402318641" lon="-121.935782961"/>
+<node visible="true" id="-17" lat="37.402190773" lon="-121.936025649"/>
+<node visible="true" id="-18" lat="37.402226231" lon="-121.936055115"/>
+<node visible="true" id="-19" lat="37.40228168" lon="-121.93595030700001"/>
+<node visible="true" id="-20" lat="37.402246224" lon="-121.93592080500001"/>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="4.48"/><tag k="ele" v="9.81"/></way>
+<way visible="true" id="-6"><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-7"/><tag k="building" v="yes"/><tag k="height" v="4.06"/><tag k="ele" v="9.81"/></way>
+<way visible="true" id="-11"><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-12"/><tag k="building" v="yes"/><tag k="height" v="5.00"/><tag k="ele" v="10.22"/></way>
+<way visible="true" id="-16"><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-17"/><tag k="building" v="yes"/><tag k="height" v="3.49"/><tag k="ele" v="10.22"/></way>
+</osm>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<osm version="0.6" generator="uvmogr2osm" upload="false">
+<node visible="true" id="-2" lat="37.348830289000006" lon="-121.88271335"/>
+<node visible="true" id="-3" lat="37.348891316" lon="-121.88276058400001"/>
+<node visible="true" id="-4" lat="37.348920946" lon="-121.88270061200001"/>
+<node visible="true" id="-5" lat="37.348859921" lon="-121.882653344"/>
+<node visible="true" id="-7" lat="37.348756875" lon="-121.882868813"/>
+<node visible="true" id="-8" lat="37.348952028" lon="-121.883013559"/>
+<node visible="true" id="-9" lat="37.349011638" lon="-121.882887463"/>
+<node visible="true" id="-10" lat="37.349002053" lon="-121.88288037100001"/>
+<node visible="true" id="-11" lat="37.349004588" lon="-121.88287505000001"/>
+<node visible="true" id="-12" lat="37.349008754" lon="-121.88287812"/>
+<node visible="true" id="-13" lat="37.349018501" lon="-121.88285752"/>
+<node visible="true" id="-14" lat="37.349012347000006" lon="-121.88285296800001"/>
+<node visible="true" id="-15" lat="37.349025616000006" lon="-121.882824931"/>
+<node visible="true" id="-16" lat="37.349000864000004" lon="-121.882806548"/>
+<node visible="true" id="-17" lat="37.348991032" lon="-121.88282735300001"/>
+<node visible="true" id="-18" lat="37.34891332" lon="-121.88276969600001"/>
+<node visible="true" id="-19" lat="37.34889701" lon="-121.882804143"/>
+<node visible="true" id="-20" lat="37.348815892000005" lon="-121.88274398"/>
+<node visible="true" id="-21" lat="37.347659812" lon="-121.879218503"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="725"/><tag k="addr:street" v="East Julian Street"/><tag k="addr:unit" v="A"/><tag k="addr:postcode" v="95112"/></node>
+<node visible="true" id="-22" lat="37.348818975" lon="-121.88278263400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="615"/><tag k="addr:street" v="Washington Street"/><tag k="addr:postcode" v="95112"/></node>
+<node visible="true" id="-23" lat="37.346630899000004" lon="-121.88129713500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="308"/><tag k="addr:street" v="North 13th Street"/><tag k="addr:postcode" v="95112"/></node>
+<node visible="true" id="-24" lat="37.348279863" lon="-121.877914465"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="309"/><tag k="addr:street" v="North 17th Street"/><tag k="addr:postcode" v="95112"/></node>
+<node visible="true" id="-25" lat="37.348388966" lon="-121.878306851"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="767"/><tag k="addr:street" v="East Julian Street"/><tag k="addr:postcode" v="95112"/></node>
+<node visible="true" id="-26" lat="37.348165748" lon="-121.87824157000001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="763"/><tag k="addr:street" v="East Julian Street"/><tag k="addr:postcode" v="95112"/></node>
+<node visible="true" id="-27" lat="37.348196200000004" lon="-121.878179637"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="765"/><tag k="addr:street" v="East Julian Street"/><tag k="addr:postcode" v="95112"/></node>
+<node visible="true" id="-28" lat="37.346676676" lon="-121.881275207"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="300;302;304"/><tag k="addr:street" v="North 13th Street"/><tag k="addr:postcode" v="95112"/></node>
+<node visible="true" id="-29" lat="37.346744248" lon="-121.881382993"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="310"/><tag k="addr:street" v="North 13th Street"/><tag k="addr:postcode" v="95112"/></node>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="3.04"/><tag k="ele" v="25.44"/></way>
+<way visible="true" id="-6"><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-7"/><tag k="building" v="yes"/><tag k="height" v="4.18"/><tag k="ele" v="29.55"/></way>
+</osm>

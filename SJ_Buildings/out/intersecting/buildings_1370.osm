@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<osm version="0.6" generator="uvmogr2osm" upload="false">
+<node visible="true" id="-2" lat="37.237428334" lon="-121.840235527"/>
+<node visible="true" id="-3" lat="37.237422814000006" lon="-121.84088531200001"/>
+<node visible="true" id="-4" lat="37.237484168" lon="-121.84088610200001"/>
+<node visible="true" id="-5" lat="37.237483504000004" lon="-121.840965588"/>
+<node visible="true" id="-6" lat="37.237544390000004" lon="-121.84096640300001"/>
+<node visible="true" id="-7" lat="37.237550601" lon="-121.840237169"/>
+<node visible="true" id="-9" lat="37.237042837000004" lon="-121.83993468700001"/>
+<node visible="true" id="-10" lat="37.237042904" lon="-121.84016390000001"/>
+<node visible="true" id="-11" lat="37.237073129" lon="-121.840206182"/>
+<node visible="true" id="-12" lat="37.237194557" lon="-121.840209079"/>
+<node visible="true" id="-13" lat="37.237194483" lon="-121.84021316500001"/>
+<node visible="true" id="-14" lat="37.237316433000004" lon="-121.84021607100001"/>
+<node visible="true" id="-15" lat="37.237316473" lon="-121.8402125"/>
+<node visible="true" id="-16" lat="37.237393857" lon="-121.840214332"/>
+<node visible="true" id="-17" lat="37.237394139" lon="-121.84019451500001"/>
+<node visible="true" id="-18" lat="37.237438075" lon="-121.840195542"/>
+<node visible="true" id="-19" lat="37.237438733000005" lon="-121.84015240500001"/>
+<node visible="true" id="-20" lat="37.237553451000004" lon="-121.84015373800001"/>
+<node visible="true" id="-21" lat="37.237555188" lon="-121.83992039900001"/>
+<node visible="true" id="-22" lat="37.237395101000004" lon="-121.83991852800001"/>
+<node visible="true" id="-23" lat="37.23739527" lon="-121.83989657900001"/>
+<node visible="true" id="-24" lat="37.237076234" lon="-121.839896534"/>
+<node visible="true" id="-26" lat="37.237207152" lon="-121.840270145"/>
+<node visible="true" id="-27" lat="37.23720389" lon="-121.84057656200001"/>
+<node visible="true" id="-28" lat="37.237214875" lon="-121.840576759"/>
+<node visible="true" id="-29" lat="37.237214514" lon="-121.840613031"/>
+<node visible="true" id="-30" lat="37.237203557" lon="-121.840612835"/>
+<node visible="true" id="-31" lat="37.237200752" lon="-121.84087934"/>
+<node visible="true" id="-32" lat="37.237341441000005" lon="-121.84088169"/>
+<node visible="true" id="-33" lat="37.237344273000005" lon="-121.840612952"/>
+<node visible="true" id="-34" lat="37.237332766" lon="-121.840612746"/>
+<node visible="true" id="-35" lat="37.237333158000006" lon="-121.840576131"/>
+<node visible="true" id="-36" lat="37.237343758" lon="-121.84057632000001"/>
+<node visible="true" id="-37" lat="37.237346963" lon="-121.84027244400001"/>
+<node visible="true" id="-39" lat="37.237644847000006" lon="-121.839862468"/>
+<node visible="true" id="-40" lat="37.237644362000005" lon="-121.84000561500001"/>
+<node visible="true" id="-41" lat="37.237756532" lon="-121.840006215"/>
+<node visible="true" id="-42" lat="37.237756468" lon="-121.84002868200001"/>
+<node visible="true" id="-43" lat="37.237805604" lon="-121.840028978"/>
+<node visible="true" id="-44" lat="37.237805686" lon="-121.840004965"/>
+<node visible="true" id="-45" lat="37.237870423000004" lon="-121.840005335"/>
+<node visible="true" id="-46" lat="37.23787087" lon="-121.839884724"/>
+<node visible="true" id="-47" lat="37.237816076" lon="-121.83988439500001"/>
+<node visible="true" id="-48" lat="37.237816151000004" lon="-121.83986344"/>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="4.05"/><tag k="ele" v="53.99"/></way>
+<way visible="true" id="-8"><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-9"/><tag k="building" v="yes"/><tag k="height" v="8.00"/><tag k="ele" v="59.34"/></way>
+<way visible="true" id="-25"><nd ref="-26"/><nd ref="-27"/><nd ref="-28"/><nd ref="-29"/><nd ref="-30"/><nd ref="-31"/><nd ref="-32"/><nd ref="-33"/><nd ref="-34"/><nd ref="-35"/><nd ref="-36"/><nd ref="-37"/><nd ref="-26"/><tag k="building" v="yes"/><tag k="height" v="7.41"/><tag k="ele" v="59.28"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="5828"/><tag k="addr:street" v="Santa Teresa Boulevard"/><tag k="addr:postcode" v="95123"/></way>
+<way visible="true" id="-38"><nd ref="-39"/><nd ref="-40"/><nd ref="-41"/><nd ref="-42"/><nd ref="-43"/><nd ref="-44"/><nd ref="-45"/><nd ref="-46"/><nd ref="-47"/><nd ref="-48"/><nd ref="-39"/><tag k="building" v="yes"/><tag k="height" v="4.65"/><tag k="ele" v="55.22"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="6001"/><tag k="addr:street" v="Blossom Avenue"/><tag k="addr:postcode" v="95123"/></way>
+</osm>

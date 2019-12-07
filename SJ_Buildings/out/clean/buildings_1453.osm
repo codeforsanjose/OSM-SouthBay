@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<osm version="0.6" generator="uvmogr2osm" upload="false">
+<node visible="true" id="-2" lat="37.346848587000004" lon="-121.91494674900001"/>
+<node visible="true" id="-3" lat="37.346884783" lon="-121.91499512000001"/>
+<node visible="true" id="-4" lat="37.346944772" lon="-121.91492465900001"/>
+<node visible="true" id="-5" lat="37.346947636" lon="-121.914928532"/>
+<node visible="true" id="-6" lat="37.346999238" lon="-121.914867924"/>
+<node visible="true" id="-7" lat="37.346963123" lon="-121.914819726"/>
+<node visible="true" id="-8" lat="37.346951143000005" lon="-121.91483377700001"/>
+<node visible="true" id="-9" lat="37.346946952" lon="-121.914828228"/>
+<node visible="true" id="-10" lat="37.346899779000005" lon="-121.91488365500001"/>
+<node visible="true" id="-11" lat="37.346898726" lon="-121.91488222500001"/>
+<node visible="true" id="-12" lat="37.346859077000005" lon="-121.91492881600001"/>
+<node visible="true" id="-13" lat="37.34686132" lon="-121.91493181700001"/>
+<node visible="true" id="-15" lat="37.346727245000004" lon="-121.91510292000001"/>
+<node visible="true" id="-16" lat="37.346848364" lon="-121.915245071"/>
+<node visible="true" id="-17" lat="37.346858108" lon="-121.915232044"/>
+<node visible="true" id="-18" lat="37.346860843" lon="-121.915235296"/>
+<node visible="true" id="-19" lat="37.346866286" lon="-121.915228037"/>
+<node visible="true" id="-20" lat="37.346863145" lon="-121.91522432900001"/>
+<node visible="true" id="-21" lat="37.346878668" lon="-121.91520356800001"/>
+<node visible="true" id="-22" lat="37.346882216000004" lon="-121.915207729"/>
+<node visible="true" id="-23" lat="37.346889056" lon="-121.91519857"/>
+<node visible="true" id="-24" lat="37.346885481" lon="-121.915194373"/>
+<node visible="true" id="-25" lat="37.346892851" lon="-121.91518453600001"/>
+<node visible="true" id="-26" lat="37.346772137" lon="-121.91504290700001"/>
+<node visible="true" id="-28" lat="37.346820052000005" lon="-121.914978274"/>
+<node visible="true" id="-29" lat="37.346860032" lon="-121.915027163"/>
+<node visible="true" id="-30" lat="37.346875628" lon="-121.91500719400001"/>
+<node visible="true" id="-31" lat="37.346835648" lon="-121.91495827000001"/>
+<node visible="true" id="-32" lat="37.350217274" lon="-121.91299792900001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="333"/><tag k="addr:street" v="McKendrie Street"/><tag k="addr:postcode" v="95110"/></node>
+<node visible="true" id="-33" lat="37.349694031000006" lon="-121.913212744"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="375"/><tag k="addr:street" v="McKendrie Street"/><tag k="addr:postcode" v="95110"/></node>
+<node visible="true" id="-35" lat="37.347173815000005" lon="-121.915153113"/>
+<node visible="true" id="-36" lat="37.347296757" lon="-121.915292203"/>
+<node visible="true" id="-37" lat="37.34734084" lon="-121.915231039"/>
+<node visible="true" id="-38" lat="37.347218765" lon="-121.915092963"/>
+<node visible="true" id="-39" lat="37.347212424000006" lon="-121.91510172000001"/>
+<node visible="true" id="-40" lat="37.34720844" lon="-121.91509720500001"/>
+<node visible="true" id="-41" lat="37.347201708" lon="-121.915106507"/>
+<node visible="true" id="-42" lat="37.347205448000004" lon="-121.915110705"/>
+<node visible="true" id="-43" lat="37.347189943000004" lon="-121.915132224"/>
+<node visible="true" id="-44" lat="37.347186367" lon="-121.91512816500001"/>
+<node visible="true" id="-45" lat="37.347180639" lon="-121.91513610800001"/>
+<node visible="true" id="-46" lat="37.347183648000005" lon="-121.915139502"/>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="3.32"/><tag k="ele" v="23.52"/></way>
+<way visible="true" id="-14"><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-26"/><nd ref="-15"/><tag k="building" v="yes"/><tag k="height" v="3.82"/><tag k="ele" v="24.62"/></way>
+<way visible="true" id="-27"><nd ref="-28"/><nd ref="-29"/><nd ref="-30"/><nd ref="-31"/><nd ref="-28"/><tag k="building" v="yes"/><tag k="height" v="2.51"/><tag k="ele" v="23.18"/></way>
+<way visible="true" id="-34"><nd ref="-35"/><nd ref="-36"/><nd ref="-37"/><nd ref="-38"/><nd ref="-39"/><nd ref="-40"/><nd ref="-41"/><nd ref="-42"/><nd ref="-43"/><nd ref="-44"/><nd ref="-45"/><nd ref="-46"/><nd ref="-35"/><tag k="building" v="yes"/><tag k="height" v="3.99"/><tag k="ele" v="24.76"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="445"/><tag k="addr:street" v="West Hedding Street"/><tag k="addr:postcode" v="95110"/></way>
+</osm>

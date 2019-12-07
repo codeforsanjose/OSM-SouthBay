@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<osm version="0.6" generator="uvmogr2osm" upload="false">
+<node visible="true" id="-2" lat="37.339170943" lon="-121.89995782300001"/>
+<node visible="true" id="-3" lat="37.339372279" lon="-121.900105256"/>
+<node visible="true" id="-4" lat="37.339593422" lon="-121.89963152600001"/>
+<node visible="true" id="-5" lat="37.339392114" lon="-121.89948409300001"/>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="9.64"/><tag k="ele" v="33.51"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="255"/><tag k="addr:street" v="Bassett Street"/><tag k="addr:postcode" v="95110"/></way>
+</osm>

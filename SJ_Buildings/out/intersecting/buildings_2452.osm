@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<osm version="0.6" generator="uvmogr2osm" upload="false">
+<node visible="true" id="-2" lat="37.358296185" lon="-121.842129428"/>
+<node visible="true" id="-3" lat="37.358341244" lon="-121.842173904"/>
+<node visible="true" id="-4" lat="37.358385763" lon="-121.84210247600001"/>
+<node visible="true" id="-5" lat="37.35837574" lon="-121.84209266200001"/>
+<node visible="true" id="-6" lat="37.358458395" lon="-121.841960119"/>
+<node visible="true" id="-7" lat="37.358421781000004" lon="-121.841924261"/>
+<node visible="true" id="-8" lat="37.358424746000004" lon="-121.841919531"/>
+<node visible="true" id="-9" lat="37.358392939000005" lon="-121.841888369"/>
+<node visible="true" id="-10" lat="37.358317849" lon="-121.842007765"/>
+<node visible="true" id="-11" lat="37.35835169" lon="-121.84204119900001"/>
+<node visible="true" id="-12" lat="37.358428596" lon="-121.84195836500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="21"/><tag k="addr:street" v="Foss Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-13" lat="37.358376858" lon="-121.842037965"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="21"/><tag k="addr:street" v="Foss Avenue"/><tag k="addr:unit" v="1/2"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-14" lat="37.358227815" lon="-121.842160405"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="21"/><tag k="addr:street" v="Foss Avenue"/><tag k="addr:unit" v="B"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-15" lat="37.358374225000006" lon="-121.842245993"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="2356"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-16" lat="37.358667156" lon="-121.84310365"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="2304"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-18" lat="37.358206501000005" lon="-121.842959472"/>
+<node visible="true" id="-19" lat="37.358252293" lon="-121.843002447"/>
+<node visible="true" id="-20" lat="37.358258817" lon="-121.842991518"/>
+<node visible="true" id="-21" lat="37.358386269" lon="-121.84311111400001"/>
+<node visible="true" id="-22" lat="37.358378905" lon="-121.84312340500001"/>
+<node visible="true" id="-23" lat="37.358425102000005" lon="-121.84316676600001"/>
+<node visible="true" id="-24" lat="37.358502002" lon="-121.843038182"/>
+<node visible="true" id="-25" lat="37.358494338" lon="-121.84303098900001"/>
+<node visible="true" id="-26" lat="37.358529147000006" lon="-121.842972774"/>
+<node visible="true" id="-27" lat="37.358459372000006" lon="-121.842906278"/>
+<node visible="true" id="-28" lat="37.358473426" lon="-121.84288316700001"/>
+<node visible="true" id="-29" lat="37.358437995" lon="-121.842849357"/>
+<node visible="true" id="-30" lat="37.358414440000004" lon="-121.84286276700001"/>
+<node visible="true" id="-31" lat="37.358300493" lon="-121.84275583700001"/>
+<node visible="true" id="-32" lat="37.358260896000004" lon="-121.842822053"/>
+<node visible="true" id="-33" lat="37.358278696" lon="-121.842838751"/>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="3.64"/><tag k="ele" v="35.34"/></way>
+<way visible="true" id="-17"><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-26"/><nd ref="-27"/><nd ref="-28"/><nd ref="-29"/><nd ref="-30"/><nd ref="-31"/><nd ref="-32"/><nd ref="-33"/><nd ref="-18"/><tag k="building" v="yes"/><tag k="height" v="5.03"/><tag k="ele" v="39.80"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="2300"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></way>
+</osm>

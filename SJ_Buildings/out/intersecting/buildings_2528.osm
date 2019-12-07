@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<osm version="0.6" generator="uvmogr2osm" upload="false">
+<node visible="true" id="-2" lat="37.352657785000005" lon="-121.88076219300001"/>
+<node visible="true" id="-3" lat="37.352663358" lon="-121.880797427"/>
+<node visible="true" id="-4" lat="37.352737391000005" lon="-121.880852712"/>
+<node visible="true" id="-5" lat="37.352833946000004" lon="-121.88064935700001"/>
+<node visible="true" id="-6" lat="37.352817226" lon="-121.880636902"/>
+<node visible="true" id="-7" lat="37.352825818" lon="-121.880618826"/>
+<node visible="true" id="-8" lat="37.352793088000006" lon="-121.88059444500001"/>
+<node visible="true" id="-9" lat="37.352783287" lon="-121.880615081"/>
+<node visible="true" id="-10" lat="37.352770108" lon="-121.88060523600001"/>
+<node visible="true" id="-11" lat="37.352775966" lon="-121.88059292400001"/>
+<node visible="true" id="-12" lat="37.352754156" lon="-121.88057669300001"/>
+<node visible="true" id="-13" lat="37.35274934" lon="-121.880586858"/>
+<node visible="true" id="-14" lat="37.352743186000005" lon="-121.88058227100001"/>
+<node visible="true" id="-15" lat="37.352776183" lon="-121.880627996"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="500"/><tag k="addr:street" v="North 17th Street"/><tag k="addr:postcode" v="95112"/></node>
+<node visible="true" id="-16" lat="37.352728485" lon="-121.88072453800001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="502"/><tag k="addr:street" v="North 17th Street"/><tag k="addr:postcode" v="95112"/></node>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="5.54"/><tag k="ele" v="29.33"/></way>
+</osm>

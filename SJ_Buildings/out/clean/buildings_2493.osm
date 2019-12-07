@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<osm version="0.6" generator="uvmogr2osm" upload="false">
+<node visible="true" id="-2" lat="37.367108560000005" lon="-121.91718877400001"/>
+<node visible="true" id="-3" lat="37.367087354" lon="-121.91717292000001"/>
+<node visible="true" id="-4" lat="37.367074278000004" lon="-121.91720037500001"/>
+<node visible="true" id="-5" lat="37.367095483" lon="-121.91721623000001"/>
+<node visible="true" id="-7" lat="37.367112279000004" lon="-121.917228765"/>
+<node visible="true" id="-8" lat="37.367125329000004" lon="-121.917201309"/>
+<node visible="true" id="-10" lat="37.368011191" lon="-121.91793756300001"/>
+<node visible="true" id="-11" lat="37.367976401" lon="-121.917911642"/>
+<node visible="true" id="-12" lat="37.368006283" lon="-121.91805262300001"/>
+<node visible="true" id="-13" lat="37.368026717" lon="-121.91800964800001"/>
+<node visible="true" id="-15" lat="37.369640949" lon="-121.920988378"/>
+<node visible="true" id="-16" lat="37.369671000000004" lon="-121.921029113"/>
+<node visible="true" id="-17" lat="37.369702118" lon="-121.920993053"/>
+<node visible="true" id="-18" lat="37.369672068" lon="-121.920952318"/>
+<node visible="true" id="-20" lat="37.368047941" lon="-121.917964967"/>
+<node visible="true" id="-21" lat="37.370767398000005" lon="-121.91881407400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="50"/><tag k="addr:street" v="Airport Parkway"/><tag k="addr:postcode" v="95110"/></node>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="9.65"/><tag k="ele" v="23.23"/></way>
+<way visible="true" id="-6"><nd ref="-2"/><nd ref="-5"/><nd ref="-7"/><nd ref="-8"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="10.76"/><tag k="ele" v="24.40"/></way>
+<way visible="true" id="-9"><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-10"/><tag k="building" v="yes"/><tag k="height" v="22.23"/><tag k="ele" v="31.06"/></way>
+<way visible="true" id="-14"><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-15"/><tag k="building" v="yes"/><tag k="height" v="2.51"/><tag k="ele" v="14.83"/></way>
+<way visible="true" id="-19"><nd ref="-10"/><nd ref="-13"/><nd ref="-20"/><nd ref="-10"/><tag k="building" v="yes"/><tag k="height" v="17.91"/><tag k="ele" v="22.58"/></way>
+</osm>

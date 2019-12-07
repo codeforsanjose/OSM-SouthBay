@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<osm version="0.6" generator="uvmogr2osm" upload="false">
+<node visible="true" id="-2" lat="37.375287578000005" lon="-121.91758577300001"/>
+<node visible="true" id="-3" lat="37.375337237000004" lon="-121.91765641200001"/>
+<node visible="true" id="-4" lat="37.375392637000004" lon="-121.91759527"/>
+<node visible="true" id="-5" lat="37.375342979" lon="-121.917524596"/>
+<node visible="true" id="-7" lat="37.377752497" lon="-121.914930673"/>
+<node visible="true" id="-8" lat="37.377784708" lon="-121.914960953"/>
+<node visible="true" id="-9" lat="37.377799509" lon="-121.914936245"/>
+<node visible="true" id="-10" lat="37.377767325" lon="-121.914905966"/>
+<node visible="true" id="-11" lat="37.374058233" lon="-121.91845847"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="2010"/><tag k="addr:street" v="North 1st Street"/><tag k="addr:unit" v="310;330;390;400;402;470"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-12" lat="37.373953734000004" lon="-121.91838845400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="2010"/><tag k="addr:street" v="North 1st Street"/><tag k="addr:unit" v="510;530;540"/><tag k="addr:postcode" v="95131"/></node>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="3.87"/><tag k="ele" v="15.57"/></way>
+<way visible="true" id="-6"><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-7"/><tag k="building" v="yes"/><tag k="height" v="2.96"/><tag k="ele" v="14.57"/></way>
+</osm>

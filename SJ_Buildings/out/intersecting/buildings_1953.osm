@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<osm version="0.6" generator="uvmogr2osm" upload="false">
+<node visible="true" id="-2" lat="37.366714462000004" lon="-121.893846667"/>
+<node visible="true" id="-3" lat="37.366989538000006" lon="-121.894048753"/>
+<node visible="true" id="-4" lat="37.367638195000005" lon="-121.89310764300001"/>
+<node visible="true" id="-5" lat="37.368083425" lon="-121.892441246"/>
+<node visible="true" id="-6" lat="37.367436588000004" lon="-121.89233251600001"/>
+<node visible="true" id="-7" lat="37.367415113" lon="-121.892340457"/>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-2"/><tag k="landuse" v="residential"/><tag k="name" v="Garden City Trailer Park"/></way>
+</osm>

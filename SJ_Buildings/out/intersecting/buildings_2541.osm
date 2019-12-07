@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<osm version="0.6" generator="uvmogr2osm" upload="false">
+<node visible="true" id="-2" lat="37.348984627" lon="-121.87553960400001"/>
+<node visible="true" id="-3" lat="37.349103405" lon="-121.875620857"/>
+<node visible="true" id="-4" lat="37.349149049000005" lon="-121.87551617400001"/>
+<node visible="true" id="-5" lat="37.349030242000005" lon="-121.87543492300001"/>
+<node visible="true" id="-6" lat="37.349736774" lon="-121.87400140400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="986"/><tag k="addr:street" v="East Julian Street"/><tag k="addr:postcode" v="95112"/></node>
+<node visible="true" id="-7" lat="37.348162645" lon="-121.877344546"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="806"/><tag k="addr:street" v="East Julian Street"/><tag k="addr:postcode" v="95112"/></node>
+<node visible="true" id="-8" lat="37.348975222" lon="-121.875434897"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="290"/><tag k="addr:street" v="North 19th Street"/><tag k="addr:postcode" v="95112"/></node>
+<node visible="true" id="-9" lat="37.349723791" lon="-121.87408641600001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="982"/><tag k="addr:street" v="East Julian Street"/><tag k="addr:postcode" v="95112"/></node>
+<node visible="true" id="-10" lat="37.349030256" lon="-121.87540008"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="902"/><tag k="addr:street" v="East Julian Street"/><tag k="addr:postcode" v="95112"/></node>
+<node visible="true" id="-11" lat="37.349710146" lon="-121.87411758500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="980"/><tag k="addr:street" v="East Julian Street"/><tag k="addr:postcode" v="95112"/></node>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="6.00"/><tag k="ele" v="32.46"/></way>
+</osm>

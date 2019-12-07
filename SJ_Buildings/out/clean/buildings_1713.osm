@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<osm version="0.6" generator="uvmogr2osm" upload="false">
+<node visible="true" id="-2" lat="37.307352491" lon="-121.750728639"/>
+<node visible="true" id="-3" lat="37.307396878000006" lon="-121.75073894"/>
+<node visible="true" id="-4" lat="37.30742018" lon="-121.75058105000001"/>
+<node visible="true" id="-5" lat="37.307375793000006" lon="-121.750570783"/>
+<node visible="true" id="-7" lat="37.306945595" lon="-121.75304938000001"/>
+<node visible="true" id="-8" lat="37.306963382" lon="-121.753068384"/>
+<node visible="true" id="-9" lat="37.306998124" lon="-121.75301742200001"/>
+<node visible="true" id="-10" lat="37.306980364000005" lon="-121.752998418"/>
+<node visible="true" id="-12" lat="37.307378246" lon="-121.75043355300001"/>
+<node visible="true" id="-13" lat="37.307404544" lon="-121.75044018400001"/>
+<node visible="true" id="-14" lat="37.307403927" lon="-121.75044395600001"/>
+<node visible="true" id="-15" lat="37.307457618" lon="-121.75045750900001"/>
+<node visible="true" id="-16" lat="37.307473974000004" lon="-121.75035592900001"/>
+<node visible="true" id="-17" lat="37.307420283" lon="-121.75034237800001"/>
+<node visible="true" id="-18" lat="37.3074134" lon="-121.750385073"/>
+<node visible="true" id="-19" lat="37.307387129000006" lon="-121.750378444"/>
+<node visible="true" id="-21" lat="37.307202236" lon="-121.75077842600001"/>
+<node visible="true" id="-22" lat="37.307315433" lon="-121.75080628100001"/>
+<node visible="true" id="-23" lat="37.307321119" lon="-121.75077020200001"/>
+<node visible="true" id="-24" lat="37.307336953000004" lon="-121.750774112"/>
+<node visible="true" id="-25" lat="37.307339783" lon="-121.75075600400001"/>
+<node visible="true" id="-26" lat="37.307324415000004" lon="-121.750752238"/>
+<node visible="true" id="-27" lat="37.307326449" lon="-121.750739171"/>
+<node visible="true" id="-28" lat="37.30734253" lon="-121.75074312000001"/>
+<node visible="true" id="-29" lat="37.307345389000005" lon="-121.75072487400001"/>
+<node visible="true" id="-30" lat="37.307329637" lon="-121.75072096500001"/>
+<node visible="true" id="-31" lat="37.307337742" lon="-121.75066928100001"/>
+<node visible="true" id="-32" lat="37.307223778" lon="-121.75064124200001"/>
+<node visible="true" id="-34" lat="37.303754991000005" lon="-121.752639642"/>
+<node visible="true" id="-35" lat="37.303789646000006" lon="-121.75264558500001"/>
+<node visible="true" id="-36" lat="37.303795794" lon="-121.752589505"/>
+<node visible="true" id="-37" lat="37.303761112000004" lon="-121.75258355800001"/>
+<node visible="true" id="-38" lat="37.313109221000005" lon="-121.75245439000001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="3388"/><tag k="addr:street" v="Fowler Road"/><tag k="addr:postcode" v="95135"/></node>
+<node visible="true" id="-39" lat="37.305837644" lon="-121.75257968400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="3403"/><tag k="addr:street" v="Yerba Buena Road"/><tag k="addr:postcode" v="95135"/></node>
+<node visible="true" id="-40" lat="37.30339309" lon="-121.737841841"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="3751;3765"/><tag k="addr:street" v="Old Yerba Buena Road"/><tag k="addr:postcode" v="95135"/></node>
+<node visible="true" id="-41" lat="37.304045382000005" lon="-121.74412789700001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="3769"/><tag k="addr:street" v="Old Yerba Buena Road"/><tag k="addr:postcode" v="95135"/></node>
+<node visible="true" id="-43" lat="37.312352063000006" lon="-121.75316095800001"/>
+<node visible="true" id="-44" lat="37.312418310000005" lon="-121.753179263"/>
+<node visible="true" id="-45" lat="37.312420327000005" lon="-121.75316784600001"/>
+<node visible="true" id="-46" lat="37.312509169" lon="-121.75319237500001"/>
+<node visible="true" id="-47" lat="37.312512591" lon="-121.753172934"/>
+<node visible="true" id="-48" lat="37.312523956" lon="-121.75317604800001"/>
+<node visible="true" id="-49" lat="37.312535886" lon="-121.753198326"/>
+<node visible="true" id="-50" lat="37.312640618" lon="-121.75311620800001"/>
+<node visible="true" id="-51" lat="37.31259377" lon="-121.753022607"/>
+<node visible="true" id="-52" lat="37.312546128" lon="-121.75305994600001"/>
+<node visible="true" id="-53" lat="37.312533418" lon="-121.75305667200001"/>
+<node visible="true" id="-54" lat="37.312533741" lon="-121.75305482"/>
+<node visible="true" id="-55" lat="37.312440380000005" lon="-121.75302904700001"/>
+<node visible="true" id="-56" lat="37.312442017" lon="-121.753019789"/>
+<node visible="true" id="-57" lat="37.312379932" lon="-121.75300265400001"/>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="3.79"/><tag k="ele" v="171.30"/></way>
+<way visible="true" id="-6"><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-7"/><tag k="building" v="yes"/><tag k="height" v="2.53"/><tag k="ele" v="162.68"/></way>
+<way visible="true" id="-11"><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-12"/><tag k="building" v="yes"/><tag k="height" v="4.58"/><tag k="ele" v="173.46"/></way>
+<way visible="true" id="-20"><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-26"/><nd ref="-27"/><nd ref="-28"/><nd ref="-29"/><nd ref="-30"/><nd ref="-31"/><nd ref="-32"/><nd ref="-21"/><tag k="building" v="yes"/><tag k="height" v="3.72"/><tag k="ele" v="174.22"/></way>
+<way visible="true" id="-33"><nd ref="-34"/><nd ref="-35"/><nd ref="-36"/><nd ref="-37"/><nd ref="-34"/><tag k="building" v="yes"/><tag k="height" v="2.58"/><tag k="ele" v="167.01"/></way>
+<way visible="true" id="-42"><nd ref="-43"/><nd ref="-44"/><nd ref="-45"/><nd ref="-46"/><nd ref="-47"/><nd ref="-48"/><nd ref="-49"/><nd ref="-50"/><nd ref="-51"/><nd ref="-52"/><nd ref="-53"/><nd ref="-54"/><nd ref="-55"/><nd ref="-56"/><nd ref="-57"/><nd ref="-43"/><tag k="building" v="yes"/><tag k="height" v="5.18"/><tag k="ele" v="169.01"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="3384"/><tag k="addr:street" v="Fowler Road"/><tag k="addr:postcode" v="95135"/></way>
+</osm>

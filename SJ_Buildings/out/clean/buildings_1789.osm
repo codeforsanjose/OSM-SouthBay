@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<osm version="0.6" generator="uvmogr2osm" upload="false">
+<node visible="true" id="-2" lat="37.194618424000005" lon="-121.756519177"/>
+<node visible="true" id="-3" lat="37.194698024000004" lon="-121.756608787"/>
+<node visible="true" id="-4" lat="37.194788342" lon="-121.75648553200001"/>
+<node visible="true" id="-5" lat="37.194707874" lon="-121.75639501500001"/>
+<node visible="true" id="-6" lat="37.194692594" lon="-121.75641621700001"/>
+<node visible="true" id="-8" lat="37.193419422000005" lon="-121.766688314"/>
+<node visible="true" id="-9" lat="37.193435995" lon="-121.76670260200001"/>
+<node visible="true" id="-10" lat="37.193453997" lon="-121.76669137"/>
+<node visible="true" id="-11" lat="37.193454847000005" lon="-121.766666219"/>
+<node visible="true" id="-12" lat="37.193437657000004" lon="-121.76665315500001"/>
+<node visible="true" id="-13" lat="37.193421396000005" lon="-121.76666328300001"/>
+<node visible="true" id="-15" lat="37.193419675" lon="-121.766611615"/>
+<node visible="true" id="-16" lat="37.193421848" lon="-121.766631738"/>
+<node visible="true" id="-17" lat="37.193437969" lon="-121.766634448"/>
+<node visible="true" id="-18" lat="37.193444269000004" lon="-121.76661570600001"/>
+<node visible="true" id="-19" lat="37.193431496" lon="-121.76660316300001"/>
+<node visible="true" id="-21" lat="37.193397292" lon="-121.76657079200001"/>
+<node visible="true" id="-22" lat="37.193398478" lon="-121.76659076000001"/>
+<node visible="true" id="-23" lat="37.193414261" lon="-121.76659425400001"/>
+<node visible="true" id="-24" lat="37.193420858" lon="-121.766575997"/>
+<node visible="true" id="-25" lat="37.193408331" lon="-121.76656349400001"/>
+<node visible="true" id="-26" lat="37.195875864" lon="-121.776491792"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="22605"/><tag k="addr:street" v="Country View Lane"/><tag k="addr:postcode" v="95120"/></node>
+<node visible="true" id="-27" lat="37.195519976" lon="-121.775019338"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="22611"/><tag k="addr:street" v="Country View Lane"/><tag k="addr:postcode" v="95120"/></node>
+<node visible="true" id="-28" lat="37.198233123" lon="-121.775592446"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="22610"/><tag k="addr:street" v="Country View Drive"/><tag k="addr:postcode" v="95120"/></node>
+<node visible="true" id="-29" lat="37.195022687000005" lon="-121.772078116"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="22623"/><tag k="addr:street" v="Country View Lane"/><tag k="addr:postcode" v="95120"/></node>
+<node visible="true" id="-30" lat="37.20718577" lon="-121.75054249300001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="8245"/><tag k="addr:street" v="Santa Teresa Boulevard"/><tag k="addr:postcode" v="95037"/></node>
+<node visible="true" id="-31" lat="37.195091579" lon="-121.77363507800001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="22617"/><tag k="addr:street" v="Country View Lane"/><tag k="addr:postcode" v="95120"/></node>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="4.41"/><tag k="ele" v="91.09"/></way>
+<way visible="true" id="-7"><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-8"/><tag k="building" v="yes"/><tag k="height" v="3.86"/><tag k="ele" v="213.18"/></way>
+<way visible="true" id="-14"><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-15"/><tag k="building" v="yes"/><tag k="height" v="2.90"/><tag k="ele" v="211.96"/></way>
+<way visible="true" id="-20"><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-21"/><tag k="building" v="yes"/><tag k="height" v="2.83"/><tag k="ele" v="211.90"/></way>
+</osm>

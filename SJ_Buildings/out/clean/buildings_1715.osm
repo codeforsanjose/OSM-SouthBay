@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<osm version="0.6" generator="uvmogr2osm" upload="false">
+<node visible="true" id="-2" lat="37.236089418" lon="-121.78170140600001"/>
+<node visible="true" id="-3" lat="37.236125505000004" lon="-121.781759601"/>
+<node visible="true" id="-4" lat="37.23620013" lon="-121.781687226"/>
+<node visible="true" id="-5" lat="37.236164043" lon="-121.78162903"/>
+<node visible="true" id="-7" lat="37.234078289" lon="-121.78008227000001"/>
+<node visible="true" id="-8" lat="37.234142997" lon="-121.780188222"/>
+<node visible="true" id="-9" lat="37.234178082" lon="-121.78015471"/>
+<node visible="true" id="-10" lat="37.234113346" lon="-121.78004875900001"/>
+<node visible="true" id="-12" lat="37.233995963000005" lon="-121.78038405900001"/>
+<node visible="true" id="-13" lat="37.234008805" lon="-121.78040537000001"/>
+<node visible="true" id="-14" lat="37.234094618" lon="-121.78032456400001"/>
+<node visible="true" id="-15" lat="37.234081777" lon="-121.78030325200001"/>
+<node visible="true" id="-17" lat="37.233899716" lon="-121.780022637"/>
+<node visible="true" id="-18" lat="37.233965557000005" lon="-121.780133039"/>
+<node visible="true" id="-19" lat="37.234000549" lon="-121.78010041900001"/>
+<node visible="true" id="-20" lat="37.23393471" lon="-121.779989982"/>
+<node visible="true" id="-21" lat="37.235910447" lon="-121.783399048"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="6540"/><tag k="addr:street" v="Via Del Oro"/><tag k="addr:postcode" v="95119"/></node>
+<node visible="true" id="-22" lat="37.233028031" lon="-121.78079453500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="123"/><tag k="addr:street" v="Great Oaks Boulevard"/><tag k="addr:postcode" v="95119"/></node>
+<node visible="true" id="-23" lat="37.234205665000005" lon="-121.78523317800001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="6388"/><tag k="addr:street" v="San Ignacio Avenue"/><tag k="addr:postcode" v="95119"/></node>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="6.88"/><tag k="ele" v="70.89"/></way>
+<way visible="true" id="-6"><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-7"/><tag k="building" v="yes"/><tag k="height" v="2.42"/><tag k="ele" v="65.73"/></way>
+<way visible="true" id="-11"><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-12"/><tag k="building" v="yes"/><tag k="height" v="0.00"/><tag k="ele" v="65.78"/></way>
+<way visible="true" id="-16"><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-17"/><tag k="building" v="yes"/><tag k="height" v="2.65"/><tag k="ele" v="66.20"/></way>
+</osm>
