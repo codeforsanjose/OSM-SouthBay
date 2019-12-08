@@ -352,4 +352,17 @@ delete from VTATaz
 	and key not in (
 		select distinct cid from "Site_Address_Points"
 	);
+insert into VTATaz (taz, key, area, geom)
+	select taz, key, area, ST_Multi((ST_Dump(geom)).geom)
+	from VTATaz
+	where ST_NumGeometries(geom) > 1;
+delete from VTATaz
+	where ST_NumGeometries(geom) > 1;
+delete from VTATaz
+	using (
+		select VTATaz.*,
+		(row_number() over (partition by key order by ST_Area(geom) desc)) as rn from VTATaz
+	) as filtered
+	where VTATaz.gid=filtered.gid
+	and rn > 1;
 

@@ -76,10 +76,11 @@ for intersects in false true; do
         intersectsQuery="not intersectsExisting"
     fi
     
-    ogr2ogr -sql "select 'https://codeforsanjose.github.io/OSM-SouthBay/SJ_Buildings/out/${outdir}/buildings_' || key || '.osm' as import_url, geom from VTATaz" \
+    ogr2ogr -sql "select 'https://codeforsanjose.github.io/OSM-SouthBay/SJ_Buildings/out/${outdir}/buildings_' || key || '.osm' as import_url, ST_SimplifyPreserveTopology(geom, 4) from VTATaz" \
         -t_srs EPSG:4326 \
         "out/grouped_${outdir}_buildings_zones.geojson" \
         "PG:dbname=${DBNAME} host=localhost"
+    sed -i 's/ //g' "out/grouped_${outdir}_buildings_zones.geojson"
     
     for cid in {1153..2632}; do
         # Skip empty TAZs
