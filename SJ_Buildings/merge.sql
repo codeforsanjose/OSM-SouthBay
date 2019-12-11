@@ -14,9 +14,9 @@ delete from "Site_Address_Points"
 \set PARTITIONS 5*/
 
 delete from "Site_Address_Points"
-	where "Status"='Unverified'
-	or "Status"='Temporary'
-	or "Status"='Retired';
+	where "Status"='U'
+	or "Status"='T'
+	or "Status"='Deleted';
 
 -- Find and delete address points that don't have a matching street name in OSM
 drop table if exists missingStreets;
@@ -163,8 +163,8 @@ with uniqParcel as (
 	from "Site_Address_Points"
 	where "Unit" is null
 	or "Unit" like '%;%'
-	or "Unit_Type" = 'Building'
-	or "Unit_Type" = 'Space'
+	or "Unit_Type" = 'Bldg'
+	or "Unit_Type" = 'Spc'
 	or "Unit_Type" is null
 	group by "ParcelID"
 	having count(*) = 1)
@@ -186,12 +186,12 @@ select (row_number() over (partition by ParcelID order by ST_Distance("Site_Addr
 	on uniqParcel."ParcelID"="Site_Address_Points"."ParcelID"
 	where ("Unit" is null
 		or "Unit" like '%;%'
-		or "Unit_Type" = 'Building'
-		or "Unit_Type" = 'Space'
+		or "Unit_Type" = 'Bldg'
+		or "Unit_Type" = 'Spc'
 		or "Unit_Type" is null)
 	and ST_Area(Parcel.geom) < :LARGE_PARCEL
-	and ("Place_Type" is null or "Place_Type" != 'Educational')
-	and ("Place_Type" is null or "Place_Type" != 'Hospital');
+	and ("Place_Type" is null or "Place_Type" != 'ED')
+	and ("Place_Type" is null or "Place_Type" != 'HS');
 -- Merge the address with the building closest to the address
 delete from mergedBuildings where rn != 1;
 

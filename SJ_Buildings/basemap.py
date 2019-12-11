@@ -85,27 +85,29 @@ def filterTags(attrs):
         if zipcode: tags["addr:postcode"] = zipcode
 
         pt = attrs["Place_Type"]
-        #if pt == "Business":
+        #if pt == "BU":
             #tags["office"] = "yes"
-        if pt == "Educational":
+        if pt == "ED":
             tags["amenity"] = "school"
-        elif pt == "Faith Based Organiz":
+        elif pt == "FB":
             tags["amenity"] = "place_of_worship"
-        elif pt == "Government":
+        elif pt == "GO":
             tags["office"] = "government"
-        elif pt == "Group Quarters":
+        elif pt == "GQ":
             # Salvation army
             tags["amenity"] = "social_facility"
-        elif pt == "Hospital":
+        elif pt == "HS":
             tags["amenity"] = "hospital"
-        elif pt == "Hotel" and not units:
+        elif pt == "HT" and not units:
             tags["tourism"] = "hotel"
-        elif pt == "Recreational":
+        elif pt == "RE":
             tags["club"] = "sport"
-        elif pt == "Restaurant":
+        elif pt == "RT":
             tags["amenity"] = "restaurant"
-        elif pt == "Retail":
+        elif pt == "RL":
             tags["shop"] = "yes"
+        elif pt == "TR":
+            tags["public_transport"] = "platform"
 
         # Always appear, no equivalent: OBJECTID, Site_NGUID, ESN, Lat, Long, Status, Juris_Auth, LastUpdate, LastEditor, GlobalID
         # FullMailin could be used for addr:full, but it's unneeded.
@@ -116,17 +118,18 @@ def filterTags(attrs):
     if "Inc_Muni" in attrs and "bldgelev" in attrs:
         # Merged address/buildings
         # other Place_Type are Common Area (multi-use), Miscellaneous
-        tags["building"] = {"Business": "commercial",
-                            "Educational": "school",
-                            "Faith Based Organiz": "religious",
-                            "Government": "government",
-                            "Hospital": "hospital",
-                            "Hotel": "hotel",
-                            "Mobile Home": "static_caravan",
-                            "Multi Family": "residential",
-                            "Restaurant": "retail",
-                            "Retail": "retail",
-                            "Single Family": "house"}.get(attrs["Place_Type"], "yes")
+        tags["building"] = {"BU": "commercial",
+                            "ED": "school",
+                            "FB": "religious",
+                            "GO": "government",
+                            "HS": "hospital",
+                            "HT": "hotel",
+                            "MH": "static_caravan",
+                            "Condominium": "residential",
+                            "MF": "residential",
+                            "RL": "retail",
+                            "RT": "retail",
+                            "SF": "house"}.get(attrs["Place_Type"], "yes")
     
     if "Addtl_Loc" in attrs and "Inc_Muni" not in attrs:
         # Named parcels
