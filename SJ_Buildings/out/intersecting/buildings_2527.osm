@@ -21,33 +21,9 @@
 <node visible="true" id="-22" lat="37.352603753000004" lon="-121.88131268000001"/>
 <node visible="true" id="-23" lat="37.352594633" lon="-121.88133140100001"/>
 <node visible="true" id="-24" lat="37.352517648" lon="-121.881331278"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="515"/><tag k="addr:street" v="North 17th Street"/><tag k="addr:unit" v="1-8"/><tag k="addr:postcode" v="95112"/></node>
-<node visible="true" id="-25" lat="37.352536841" lon="-121.881263453"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="775"/><tag k="addr:street" v="East Empire Street"/><tag k="addr:postcode" v="95112"/></node>
-<node visible="true" id="-26" lat="37.352606843000004" lon="-121.881217144"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="501"/><tag k="addr:street" v="North 17th Street"/><tag k="addr:postcode" v="95112"/></node>
-<node visible="true" id="-28" lat="37.422116508" lon="-121.975234911"/>
-<node visible="true" id="-29" lat="37.421989715" lon="-121.974247175"/>
-<node visible="true" id="-30" lat="37.421759560000005" lon="-121.97226752700001"/>
-<node visible="true" id="-31" lat="37.421468185" lon="-121.971470041"/>
-<node visible="true" id="-32" lat="37.420980244" lon="-121.971237837"/>
-<node visible="true" id="-33" lat="37.420936498" lon="-121.9712305"/>
-<node visible="true" id="-34" lat="37.42093793" lon="-121.97118634200001"/>
-<node visible="true" id="-35" lat="37.419847646" lon="-121.971632948"/>
-<node visible="true" id="-36" lat="37.419690336" lon="-121.97184329900001"/>
-<node visible="true" id="-37" lat="37.419893929000004" lon="-121.973084162"/>
-<node visible="true" id="-38" lat="37.419996251" lon="-121.973473279"/>
-<node visible="true" id="-39" lat="37.420213366000006" lon="-121.97370007800001"/>
-<node visible="true" id="-40" lat="37.420446053" lon="-121.97383079000001"/>
-<node visible="true" id="-41" lat="37.420641434000004" lon="-121.973835061"/>
-<node visible="true" id="-42" lat="37.421141962" lon="-121.97420411700001"/>
-<node visible="true" id="-43" lat="37.421364926" lon="-121.974642911"/>
-<node visible="true" id="-44" lat="37.421354567" lon="-121.97553680000001"/>
-<node visible="true" id="-45" lat="37.421492122000004" lon="-121.975694465"/>
-<node visible="true" id="-46" lat="37.421496958000006" lon="-121.97582095400001"/>
-<node visible="true" id="-47" lat="37.42151681" lon="-121.97582152000001"/>
-<node visible="true" id="-48" lat="37.421515715000005" lon="-121.97589117000001"/>
-<node visible="true" id="-49" lat="37.421637569000005" lon="-121.97590380800001"/>
-<node visible="true" id="-50" lat="37.421640428" lon="-121.97556077300001"/>
+<node visible="true" id="-25" lat="37.352606843000004" lon="-121.881217144"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="501"/><tag k="addr:street" v="North 17th Street"/><tag k="addr:postcode" v="95112"/></node>
+<node visible="true" id="-26" lat="37.352536841" lon="-121.881263453"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="775"/><tag k="addr:street" v="East Empire Street"/><tag k="addr:postcode" v="95112"/></node>
 <way visible="true" id="-2"><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-3"/></way>
 <way visible="true" id="-19"><nd ref="-20"/><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-20"/></way>
-<way visible="true" id="-27"><nd ref="-28"/><nd ref="-29"/><nd ref="-30"/><nd ref="-31"/><nd ref="-32"/><nd ref="-33"/><nd ref="-34"/><nd ref="-35"/><nd ref="-36"/><nd ref="-37"/><nd ref="-38"/><nd ref="-39"/><nd ref="-40"/><nd ref="-41"/><nd ref="-42"/><nd ref="-43"/><nd ref="-44"/><nd ref="-45"/><nd ref="-46"/><nd ref="-47"/><nd ref="-48"/><nd ref="-49"/><nd ref="-50"/><nd ref="-28"/><tag k="landuse" v="residential"/><tag k="name" v="Summerset Mobile Home Park"/></way>
 <relation visible="true" id="-1"><member type="way" ref="-2" role="outer"/><member type="way" ref="-19" role="inner"/><tag k="type" v="multipolygon"/><tag k="building" v="yes"/><tag k="height" v="7.21"/><tag k="ele" v="30.88"/></relation>
 </osm>

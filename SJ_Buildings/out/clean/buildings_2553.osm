@@ -1,23 +1,23 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="uvmogr2osm" upload="false">
-<node visible="true" id="-2" lat="37.340716304000004" lon="-121.89036137500001"/>
-<node visible="true" id="-3" lat="37.340740127000004" lon="-121.890379159"/>
-<node visible="true" id="-4" lat="37.340775116" lon="-121.89030553500001"/>
-<node visible="true" id="-5" lat="37.340751292" lon="-121.890287786"/>
-<node visible="true" id="-7" lat="37.339293445" lon="-121.89257798400001"/>
-<node visible="true" id="-8" lat="37.339324668" lon="-121.892601822"/>
-<node visible="true" id="-9" lat="37.339312504000006" lon="-121.89262684600001"/>
-<node visible="true" id="-10" lat="37.339349579" lon="-121.89265512700001"/>
-<node visible="true" id="-11" lat="37.339362389" lon="-121.89262880800001"/>
-<node visible="true" id="-12" lat="37.339427557" lon="-121.892678528"/>
-<node visible="true" id="-13" lat="37.339414662" lon="-121.892705018"/>
-<node visible="true" id="-14" lat="37.339443298" lon="-121.892726881"/>
-<node visible="true" id="-15" lat="37.339402303" lon="-121.89281115700001"/>
-<node visible="true" id="-16" lat="37.339565853" lon="-121.89293540400001"/>
-<node visible="true" id="-17" lat="37.339747219" lon="-121.89255200500001"/>
-<node visible="true" id="-18" lat="37.339587649" lon="-121.892430243"/>
-<node visible="true" id="-19" lat="37.33958323" lon="-121.892439311"/>
-<node visible="true" id="-20" lat="37.339421074" lon="-121.892315573"/>
+<node visible="true" id="-2" lat="37.339293445" lon="-121.89257798400001"/>
+<node visible="true" id="-3" lat="37.339324668" lon="-121.892601822"/>
+<node visible="true" id="-4" lat="37.339312504000006" lon="-121.89262684600001"/>
+<node visible="true" id="-5" lat="37.339349579" lon="-121.89265512700001"/>
+<node visible="true" id="-6" lat="37.339362389" lon="-121.89262880800001"/>
+<node visible="true" id="-7" lat="37.339427557" lon="-121.892678528"/>
+<node visible="true" id="-8" lat="37.339414662" lon="-121.892705018"/>
+<node visible="true" id="-9" lat="37.339443298" lon="-121.892726881"/>
+<node visible="true" id="-10" lat="37.339402303" lon="-121.89281115700001"/>
+<node visible="true" id="-11" lat="37.339565853" lon="-121.89293540400001"/>
+<node visible="true" id="-12" lat="37.339747219" lon="-121.89255200500001"/>
+<node visible="true" id="-13" lat="37.339587649" lon="-121.892430243"/>
+<node visible="true" id="-14" lat="37.33958323" lon="-121.892439311"/>
+<node visible="true" id="-15" lat="37.339421074" lon="-121.892315573"/>
+<node visible="true" id="-17" lat="37.340716304000004" lon="-121.89036137500001"/>
+<node visible="true" id="-18" lat="37.340740127000004" lon="-121.890379159"/>
+<node visible="true" id="-19" lat="37.340775116" lon="-121.89030553500001"/>
+<node visible="true" id="-20" lat="37.340751292" lon="-121.890287786"/>
 <node visible="true" id="-21" lat="37.339404912" lon="-121.89259911500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="200"/><tag k="addr:street" v="North 1st Street"/><tag k="addr:postcode" v="95113"/></node>
 <node visible="true" id="-23" lat="37.340463983" lon="-121.89017397100001"/>
 <node visible="true" id="-24" lat="37.340515628000006" lon="-121.89021287700001"/>
@@ -41,8 +41,8 @@
 <node visible="true" id="-43" lat="37.341012297" lon="-121.89257544700001"/>
 <node visible="true" id="-44" lat="37.341041923" lon="-121.892564921"/>
 <node visible="true" id="-45" lat="37.341024513" lon="-121.892488189"/>
-<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="2.55"/><tag k="ele" v="26.90"/></way>
-<way visible="true" id="-6"><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-7"/><tag k="building" v="yes"/><tag k="height" v="5.15"/><tag k="ele" v="32.99"/></way>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="5.15"/><tag k="ele" v="32.99"/></way>
+<way visible="true" id="-16"><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-17"/><tag k="building" v="yes"/><tag k="height" v="2.55"/><tag k="ele" v="26.90"/></way>
 <way visible="true" id="-22"><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-26"/><nd ref="-27"/><nd ref="-28"/><nd ref="-29"/><nd ref="-30"/><nd ref="-31"/><nd ref="-32"/><nd ref="-33"/><nd ref="-34"/><nd ref="-35"/><nd ref="-36"/><nd ref="-37"/><nd ref="-38"/><nd ref="-39"/><nd ref="-40"/><nd ref="-23"/><tag k="building" v="yes"/><tag k="height" v="8.20"/><tag k="ele" v="32.34"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="135"/><tag k="addr:street" v="East Saint James Street"/><tag k="addr:postcode" v="95112"/></way>
 <way visible="true" id="-41"><nd ref="-42"/><nd ref="-43"/><nd ref="-44"/><nd ref="-45"/><nd ref="-42"/><tag k="building" v="yes"/><tag k="height" v="3.30"/><tag k="ele" v="26.63"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="50"/><tag k="addr:street" v="East Julian Street"/><tag k="addr:postcode" v="95112"/></way>
 </osm>

@@ -2,4 +2,18 @@
 <osm version="0.6" generator="uvmogr2osm" upload="false">
 <node visible="true" id="-1" lat="37.409232540000005" lon="-121.86396108900001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="3018"/><tag k="addr:street" v="Ironside Court"/><tag k="addr:postcode" v="95132"/></node>
 <node visible="true" id="-2" lat="37.410245591" lon="-121.861071526"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1880"/><tag k="addr:street" v="Messina Drive"/><tag k="addr:postcode" v="95132"/></node>
+<node visible="true" id="-4" lat="37.418423241" lon="-121.967217953"/>
+<node visible="true" id="-5" lat="37.418445098" lon="-121.966834152"/>
+<node visible="true" id="-6" lat="37.418441688" lon="-121.964906392"/>
+<node visible="true" id="-7" lat="37.418371662000006" lon="-121.96490501800001"/>
+<node visible="true" id="-8" lat="37.417850064" lon="-121.96523131000001"/>
+<node visible="true" id="-9" lat="37.417404343" lon="-121.96572597500001"/>
+<node visible="true" id="-10" lat="37.417003054000006" lon="-121.96605424200001"/>
+<node visible="true" id="-11" lat="37.416700426000006" lon="-121.965993783"/>
+<node visible="true" id="-12" lat="37.417421036" lon="-121.96664087200001"/>
+<node visible="true" id="-13" lat="37.417677875" lon="-121.966844076"/>
+<node visible="true" id="-14" lat="37.417893246000006" lon="-121.966985131"/>
+<node visible="true" id="-15" lat="37.418116171" lon="-121.96710636200001"/>
+<node visible="true" id="-16" lat="37.418422253" lon="-121.967235462"/>
+<way visible="true" id="-3"><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-4"/><tag k="landuse" v="residential"/><tag k="name" v="Oakcrest Estates Mobile Home P"/></way>
 </osm>

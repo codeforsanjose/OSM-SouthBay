@@ -36,28 +36,28 @@
 <node visible="true" id="-41" lat="37.37369889" lon="-121.919572692"/>
 <node visible="true" id="-42" lat="37.373616473000006" lon="-121.91966457000001"/>
 <node visible="true" id="-43" lat="37.373605265" lon="-121.9196488"/>
-<node visible="true" id="-45" lat="37.373923059" lon="-121.919815123"/>
-<node visible="true" id="-46" lat="37.374009844" lon="-121.91987968900001"/>
-<node visible="true" id="-47" lat="37.374064332" lon="-121.919950697"/>
-<node visible="true" id="-48" lat="37.374138893" lon="-121.919870302"/>
-<node visible="true" id="-49" lat="37.37412371" lon="-121.91985838100001"/>
-<node visible="true" id="-50" lat="37.374146341" lon="-121.91981320800001"/>
-<node visible="true" id="-51" lat="37.374034732000005" lon="-121.91972535200001"/>
-<node visible="true" id="-52" lat="37.374009736000005" lon="-121.91977519500001"/>
-<node visible="true" id="-53" lat="37.37396038" lon="-121.91973636200001"/>
-<node visible="true" id="-55" lat="37.373435978" lon="-121.920710423"/>
-<node visible="true" id="-56" lat="37.373470852000004" lon="-121.92075879000001"/>
-<node visible="true" id="-57" lat="37.373499538000004" lon="-121.920726328"/>
-<node visible="true" id="-58" lat="37.373464663" lon="-121.920677963"/>
-<node visible="true" id="-59" lat="37.374158567" lon="-121.920430139"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="2107"/><tag k="addr:street" v="North 1st Street"/><tag k="addr:postcode" v="95131"/></node>
-<node visible="true" id="-61" lat="37.373585391" lon="-121.91937999900001"/>
-<node visible="true" id="-62" lat="37.37377113" lon="-121.91951603800001"/>
-<node visible="true" id="-63" lat="37.373747640000005" lon="-121.91956635700001"/>
-<node visible="true" id="-64" lat="37.373989246" lon="-121.91974334700001"/>
-<node visible="true" id="-65" lat="37.374145060000004" lon="-121.91941297400001"/>
-<node visible="true" id="-66" lat="37.373799264000006" lon="-121.919156943"/>
-<node visible="true" id="-67" lat="37.373728983" lon="-121.919305944"/>
-<node visible="true" id="-68" lat="37.373681287000004" lon="-121.919270619"/>
+<node visible="true" id="-45" lat="37.373585391" lon="-121.91937999900001"/>
+<node visible="true" id="-46" lat="37.37377113" lon="-121.91951603800001"/>
+<node visible="true" id="-47" lat="37.373747640000005" lon="-121.91956635700001"/>
+<node visible="true" id="-48" lat="37.373989246" lon="-121.91974334700001"/>
+<node visible="true" id="-49" lat="37.374145060000004" lon="-121.91941297400001"/>
+<node visible="true" id="-50" lat="37.373799264000006" lon="-121.919156943"/>
+<node visible="true" id="-51" lat="37.373728983" lon="-121.919305944"/>
+<node visible="true" id="-52" lat="37.373681287000004" lon="-121.919270619"/>
+<node visible="true" id="-54" lat="37.373923059" lon="-121.919815123"/>
+<node visible="true" id="-55" lat="37.374009844" lon="-121.91987968900001"/>
+<node visible="true" id="-56" lat="37.374064332" lon="-121.919950697"/>
+<node visible="true" id="-57" lat="37.374138893" lon="-121.919870302"/>
+<node visible="true" id="-58" lat="37.37412371" lon="-121.91985838100001"/>
+<node visible="true" id="-59" lat="37.374146341" lon="-121.91981320800001"/>
+<node visible="true" id="-60" lat="37.374034732000005" lon="-121.91972535200001"/>
+<node visible="true" id="-61" lat="37.374009736000005" lon="-121.91977519500001"/>
+<node visible="true" id="-62" lat="37.37396038" lon="-121.91973636200001"/>
+<node visible="true" id="-64" lat="37.373435978" lon="-121.920710423"/>
+<node visible="true" id="-65" lat="37.373470852000004" lon="-121.92075879000001"/>
+<node visible="true" id="-66" lat="37.373499538000004" lon="-121.920726328"/>
+<node visible="true" id="-67" lat="37.373464663" lon="-121.920677963"/>
+<node visible="true" id="-68" lat="37.374158567" lon="-121.920430139"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="2107"/><tag k="addr:street" v="North 1st Street"/><tag k="addr:postcode" v="95131"/></node>
 <way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="3.81"/><tag k="ele" v="14.10"/></way>
 <way visible="true" id="-6"><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-7"/><tag k="building" v="yes"/><tag k="height" v="6.67"/><tag k="ele" v="18.39"/></way>
 <way visible="true" id="-19"><nd ref="-20"/><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-20"/><tag k="building" v="yes"/><tag k="height" v="13.14"/><tag k="ele" v="23.10"/></way>
@@ -65,7 +65,7 @@
 <way visible="true" id="-29"><nd ref="-8"/><nd ref="-11"/><nd ref="-10"/><nd ref="-9"/><nd ref="-8"/><tag k="building" v="yes"/><tag k="height" v="13.11"/><tag k="ele" v="23.89"/></way>
 <way visible="true" id="-30"><nd ref="-31"/><nd ref="-32"/><nd ref="-33"/><nd ref="-34"/><nd ref="-31"/><tag k="building" v="yes"/><tag k="height" v="3.65"/><tag k="ele" v="15.06"/></way>
 <way visible="true" id="-35"><nd ref="-36"/><nd ref="-37"/><nd ref="-38"/><nd ref="-39"/><nd ref="-40"/><nd ref="-41"/><nd ref="-42"/><nd ref="-43"/><nd ref="-36"/><tag k="building" v="yes"/><tag k="height" v="4.03"/><tag k="ele" v="15.22"/></way>
-<way visible="true" id="-44"><nd ref="-45"/><nd ref="-46"/><nd ref="-47"/><nd ref="-48"/><nd ref="-49"/><nd ref="-50"/><nd ref="-51"/><nd ref="-52"/><nd ref="-53"/><nd ref="-45"/><tag k="building" v="yes"/><tag k="height" v="4.58"/><tag k="ele" v="16.54"/></way>
-<way visible="true" id="-54"><nd ref="-55"/><nd ref="-56"/><nd ref="-57"/><nd ref="-58"/><nd ref="-55"/><tag k="building" v="yes"/><tag k="height" v="2.41"/><tag k="ele" v="13.34"/></way>
-<way visible="true" id="-60"><nd ref="-61"/><nd ref="-62"/><nd ref="-63"/><nd ref="-64"/><nd ref="-65"/><nd ref="-66"/><nd ref="-67"/><nd ref="-68"/><nd ref="-61"/><tag k="building" v="yes"/><tag k="height" v="4.94"/><tag k="ele" v="17.38"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="2105"/><tag k="addr:street" v="North 1st Street"/><tag k="addr:postcode" v="95131"/></way>
+<way visible="true" id="-44"><nd ref="-45"/><nd ref="-46"/><nd ref="-47"/><nd ref="-48"/><nd ref="-49"/><nd ref="-50"/><nd ref="-51"/><nd ref="-52"/><nd ref="-45"/><tag k="building" v="yes"/><tag k="height" v="4.94"/><tag k="ele" v="17.38"/></way>
+<way visible="true" id="-53"><nd ref="-54"/><nd ref="-55"/><nd ref="-56"/><nd ref="-57"/><nd ref="-58"/><nd ref="-59"/><nd ref="-60"/><nd ref="-61"/><nd ref="-62"/><nd ref="-54"/><tag k="building" v="yes"/><tag k="height" v="4.58"/><tag k="ele" v="16.54"/></way>
+<way visible="true" id="-63"><nd ref="-64"/><nd ref="-65"/><nd ref="-66"/><nd ref="-67"/><nd ref="-64"/><tag k="building" v="yes"/><tag k="height" v="2.41"/><tag k="ele" v="13.34"/></way>
 </osm>

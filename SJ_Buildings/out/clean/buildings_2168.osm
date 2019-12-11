@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="uvmogr2osm" upload="false">
-<node visible="true" id="-2" lat="37.339979209" lon="-121.93194719700001"/>
-<node visible="true" id="-3" lat="37.339981645" lon="-121.931979341"/>
-<node visible="true" id="-4" lat="37.340001341000004" lon="-121.93197696700001"/>
-<node visible="true" id="-5" lat="37.339998877" lon="-121.931944821"/>
-<node visible="true" id="-7" lat="37.337939247" lon="-121.93344604100001"/>
-<node visible="true" id="-8" lat="37.337955996000005" lon="-121.933466694"/>
-<node visible="true" id="-9" lat="37.337975194" lon="-121.933442224"/>
-<node visible="true" id="-10" lat="37.337958444" lon="-121.93342160600001"/>
-<node visible="true" id="-12" lat="37.337764458" lon="-121.933824196"/>
-<node visible="true" id="-13" lat="37.337785259" lon="-121.93383918100001"/>
-<node visible="true" id="-14" lat="37.337789295" lon="-121.93383041700001"/>
-<node visible="true" id="-15" lat="37.337768492" lon="-121.933815433"/>
+<node visible="true" id="-2" lat="37.337939247" lon="-121.93344604100001"/>
+<node visible="true" id="-3" lat="37.337955996000005" lon="-121.933466694"/>
+<node visible="true" id="-4" lat="37.337975194" lon="-121.933442224"/>
+<node visible="true" id="-5" lat="37.337958444" lon="-121.93342160600001"/>
+<node visible="true" id="-7" lat="37.337764458" lon="-121.933824196"/>
+<node visible="true" id="-8" lat="37.337785259" lon="-121.93383918100001"/>
+<node visible="true" id="-9" lat="37.337789295" lon="-121.93383041700001"/>
+<node visible="true" id="-10" lat="37.337768492" lon="-121.933815433"/>
+<node visible="true" id="-12" lat="37.339979209" lon="-121.93194719700001"/>
+<node visible="true" id="-13" lat="37.339981645" lon="-121.931979341"/>
+<node visible="true" id="-14" lat="37.340001341000004" lon="-121.93197696700001"/>
+<node visible="true" id="-15" lat="37.339998877" lon="-121.931944821"/>
 <node visible="true" id="-17" lat="37.339841061" lon="-121.931655813"/>
 <node visible="true" id="-18" lat="37.339872032" lon="-121.931758168"/>
 <node visible="true" id="-19" lat="37.340013102" lon="-121.931691138"/>
@@ -22,8 +22,8 @@
 <node visible="true" id="-24" lat="37.339889346" lon="-121.93162240500001"/>
 <node visible="true" id="-25" lat="37.339872991" lon="-121.931630177"/>
 <node visible="true" id="-26" lat="37.339875763" lon="-121.93163934600001"/>
-<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="2.28"/><tag k="ele" v="27.32"/></way>
-<way visible="true" id="-6"><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-7"/><tag k="building" v="yes"/><tag k="height" v="6.61"/><tag k="ele" v="28.17"/></way>
-<way visible="true" id="-11"><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-12"/><tag k="building" v="yes"/><tag k="height" v="0.80"/><tag k="ele" v="27.33"/></way>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="6.61"/><tag k="ele" v="28.17"/></way>
+<way visible="true" id="-6"><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-7"/><tag k="building" v="yes"/><tag k="height" v="0.80"/><tag k="ele" v="27.33"/></way>
+<way visible="true" id="-11"><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-12"/><tag k="building" v="yes"/><tag k="height" v="2.28"/><tag k="ele" v="27.32"/></way>
 <way visible="true" id="-16"><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-26"/><nd ref="-17"/><tag k="building" v="yes"/><tag k="height" v="3.72"/><tag k="ele" v="29.11"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="2105"/><tag k="addr:street" v="Park Avenue"/><tag k="addr:postcode" v="95126"/></way>
 </osm>

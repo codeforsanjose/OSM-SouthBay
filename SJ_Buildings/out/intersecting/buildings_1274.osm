@@ -1,29 +1,40 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="uvmogr2osm" upload="false">
-<node visible="true" id="-2" lat="37.28554547" lon="-121.81000147700001"/>
-<node visible="true" id="-3" lat="37.285584806" lon="-121.810003781"/>
-<node visible="true" id="-4" lat="37.285583201" lon="-121.810046517"/>
-<node visible="true" id="-5" lat="37.285597119" lon="-121.81004731200001"/>
-<node visible="true" id="-6" lat="37.285594458000006" lon="-121.81011821800001"/>
-<node visible="true" id="-7" lat="37.28557991" lon="-121.810117344"/>
-<node visible="true" id="-8" lat="37.285577248" lon="-121.810188319"/>
-<node visible="true" id="-9" lat="37.285592565" lon="-121.810189206"/>
-<node visible="true" id="-10" lat="37.285587404000005" lon="-121.81032634700001"/>
-<node visible="true" id="-11" lat="37.285753857" lon="-121.81033613900001"/>
-<node visible="true" id="-12" lat="37.285764386000004" lon="-121.810055503"/>
-<node visible="true" id="-13" lat="37.285851346" lon="-121.81006060000001"/>
-<node visible="true" id="-14" lat="37.285856859" lon="-121.809913944"/>
-<node visible="true" id="-15" lat="37.285769954" lon="-121.80990884600001"/>
-<node visible="true" id="-16" lat="37.285772145" lon="-121.809850479"/>
-<node visible="true" id="-17" lat="37.285606434" lon="-121.80984070000001"/>
-<node visible="true" id="-18" lat="37.285606154" lon="-121.809848465"/>
-<node visible="true" id="-19" lat="37.285551338000005" lon="-121.80984523500001"/>
-<node visible="true" id="-21" lat="37.284676622" lon="-121.811071471"/>
-<node visible="true" id="-22" lat="37.284704646" lon="-121.81115917400001"/>
-<node visible="true" id="-23" lat="37.284779788" lon="-121.81117472300001"/>
-<node visible="true" id="-24" lat="37.284825436000006" lon="-121.8110989"/>
-<node visible="true" id="-25" lat="37.284797047000005" lon="-121.811011878"/>
-<node visible="true" id="-26" lat="37.284723323" lon="-121.810997384"/>
-<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="6.56"/><tag k="ele" v="66.66"/></way>
-<way visible="true" id="-20"><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-26"/><nd ref="-21"/><tag k="building" v="yes"/><tag k="height" v="6.01"/><tag k="ele" v="58.61"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="985"/><tag k="addr:street" v="Hellyer Avenue"/><tag k="addr:postcode" v="95111"/></way>
+<node visible="true" id="-2" lat="37.285125852" lon="-121.81026397800001"/>
+<node visible="true" id="-3" lat="37.285133267" lon="-121.81026417700001"/>
+<node visible="true" id="-4" lat="37.285131725" lon="-121.810348028"/>
+<node visible="true" id="-5" lat="37.285210311" lon="-121.810350298"/>
+<node visible="true" id="-6" lat="37.285216839" lon="-121.809997507"/>
+<node visible="true" id="-7" lat="37.285161482" lon="-121.80999591800001"/>
+<node visible="true" id="-8" lat="37.285161810000005" lon="-121.80997887400001"/>
+<node visible="true" id="-9" lat="37.285140172000006" lon="-121.80997825300001"/>
+<node visible="true" id="-10" lat="37.285131750000005" lon="-121.810240191"/>
+<node visible="true" id="-11" lat="37.285126286" lon="-121.810240026"/>
+<node visible="true" id="-13" lat="37.28554547" lon="-121.81000147700001"/>
+<node visible="true" id="-14" lat="37.285584806" lon="-121.810003781"/>
+<node visible="true" id="-15" lat="37.285583201" lon="-121.810046517"/>
+<node visible="true" id="-16" lat="37.285597119" lon="-121.81004731200001"/>
+<node visible="true" id="-17" lat="37.285594458000006" lon="-121.81011821800001"/>
+<node visible="true" id="-18" lat="37.28557991" lon="-121.810117344"/>
+<node visible="true" id="-19" lat="37.285577248" lon="-121.810188319"/>
+<node visible="true" id="-20" lat="37.285592565" lon="-121.810189206"/>
+<node visible="true" id="-21" lat="37.285587404000005" lon="-121.81032634700001"/>
+<node visible="true" id="-22" lat="37.285753857" lon="-121.81033613900001"/>
+<node visible="true" id="-23" lat="37.285764386000004" lon="-121.810055503"/>
+<node visible="true" id="-24" lat="37.285851346" lon="-121.81006060000001"/>
+<node visible="true" id="-25" lat="37.285856859" lon="-121.809913944"/>
+<node visible="true" id="-26" lat="37.285769954" lon="-121.80990884600001"/>
+<node visible="true" id="-27" lat="37.285772145" lon="-121.809850479"/>
+<node visible="true" id="-28" lat="37.285606434" lon="-121.80984070000001"/>
+<node visible="true" id="-29" lat="37.285606154" lon="-121.809848465"/>
+<node visible="true" id="-30" lat="37.285551338000005" lon="-121.80984523500001"/>
+<node visible="true" id="-32" lat="37.284676622" lon="-121.811071471"/>
+<node visible="true" id="-33" lat="37.284704646" lon="-121.81115917400001"/>
+<node visible="true" id="-34" lat="37.284779788" lon="-121.81117472300001"/>
+<node visible="true" id="-35" lat="37.284825436000006" lon="-121.8110989"/>
+<node visible="true" id="-36" lat="37.284797047000005" lon="-121.811011878"/>
+<node visible="true" id="-37" lat="37.284723323" lon="-121.810997384"/>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="3.68"/><tag k="ele" v="63.33"/></way>
+<way visible="true" id="-12"><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-26"/><nd ref="-27"/><nd ref="-28"/><nd ref="-29"/><nd ref="-30"/><nd ref="-13"/><tag k="building" v="yes"/><tag k="height" v="6.56"/><tag k="ele" v="66.66"/></way>
+<way visible="true" id="-31"><nd ref="-32"/><nd ref="-33"/><nd ref="-34"/><nd ref="-35"/><nd ref="-36"/><nd ref="-37"/><nd ref="-32"/><tag k="building" v="yes"/><tag k="height" v="6.01"/><tag k="ele" v="58.61"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="985"/><tag k="addr:street" v="Hellyer Avenue"/><tag k="addr:postcode" v="95111"/></way>
 </osm>

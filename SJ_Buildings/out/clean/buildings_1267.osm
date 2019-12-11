@@ -237,26 +237,26 @@
 <node visible="true" id="-282" lat="37.277887811" lon="-121.756063495"/>
 <node visible="true" id="-283" lat="37.277827024000004" lon="-121.75596379100001"/>
 <node visible="true" id="-284" lat="37.273018315" lon="-121.750838622"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="6008"/><tag k="addr:street" v="Whitehaven Court"/><tag k="addr:postcode" v="95138"/></node>
-<node visible="true" id="-286" lat="37.282452102" lon="-121.76462103"/>
-<node visible="true" id="-287" lat="37.282482638000005" lon="-121.764649734"/>
-<node visible="true" id="-288" lat="37.282499727" lon="-121.76462128600001"/>
-<node visible="true" id="-289" lat="37.282469219" lon="-121.76459258300001"/>
-<node visible="true" id="-291" lat="37.272849182" lon="-121.74588294300001"/>
-<node visible="true" id="-292" lat="37.272927842" lon="-121.745968633"/>
-<node visible="true" id="-293" lat="37.272976489" lon="-121.74589871"/>
-<node visible="true" id="-294" lat="37.272897829" lon="-121.745813021"/>
-<node visible="true" id="-296" lat="37.277888558" lon="-121.756165456"/>
-<node visible="true" id="-297" lat="37.277924969000004" lon="-121.75622797300001"/>
-<node visible="true" id="-298" lat="37.277944135000006" lon="-121.756210491"/>
-<node visible="true" id="-299" lat="37.277907725000006" lon="-121.756147974"/>
-<node visible="true" id="-301" lat="37.278700889" lon="-121.75400099000001"/>
-<node visible="true" id="-302" lat="37.278722923000004" lon="-121.754059552"/>
-<node visible="true" id="-303" lat="37.278705205" lon="-121.75406998000001"/>
-<node visible="true" id="-304" lat="37.278745533000006" lon="-121.75417714400001"/>
-<node visible="true" id="-305" lat="37.278886201" lon="-121.75409425800001"/>
-<node visible="true" id="-306" lat="37.278842241" lon="-121.753977375"/>
-<node visible="true" id="-307" lat="37.278862917000005" lon="-121.75396520900001"/>
-<node visible="true" id="-308" lat="37.278844515" lon="-121.75391636600001"/>
+<node visible="true" id="-286" lat="37.278700889" lon="-121.75400099000001"/>
+<node visible="true" id="-287" lat="37.278722923000004" lon="-121.754059552"/>
+<node visible="true" id="-288" lat="37.278705205" lon="-121.75406998000001"/>
+<node visible="true" id="-289" lat="37.278745533000006" lon="-121.75417714400001"/>
+<node visible="true" id="-290" lat="37.278886201" lon="-121.75409425800001"/>
+<node visible="true" id="-291" lat="37.278842241" lon="-121.753977375"/>
+<node visible="true" id="-292" lat="37.278862917000005" lon="-121.75396520900001"/>
+<node visible="true" id="-293" lat="37.278844515" lon="-121.75391636600001"/>
+<node visible="true" id="-295" lat="37.277888558" lon="-121.756165456"/>
+<node visible="true" id="-296" lat="37.277924969000004" lon="-121.75622797300001"/>
+<node visible="true" id="-297" lat="37.277944135000006" lon="-121.756210491"/>
+<node visible="true" id="-298" lat="37.277907725000006" lon="-121.756147974"/>
+<node visible="true" id="-300" lat="37.282452102" lon="-121.76462103"/>
+<node visible="true" id="-301" lat="37.282482638000005" lon="-121.764649734"/>
+<node visible="true" id="-302" lat="37.282499727" lon="-121.76462128600001"/>
+<node visible="true" id="-303" lat="37.282469219" lon="-121.76459258300001"/>
+<node visible="true" id="-305" lat="37.272849182" lon="-121.74588294300001"/>
+<node visible="true" id="-306" lat="37.272927842" lon="-121.745968633"/>
+<node visible="true" id="-307" lat="37.272976489" lon="-121.74589871"/>
+<node visible="true" id="-308" lat="37.272897829" lon="-121.745813021"/>
 <way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="2.46"/><tag k="ele" v="157.13"/></way>
 <way visible="true" id="-6"><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-7"/><tag k="building" v="yes"/><tag k="height" v="2.98"/><tag k="ele" v="161.62"/></way>
 <way visible="true" id="-11"><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-12"/><tag k="building" v="yes"/><tag k="height" v="3.64"/><tag k="ele" v="159.58"/></way>
@@ -304,8 +304,8 @@
 <way visible="true" id="-266"><nd ref="-267"/><nd ref="-268"/><nd ref="-269"/><nd ref="-270"/><nd ref="-267"/><tag k="building" v="yes"/><tag k="height" v="2.94"/><tag k="ele" v="196.47"/></way>
 <way visible="true" id="-271"><nd ref="-272"/><nd ref="-273"/><nd ref="-274"/><nd ref="-275"/><nd ref="-272"/><tag k="building" v="yes"/><tag k="height" v="2.30"/><tag k="ele" v="212.93"/></way>
 <way visible="true" id="-276"><nd ref="-277"/><nd ref="-278"/><nd ref="-279"/><nd ref="-280"/><nd ref="-281"/><nd ref="-282"/><nd ref="-283"/><nd ref="-277"/><tag k="building" v="yes"/><tag k="height" v="3.54"/><tag k="ele" v="187.42"/></way>
-<way visible="true" id="-285"><nd ref="-286"/><nd ref="-287"/><nd ref="-288"/><nd ref="-289"/><nd ref="-286"/><tag k="building" v="yes"/><tag k="height" v="2.36"/><tag k="ele" v="157.13"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="5420"/><tag k="addr:street" v="Ligurian Drive"/><tag k="addr:postcode" v="95138"/></way>
-<way visible="true" id="-290"><nd ref="-291"/><nd ref="-292"/><nd ref="-293"/><nd ref="-294"/><nd ref="-291"/><tag k="building" v="yes"/><tag k="height" v="4.09"/><tag k="ele" v="197.57"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="7000"/><tag k="addr:street" v="Silver Creek Road"/><tag k="addr:postcode" v="95138"/></way>
-<way visible="true" id="-295"><nd ref="-296"/><nd ref="-297"/><nd ref="-298"/><nd ref="-299"/><nd ref="-296"/><tag k="building" v="yes"/><tag k="height" v="2.96"/><tag k="ele" v="186.75"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="5680"/><tag k="addr:street" v="Trowbridge Way"/><tag k="addr:postcode" v="95138"/></way>
-<way visible="true" id="-300"><nd ref="-301"/><nd ref="-302"/><nd ref="-303"/><nd ref="-304"/><nd ref="-305"/><nd ref="-306"/><nd ref="-307"/><nd ref="-308"/><nd ref="-301"/><tag k="building" v="yes"/><tag k="height" v="7.74"/><tag k="ele" v="175.67"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="5761"/><tag k="addr:street" v="Capilano Drive"/><tag k="addr:postcode" v="95138"/></way>
+<way visible="true" id="-285"><nd ref="-286"/><nd ref="-287"/><nd ref="-288"/><nd ref="-289"/><nd ref="-290"/><nd ref="-291"/><nd ref="-292"/><nd ref="-293"/><nd ref="-286"/><tag k="building" v="yes"/><tag k="height" v="7.74"/><tag k="ele" v="175.67"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="5761"/><tag k="addr:street" v="Capilano Drive"/><tag k="addr:postcode" v="95138"/></way>
+<way visible="true" id="-294"><nd ref="-295"/><nd ref="-296"/><nd ref="-297"/><nd ref="-298"/><nd ref="-295"/><tag k="building" v="yes"/><tag k="height" v="2.96"/><tag k="ele" v="186.75"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="5680"/><tag k="addr:street" v="Trowbridge Way"/><tag k="addr:postcode" v="95138"/></way>
+<way visible="true" id="-299"><nd ref="-300"/><nd ref="-301"/><nd ref="-302"/><nd ref="-303"/><nd ref="-300"/><tag k="building" v="yes"/><tag k="height" v="2.36"/><tag k="ele" v="157.13"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="5420"/><tag k="addr:street" v="Ligurian Drive"/><tag k="addr:postcode" v="95138"/></way>
+<way visible="true" id="-304"><nd ref="-305"/><nd ref="-306"/><nd ref="-307"/><nd ref="-308"/><nd ref="-305"/><tag k="building" v="yes"/><tag k="height" v="4.09"/><tag k="ele" v="197.57"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="7000"/><tag k="addr:street" v="Silver Creek Road"/><tag k="addr:postcode" v="95138"/></way>
 </osm>

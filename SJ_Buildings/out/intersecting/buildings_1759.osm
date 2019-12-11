@@ -46,17 +46,9 @@
 <node visible="true" id="-49" lat="37.339349488" lon="-121.791283398"/>
 <node visible="true" id="-50" lat="37.339411848000005" lon="-121.791167891"/>
 <node visible="true" id="-51" lat="37.339344686000004" lon="-121.791111"/>
-<node visible="true" id="-53" lat="37.339741814" lon="-121.860738736"/>
-<node visible="true" id="-54" lat="37.338809204" lon="-121.862149032"/>
-<node visible="true" id="-55" lat="37.339452143" lon="-121.86278152700001"/>
-<node visible="true" id="-56" lat="37.339771234000004" lon="-121.86286491000001"/>
-<node visible="true" id="-57" lat="37.339953427000005" lon="-121.86257551300001"/>
-<node visible="true" id="-58" lat="37.339866883" lon="-121.862487551"/>
-<node visible="true" id="-59" lat="37.34052398" lon="-121.861524066"/>
 <way visible="true" id="-2"><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-26"/><nd ref="-27"/><nd ref="-28"/><nd ref="-29"/><nd ref="-30"/><nd ref="-31"/><nd ref="-32"/><nd ref="-33"/><nd ref="-34"/><nd ref="-3"/></way>
 <way visible="true" id="-35"><nd ref="-36"/><nd ref="-37"/><nd ref="-38"/><nd ref="-39"/><nd ref="-40"/><nd ref="-41"/><nd ref="-36"/></way>
 <way visible="true" id="-42"><nd ref="-43"/><nd ref="-44"/><nd ref="-45"/><nd ref="-46"/><nd ref="-43"/><tag k="building" v="yes"/><tag k="height" v="4.68"/><tag k="ele" v="59.30"/></way>
 <way visible="true" id="-47"><nd ref="-48"/><nd ref="-49"/><nd ref="-50"/><nd ref="-51"/><nd ref="-48"/><tag k="building" v="yes"/><tag k="height" v="3.77"/><tag k="ele" v="58.06"/></way>
-<way visible="true" id="-52"><nd ref="-53"/><nd ref="-54"/><nd ref="-55"/><nd ref="-56"/><nd ref="-57"/><nd ref="-58"/><nd ref="-59"/><nd ref="-53"/><tag k="landuse" v="residential"/><tag k="name" v="San Jose Trailer Park"/></way>
 <relation visible="true" id="-1"><member type="way" ref="-2" role="outer"/><member type="way" ref="-35" role="inner"/><tag k="type" v="multipolygon"/><tag k="building" v="yes"/><tag k="height" v="4.40"/><tag k="ele" v="60.32"/></relation>
 </osm>

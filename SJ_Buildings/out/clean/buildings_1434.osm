@@ -148,14 +148,14 @@
 <node visible="true" id="-174" lat="37.257696218" lon="-121.79040227700001"/>
 <node visible="true" id="-175" lat="37.257737545000005" lon="-121.790400825"/>
 <node visible="true" id="-176" lat="37.257735907000004" lon="-121.790327739"/>
-<node visible="true" id="-178" lat="37.258319967000006" lon="-121.78978981600001"/>
-<node visible="true" id="-179" lat="37.258363618000004" lon="-121.789809296"/>
-<node visible="true" id="-180" lat="37.258367246" lon="-121.78979661000001"/>
-<node visible="true" id="-181" lat="37.258323596000004" lon="-121.789777095"/>
-<node visible="true" id="-183" lat="37.259125944000004" lon="-121.789291"/>
-<node visible="true" id="-184" lat="37.25917938" lon="-121.78931484300001"/>
-<node visible="true" id="-185" lat="37.25918655" lon="-121.78928974300001"/>
-<node visible="true" id="-186" lat="37.259133114" lon="-121.78926590100001"/>
+<node visible="true" id="-178" lat="37.259125944000004" lon="-121.789291"/>
+<node visible="true" id="-179" lat="37.25917938" lon="-121.78931484300001"/>
+<node visible="true" id="-180" lat="37.25918655" lon="-121.78928974300001"/>
+<node visible="true" id="-181" lat="37.259133114" lon="-121.78926590100001"/>
+<node visible="true" id="-183" lat="37.258319967000006" lon="-121.78978981600001"/>
+<node visible="true" id="-184" lat="37.258363618000004" lon="-121.789809296"/>
+<node visible="true" id="-185" lat="37.258367246" lon="-121.78979661000001"/>
+<node visible="true" id="-186" lat="37.258323596000004" lon="-121.789777095"/>
 <way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="3.76"/><tag k="ele" v="66.69"/></way>
 <way visible="true" id="-8"><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-9"/><tag k="building" v="yes"/><tag k="height" v="3.60"/><tag k="ele" v="66.47"/></way>
 <way visible="true" id="-13"><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-14"/><tag k="building" v="yes"/><tag k="height" v="2.56"/><tag k="ele" v="64.43"/></way>
@@ -184,6 +184,6 @@
 <way visible="true" id="-160"><nd ref="-161"/><nd ref="-162"/><nd ref="-163"/><nd ref="-164"/><nd ref="-161"/><tag k="building" v="yes"/><tag k="height" v="3.04"/><tag k="ele" v="82.54"/></way>
 <way visible="true" id="-165"><nd ref="-166"/><nd ref="-167"/><nd ref="-168"/><nd ref="-169"/><nd ref="-166"/><tag k="building" v="yes"/><tag k="height" v="3.07"/><tag k="ele" v="82.54"/></way>
 <way visible="true" id="-172"><nd ref="-173"/><nd ref="-174"/><nd ref="-175"/><nd ref="-176"/><nd ref="-173"/><tag k="building" v="yes"/><tag k="height" v="3.20"/><tag k="ele" v="65.82"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="6073"/><tag k="addr:street" v="Silver Creek Valley Road"/><tag k="addr:postcode" v="95138"/></way>
-<way visible="true" id="-177"><nd ref="-178"/><nd ref="-179"/><nd ref="-180"/><nd ref="-181"/><nd ref="-178"/><tag k="building" v="yes"/><tag k="height" v="2.33"/><tag k="ele" v="64.70"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="6025"/><tag k="addr:street" v="Silver Creek Valley Road"/><tag k="addr:postcode" v="95138"/></way>
-<way visible="true" id="-182"><nd ref="-183"/><nd ref="-184"/><nd ref="-185"/><nd ref="-186"/><nd ref="-183"/><tag k="building" v="yes"/><tag k="height" v="2.60"/><tag k="ele" v="64.17"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="6001"/><tag k="addr:street" v="Silver Creek Valley Road"/><tag k="addr:postcode" v="95138"/></way>
+<way visible="true" id="-177"><nd ref="-178"/><nd ref="-179"/><nd ref="-180"/><nd ref="-181"/><nd ref="-178"/><tag k="building" v="yes"/><tag k="height" v="2.60"/><tag k="ele" v="64.17"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="6001"/><tag k="addr:street" v="Silver Creek Valley Road"/><tag k="addr:postcode" v="95138"/></way>
+<way visible="true" id="-182"><nd ref="-183"/><nd ref="-184"/><nd ref="-185"/><nd ref="-186"/><nd ref="-183"/><tag k="building" v="yes"/><tag k="height" v="2.33"/><tag k="ele" v="64.70"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="6025"/><tag k="addr:street" v="Silver Creek Valley Road"/><tag k="addr:postcode" v="95138"/></way>
 </osm>

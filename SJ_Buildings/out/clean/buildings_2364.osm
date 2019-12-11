@@ -1,21 +1,21 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="uvmogr2osm" upload="false">
-<node visible="true" id="-2" lat="37.380796561000004" lon="-121.921605377"/>
-<node visible="true" id="-3" lat="37.38080802" lon="-121.921616369"/>
-<node visible="true" id="-4" lat="37.380796474" lon="-121.921635252"/>
-<node visible="true" id="-5" lat="37.380839999" lon="-121.921677009"/>
-<node visible="true" id="-6" lat="37.380862223" lon="-121.92164060100001"/>
-<node visible="true" id="-7" lat="37.380807238" lon="-121.921587888"/>
-<node visible="true" id="-9" lat="37.381995403000005" lon="-121.92278018100001"/>
-<node visible="true" id="-10" lat="37.382008618" lon="-121.92279798800001"/>
-<node visible="true" id="-11" lat="37.382047959000005" lon="-121.9227522"/>
-<node visible="true" id="-12" lat="37.382034744" lon="-121.92273435800001"/>
+<node visible="true" id="-2" lat="37.381995403000005" lon="-121.92278018100001"/>
+<node visible="true" id="-3" lat="37.382008618" lon="-121.92279798800001"/>
+<node visible="true" id="-4" lat="37.382047959000005" lon="-121.9227522"/>
+<node visible="true" id="-5" lat="37.382034744" lon="-121.92273435800001"/>
+<node visible="true" id="-7" lat="37.380796561000004" lon="-121.921605377"/>
+<node visible="true" id="-8" lat="37.38080802" lon="-121.921616369"/>
+<node visible="true" id="-9" lat="37.380796474" lon="-121.921635252"/>
+<node visible="true" id="-10" lat="37.380839999" lon="-121.921677009"/>
+<node visible="true" id="-11" lat="37.380862223" lon="-121.92164060100001"/>
+<node visible="true" id="-12" lat="37.380807238" lon="-121.921587888"/>
 <node visible="true" id="-14" lat="37.381957902" lon="-121.92282159800001"/>
 <node visible="true" id="-15" lat="37.381972847" lon="-121.92284174400001"/>
 <node visible="true" id="-16" lat="37.381998061000004" lon="-121.92281238100001"/>
 <node visible="true" id="-17" lat="37.381983116" lon="-121.922792235"/>
 <node visible="true" id="-18" lat="37.381845814" lon="-121.92107444000001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="2309;2343;2347;2349;2363;2365;2369"/><tag k="addr:street" v="Bering Drive"/><tag k="addr:postcode" v="95131"/></node>
-<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="3.27"/><tag k="ele" v="13.20"/></way>
-<way visible="true" id="-8"><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-9"/><tag k="building" v="yes"/><tag k="height" v="2.83"/><tag k="ele" v="12.78"/></way>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="2.83"/><tag k="ele" v="12.78"/></way>
+<way visible="true" id="-6"><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-7"/><tag k="building" v="yes"/><tag k="height" v="3.27"/><tag k="ele" v="13.20"/></way>
 <way visible="true" id="-13"><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-14"/><tag k="building" v="yes"/><tag k="height" v="2.20"/><tag k="ele" v="12.71"/></way>
 </osm>

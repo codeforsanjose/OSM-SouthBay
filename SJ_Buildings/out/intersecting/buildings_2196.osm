@@ -1,31 +1,21 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="uvmogr2osm" upload="false">
-<node visible="true" id="-2" lat="37.309623374000005" lon="-122.01966350900001"/>
-<node visible="true" id="-3" lat="37.309629353000005" lon="-122.01971507600001"/>
-<node visible="true" id="-4" lat="37.309671313" lon="-122.019707436"/>
-<node visible="true" id="-5" lat="37.309665308" lon="-122.01965586700001"/>
-<node visible="true" id="-6" lat="37.309247095" lon="-122.020417917"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="6594"/><tag k="addr:street" v="Bollinger Road"/><tag k="addr:postcode" v="95129"/></node>
-<node visible="true" id="-8" lat="37.309350055" lon="-122.02079886000001"/>
-<node visible="true" id="-9" lat="37.309423961" lon="-122.020837778"/>
-<node visible="true" id="-10" lat="37.309509561000006" lon="-122.02058311900001"/>
-<node visible="true" id="-11" lat="37.309435656000005" lon="-122.02054416600001"/>
-<node visible="true" id="-13" lat="37.309452658000005" lon="-122.020508129"/>
-<node visible="true" id="-14" lat="37.309516624000004" lon="-122.020563867"/>
-<node visible="true" id="-15" lat="37.309547448000004" lon="-122.02050840700001"/>
-<node visible="true" id="-16" lat="37.309544027" lon="-122.020505415"/>
-<node visible="true" id="-17" lat="37.30956287" lon="-122.02047154600001"/>
-<node visible="true" id="-18" lat="37.309567732000005" lon="-122.02047577200001"/>
-<node visible="true" id="-19" lat="37.309586267" lon="-122.020442414"/>
-<node visible="true" id="-20" lat="37.309580399000005" lon="-122.02043730800001"/>
-<node visible="true" id="-21" lat="37.309599862" lon="-122.02040228400001"/>
-<node visible="true" id="-22" lat="37.309589189" lon="-122.02039295300001"/>
-<node visible="true" id="-23" lat="37.309628901" lon="-122.020321511"/>
-<node visible="true" id="-24" lat="37.309575637" lon="-122.020275138"/>
-<node visible="true" id="-25" lat="37.309531706" lon="-122.020354198"/>
-<node visible="true" id="-26" lat="37.30951022" lon="-122.0203355"/>
-<node visible="true" id="-27" lat="37.309467612" lon="-122.02041214500001"/>
-<node visible="true" id="-28" lat="37.309493469" lon="-122.02043468000001"/>
-<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="4.02"/><tag k="ele" v="76.81"/></way>
-<way visible="true" id="-7"><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-8"/><tag k="building" v="yes"/><tag k="height" v="4.00"/><tag k="ele" v="77.32"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="6650"/><tag k="addr:street" v="Bollinger Road"/><tag k="addr:postcode" v="95129"/></way>
-<way visible="true" id="-12"><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-26"/><nd ref="-27"/><nd ref="-28"/><nd ref="-13"/><tag k="building" v="yes"/><tag k="height" v="4.69"/><tag k="ele" v="76.74"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="6620"/><tag k="addr:street" v="Bollinger Road"/><tag k="addr:postcode" v="95129"/></way>
+<node visible="true" id="-1" lat="37.309247095" lon="-122.020417917"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="6594"/><tag k="addr:street" v="Bollinger Road"/><tag k="addr:postcode" v="95129"/></node>
+<node visible="true" id="-3" lat="37.309452658000005" lon="-122.020508129"/>
+<node visible="true" id="-4" lat="37.309516624000004" lon="-122.020563867"/>
+<node visible="true" id="-5" lat="37.309547448000004" lon="-122.02050840700001"/>
+<node visible="true" id="-6" lat="37.309544027" lon="-122.020505415"/>
+<node visible="true" id="-7" lat="37.30956287" lon="-122.02047154600001"/>
+<node visible="true" id="-8" lat="37.309567732000005" lon="-122.02047577200001"/>
+<node visible="true" id="-9" lat="37.309586267" lon="-122.020442414"/>
+<node visible="true" id="-10" lat="37.309580399000005" lon="-122.02043730800001"/>
+<node visible="true" id="-11" lat="37.309599862" lon="-122.02040228400001"/>
+<node visible="true" id="-12" lat="37.309589189" lon="-122.02039295300001"/>
+<node visible="true" id="-13" lat="37.309628901" lon="-122.020321511"/>
+<node visible="true" id="-14" lat="37.309575637" lon="-122.020275138"/>
+<node visible="true" id="-15" lat="37.309531706" lon="-122.020354198"/>
+<node visible="true" id="-16" lat="37.30951022" lon="-122.0203355"/>
+<node visible="true" id="-17" lat="37.309467612" lon="-122.02041214500001"/>
+<node visible="true" id="-18" lat="37.309493469" lon="-122.02043468000001"/>
+<way visible="true" id="-2"><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-3"/><tag k="building" v="yes"/><tag k="height" v="4.69"/><tag k="ele" v="76.74"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="6620"/><tag k="addr:street" v="Bollinger Road"/><tag k="addr:postcode" v="95129"/></way>
 </osm>

@@ -1,267 +1,262 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="uvmogr2osm" upload="false">
-<node visible="true" id="-3" lat="37.351852975" lon="-121.856436826"/>
-<node visible="true" id="-4" lat="37.352094287" lon="-121.85661630700001"/>
-<node visible="true" id="-5" lat="37.352092006" lon="-121.85662111600001"/>
-<node visible="true" id="-6" lat="37.352121691" lon="-121.856643159"/>
-<node visible="true" id="-7" lat="37.352180676" lon="-121.85651871300001"/>
-<node visible="true" id="-8" lat="37.352164526" lon="-121.85650672000001"/>
-<node visible="true" id="-9" lat="37.35218066" lon="-121.85647264100001"/>
-<node visible="true" id="-10" lat="37.352192861" lon="-121.85648170500001"/>
-<node visible="true" id="-11" lat="37.352202855" lon="-121.85646062200001"/>
-<node visible="true" id="-12" lat="37.352190491" lon="-121.856451453"/>
-<node visible="true" id="-13" lat="37.352206962000004" lon="-121.85641669"/>
-<node visible="true" id="-14" lat="37.352223002" lon="-121.856428647"/>
-<node visible="true" id="-15" lat="37.3522801" lon="-121.85630815600001"/>
-<node visible="true" id="-16" lat="37.352009647" lon="-121.85610702100001"/>
-<node visible="true" id="-17" lat="37.351973863000005" lon="-121.856182516"/>
-<node visible="true" id="-18" lat="37.351958884000005" lon="-121.85617140400001"/>
-<node visible="true" id="-19" lat="37.351872588" lon="-121.85635350400001"/>
-<node visible="true" id="-20" lat="37.351887295000004" lon="-121.85636443700001"/>
-<node visible="true" id="-22" lat="37.351997261" lon="-121.85622791"/>
-<node visible="true" id="-23" lat="37.352008209000005" lon="-121.85620519300001"/>
-<node visible="true" id="-24" lat="37.352042328" lon="-121.856230929"/>
-<node visible="true" id="-25" lat="37.352031381" lon="-121.85625368100001"/>
-<node visible="true" id="-27" lat="37.351998408" lon="-121.856380493"/>
-<node visible="true" id="-28" lat="37.352039590000004" lon="-121.85629425900001"/>
-<node visible="true" id="-29" lat="37.352196089" lon="-121.856411573"/>
-<node visible="true" id="-30" lat="37.352176497" lon="-121.85645261"/>
-<node visible="true" id="-31" lat="37.352163834" lon="-121.85644312400001"/>
-<node visible="true" id="-32" lat="37.352142243" lon="-121.856488322"/>
-<node visible="true" id="-34" lat="37.350132137" lon="-121.860458343"/>
-<node visible="true" id="-35" lat="37.350209742000004" lon="-121.86051673200001"/>
-<node visible="true" id="-36" lat="37.350441404" lon="-121.86003385800001"/>
-<node visible="true" id="-37" lat="37.350435903000005" lon="-121.860029733"/>
-<node visible="true" id="-38" lat="37.350455776000004" lon="-121.85998829"/>
-<node visible="true" id="-39" lat="37.350461931000005" lon="-121.85999290900001"/>
-<node visible="true" id="-40" lat="37.350483999000005" lon="-121.85994689700001"/>
-<node visible="true" id="-41" lat="37.35049097" lon="-121.85995215000001"/>
-<node visible="true" id="-42" lat="37.350496796" lon="-121.85993997300001"/>
-<node visible="true" id="-43" lat="37.350331049000005" lon="-121.85981522700001"/>
-<node visible="true" id="-44" lat="37.350291078000005" lon="-121.85989858800001"/>
-<node visible="true" id="-45" lat="37.350298702" lon="-121.85990433500001"/>
-<node visible="true" id="-46" lat="37.350233678" lon="-121.860039916"/>
-<node visible="true" id="-47" lat="37.350306545" lon="-121.86009477900001"/>
-<node visible="true" id="-49" lat="37.351013993" lon="-121.858461054"/>
-<node visible="true" id="-50" lat="37.3511487" lon="-121.85855526600001"/>
-<node visible="true" id="-51" lat="37.351144217000005" lon="-121.85856533500001"/>
-<node visible="true" id="-52" lat="37.351201026000005" lon="-121.858605076"/>
-<node visible="true" id="-53" lat="37.351216959000006" lon="-121.858569341"/>
-<node visible="true" id="-54" lat="37.351212109" lon="-121.85856595000001"/>
-<node visible="true" id="-55" lat="37.351219272" lon="-121.85854984100001"/>
-<node visible="true" id="-56" lat="37.351224668" lon="-121.85855358500001"/>
-<node visible="true" id="-57" lat="37.351238289" lon="-121.85852304000001"/>
-<node visible="true" id="-58" lat="37.351232731" lon="-121.858519153"/>
-<node visible="true" id="-59" lat="37.351303937000004" lon="-121.85835942400001"/>
-<node visible="true" id="-60" lat="37.351117461" lon="-121.858228968"/>
-<node visible="true" id="-62" lat="37.350681188" lon="-121.85900901800001"/>
-<node visible="true" id="-63" lat="37.350743492" lon="-121.85905584400001"/>
-<node visible="true" id="-64" lat="37.350808516" lon="-121.858920053"/>
-<node visible="true" id="-65" lat="37.350780224000005" lon="-121.858898756"/>
-<node visible="true" id="-66" lat="37.35077724" lon="-121.858904999"/>
-<node visible="true" id="-67" lat="37.350743257000005" lon="-121.85887943600001"/>
-<node visible="true" id="-69" lat="37.350428334" lon="-121.859612002"/>
-<node visible="true" id="-70" lat="37.350514837000006" lon="-121.85967764200001"/>
-<node visible="true" id="-71" lat="37.350537632000005" lon="-121.859630506"/>
-<node visible="true" id="-72" lat="37.350643381000005" lon="-121.859711223"/>
-<node visible="true" id="-73" lat="37.350668492000004" lon="-121.85970359400001"/>
-<node visible="true" id="-74" lat="37.350707984" lon="-121.85962362900001"/>
-<node visible="true" id="-75" lat="37.350698209" lon="-121.859616227"/>
-<node visible="true" id="-76" lat="37.350703753000005" lon="-121.859604766"/>
-<node visible="true" id="-77" lat="37.350713609" lon="-121.85961227400001"/>
-<node visible="true" id="-78" lat="37.350772399" lon="-121.85949068400001"/>
-<node visible="true" id="-79" lat="37.350623381000005" lon="-121.859377596"/>
-<node visible="true" id="-80" lat="37.350563662" lon="-121.85950109500001"/>
-<node visible="true" id="-81" lat="37.350503896" lon="-121.859455761"/>
-<node visible="true" id="-83" lat="37.350250009" lon="-121.85966219000001"/>
-<node visible="true" id="-84" lat="37.350224679" lon="-121.85971475000001"/>
-<node visible="true" id="-85" lat="37.350250137" lon="-121.85973399900001"/>
-<node visible="true" id="-86" lat="37.350246254000005" lon="-121.859742014"/>
-<node visible="true" id="-87" lat="37.350224035000004" lon="-121.859725232"/>
-<node visible="true" id="-88" lat="37.350110301" lon="-121.859961185"/>
-<node visible="true" id="-89" lat="37.350157517" lon="-121.85999686400001"/>
-<node visible="true" id="-90" lat="37.350271448" lon="-121.859760433"/>
-<node visible="true" id="-91" lat="37.350266628" lon="-121.859756766"/>
-<node visible="true" id="-92" lat="37.350322272" lon="-121.85964131300001"/>
-<node visible="true" id="-93" lat="37.350293163" lon="-121.85961928"/>
-<node visible="true" id="-94" lat="37.35027669" lon="-121.85960683500001"/>
-<node visible="true" id="-96" lat="37.351499447" lon="-121.857363937"/>
-<node visible="true" id="-97" lat="37.35155557" lon="-121.857405971"/>
-<node visible="true" id="-98" lat="37.351579470000004" lon="-121.85735592900001"/>
-<node visible="true" id="-99" lat="37.351583637000005" lon="-121.857359067"/>
-<node visible="true" id="-100" lat="37.351645285000004" lon="-121.857230025"/>
-<node visible="true" id="-101" lat="37.351587800000004" lon="-121.857186935"/>
-<node visible="true" id="-102" lat="37.35152539" lon="-121.85731761500001"/>
-<node visible="true" id="-103" lat="37.351522558" lon="-121.85731550000001"/>
-<node visible="true" id="-105" lat="37.351095679000004" lon="-121.85882143600001"/>
-<node visible="true" id="-106" lat="37.351144795" lon="-121.858716908"/>
-<node visible="true" id="-107" lat="37.351132838000005" lon="-121.85870808800001"/>
-<node visible="true" id="-108" lat="37.351129966" lon="-121.85871423"/>
-<node visible="true" id="-109" lat="37.351017295000005" lon="-121.858631152"/>
-<node visible="true" id="-110" lat="37.350989160000005" lon="-121.85869105900001"/>
-<node visible="true" id="-111" lat="37.350969932000005" lon="-121.858676912"/>
-<node visible="true" id="-112" lat="37.350939291" lon="-121.858742175"/>
-<node visible="true" id="-113" lat="37.351074893" lon="-121.85884211700001"/>
-<node visible="true" id="-114" lat="37.351083118000005" lon="-121.85884818400001"/>
-<node visible="true" id="-117" lat="37.351753819" lon="-121.856785462"/>
-<node visible="true" id="-118" lat="37.351778029" lon="-121.856803552"/>
-<node visible="true" id="-119" lat="37.351760012" lon="-121.856841313"/>
-<node visible="true" id="-120" lat="37.351829263" lon="-121.85689315"/>
-<node visible="true" id="-121" lat="37.351765755" lon="-121.857026253"/>
-<node visible="true" id="-122" lat="37.351893116" lon="-121.85712163800001"/>
-<node visible="true" id="-123" lat="37.352004734000005" lon="-121.856887666"/>
-<node visible="true" id="-124" lat="37.351809129" lon="-121.856741255"/>
-<node visible="true" id="-125" lat="37.351795251000006" lon="-121.856770318"/>
-<node visible="true" id="-126" lat="37.351770034000005" lon="-121.85675145200001"/>
-<node visible="true" id="-128" lat="37.351861563" lon="-121.85694063400001"/>
-<node visible="true" id="-129" lat="37.351870435" lon="-121.85692169900001"/>
-<node visible="true" id="-130" lat="37.351910036" lon="-121.85695080400001"/>
-<node visible="true" id="-131" lat="37.351901164000004" lon="-121.856969738"/>
-<node visible="true" id="-133" lat="37.351220769" lon="-121.85768811300001"/>
-<node visible="true" id="-134" lat="37.351357204" lon="-121.857789823"/>
-<node visible="true" id="-135" lat="37.351354052000005" lon="-121.857796405"/>
-<node visible="true" id="-136" lat="37.351479593" lon="-121.85789003800001"/>
-<node visible="true" id="-137" lat="37.351486715" lon="-121.85787502800001"/>
-<node visible="true" id="-138" lat="37.351515091" lon="-121.857896189"/>
-<node visible="true" id="-139" lat="37.351575313000005" lon="-121.857769426"/>
-<node visible="true" id="-140" lat="37.35128496" lon="-121.85755296"/>
-<node visible="true" id="-142" lat="37.351060923000006" lon="-121.85803068700001"/>
-<node visible="true" id="-143" lat="37.351144452" lon="-121.85809224500001"/>
-<node visible="true" id="-144" lat="37.351116938000004" lon="-121.85815082100001"/>
-<node visible="true" id="-145" lat="37.351163837" lon="-121.85818539300001"/>
-<node visible="true" id="-146" lat="37.351154008" lon="-121.85820634100001"/>
-<node visible="true" id="-147" lat="37.35130941" lon="-121.85832085000001"/>
-<node visible="true" id="-148" lat="37.351348895" lon="-121.85823675600001"/>
-<node visible="true" id="-149" lat="37.351354097000005" lon="-121.858240566"/>
-<node visible="true" id="-150" lat="37.351414956" lon="-121.858110959"/>
-<node visible="true" id="-151" lat="37.351383254000005" lon="-121.858087607"/>
-<node visible="true" id="-152" lat="37.35138914" lon="-121.85807508600001"/>
-<node visible="true" id="-153" lat="37.351267563" lon="-121.857985482"/>
-<node visible="true" id="-154" lat="37.351263339" lon="-121.85799442000001"/>
-<node visible="true" id="-155" lat="37.351125612000004" lon="-121.85789292800001"/>
-<node visible="true" id="-157" lat="37.35236384" lon="-121.855594209"/>
-<node visible="true" id="-158" lat="37.352473538000005" lon="-121.85567568100001"/>
-<node visible="true" id="-159" lat="37.352521204000006" lon="-121.85557501000001"/>
-<node visible="true" id="-160" lat="37.352411507" lon="-121.855493538"/>
+<node visible="true" id="-2" lat="37.350681188" lon="-121.85900901800001"/>
+<node visible="true" id="-3" lat="37.350743492" lon="-121.85905584400001"/>
+<node visible="true" id="-4" lat="37.350808516" lon="-121.858920053"/>
+<node visible="true" id="-5" lat="37.350780224000005" lon="-121.858898756"/>
+<node visible="true" id="-6" lat="37.35077724" lon="-121.858904999"/>
+<node visible="true" id="-7" lat="37.350743257000005" lon="-121.85887943600001"/>
+<node visible="true" id="-9" lat="37.351882125" lon="-121.85659752000001"/>
+<node visible="true" id="-10" lat="37.352077092" lon="-121.85674213"/>
+<node visible="true" id="-11" lat="37.352113949" lon="-121.85666414500001"/>
+<node visible="true" id="-12" lat="37.351918983000004" lon="-121.856519535"/>
+<node visible="true" id="-14" lat="37.351499447" lon="-121.857363937"/>
+<node visible="true" id="-15" lat="37.35155557" lon="-121.857405971"/>
+<node visible="true" id="-16" lat="37.351579470000004" lon="-121.85735592900001"/>
+<node visible="true" id="-17" lat="37.351583637000005" lon="-121.857359067"/>
+<node visible="true" id="-18" lat="37.351645285000004" lon="-121.857230025"/>
+<node visible="true" id="-19" lat="37.351587800000004" lon="-121.857186935"/>
+<node visible="true" id="-20" lat="37.35152539" lon="-121.85731761500001"/>
+<node visible="true" id="-21" lat="37.351522558" lon="-121.85731550000001"/>
+<node visible="true" id="-23" lat="37.350428334" lon="-121.859612002"/>
+<node visible="true" id="-24" lat="37.350514837000006" lon="-121.85967764200001"/>
+<node visible="true" id="-25" lat="37.350537632000005" lon="-121.859630506"/>
+<node visible="true" id="-26" lat="37.350643381000005" lon="-121.859711223"/>
+<node visible="true" id="-27" lat="37.350668492000004" lon="-121.85970359400001"/>
+<node visible="true" id="-28" lat="37.350707984" lon="-121.85962362900001"/>
+<node visible="true" id="-29" lat="37.350698209" lon="-121.859616227"/>
+<node visible="true" id="-30" lat="37.350703753000005" lon="-121.859604766"/>
+<node visible="true" id="-31" lat="37.350713609" lon="-121.85961227400001"/>
+<node visible="true" id="-32" lat="37.350772399" lon="-121.85949068400001"/>
+<node visible="true" id="-33" lat="37.350623381000005" lon="-121.859377596"/>
+<node visible="true" id="-34" lat="37.350563662" lon="-121.85950109500001"/>
+<node visible="true" id="-35" lat="37.350503896" lon="-121.859455761"/>
+<node visible="true" id="-37" lat="37.350250009" lon="-121.85966219000001"/>
+<node visible="true" id="-38" lat="37.350224679" lon="-121.85971475000001"/>
+<node visible="true" id="-39" lat="37.350250137" lon="-121.85973399900001"/>
+<node visible="true" id="-40" lat="37.350246254000005" lon="-121.859742014"/>
+<node visible="true" id="-41" lat="37.350224035000004" lon="-121.859725232"/>
+<node visible="true" id="-42" lat="37.350110301" lon="-121.859961185"/>
+<node visible="true" id="-43" lat="37.350157517" lon="-121.85999686400001"/>
+<node visible="true" id="-44" lat="37.350271448" lon="-121.859760433"/>
+<node visible="true" id="-45" lat="37.350266628" lon="-121.859756766"/>
+<node visible="true" id="-46" lat="37.350322272" lon="-121.85964131300001"/>
+<node visible="true" id="-47" lat="37.350293163" lon="-121.85961928"/>
+<node visible="true" id="-48" lat="37.35027669" lon="-121.85960683500001"/>
+<node visible="true" id="-50" lat="37.351095679000004" lon="-121.85882143600001"/>
+<node visible="true" id="-51" lat="37.351144795" lon="-121.858716908"/>
+<node visible="true" id="-52" lat="37.351132838000005" lon="-121.85870808800001"/>
+<node visible="true" id="-53" lat="37.351129966" lon="-121.85871423"/>
+<node visible="true" id="-54" lat="37.351017295000005" lon="-121.858631152"/>
+<node visible="true" id="-55" lat="37.350989160000005" lon="-121.85869105900001"/>
+<node visible="true" id="-56" lat="37.350969932000005" lon="-121.858676912"/>
+<node visible="true" id="-57" lat="37.350939291" lon="-121.858742175"/>
+<node visible="true" id="-58" lat="37.351074893" lon="-121.85884211700001"/>
+<node visible="true" id="-59" lat="37.351083118000005" lon="-121.85884818400001"/>
+<node visible="true" id="-62" lat="37.351753819" lon="-121.856785462"/>
+<node visible="true" id="-63" lat="37.351778029" lon="-121.856803552"/>
+<node visible="true" id="-64" lat="37.351760012" lon="-121.856841313"/>
+<node visible="true" id="-65" lat="37.351829263" lon="-121.85689315"/>
+<node visible="true" id="-66" lat="37.351765755" lon="-121.857026253"/>
+<node visible="true" id="-67" lat="37.351893116" lon="-121.85712163800001"/>
+<node visible="true" id="-68" lat="37.352004734000005" lon="-121.856887666"/>
+<node visible="true" id="-69" lat="37.351809129" lon="-121.856741255"/>
+<node visible="true" id="-70" lat="37.351795251000006" lon="-121.856770318"/>
+<node visible="true" id="-71" lat="37.351770034000005" lon="-121.85675145200001"/>
+<node visible="true" id="-73" lat="37.351861563" lon="-121.85694063400001"/>
+<node visible="true" id="-74" lat="37.351870435" lon="-121.85692169900001"/>
+<node visible="true" id="-75" lat="37.351910036" lon="-121.85695080400001"/>
+<node visible="true" id="-76" lat="37.351901164000004" lon="-121.856969738"/>
+<node visible="true" id="-78" lat="37.351220769" lon="-121.85768811300001"/>
+<node visible="true" id="-79" lat="37.351357204" lon="-121.857789823"/>
+<node visible="true" id="-80" lat="37.351354052000005" lon="-121.857796405"/>
+<node visible="true" id="-81" lat="37.351479593" lon="-121.85789003800001"/>
+<node visible="true" id="-82" lat="37.351486715" lon="-121.85787502800001"/>
+<node visible="true" id="-83" lat="37.351515091" lon="-121.857896189"/>
+<node visible="true" id="-84" lat="37.351575313000005" lon="-121.857769426"/>
+<node visible="true" id="-85" lat="37.35128496" lon="-121.85755296"/>
+<node visible="true" id="-88" lat="37.351852975" lon="-121.856436826"/>
+<node visible="true" id="-89" lat="37.352094287" lon="-121.85661630700001"/>
+<node visible="true" id="-90" lat="37.352092006" lon="-121.85662111600001"/>
+<node visible="true" id="-91" lat="37.352121691" lon="-121.856643159"/>
+<node visible="true" id="-92" lat="37.352180676" lon="-121.85651871300001"/>
+<node visible="true" id="-93" lat="37.352164526" lon="-121.85650672000001"/>
+<node visible="true" id="-94" lat="37.35218066" lon="-121.85647264100001"/>
+<node visible="true" id="-95" lat="37.352192861" lon="-121.85648170500001"/>
+<node visible="true" id="-96" lat="37.352202855" lon="-121.85646062200001"/>
+<node visible="true" id="-97" lat="37.352190491" lon="-121.856451453"/>
+<node visible="true" id="-98" lat="37.352206962000004" lon="-121.85641669"/>
+<node visible="true" id="-99" lat="37.352223002" lon="-121.856428647"/>
+<node visible="true" id="-100" lat="37.3522801" lon="-121.85630815600001"/>
+<node visible="true" id="-101" lat="37.352009647" lon="-121.85610702100001"/>
+<node visible="true" id="-102" lat="37.351973863000005" lon="-121.856182516"/>
+<node visible="true" id="-103" lat="37.351958884000005" lon="-121.85617140400001"/>
+<node visible="true" id="-104" lat="37.351872588" lon="-121.85635350400001"/>
+<node visible="true" id="-105" lat="37.351887295000004" lon="-121.85636443700001"/>
+<node visible="true" id="-107" lat="37.351997261" lon="-121.85622791"/>
+<node visible="true" id="-108" lat="37.352008209000005" lon="-121.85620519300001"/>
+<node visible="true" id="-109" lat="37.352042328" lon="-121.856230929"/>
+<node visible="true" id="-110" lat="37.352031381" lon="-121.85625368100001"/>
+<node visible="true" id="-112" lat="37.351998408" lon="-121.856380493"/>
+<node visible="true" id="-113" lat="37.352039590000004" lon="-121.85629425900001"/>
+<node visible="true" id="-114" lat="37.352196089" lon="-121.856411573"/>
+<node visible="true" id="-115" lat="37.352176497" lon="-121.85645261"/>
+<node visible="true" id="-116" lat="37.352163834" lon="-121.85644312400001"/>
+<node visible="true" id="-117" lat="37.352142243" lon="-121.856488322"/>
+<node visible="true" id="-119" lat="37.351060923000006" lon="-121.85803068700001"/>
+<node visible="true" id="-120" lat="37.351144452" lon="-121.85809224500001"/>
+<node visible="true" id="-121" lat="37.351116938000004" lon="-121.85815082100001"/>
+<node visible="true" id="-122" lat="37.351163837" lon="-121.85818539300001"/>
+<node visible="true" id="-123" lat="37.351154008" lon="-121.85820634100001"/>
+<node visible="true" id="-124" lat="37.35130941" lon="-121.85832085000001"/>
+<node visible="true" id="-125" lat="37.351348895" lon="-121.85823675600001"/>
+<node visible="true" id="-126" lat="37.351354097000005" lon="-121.858240566"/>
+<node visible="true" id="-127" lat="37.351414956" lon="-121.858110959"/>
+<node visible="true" id="-128" lat="37.351383254000005" lon="-121.858087607"/>
+<node visible="true" id="-129" lat="37.35138914" lon="-121.85807508600001"/>
+<node visible="true" id="-130" lat="37.351267563" lon="-121.857985482"/>
+<node visible="true" id="-131" lat="37.351263339" lon="-121.85799442000001"/>
+<node visible="true" id="-132" lat="37.351125612000004" lon="-121.85789292800001"/>
+<node visible="true" id="-134" lat="37.350132137" lon="-121.860458343"/>
+<node visible="true" id="-135" lat="37.350209742000004" lon="-121.86051673200001"/>
+<node visible="true" id="-136" lat="37.350441404" lon="-121.86003385800001"/>
+<node visible="true" id="-137" lat="37.350435903000005" lon="-121.860029733"/>
+<node visible="true" id="-138" lat="37.350455776000004" lon="-121.85998829"/>
+<node visible="true" id="-139" lat="37.350461931000005" lon="-121.85999290900001"/>
+<node visible="true" id="-140" lat="37.350483999000005" lon="-121.85994689700001"/>
+<node visible="true" id="-141" lat="37.35049097" lon="-121.85995215000001"/>
+<node visible="true" id="-142" lat="37.350496796" lon="-121.85993997300001"/>
+<node visible="true" id="-143" lat="37.350331049000005" lon="-121.85981522700001"/>
+<node visible="true" id="-144" lat="37.350291078000005" lon="-121.85989858800001"/>
+<node visible="true" id="-145" lat="37.350298702" lon="-121.85990433500001"/>
+<node visible="true" id="-146" lat="37.350233678" lon="-121.860039916"/>
+<node visible="true" id="-147" lat="37.350306545" lon="-121.86009477900001"/>
+<node visible="true" id="-149" lat="37.351013993" lon="-121.858461054"/>
+<node visible="true" id="-150" lat="37.3511487" lon="-121.85855526600001"/>
+<node visible="true" id="-151" lat="37.351144217000005" lon="-121.85856533500001"/>
+<node visible="true" id="-152" lat="37.351201026000005" lon="-121.858605076"/>
+<node visible="true" id="-153" lat="37.351216959000006" lon="-121.858569341"/>
+<node visible="true" id="-154" lat="37.351212109" lon="-121.85856595000001"/>
+<node visible="true" id="-155" lat="37.351219272" lon="-121.85854984100001"/>
+<node visible="true" id="-156" lat="37.351224668" lon="-121.85855358500001"/>
+<node visible="true" id="-157" lat="37.351238289" lon="-121.85852304000001"/>
+<node visible="true" id="-158" lat="37.351232731" lon="-121.858519153"/>
+<node visible="true" id="-159" lat="37.351303937000004" lon="-121.85835942400001"/>
+<node visible="true" id="-160" lat="37.351117461" lon="-121.858228968"/>
 <node visible="true" id="-162" lat="37.351585327" lon="-121.857443153"/>
 <node visible="true" id="-163" lat="37.351698426000006" lon="-121.857524896"/>
 <node visible="true" id="-164" lat="37.351733167" lon="-121.85744952200001"/>
 <node visible="true" id="-165" lat="37.351620068" lon="-121.85736774600001"/>
-<node visible="true" id="-167" lat="37.351882125" lon="-121.85659752000001"/>
-<node visible="true" id="-168" lat="37.352077092" lon="-121.85674213"/>
-<node visible="true" id="-169" lat="37.352113949" lon="-121.85666414500001"/>
-<node visible="true" id="-170" lat="37.351918983000004" lon="-121.856519535"/>
-<node visible="true" id="-172" lat="37.350337649000004" lon="-121.85977663800001"/>
-<node visible="true" id="-173" lat="37.350371344" lon="-121.85980099300001"/>
-<node visible="true" id="-174" lat="37.350368385" lon="-121.859807441"/>
-<node visible="true" id="-175" lat="37.35040129" lon="-121.859831231"/>
-<node visible="true" id="-176" lat="37.350402868" lon="-121.859827819"/>
-<node visible="true" id="-177" lat="37.350442855000004" lon="-121.85985672500001"/>
-<node visible="true" id="-178" lat="37.350440262" lon="-121.85986235600001"/>
-<node visible="true" id="-179" lat="37.35051114" lon="-121.85991353400001"/>
-<node visible="true" id="-180" lat="37.350512633" lon="-121.85991029300001"/>
-<node visible="true" id="-181" lat="37.350546819" lon="-121.85993496600001"/>
-<node visible="true" id="-182" lat="37.350546846" lon="-121.859934897"/>
-<node visible="true" id="-183" lat="37.350558097000004" lon="-121.859943016"/>
-<node visible="true" id="-184" lat="37.350596530000004" lon="-121.85985955800001"/>
-<node visible="true" id="-185" lat="37.350373659" lon="-121.859698503"/>
-<node visible="true" id="-186" lat="37.352380972" lon="-121.85560312400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1696"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-187" lat="37.350397102" lon="-121.85995581700001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1528"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="A;B"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-188" lat="37.350373612000006" lon="-121.860023963"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1528"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="C-I"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-189" lat="37.351459981000005" lon="-121.85773999800001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1640"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="10;50"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-190" lat="37.351789878000005" lon="-121.85687248400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1660"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-191" lat="37.351932119000004" lon="-121.85689812400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1656"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="A-C"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-192" lat="37.350616300000006" lon="-121.85889894"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="21"/><tag k="addr:street" v="South 33rd Street"/><tag k="addr:unit" v="B"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-193" lat="37.350346034000005" lon="-121.860068161"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1504"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-167" lat="37.350337649000004" lon="-121.85977663800001"/>
+<node visible="true" id="-168" lat="37.350371344" lon="-121.85980099300001"/>
+<node visible="true" id="-169" lat="37.350368385" lon="-121.859807441"/>
+<node visible="true" id="-170" lat="37.35040129" lon="-121.859831231"/>
+<node visible="true" id="-171" lat="37.350402868" lon="-121.859827819"/>
+<node visible="true" id="-172" lat="37.350442855000004" lon="-121.85985672500001"/>
+<node visible="true" id="-173" lat="37.350440262" lon="-121.85986235600001"/>
+<node visible="true" id="-174" lat="37.35051114" lon="-121.85991353400001"/>
+<node visible="true" id="-175" lat="37.350512633" lon="-121.85991029300001"/>
+<node visible="true" id="-176" lat="37.350546819" lon="-121.85993496600001"/>
+<node visible="true" id="-177" lat="37.350546846" lon="-121.859934897"/>
+<node visible="true" id="-178" lat="37.350558097000004" lon="-121.859943016"/>
+<node visible="true" id="-179" lat="37.350596530000004" lon="-121.85985955800001"/>
+<node visible="true" id="-180" lat="37.350373659" lon="-121.859698503"/>
+<node visible="true" id="-181" lat="37.351789959" lon="-121.85687959100001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1652"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-182" lat="37.351160146000005" lon="-121.85815640000001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1630"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-183" lat="37.350261699" lon="-121.860291673"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1506;1508;1510;1512;1520;1522"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-184" lat="37.350245879" lon="-121.86027418100001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1514;1518;1524;1526"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-185" lat="37.350497244" lon="-121.85985477800001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1530"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="FRNT"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-186" lat="37.351789878000005" lon="-121.85687248400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1660"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-187" lat="37.351459981000005" lon="-121.85773999800001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1640"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="10;50"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-188" lat="37.351932119000004" lon="-121.85689812400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1656"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="A-C"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-189" lat="37.350640478" lon="-121.85887011000001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="21"/><tag k="addr:street" v="South 33rd Street"/><tag k="addr:unit" v="A"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-190" lat="37.350616300000006" lon="-121.85889894"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="21"/><tag k="addr:street" v="South 33rd Street"/><tag k="addr:unit" v="B"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-191" lat="37.350346034000005" lon="-121.860068161"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1504"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-192" lat="37.350397102" lon="-121.85995581700001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1528"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="A;B"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-193" lat="37.350373612000006" lon="-121.860023963"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1528"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="C-I"/><tag k="addr:postcode" v="95116"/></node>
 <node visible="true" id="-194" lat="37.350496314000004" lon="-121.85959660300001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1560"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-195" lat="37.350518856" lon="-121.859841551"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1530"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="1-3"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-196" lat="37.350640478" lon="-121.85887011000001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="21"/><tag k="addr:street" v="South 33rd Street"/><tag k="addr:unit" v="A"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-197" lat="37.350588581000004" lon="-121.859423426"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1566"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-198" lat="37.35159868" lon="-121.85675106500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="32"/><tag k="addr:street" v="South 34th Street"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-199" lat="37.352035139" lon="-121.85622505500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1670"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="107-109;214;301;302"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-200" lat="37.352092332000005" lon="-121.85622776700001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1670"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="110-112;303-305"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-201" lat="37.351662012000006" lon="-121.85729116200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1648"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-202" lat="37.351853979000005" lon="-121.85699366200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1658"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-203" lat="37.352639782000004" lon="-121.85598340400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1697"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-204" lat="37.350497643000004" lon="-121.859820377"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1530"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="4"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-205" lat="37.350497244" lon="-121.85985477800001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1530"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="FRNT"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-206" lat="37.351789959" lon="-121.85687959100001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1652"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-207" lat="37.351026988" lon="-121.85775888200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1627"/><tag k="addr:street" v="Shortridge Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-208" lat="37.352008070000004" lon="-121.856621204"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1666"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="1/2"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-209" lat="37.352086504" lon="-121.856652245"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1668"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-210" lat="37.352470766" lon="-121.85558945800001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1694"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-211" lat="37.351121140000004" lon="-121.858443436"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1612"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-212" lat="37.351058085000005" lon="-121.857612355"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1631"/><tag k="addr:street" v="Shortridge Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-213" lat="37.351223586" lon="-121.858041154"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1638"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-214" lat="37.351933364000004" lon="-121.85657619400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1666"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-215" lat="37.352059509" lon="-121.85649275200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1670"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="101-103;206-209;312;314"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-216" lat="37.351973871000006" lon="-121.85636850200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1670"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="114;201-205;306-311"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-217" lat="37.351919283" lon="-121.85634672200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1670"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="104-106;210-212"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-218" lat="37.350245879" lon="-121.86027418100001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1514;1518;1524;1526"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-219" lat="37.351054585" lon="-121.858403593"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1610"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-220" lat="37.351110545000004" lon="-121.858285144"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1614"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-221" lat="37.351053331" lon="-121.858253034"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1616"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-222" lat="37.351160146000005" lon="-121.85815640000001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1630"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-223" lat="37.351417496" lon="-121.85767300900001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1640"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-224" lat="37.350261699" lon="-121.860291673"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1506;1508;1510;1512;1520;1522"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-225" lat="37.351679548" lon="-121.85743650500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1648"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="C;D"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-226" lat="37.351645395000006" lon="-121.85742083100001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1648"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="A;B"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-227" lat="37.351004401000004" lon="-121.858682986"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1600"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
-<node visible="true" id="-229" lat="37.351441589000004" lon="-121.857466864"/>
-<node visible="true" id="-230" lat="37.351652688" lon="-121.85762484400001"/>
-<node visible="true" id="-231" lat="37.351694662" lon="-121.85753680200001"/>
-<node visible="true" id="-232" lat="37.351483563" lon="-121.857378822"/>
-<node visible="true" id="-234" lat="37.350138749" lon="-121.86020337400001"/>
-<node visible="true" id="-235" lat="37.350209372" lon="-121.8602551"/>
-<node visible="true" id="-236" lat="37.350284974000004" lon="-121.86009321700001"/>
-<node visible="true" id="-237" lat="37.350214351000005" lon="-121.86004145800001"/>
-<node visible="true" id="-239" lat="37.352143188" lon="-121.85616934900001"/>
-<node visible="true" id="-240" lat="37.35224035" lon="-121.85623978900001"/>
-<node visible="true" id="-241" lat="37.35223525" lon="-121.856250844"/>
-<node visible="true" id="-242" lat="37.352289783" lon="-121.85629037100001"/>
-<node visible="true" id="-243" lat="37.352329985000004" lon="-121.856203362"/>
-<node visible="true" id="-244" lat="37.352205421" lon="-121.856113053"/>
-<node visible="true" id="-245" lat="37.352176634" lon="-121.856101244"/>
-<node visible="true" id="-247" lat="37.352273409000006" lon="-121.855991453"/>
-<node visible="true" id="-248" lat="37.352382431" lon="-121.856074324"/>
-<node visible="true" id="-249" lat="37.352427144" lon="-121.85598206300001"/>
-<node visible="true" id="-250" lat="37.352318095" lon="-121.85589919300001"/>
-<node visible="true" id="-252" lat="37.351036060000006" lon="-121.85856677500001"/>
-<node visible="true" id="-253" lat="37.351068077" lon="-121.85859130300001"/>
-<node visible="true" id="-254" lat="37.351053109000006" lon="-121.858621963"/>
-<node visible="true" id="-255" lat="37.351144588000004" lon="-121.858692062"/>
-<node visible="true" id="-256" lat="37.351182909" lon="-121.858613589"/>
-<node visible="true" id="-257" lat="37.351059385" lon="-121.85851896000001"/>
-<node visible="true" id="-259" lat="37.350867152" lon="-121.85904863200001"/>
-<node visible="true" id="-260" lat="37.350796549" lon="-121.85919643000001"/>
-<node visible="true" id="-261" lat="37.350843059" lon="-121.85923130500001"/>
-<node visible="true" id="-262" lat="37.350942264000004" lon="-121.859023608"/>
-<node visible="true" id="-263" lat="37.35091378" lon="-121.859002274"/>
-<node visible="true" id="-264" lat="37.350895753" lon="-121.858988768"/>
-<way visible="true" id="-2"><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-3"/></way>
-<way visible="true" id="-21"><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-22"/></way>
-<way visible="true" id="-26"><nd ref="-27"/><nd ref="-28"/><nd ref="-29"/><nd ref="-30"/><nd ref="-31"/><nd ref="-32"/><nd ref="-27"/></way>
-<way visible="true" id="-33"><nd ref="-34"/><nd ref="-35"/><nd ref="-36"/><nd ref="-37"/><nd ref="-38"/><nd ref="-39"/><nd ref="-40"/><nd ref="-41"/><nd ref="-42"/><nd ref="-43"/><nd ref="-44"/><nd ref="-45"/><nd ref="-46"/><nd ref="-47"/><nd ref="-34"/><tag k="building" v="yes"/><tag k="height" v="6.98"/><tag k="ele" v="37.44"/></way>
-<way visible="true" id="-48"><nd ref="-49"/><nd ref="-50"/><nd ref="-51"/><nd ref="-52"/><nd ref="-53"/><nd ref="-54"/><nd ref="-55"/><nd ref="-56"/><nd ref="-57"/><nd ref="-58"/><nd ref="-59"/><nd ref="-60"/><nd ref="-49"/><tag k="building" v="yes"/><tag k="height" v="4.68"/><tag k="ele" v="32.85"/></way>
-<way visible="true" id="-61"><nd ref="-62"/><nd ref="-63"/><nd ref="-64"/><nd ref="-65"/><nd ref="-66"/><nd ref="-67"/><nd ref="-62"/><tag k="building" v="yes"/><tag k="height" v="3.50"/><tag k="ele" v="32.58"/></way>
-<way visible="true" id="-68"><nd ref="-69"/><nd ref="-70"/><nd ref="-71"/><nd ref="-72"/><nd ref="-73"/><nd ref="-74"/><nd ref="-75"/><nd ref="-76"/><nd ref="-77"/><nd ref="-78"/><nd ref="-79"/><nd ref="-80"/><nd ref="-81"/><nd ref="-69"/><tag k="building" v="yes"/><tag k="height" v="4.01"/><tag k="ele" v="33.04"/></way>
-<way visible="true" id="-82"><nd ref="-83"/><nd ref="-84"/><nd ref="-85"/><nd ref="-86"/><nd ref="-87"/><nd ref="-88"/><nd ref="-89"/><nd ref="-90"/><nd ref="-91"/><nd ref="-92"/><nd ref="-93"/><nd ref="-94"/><nd ref="-83"/><tag k="building" v="yes"/><tag k="height" v="2.83"/><tag k="ele" v="30.21"/></way>
-<way visible="true" id="-95"><nd ref="-96"/><nd ref="-97"/><nd ref="-98"/><nd ref="-99"/><nd ref="-100"/><nd ref="-101"/><nd ref="-102"/><nd ref="-103"/><nd ref="-96"/><tag k="building" v="yes"/><tag k="height" v="3.33"/><tag k="ele" v="32.32"/></way>
-<way visible="true" id="-104"><nd ref="-105"/><nd ref="-106"/><nd ref="-107"/><nd ref="-108"/><nd ref="-109"/><nd ref="-110"/><nd ref="-111"/><nd ref="-112"/><nd ref="-113"/><nd ref="-114"/><nd ref="-105"/><tag k="building" v="yes"/><tag k="height" v="6.12"/><tag k="ele" v="33.50"/></way>
-<way visible="true" id="-116"><nd ref="-117"/><nd ref="-118"/><nd ref="-119"/><nd ref="-120"/><nd ref="-121"/><nd ref="-122"/><nd ref="-123"/><nd ref="-124"/><nd ref="-125"/><nd ref="-126"/><nd ref="-117"/></way>
-<way visible="true" id="-127"><nd ref="-128"/><nd ref="-129"/><nd ref="-130"/><nd ref="-131"/><nd ref="-128"/></way>
-<way visible="true" id="-132"><nd ref="-133"/><nd ref="-134"/><nd ref="-135"/><nd ref="-136"/><nd ref="-137"/><nd ref="-138"/><nd ref="-139"/><nd ref="-140"/><nd ref="-133"/><tag k="building" v="yes"/><tag k="height" v="4.23"/><tag k="ele" v="33.24"/></way>
-<way visible="true" id="-141"><nd ref="-142"/><nd ref="-143"/><nd ref="-144"/><nd ref="-145"/><nd ref="-146"/><nd ref="-147"/><nd ref="-148"/><nd ref="-149"/><nd ref="-150"/><nd ref="-151"/><nd ref="-152"/><nd ref="-153"/><nd ref="-154"/><nd ref="-155"/><nd ref="-142"/><tag k="building" v="yes"/><tag k="height" v="4.37"/><tag k="ele" v="33.31"/></way>
-<way visible="true" id="-156"><nd ref="-157"/><nd ref="-158"/><nd ref="-159"/><nd ref="-160"/><nd ref="-157"/><tag k="building" v="yes"/><tag k="height" v="4.26"/><tag k="ele" v="33.04"/></way>
+<node visible="true" id="-195" lat="37.35159868" lon="-121.85675106500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="32"/><tag k="addr:street" v="South 34th Street"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-196" lat="37.351662012000006" lon="-121.85729116200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1648"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-197" lat="37.352639782000004" lon="-121.85598340400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1697"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-198" lat="37.350518856" lon="-121.859841551"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1530"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="1-3"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-199" lat="37.350497643000004" lon="-121.859820377"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1530"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="4"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-200" lat="37.352059509" lon="-121.85649275200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1670"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="101-103;206-209;312;314"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-201" lat="37.351973871000006" lon="-121.85636850200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1670"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="114;201-205;306-311"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-202" lat="37.351919283" lon="-121.85634672200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1670"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="104-106;210-212"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-203" lat="37.352035139" lon="-121.85622505500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1670"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="107-109;214;301;302"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-204" lat="37.352092332000005" lon="-121.85622776700001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1670"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="110-112;303-305"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-205" lat="37.351679548" lon="-121.85743650500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1648"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="C;D"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-206" lat="37.351645395000006" lon="-121.85742083100001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1648"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="A;B"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-207" lat="37.350588581000004" lon="-121.859423426"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1566"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-208" lat="37.351004401000004" lon="-121.858682986"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1600"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-209" lat="37.351054585" lon="-121.858403593"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1610"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-210" lat="37.351121140000004" lon="-121.858443436"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1612"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-211" lat="37.351110545000004" lon="-121.858285144"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1614"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-212" lat="37.351053331" lon="-121.858253034"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1616"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-213" lat="37.351026988" lon="-121.85775888200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1627"/><tag k="addr:street" v="Shortridge Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-214" lat="37.351058085000005" lon="-121.857612355"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1631"/><tag k="addr:street" v="Shortridge Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-215" lat="37.351223586" lon="-121.858041154"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1638"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-216" lat="37.351417496" lon="-121.85767300900001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1640"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-217" lat="37.351853979000005" lon="-121.85699366200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1658"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-218" lat="37.351933364000004" lon="-121.85657619400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1666"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-219" lat="37.352008070000004" lon="-121.856621204"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1666"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:unit" v="1/2"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-220" lat="37.352086504" lon="-121.856652245"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1668"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-221" lat="37.352470766" lon="-121.85558945800001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1694"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-222" lat="37.352380972" lon="-121.85560312400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1696"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></node>
+<node visible="true" id="-224" lat="37.351441589000004" lon="-121.857466864"/>
+<node visible="true" id="-225" lat="37.351652688" lon="-121.85762484400001"/>
+<node visible="true" id="-226" lat="37.351694662" lon="-121.85753680200001"/>
+<node visible="true" id="-227" lat="37.351483563" lon="-121.857378822"/>
+<node visible="true" id="-229" lat="37.350138749" lon="-121.86020337400001"/>
+<node visible="true" id="-230" lat="37.350209372" lon="-121.8602551"/>
+<node visible="true" id="-231" lat="37.350284974000004" lon="-121.86009321700001"/>
+<node visible="true" id="-232" lat="37.350214351000005" lon="-121.86004145800001"/>
+<node visible="true" id="-234" lat="37.350867152" lon="-121.85904863200001"/>
+<node visible="true" id="-235" lat="37.350796549" lon="-121.85919643000001"/>
+<node visible="true" id="-236" lat="37.350843059" lon="-121.85923130500001"/>
+<node visible="true" id="-237" lat="37.350942264000004" lon="-121.859023608"/>
+<node visible="true" id="-238" lat="37.35091378" lon="-121.859002274"/>
+<node visible="true" id="-239" lat="37.350895753" lon="-121.858988768"/>
+<node visible="true" id="-241" lat="37.352143188" lon="-121.85616934900001"/>
+<node visible="true" id="-242" lat="37.35224035" lon="-121.85623978900001"/>
+<node visible="true" id="-243" lat="37.35223525" lon="-121.856250844"/>
+<node visible="true" id="-244" lat="37.352289783" lon="-121.85629037100001"/>
+<node visible="true" id="-245" lat="37.352329985000004" lon="-121.856203362"/>
+<node visible="true" id="-246" lat="37.352205421" lon="-121.856113053"/>
+<node visible="true" id="-247" lat="37.352176634" lon="-121.856101244"/>
+<node visible="true" id="-249" lat="37.352273409000006" lon="-121.855991453"/>
+<node visible="true" id="-250" lat="37.352382431" lon="-121.856074324"/>
+<node visible="true" id="-251" lat="37.352427144" lon="-121.85598206300001"/>
+<node visible="true" id="-252" lat="37.352318095" lon="-121.85589919300001"/>
+<node visible="true" id="-254" lat="37.351036060000006" lon="-121.85856677500001"/>
+<node visible="true" id="-255" lat="37.351068077" lon="-121.85859130300001"/>
+<node visible="true" id="-256" lat="37.351053109000006" lon="-121.858621963"/>
+<node visible="true" id="-257" lat="37.351144588000004" lon="-121.858692062"/>
+<node visible="true" id="-258" lat="37.351182909" lon="-121.858613589"/>
+<node visible="true" id="-259" lat="37.351059385" lon="-121.85851896000001"/>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="3.50"/><tag k="ele" v="32.58"/></way>
+<way visible="true" id="-8"><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-9"/><tag k="building" v="yes"/><tag k="height" v="2.94"/><tag k="ele" v="33.04"/></way>
+<way visible="true" id="-13"><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-21"/><nd ref="-14"/><tag k="building" v="yes"/><tag k="height" v="3.33"/><tag k="ele" v="32.32"/></way>
+<way visible="true" id="-22"><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-26"/><nd ref="-27"/><nd ref="-28"/><nd ref="-29"/><nd ref="-30"/><nd ref="-31"/><nd ref="-32"/><nd ref="-33"/><nd ref="-34"/><nd ref="-35"/><nd ref="-23"/><tag k="building" v="yes"/><tag k="height" v="4.01"/><tag k="ele" v="33.04"/></way>
+<way visible="true" id="-36"><nd ref="-37"/><nd ref="-38"/><nd ref="-39"/><nd ref="-40"/><nd ref="-41"/><nd ref="-42"/><nd ref="-43"/><nd ref="-44"/><nd ref="-45"/><nd ref="-46"/><nd ref="-47"/><nd ref="-48"/><nd ref="-37"/><tag k="building" v="yes"/><tag k="height" v="2.83"/><tag k="ele" v="30.21"/></way>
+<way visible="true" id="-49"><nd ref="-50"/><nd ref="-51"/><nd ref="-52"/><nd ref="-53"/><nd ref="-54"/><nd ref="-55"/><nd ref="-56"/><nd ref="-57"/><nd ref="-58"/><nd ref="-59"/><nd ref="-50"/><tag k="building" v="yes"/><tag k="height" v="6.12"/><tag k="ele" v="33.50"/></way>
+<way visible="true" id="-61"><nd ref="-62"/><nd ref="-63"/><nd ref="-64"/><nd ref="-65"/><nd ref="-66"/><nd ref="-67"/><nd ref="-68"/><nd ref="-69"/><nd ref="-70"/><nd ref="-71"/><nd ref="-62"/></way>
+<way visible="true" id="-72"><nd ref="-73"/><nd ref="-74"/><nd ref="-75"/><nd ref="-76"/><nd ref="-73"/></way>
+<way visible="true" id="-77"><nd ref="-78"/><nd ref="-79"/><nd ref="-80"/><nd ref="-81"/><nd ref="-82"/><nd ref="-83"/><nd ref="-84"/><nd ref="-85"/><nd ref="-78"/><tag k="building" v="yes"/><tag k="height" v="4.23"/><tag k="ele" v="33.24"/></way>
+<way visible="true" id="-87"><nd ref="-88"/><nd ref="-89"/><nd ref="-90"/><nd ref="-91"/><nd ref="-92"/><nd ref="-93"/><nd ref="-94"/><nd ref="-95"/><nd ref="-96"/><nd ref="-97"/><nd ref="-98"/><nd ref="-99"/><nd ref="-100"/><nd ref="-101"/><nd ref="-102"/><nd ref="-103"/><nd ref="-104"/><nd ref="-105"/><nd ref="-88"/></way>
+<way visible="true" id="-106"><nd ref="-107"/><nd ref="-108"/><nd ref="-109"/><nd ref="-110"/><nd ref="-107"/></way>
+<way visible="true" id="-111"><nd ref="-112"/><nd ref="-113"/><nd ref="-114"/><nd ref="-115"/><nd ref="-116"/><nd ref="-117"/><nd ref="-112"/></way>
+<way visible="true" id="-118"><nd ref="-119"/><nd ref="-120"/><nd ref="-121"/><nd ref="-122"/><nd ref="-123"/><nd ref="-124"/><nd ref="-125"/><nd ref="-126"/><nd ref="-127"/><nd ref="-128"/><nd ref="-129"/><nd ref="-130"/><nd ref="-131"/><nd ref="-132"/><nd ref="-119"/><tag k="building" v="yes"/><tag k="height" v="4.37"/><tag k="ele" v="33.31"/></way>
+<way visible="true" id="-133"><nd ref="-134"/><nd ref="-135"/><nd ref="-136"/><nd ref="-137"/><nd ref="-138"/><nd ref="-139"/><nd ref="-140"/><nd ref="-141"/><nd ref="-142"/><nd ref="-143"/><nd ref="-144"/><nd ref="-145"/><nd ref="-146"/><nd ref="-147"/><nd ref="-134"/><tag k="building" v="yes"/><tag k="height" v="6.98"/><tag k="ele" v="37.44"/></way>
+<way visible="true" id="-148"><nd ref="-149"/><nd ref="-150"/><nd ref="-151"/><nd ref="-152"/><nd ref="-153"/><nd ref="-154"/><nd ref="-155"/><nd ref="-156"/><nd ref="-157"/><nd ref="-158"/><nd ref="-159"/><nd ref="-160"/><nd ref="-149"/><tag k="building" v="yes"/><tag k="height" v="4.68"/><tag k="ele" v="32.85"/></way>
 <way visible="true" id="-161"><nd ref="-162"/><nd ref="-163"/><nd ref="-164"/><nd ref="-165"/><nd ref="-162"/><tag k="building" v="yes"/><tag k="height" v="4.08"/><tag k="ele" v="32.58"/></way>
-<way visible="true" id="-166"><nd ref="-167"/><nd ref="-168"/><nd ref="-169"/><nd ref="-170"/><nd ref="-167"/><tag k="building" v="yes"/><tag k="height" v="2.94"/><tag k="ele" v="33.04"/></way>
-<way visible="true" id="-171"><nd ref="-172"/><nd ref="-173"/><nd ref="-174"/><nd ref="-175"/><nd ref="-176"/><nd ref="-177"/><nd ref="-178"/><nd ref="-179"/><nd ref="-180"/><nd ref="-181"/><nd ref="-182"/><nd ref="-183"/><nd ref="-184"/><nd ref="-185"/><nd ref="-172"/><tag k="building" v="yes"/><tag k="height" v="6.87"/><tag k="ele" v="34.29"/></way>
-<way visible="true" id="-228"><nd ref="-229"/><nd ref="-230"/><nd ref="-231"/><nd ref="-232"/><nd ref="-229"/><tag k="building" v="yes"/><tag k="height" v="3.62"/><tag k="ele" v="35.21"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1644"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></way>
-<way visible="true" id="-233"><nd ref="-234"/><nd ref="-235"/><nd ref="-236"/><nd ref="-237"/><nd ref="-234"/><tag k="building" v="yes"/><tag k="height" v="4.18"/><tag k="ele" v="31.79"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1502"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></way>
-<way visible="true" id="-238"><nd ref="-239"/><nd ref="-240"/><nd ref="-241"/><nd ref="-242"/><nd ref="-243"/><nd ref="-244"/><nd ref="-245"/><nd ref="-239"/><tag k="building" v="yes"/><tag k="height" v="3.75"/><tag k="ele" v="32.25"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1680"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></way>
-<way visible="true" id="-246"><nd ref="-247"/><nd ref="-248"/><nd ref="-249"/><nd ref="-250"/><nd ref="-247"/><tag k="building" v="yes"/><tag k="height" v="3.40"/><tag k="ele" v="33.57"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1688"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></way>
-<way visible="true" id="-251"><nd ref="-252"/><nd ref="-253"/><nd ref="-254"/><nd ref="-255"/><nd ref="-256"/><nd ref="-257"/><nd ref="-252"/><tag k="building" v="yes"/><tag k="height" v="4.18"/><tag k="ele" v="31.92"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1608"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></way>
-<way visible="true" id="-258"><nd ref="-259"/><nd ref="-260"/><nd ref="-261"/><nd ref="-262"/><nd ref="-263"/><nd ref="-264"/><nd ref="-259"/><tag k="building" v="yes"/><tag k="height" v="4.33"/><tag k="ele" v="31.92"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1598"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></way>
-<relation visible="true" id="-1"><member type="way" ref="-2" role="outer"/><member type="way" ref="-21" role="inner"/><member type="way" ref="-26" role="inner"/><tag k="type" v="multipolygon"/><tag k="building" v="yes"/><tag k="height" v="9.29"/><tag k="ele" v="39.85"/></relation>
-<relation visible="true" id="-115"><member type="way" ref="-116" role="outer"/><member type="way" ref="-127" role="inner"/><tag k="type" v="multipolygon"/><tag k="building" v="yes"/><tag k="height" v="6.86"/><tag k="ele" v="35.41"/></relation>
+<way visible="true" id="-166"><nd ref="-167"/><nd ref="-168"/><nd ref="-169"/><nd ref="-170"/><nd ref="-171"/><nd ref="-172"/><nd ref="-173"/><nd ref="-174"/><nd ref="-175"/><nd ref="-176"/><nd ref="-177"/><nd ref="-178"/><nd ref="-179"/><nd ref="-180"/><nd ref="-167"/><tag k="building" v="yes"/><tag k="height" v="6.87"/><tag k="ele" v="34.29"/></way>
+<way visible="true" id="-223"><nd ref="-224"/><nd ref="-225"/><nd ref="-226"/><nd ref="-227"/><nd ref="-224"/><tag k="building" v="yes"/><tag k="height" v="3.62"/><tag k="ele" v="35.21"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1644"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></way>
+<way visible="true" id="-228"><nd ref="-229"/><nd ref="-230"/><nd ref="-231"/><nd ref="-232"/><nd ref="-229"/><tag k="building" v="yes"/><tag k="height" v="4.18"/><tag k="ele" v="31.79"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1502"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></way>
+<way visible="true" id="-233"><nd ref="-234"/><nd ref="-235"/><nd ref="-236"/><nd ref="-237"/><nd ref="-238"/><nd ref="-239"/><nd ref="-234"/><tag k="building" v="yes"/><tag k="height" v="4.33"/><tag k="ele" v="31.92"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1598"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></way>
+<way visible="true" id="-240"><nd ref="-241"/><nd ref="-242"/><nd ref="-243"/><nd ref="-244"/><nd ref="-245"/><nd ref="-246"/><nd ref="-247"/><nd ref="-241"/><tag k="building" v="yes"/><tag k="height" v="3.75"/><tag k="ele" v="32.25"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1680"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></way>
+<way visible="true" id="-248"><nd ref="-249"/><nd ref="-250"/><nd ref="-251"/><nd ref="-252"/><nd ref="-249"/><tag k="building" v="yes"/><tag k="height" v="3.40"/><tag k="ele" v="33.57"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1688"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></way>
+<way visible="true" id="-253"><nd ref="-254"/><nd ref="-255"/><nd ref="-256"/><nd ref="-257"/><nd ref="-258"/><nd ref="-259"/><nd ref="-254"/><tag k="building" v="yes"/><tag k="height" v="4.18"/><tag k="ele" v="31.92"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1608"/><tag k="addr:street" v="Alum Rock Avenue"/><tag k="addr:postcode" v="95116"/></way>
+<relation visible="true" id="-60"><member type="way" ref="-61" role="outer"/><member type="way" ref="-72" role="inner"/><tag k="type" v="multipolygon"/><tag k="building" v="yes"/><tag k="height" v="6.86"/><tag k="ele" v="35.41"/></relation>
+<relation visible="true" id="-86"><member type="way" ref="-87" role="outer"/><member type="way" ref="-106" role="inner"/><member type="way" ref="-111" role="inner"/><tag k="type" v="multipolygon"/><tag k="building" v="yes"/><tag k="height" v="9.29"/><tag k="ele" v="39.85"/></relation>
 </osm>

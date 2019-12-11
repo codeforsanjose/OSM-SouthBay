@@ -1,62 +1,27 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="uvmogr2osm" upload="false">
-<node visible="true" id="-2" lat="37.310928347" lon="-122.02793727500001"/>
-<node visible="true" id="-3" lat="37.310928389000004" lon="-122.02808576900001"/>
-<node visible="true" id="-4" lat="37.311008295" lon="-122.02808571800001"/>
-<node visible="true" id="-5" lat="37.311008269000006" lon="-122.028054044"/>
-<node visible="true" id="-6" lat="37.311113089" lon="-122.028054021"/>
-<node visible="true" id="-7" lat="37.311109319" lon="-122.02799345300001"/>
-<node visible="true" id="-8" lat="37.311090663" lon="-122.027939011"/>
-<node visible="true" id="-9" lat="37.311022747" lon="-122.02793803600001"/>
-<node visible="true" id="-10" lat="37.311022777000005" lon="-122.02793360000001"/>
-<node visible="true" id="-11" lat="37.310994380000004" lon="-122.027933191"/>
-<node visible="true" id="-12" lat="37.310994314000006" lon="-122.02793821"/>
-<node visible="true" id="-14" lat="37.310583143" lon="-122.026793967"/>
-<node visible="true" id="-15" lat="37.310594358" lon="-122.02686706700001"/>
-<node visible="true" id="-16" lat="37.31061067" lon="-122.026863136"/>
-<node visible="true" id="-17" lat="37.310629127000006" lon="-122.02698353100001"/>
-<node visible="true" id="-18" lat="37.310667537" lon="-122.02697430900001"/>
-<node visible="true" id="-19" lat="37.310668526" lon="-122.026980691"/>
-<node visible="true" id="-20" lat="37.310685527000004" lon="-122.026976602"/>
-<node visible="true" id="-21" lat="37.310684514" lon="-122.026970046"/>
-<node visible="true" id="-22" lat="37.310750673" lon="-122.026954136"/>
-<node visible="true" id="-23" lat="37.310742166000004" lon="-122.02689869900001"/>
-<node visible="true" id="-24" lat="37.310750377000005" lon="-122.026896734"/>
-<node visible="true" id="-25" lat="37.310743616" lon="-122.02685274900001"/>
-<node visible="true" id="-26" lat="37.310693273000005" lon="-122.02686485800001"/>
-<node visible="true" id="-27" lat="37.310687957" lon="-122.026830188"/>
-<node visible="true" id="-28" lat="37.310675365" lon="-122.026833232"/>
-<node visible="true" id="-29" lat="37.310666299000005" lon="-122.02677424100001"/>
-<node visible="true" id="-30" lat="37.310644669000006" lon="-122.02677943900001"/>
-<node visible="true" id="-31" lat="37.310643581" lon="-122.026772299"/>
-<node visible="true" id="-32" lat="37.310623907" lon="-122.02677705500001"/>
-<node visible="true" id="-33" lat="37.310624971" lon="-122.02678392000001"/>
-<node visible="true" id="-35" lat="37.310422133" lon="-122.02629998"/>
-<node visible="true" id="-36" lat="37.3104536" lon="-122.026410462"/>
-<node visible="true" id="-37" lat="37.31046117" lon="-122.026407109"/>
-<node visible="true" id="-38" lat="37.310481396" lon="-122.02647808900001"/>
-<node visible="true" id="-39" lat="37.310572544" lon="-122.026437376"/>
-<node visible="true" id="-40" lat="37.310568973" lon="-122.026424855"/>
-<node visible="true" id="-41" lat="37.310572204" lon="-122.026423441"/>
-<node visible="true" id="-42" lat="37.310555025" lon="-122.02636315000001"/>
-<node visible="true" id="-43" lat="37.3105503" lon="-122.026365255"/>
-<node visible="true" id="-44" lat="37.310540845000006" lon="-122.02633204800001"/>
-<node visible="true" id="-45" lat="37.310572536" lon="-122.02631787300001"/>
-<node visible="true" id="-46" lat="37.310551022000006" lon="-122.02624243100001"/>
-<node visible="true" id="-48" lat="37.311357839" lon="-122.02924505000001"/>
-<node visible="true" id="-49" lat="37.311361874" lon="-122.0292452"/>
-<node visible="true" id="-50" lat="37.311359786000004" lon="-122.029354654"/>
-<node visible="true" id="-51" lat="37.311424916" lon="-122.029356605"/>
-<node visible="true" id="-52" lat="37.311424477" lon="-122.02937970600001"/>
-<node visible="true" id="-53" lat="37.311486091" lon="-122.02938158600001"/>
-<node visible="true" id="-54" lat="37.311487532" lon="-122.02930702500001"/>
-<node visible="true" id="-55" lat="37.311440963" lon="-122.029305624"/>
-<node visible="true" id="-56" lat="37.311443522000005" lon="-122.029172762"/>
-<node visible="true" id="-57" lat="37.311430755" lon="-122.029172363"/>
-<node visible="true" id="-58" lat="37.311431771" lon="-122.02911980200001"/>
-<node visible="true" id="-59" lat="37.31136027" lon="-122.029117651"/>
-<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="4.82"/><tag k="ele" v="78.52"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1001"/><tag k="addr:street" v="Windsor Street"/><tag k="addr:postcode" v="95129"/></way>
-<way visible="true" id="-13"><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-26"/><nd ref="-27"/><nd ref="-28"/><nd ref="-29"/><nd ref="-30"/><nd ref="-31"/><nd ref="-32"/><nd ref="-33"/><nd ref="-14"/><tag k="building" v="yes"/><tag k="height" v="3.94"/><tag k="ele" v="77.54"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="7008"/><tag k="addr:street" v="Bollinger Road"/><tag k="addr:postcode" v="95129"/></way>
-<way visible="true" id="-34"><nd ref="-35"/><nd ref="-36"/><nd ref="-37"/><nd ref="-38"/><nd ref="-39"/><nd ref="-40"/><nd ref="-41"/><nd ref="-42"/><nd ref="-43"/><nd ref="-44"/><nd ref="-45"/><nd ref="-46"/><nd ref="-35"/><tag k="building" v="yes"/><tag k="height" v="4.26"/><tag k="ele" v="78.85"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="6990"/><tag k="addr:street" v="Bollinger Road"/><tag k="addr:postcode" v="95129"/></way>
-<way visible="true" id="-47"><nd ref="-48"/><nd ref="-49"/><nd ref="-50"/><nd ref="-51"/><nd ref="-52"/><nd ref="-53"/><nd ref="-54"/><nd ref="-55"/><nd ref="-56"/><nd ref="-57"/><nd ref="-58"/><nd ref="-59"/><nd ref="-48"/><tag k="building" v="yes"/><tag k="height" v="3.03"/><tag k="ele" v="79.07"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="7120"/><tag k="addr:street" v="Bollinger Road"/><tag k="addr:postcode" v="95129"/></way>
+<node visible="true" id="-2" lat="37.310743368000004" lon="-122.02711207300001"/>
+<node visible="true" id="-3" lat="37.310742966" lon="-122.02720189"/>
+<node visible="true" id="-4" lat="37.310816905" lon="-122.02720240400001"/>
+<node visible="true" id="-5" lat="37.310817305" lon="-122.027112621"/>
+<node visible="true" id="-7" lat="37.310764679" lon="-122.027449489"/>
+<node visible="true" id="-8" lat="37.310763198000004" lon="-122.027563114"/>
+<node visible="true" id="-9" lat="37.310868126" lon="-122.02756525900001"/>
+<node visible="true" id="-10" lat="37.310868307" lon="-122.02755140400001"/>
+<node visible="true" id="-11" lat="37.310939183" lon="-122.02755288700001"/>
+<node visible="true" id="-12" lat="37.310940485" lon="-122.02745308200001"/>
+<node visible="true" id="-14" lat="37.310928347" lon="-122.02793727500001"/>
+<node visible="true" id="-15" lat="37.310928389000004" lon="-122.02808576900001"/>
+<node visible="true" id="-16" lat="37.311008295" lon="-122.02808571800001"/>
+<node visible="true" id="-17" lat="37.311008269000006" lon="-122.028054044"/>
+<node visible="true" id="-18" lat="37.311113089" lon="-122.028054021"/>
+<node visible="true" id="-19" lat="37.311109319" lon="-122.02799345300001"/>
+<node visible="true" id="-20" lat="37.311090663" lon="-122.027939011"/>
+<node visible="true" id="-21" lat="37.311022747" lon="-122.02793803600001"/>
+<node visible="true" id="-22" lat="37.311022777000005" lon="-122.02793360000001"/>
+<node visible="true" id="-23" lat="37.310994380000004" lon="-122.027933191"/>
+<node visible="true" id="-24" lat="37.310994314000006" lon="-122.02793821"/>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="3.79"/><tag k="ele" v="77.18"/></way>
+<way visible="true" id="-6"><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-7"/><tag k="building" v="yes"/><tag k="height" v="4.22"/><tag k="ele" v="77.10"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1006"/><tag k="addr:street" v="Windsor Street"/><tag k="addr:postcode" v="95129"/></way>
+<way visible="true" id="-13"><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-14"/><tag k="building" v="yes"/><tag k="height" v="4.82"/><tag k="ele" v="78.52"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1001"/><tag k="addr:street" v="Windsor Street"/><tag k="addr:postcode" v="95129"/></way>
 </osm>

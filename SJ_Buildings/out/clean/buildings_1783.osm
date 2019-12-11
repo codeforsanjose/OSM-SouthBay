@@ -1,25 +1,25 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="uvmogr2osm" upload="false">
-<node visible="true" id="-2" lat="37.214284059" lon="-121.766166091"/>
-<node visible="true" id="-3" lat="37.214309221" lon="-121.766297812"/>
-<node visible="true" id="-4" lat="37.214331184" lon="-121.766291245"/>
-<node visible="true" id="-5" lat="37.214306021000006" lon="-121.766159525"/>
-<node visible="true" id="-7" lat="37.214313233000006" lon="-121.766158101"/>
-<node visible="true" id="-8" lat="37.214314519000006" lon="-121.76617131100001"/>
-<node visible="true" id="-9" lat="37.214325689" lon="-121.76616957700001"/>
-<node visible="true" id="-10" lat="37.214324376" lon="-121.76615636700001"/>
-<node visible="true" id="-12" lat="37.204094336000004" lon="-121.778712963"/>
-<node visible="true" id="-13" lat="37.204095595000005" lon="-121.77873101200001"/>
-<node visible="true" id="-14" lat="37.204119326000004" lon="-121.77872846400001"/>
-<node visible="true" id="-15" lat="37.204118095000005" lon="-121.77871041600001"/>
-<node visible="true" id="-17" lat="37.214438525000006" lon="-121.769077498"/>
-<node visible="true" id="-18" lat="37.214477450000004" lon="-121.76911782600001"/>
-<node visible="true" id="-19" lat="37.214509729" lon="-121.76906912400001"/>
-<node visible="true" id="-20" lat="37.214470833" lon="-121.76902879800001"/>
-<node visible="true" id="-22" lat="37.218737199" lon="-121.762609671"/>
-<node visible="true" id="-23" lat="37.218760963" lon="-121.76263215600001"/>
-<node visible="true" id="-24" lat="37.218780344" lon="-121.76260009500001"/>
-<node visible="true" id="-25" lat="37.218756608" lon="-121.76257761100001"/>
+<node visible="true" id="-2" lat="37.218737199" lon="-121.762609671"/>
+<node visible="true" id="-3" lat="37.218760963" lon="-121.76263215600001"/>
+<node visible="true" id="-4" lat="37.218780344" lon="-121.76260009500001"/>
+<node visible="true" id="-5" lat="37.218756608" lon="-121.76257761100001"/>
+<node visible="true" id="-7" lat="37.214284059" lon="-121.766166091"/>
+<node visible="true" id="-8" lat="37.214309221" lon="-121.766297812"/>
+<node visible="true" id="-9" lat="37.214331184" lon="-121.766291245"/>
+<node visible="true" id="-10" lat="37.214306021000006" lon="-121.766159525"/>
+<node visible="true" id="-12" lat="37.214313233000006" lon="-121.766158101"/>
+<node visible="true" id="-13" lat="37.214314519000006" lon="-121.76617131100001"/>
+<node visible="true" id="-14" lat="37.214325689" lon="-121.76616957700001"/>
+<node visible="true" id="-15" lat="37.214324376" lon="-121.76615636700001"/>
+<node visible="true" id="-17" lat="37.204094336000004" lon="-121.778712963"/>
+<node visible="true" id="-18" lat="37.204095595000005" lon="-121.77873101200001"/>
+<node visible="true" id="-19" lat="37.204119326000004" lon="-121.77872846400001"/>
+<node visible="true" id="-20" lat="37.204118095000005" lon="-121.77871041600001"/>
+<node visible="true" id="-22" lat="37.214438525000006" lon="-121.769077498"/>
+<node visible="true" id="-23" lat="37.214477450000004" lon="-121.76911782600001"/>
+<node visible="true" id="-24" lat="37.214509729" lon="-121.76906912400001"/>
+<node visible="true" id="-25" lat="37.214470833" lon="-121.76902879800001"/>
 <node visible="true" id="-27" lat="37.208840984000005" lon="-121.77518100200001"/>
 <node visible="true" id="-28" lat="37.208843359" lon="-121.77519244300001"/>
 <node visible="true" id="-29" lat="37.208866953000005" lon="-121.77518477400001"/>
@@ -76,19 +76,19 @@
 <node visible="true" id="-92" lat="37.218048824" lon="-121.76329334100001"/>
 <node visible="true" id="-93" lat="37.218036645000005" lon="-121.763271395"/>
 <node visible="true" id="-94" lat="37.19964392" lon="-121.77740485300001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="22618"/><tag k="addr:street" v="Country View Drive"/><tag k="addr:postcode" v="95120"/></node>
-<node visible="true" id="-96" lat="37.21655725" lon="-121.765699307"/>
-<node visible="true" id="-97" lat="37.216574034000004" lon="-121.765722052"/>
-<node visible="true" id="-98" lat="37.21659253" lon="-121.765700694"/>
-<node visible="true" id="-99" lat="37.216575746000004" lon="-121.765677948"/>
-<node visible="true" id="-101" lat="37.218614859" lon="-121.75984987700001"/>
-<node visible="true" id="-102" lat="37.218630127000004" lon="-121.75987833100001"/>
-<node visible="true" id="-103" lat="37.21866081" lon="-121.75985257200001"/>
-<node visible="true" id="-104" lat="37.21864557" lon="-121.75982411800001"/>
-<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="2.52"/><tag k="ele" v="86.99"/></way>
-<way visible="true" id="-6"><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-7"/><tag k="building" v="yes"/><tag k="height" v="0.00"/><tag k="ele" v="86.50"/></way>
-<way visible="true" id="-11"><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-12"/><tag k="building" v="yes"/><tag k="height" v="0.61"/><tag k="ele" v="332.69"/></way>
-<way visible="true" id="-16"><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-17"/><tag k="building" v="yes"/><tag k="height" v="2.90"/><tag k="ele" v="148.96"/></way>
-<way visible="true" id="-21"><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-22"/><tag k="building" v="yes"/><tag k="height" v="1.98"/><tag k="ele" v="68.82"/></way>
+<node visible="true" id="-96" lat="37.218614859" lon="-121.75984987700001"/>
+<node visible="true" id="-97" lat="37.218630127000004" lon="-121.75987833100001"/>
+<node visible="true" id="-98" lat="37.21866081" lon="-121.75985257200001"/>
+<node visible="true" id="-99" lat="37.21864557" lon="-121.75982411800001"/>
+<node visible="true" id="-101" lat="37.21655725" lon="-121.765699307"/>
+<node visible="true" id="-102" lat="37.216574034000004" lon="-121.765722052"/>
+<node visible="true" id="-103" lat="37.21659253" lon="-121.765700694"/>
+<node visible="true" id="-104" lat="37.216575746000004" lon="-121.765677948"/>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="1.98"/><tag k="ele" v="68.82"/></way>
+<way visible="true" id="-6"><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-7"/><tag k="building" v="yes"/><tag k="height" v="2.52"/><tag k="ele" v="86.99"/></way>
+<way visible="true" id="-11"><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-12"/><tag k="building" v="yes"/><tag k="height" v="0.00"/><tag k="ele" v="86.50"/></way>
+<way visible="true" id="-16"><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-17"/><tag k="building" v="yes"/><tag k="height" v="0.61"/><tag k="ele" v="332.69"/></way>
+<way visible="true" id="-21"><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-22"/><tag k="building" v="yes"/><tag k="height" v="2.90"/><tag k="ele" v="148.96"/></way>
 <way visible="true" id="-26"><nd ref="-27"/><nd ref="-28"/><nd ref="-29"/><nd ref="-30"/><nd ref="-27"/><tag k="building" v="yes"/><tag k="height" v="0.00"/><tag k="ele" v="346.31"/></way>
 <way visible="true" id="-31"><nd ref="-32"/><nd ref="-33"/><nd ref="-34"/><nd ref="-35"/><nd ref="-36"/><nd ref="-37"/><nd ref="-32"/><tag k="building" v="yes"/><tag k="height" v="3.46"/><tag k="ele" v="334.88"/></way>
 <way visible="true" id="-38"><nd ref="-39"/><nd ref="-40"/><nd ref="-41"/><nd ref="-42"/><nd ref="-39"/><tag k="building" v="yes"/><tag k="height" v="2.49"/><tag k="ele" v="72.00"/></way>
@@ -102,6 +102,6 @@
 <way visible="true" id="-79"><nd ref="-80"/><nd ref="-81"/><nd ref="-82"/><nd ref="-83"/><nd ref="-80"/><tag k="building" v="yes"/><tag k="height" v="2.05"/><tag k="ele" v="68.80"/></way>
 <way visible="true" id="-84"><nd ref="-85"/><nd ref="-86"/><nd ref="-87"/><nd ref="-88"/><nd ref="-85"/><tag k="building" v="yes"/><tag k="height" v="0.34"/><tag k="ele" v="68.80"/></way>
 <way visible="true" id="-89"><nd ref="-90"/><nd ref="-91"/><nd ref="-92"/><nd ref="-93"/><nd ref="-90"/><tag k="building" v="yes"/><tag k="height" v="2.39"/><tag k="ele" v="70.23"/></way>
-<way visible="true" id="-95"><nd ref="-96"/><nd ref="-97"/><nd ref="-98"/><nd ref="-99"/><nd ref="-96"/><tag k="building" v="yes"/><tag k="height" v="2.11"/><tag k="ele" v="72.66"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="7588"/><tag k="addr:street" v="Manresa Court"/><tag k="addr:postcode" v="95139"/></way>
-<way visible="true" id="-100"><nd ref="-101"/><nd ref="-102"/><nd ref="-103"/><nd ref="-104"/><nd ref="-101"/><tag k="building" v="yes"/><tag k="height" v="2.42"/><tag k="ele" v="73.24"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="7552"/><tag k="addr:street" v="Bayliss Place"/><tag k="addr:postcode" v="95139"/></way>
+<way visible="true" id="-95"><nd ref="-96"/><nd ref="-97"/><nd ref="-98"/><nd ref="-99"/><nd ref="-96"/><tag k="building" v="yes"/><tag k="height" v="2.42"/><tag k="ele" v="73.24"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="7552"/><tag k="addr:street" v="Bayliss Place"/><tag k="addr:postcode" v="95139"/></way>
+<way visible="true" id="-100"><nd ref="-101"/><nd ref="-102"/><nd ref="-103"/><nd ref="-104"/><nd ref="-101"/><tag k="building" v="yes"/><tag k="height" v="2.11"/><tag k="ele" v="72.66"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="7588"/><tag k="addr:street" v="Manresa Court"/><tag k="addr:postcode" v="95139"/></way>
 </osm>

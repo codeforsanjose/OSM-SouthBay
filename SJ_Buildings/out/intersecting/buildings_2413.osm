@@ -1,143 +1,81 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="uvmogr2osm" upload="false">
-<node visible="true" id="-3" lat="37.370939425" lon="-121.872728265"/>
-<node visible="true" id="-4" lat="37.371022729" lon="-121.872897643"/>
-<node visible="true" id="-5" lat="37.371044709" lon="-121.87288070100001"/>
-<node visible="true" id="-6" lat="37.371054663" lon="-121.87290091400001"/>
-<node visible="true" id="-7" lat="37.371044075" lon="-121.87290904800001"/>
-<node visible="true" id="-8" lat="37.371106291000004" lon="-121.873035536"/>
-<node visible="true" id="-9" lat="37.371181466" lon="-121.87297489900001"/>
-<node visible="true" id="-10" lat="37.371186301" lon="-121.872984247"/>
-<node visible="true" id="-11" lat="37.371211619" lon="-121.87296382100001"/>
-<node visible="true" id="-12" lat="37.371207080000005" lon="-121.872954996"/>
-<node visible="true" id="-13" lat="37.37128683" lon="-121.872890659"/>
-<node visible="true" id="-14" lat="37.371225123" lon="-121.872765247"/>
-<node visible="true" id="-15" lat="37.371217223" lon="-121.87277133200001"/>
-<node visible="true" id="-16" lat="37.371174672" lon="-121.87268481900001"/>
-<node visible="true" id="-17" lat="37.371121342" lon="-121.872725998"/>
-<node visible="true" id="-18" lat="37.371109404" lon="-121.87270175600001"/>
-<node visible="true" id="-19" lat="37.371161375" lon="-121.87266161900001"/>
-<node visible="true" id="-20" lat="37.371117403" lon="-121.87257215400001"/>
-<node visible="true" id="-21" lat="37.370954032" lon="-121.872698282"/>
-<node visible="true" id="-22" lat="37.370956447000005" lon="-121.87270317900001"/>
-<node visible="true" id="-23" lat="37.370949129" lon="-121.87270886"/>
-<node visible="true" id="-24" lat="37.370953395" lon="-121.87271750800001"/>
-<node visible="true" id="-26" lat="37.371086545000004" lon="-121.87284526500001"/>
-<node visible="true" id="-27" lat="37.371109152" lon="-121.872828783"/>
-<node visible="true" id="-28" lat="37.371117002000005" lon="-121.87284568700001"/>
-<node visible="true" id="-29" lat="37.371094395" lon="-121.87286217"/>
-<node visible="true" id="-31" lat="37.371515951" lon="-121.873020834"/>
-<node visible="true" id="-32" lat="37.371639406" lon="-121.87306412800001"/>
-<node visible="true" id="-33" lat="37.371674074000005" lon="-121.872908928"/>
-<node visible="true" id="-34" lat="37.371550619000004" lon="-121.87286563400001"/>
-<node visible="true" id="-37" lat="37.371663104" lon="-121.87324294400001"/>
-<node visible="true" id="-38" lat="37.371744793000005" lon="-121.87330381400001"/>
-<node visible="true" id="-39" lat="37.371740118000005" lon="-121.873313675"/>
-<node visible="true" id="-40" lat="37.371764816" lon="-121.87333209500001"/>
-<node visible="true" id="-41" lat="37.371769068" lon="-121.87332315500001"/>
-<node visible="true" id="-42" lat="37.371846265" lon="-121.87338067300001"/>
-<node visible="true" id="-43" lat="37.371906702000004" lon="-121.873253343"/>
-<node visible="true" id="-44" lat="37.37189728" lon="-121.87324632"/>
-<node visible="true" id="-45" lat="37.371900293" lon="-121.873239975"/>
-<node visible="true" id="-46" lat="37.371886652" lon="-121.873229812"/>
-<node visible="true" id="-47" lat="37.371893045" lon="-121.87321633500001"/>
-<node visible="true" id="-48" lat="37.371899525" lon="-121.873221169"/>
-<node visible="true" id="-49" lat="37.371920225000004" lon="-121.87317753100001"/>
-<node visible="true" id="-50" lat="37.371913281000005" lon="-121.87317234500001"/>
-<node visible="true" id="-51" lat="37.371943555" lon="-121.873108576"/>
-<node visible="true" id="-52" lat="37.371949601000004" lon="-121.873113058"/>
-<node visible="true" id="-53" lat="37.371984185" lon="-121.873040215"/>
-<node visible="true" id="-54" lat="37.371977568000005" lon="-121.873035275"/>
-<node visible="true" id="-55" lat="37.371979427" lon="-121.87303131600001"/>
-<node visible="true" id="-56" lat="37.371815149" lon="-121.872908905"/>
-<node visible="true" id="-57" lat="37.371772172" lon="-121.872999491"/>
-<node visible="true" id="-58" lat="37.371826577" lon="-121.873040036"/>
-<node visible="true" id="-59" lat="37.37181441" lon="-121.873065694"/>
-<node visible="true" id="-60" lat="37.371759297000004" lon="-121.873024619"/>
-<node visible="true" id="-61" lat="37.371715928" lon="-121.873115956"/>
-<node visible="true" id="-62" lat="37.371721428" lon="-121.873120048"/>
-<node visible="true" id="-64" lat="37.371819893" lon="-121.873181571"/>
-<node visible="true" id="-65" lat="37.371829448" lon="-121.87316312700001"/>
-<node visible="true" id="-66" lat="37.371854072000005" lon="-121.87318312900001"/>
-<node visible="true" id="-67" lat="37.371844517" lon="-121.873201573"/>
-<node visible="true" id="-68" lat="37.372498269000005" lon="-121.87310209500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1710"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:unit" v="112"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-69" lat="37.372658115" lon="-121.87368030100001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1686"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-70" lat="37.37256079" lon="-121.87361434"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1680"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-71" lat="37.372612434000004" lon="-121.873647668"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1682"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-72" lat="37.371867961" lon="-121.87312298500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="949"/><tag k="addr:street" v="Lundy Avenue"/><tag k="addr:unit" v="100;102;104;106;200"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-73" lat="37.368720894" lon="-121.868428394"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="729"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-74" lat="37.368866275" lon="-121.86833120400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="733"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-75" lat="37.368793618000005" lon="-121.86837989300001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="731"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-76" lat="37.368575459000006" lon="-121.86852551300001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="725"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-77" lat="37.368648157" lon="-121.86847689400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="727"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-78" lat="37.368938717" lon="-121.868282022"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="735"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-79" lat="37.369011014" lon="-121.8682325"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="737"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-80" lat="37.368402218" lon="-121.86863867900001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="721"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-81" lat="37.37310612" lon="-121.873033621"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1712"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:unit" v="10;15;20"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-82" lat="37.369083323000005" lon="-121.868183"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="739"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-83" lat="37.369227943000006" lon="-121.86808395700001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="743"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-84" lat="37.369299971000004" lon="-121.86803378200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="745"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-85" lat="37.369437105" lon="-121.867917116"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="749"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-86" lat="37.369256264" lon="-121.86662222700001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="770"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-87" lat="37.369245354" lon="-121.86652010600001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="772"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-88" lat="37.369564442000005" lon="-121.870444089"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="750"/><tag k="addr:street" v="North King Road"/><tag k="addr:unit" v="1302"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-89" lat="37.372926906000004" lon="-121.873342343"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1710"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-90" lat="37.372794293000005" lon="-121.873355985"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1710"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:unit" v="102"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-91" lat="37.372753188000004" lon="-121.87332332000001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1710"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:unit" v="103"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-92" lat="37.372658126000005" lon="-121.873255966"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1710"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:unit" v="107"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-93" lat="37.372577534" lon="-121.873174538"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1710"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:unit" v="110"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-94" lat="37.37183557" lon="-121.87311999900001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="949"/><tag k="addr:street" v="Lundy Avenue"/><tag k="addr:unit" v="201;202;204-206"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-95" lat="37.369155619000004" lon="-121.86813342500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="741"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-96" lat="37.369300389" lon="-121.867032339"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="762"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-97" lat="37.369267704" lon="-121.86672467400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="768"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-98" lat="37.372714901" lon="-121.87329429500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1710"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:unit" v="105"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-99" lat="37.368510891" lon="-121.86861188"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="723"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-100" lat="37.369368872" lon="-121.86797625300001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="747"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-101" lat="37.367549945" lon="-121.86948971800001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="750"/><tag k="addr:street" v="North King Road"/><tag k="addr:unit" v="408"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-102" lat="37.372536493000005" lon="-121.87313649900001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1710"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:unit" v="111"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-103" lat="37.371801158000004" lon="-121.87312653800001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="949"/><tag k="addr:street" v="Lundy Avenue"/><tag k="addr:unit" v="207;300-302;304"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-104" lat="37.369290133" lon="-121.866929576"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="764"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-105" lat="37.369278911" lon="-121.86682713500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="766"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-107" lat="37.372146604" lon="-121.866208825"/>
-<node visible="true" id="-108" lat="37.372252006000004" lon="-121.86632357100001"/>
-<node visible="true" id="-109" lat="37.372298968" lon="-121.86625587300001"/>
-<node visible="true" id="-110" lat="37.37225755" lon="-121.86621078700001"/>
-<node visible="true" id="-111" lat="37.372294232" lon="-121.86615790600001"/>
-<node visible="true" id="-112" lat="37.372230247000005" lon="-121.86608824500001"/>
-<node visible="true" id="-114" lat="37.415328483" lon="-121.94315706900001"/>
-<node visible="true" id="-115" lat="37.415340592" lon="-121.943253779"/>
-<node visible="true" id="-116" lat="37.415335642" lon="-121.94340029800001"/>
-<node visible="true" id="-117" lat="37.415317051" lon="-121.943495377"/>
-<node visible="true" id="-118" lat="37.415286728000005" lon="-121.943585588"/>
-<node visible="true" id="-119" lat="37.415241317" lon="-121.94367611800001"/>
-<node visible="true" id="-120" lat="37.415184785" lon="-121.943757195"/>
-<node visible="true" id="-121" lat="37.415115562000004" lon="-121.94382927800001"/>
-<node visible="true" id="-122" lat="37.415056825" lon="-121.94387371500001"/>
-<node visible="true" id="-123" lat="37.415381635" lon="-121.944567429"/>
-<node visible="true" id="-124" lat="37.415905133" lon="-121.944189109"/>
-<node visible="true" id="-125" lat="37.415931914000005" lon="-121.944178104"/>
-<node visible="true" id="-126" lat="37.415965031" lon="-121.944185864"/>
-<node visible="true" id="-127" lat="37.415986834" lon="-121.94420825200001"/>
-<node visible="true" id="-128" lat="37.416128846" lon="-121.944511112"/>
-<node visible="true" id="-129" lat="37.416127788000004" lon="-121.944560514"/>
-<node visible="true" id="-130" lat="37.416099902" lon="-121.94460454000001"/>
-<node visible="true" id="-131" lat="37.415576029" lon="-121.94498198900001"/>
-<node visible="true" id="-132" lat="37.415945231" lon="-121.94579303900001"/>
-<node visible="true" id="-133" lat="37.416250069" lon="-121.94556122300001"/>
-<node visible="true" id="-134" lat="37.417015744000004" lon="-121.945009862"/>
-<node visible="true" id="-135" lat="37.417025749000004" lon="-121.94430656300001"/>
-<node visible="true" id="-136" lat="37.417968492" lon="-121.944329627"/>
-<node visible="true" id="-137" lat="37.417994310000005" lon="-121.94296138300001"/>
-<node visible="true" id="-138" lat="37.418007323000005" lon="-121.94295523000001"/>
-<node visible="true" id="-139" lat="37.418047472000005" lon="-121.940644793"/>
-<node visible="true" id="-140" lat="37.416659274000004" lon="-121.94191488000001"/>
-<way visible="true" id="-2"><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-3"/></way>
-<way visible="true" id="-25"><nd ref="-26"/><nd ref="-27"/><nd ref="-28"/><nd ref="-29"/><nd ref="-26"/></way>
-<way visible="true" id="-30"><nd ref="-31"/><nd ref="-32"/><nd ref="-33"/><nd ref="-34"/><nd ref="-31"/><tag k="building" v="yes"/><tag k="height" v="6.53"/><tag k="ele" v="33.82"/></way>
-<way visible="true" id="-36"><nd ref="-37"/><nd ref="-38"/><nd ref="-39"/><nd ref="-40"/><nd ref="-41"/><nd ref="-42"/><nd ref="-43"/><nd ref="-44"/><nd ref="-45"/><nd ref="-46"/><nd ref="-47"/><nd ref="-48"/><nd ref="-49"/><nd ref="-50"/><nd ref="-51"/><nd ref="-52"/><nd ref="-53"/><nd ref="-54"/><nd ref="-55"/><nd ref="-56"/><nd ref="-57"/><nd ref="-58"/><nd ref="-59"/><nd ref="-60"/><nd ref="-61"/><nd ref="-62"/><nd ref="-37"/></way>
-<way visible="true" id="-63"><nd ref="-64"/><nd ref="-65"/><nd ref="-66"/><nd ref="-67"/><nd ref="-64"/></way>
-<way visible="true" id="-106"><nd ref="-107"/><nd ref="-108"/><nd ref="-109"/><nd ref="-110"/><nd ref="-111"/><nd ref="-112"/><nd ref="-107"/><tag k="building" v="yes"/><tag k="height" v="7.49"/><tag k="ele" v="40.16"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="850"/><tag k="addr:street" v="Cape Verde Place"/><tag k="addr:postcode" v="95133"/></way>
-<way visible="true" id="-113"><nd ref="-114"/><nd ref="-115"/><nd ref="-116"/><nd ref="-117"/><nd ref="-118"/><nd ref="-119"/><nd ref="-120"/><nd ref="-121"/><nd ref="-122"/><nd ref="-123"/><nd ref="-124"/><nd ref="-125"/><nd ref="-126"/><nd ref="-127"/><nd ref="-128"/><nd ref="-129"/><nd ref="-130"/><nd ref="-131"/><nd ref="-132"/><nd ref="-133"/><nd ref="-134"/><nd ref="-135"/><nd ref="-136"/><nd ref="-137"/><nd ref="-138"/><nd ref="-139"/><nd ref="-140"/><nd ref="-114"/><tag k="landuse" v="residential"/><tag k="name" v="Westwinds Hermitage Mobile Hom"/></way>
-<relation visible="true" id="-1"><member type="way" ref="-2" role="outer"/><member type="way" ref="-25" role="inner"/><tag k="type" v="multipolygon"/><tag k="building" v="yes"/><tag k="height" v="12.22"/><tag k="ele" v="41.62"/></relation>
-<relation visible="true" id="-35"><member type="way" ref="-36" role="outer"/><member type="way" ref="-63" role="inner"/><tag k="type" v="multipolygon"/><tag k="building" v="yes"/><tag k="height" v="12.16"/><tag k="ele" v="41.08"/></relation>
+<node visible="true" id="-2" lat="37.371515951" lon="-121.873020834"/>
+<node visible="true" id="-3" lat="37.371639406" lon="-121.87306412800001"/>
+<node visible="true" id="-4" lat="37.371674074000005" lon="-121.872908928"/>
+<node visible="true" id="-5" lat="37.371550619000004" lon="-121.87286563400001"/>
+<node visible="true" id="-6" lat="37.371867961" lon="-121.87312298500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="949"/><tag k="addr:street" v="Lundy Avenue"/><tag k="addr:unit" v="100;102;104;106;200"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-7" lat="37.372926906000004" lon="-121.873342343"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1710"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-8" lat="37.37310612" lon="-121.873033621"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1712"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:unit" v="10;15;20"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-9" lat="37.372658115" lon="-121.87368030100001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1686"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-10" lat="37.372577534" lon="-121.873174538"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1710"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:unit" v="110"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-11" lat="37.37183557" lon="-121.87311999900001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="949"/><tag k="addr:street" v="Lundy Avenue"/><tag k="addr:unit" v="201;202;204-206"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-12" lat="37.371801158000004" lon="-121.87312653800001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="949"/><tag k="addr:street" v="Lundy Avenue"/><tag k="addr:unit" v="207;300-302;304"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-13" lat="37.368402218" lon="-121.86863867900001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="721"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-14" lat="37.368510891" lon="-121.86861188"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="723"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-15" lat="37.368575459000006" lon="-121.86852551300001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="725"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-16" lat="37.368648157" lon="-121.86847689400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="727"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-17" lat="37.368720894" lon="-121.868428394"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="729"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-18" lat="37.368793618000005" lon="-121.86837989300001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="731"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-19" lat="37.368866275" lon="-121.86833120400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="733"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-20" lat="37.368938717" lon="-121.868282022"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="735"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-21" lat="37.369011014" lon="-121.8682325"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="737"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-22" lat="37.369083323000005" lon="-121.868183"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="739"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-23" lat="37.369155619000004" lon="-121.86813342500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="741"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-24" lat="37.369227943000006" lon="-121.86808395700001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="743"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-25" lat="37.369299971000004" lon="-121.86803378200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="745"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-26" lat="37.369368872" lon="-121.86797625300001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="747"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-27" lat="37.369437105" lon="-121.867917116"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="749"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-28" lat="37.369300389" lon="-121.867032339"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="762"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-29" lat="37.369290133" lon="-121.866929576"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="764"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-30" lat="37.369278911" lon="-121.86682713500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="766"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-31" lat="37.369267704" lon="-121.86672467400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="768"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-32" lat="37.369256264" lon="-121.86662222700001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="770"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-33" lat="37.369245354" lon="-121.86652010600001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="772"/><tag k="addr:street" v="Creekland Circle"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-34" lat="37.367549945" lon="-121.86948971800001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="750"/><tag k="addr:street" v="North King Road"/><tag k="addr:unit" v="408"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-35" lat="37.369564442000005" lon="-121.870444089"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="750"/><tag k="addr:street" v="North King Road"/><tag k="addr:unit" v="1302"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-36" lat="37.37256079" lon="-121.87361434"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1680"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-37" lat="37.372612434000004" lon="-121.873647668"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1682"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-38" lat="37.372794293000005" lon="-121.873355985"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1710"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:unit" v="102"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-39" lat="37.372753188000004" lon="-121.87332332000001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1710"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:unit" v="103"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-40" lat="37.372714901" lon="-121.87329429500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1710"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:unit" v="105"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-41" lat="37.372658126000005" lon="-121.873255966"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1710"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:unit" v="107"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-42" lat="37.372536493000005" lon="-121.87313649900001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1710"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:unit" v="111"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-43" lat="37.372498269000005" lon="-121.87310209500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1710"/><tag k="addr:street" v="Berryessa Road"/><tag k="addr:unit" v="112"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-45" lat="37.372146604" lon="-121.866208825"/>
+<node visible="true" id="-46" lat="37.372252006000004" lon="-121.86632357100001"/>
+<node visible="true" id="-47" lat="37.372298968" lon="-121.86625587300001"/>
+<node visible="true" id="-48" lat="37.37225755" lon="-121.86621078700001"/>
+<node visible="true" id="-49" lat="37.372294232" lon="-121.86615790600001"/>
+<node visible="true" id="-50" lat="37.372230247000005" lon="-121.86608824500001"/>
+<node visible="true" id="-52" lat="37.415328483" lon="-121.94315706900001"/>
+<node visible="true" id="-53" lat="37.415340592" lon="-121.943253779"/>
+<node visible="true" id="-54" lat="37.415335642" lon="-121.94340029800001"/>
+<node visible="true" id="-55" lat="37.415317051" lon="-121.943495377"/>
+<node visible="true" id="-56" lat="37.415286728000005" lon="-121.943585588"/>
+<node visible="true" id="-57" lat="37.415241317" lon="-121.94367611800001"/>
+<node visible="true" id="-58" lat="37.415184785" lon="-121.943757195"/>
+<node visible="true" id="-59" lat="37.415115562000004" lon="-121.94382927800001"/>
+<node visible="true" id="-60" lat="37.415056825" lon="-121.94387371500001"/>
+<node visible="true" id="-61" lat="37.415381635" lon="-121.944567429"/>
+<node visible="true" id="-62" lat="37.415905133" lon="-121.944189109"/>
+<node visible="true" id="-63" lat="37.415931914000005" lon="-121.944178104"/>
+<node visible="true" id="-64" lat="37.415965031" lon="-121.944185864"/>
+<node visible="true" id="-65" lat="37.415986834" lon="-121.94420825200001"/>
+<node visible="true" id="-66" lat="37.416128846" lon="-121.944511112"/>
+<node visible="true" id="-67" lat="37.416127788000004" lon="-121.944560514"/>
+<node visible="true" id="-68" lat="37.416099902" lon="-121.94460454000001"/>
+<node visible="true" id="-69" lat="37.415576029" lon="-121.94498198900001"/>
+<node visible="true" id="-70" lat="37.415945231" lon="-121.94579303900001"/>
+<node visible="true" id="-71" lat="37.416250069" lon="-121.94556122300001"/>
+<node visible="true" id="-72" lat="37.417015744000004" lon="-121.945009862"/>
+<node visible="true" id="-73" lat="37.417025749000004" lon="-121.94430656300001"/>
+<node visible="true" id="-74" lat="37.417968492" lon="-121.944329627"/>
+<node visible="true" id="-75" lat="37.417994310000005" lon="-121.94296138300001"/>
+<node visible="true" id="-76" lat="37.418007323000005" lon="-121.94295523000001"/>
+<node visible="true" id="-77" lat="37.418047472000005" lon="-121.940644793"/>
+<node visible="true" id="-78" lat="37.416659274000004" lon="-121.94191488000001"/>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="6.53"/><tag k="ele" v="33.82"/></way>
+<way visible="true" id="-44"><nd ref="-45"/><nd ref="-46"/><nd ref="-47"/><nd ref="-48"/><nd ref="-49"/><nd ref="-50"/><nd ref="-45"/><tag k="building" v="yes"/><tag k="height" v="7.49"/><tag k="ele" v="40.16"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="850"/><tag k="addr:street" v="Cape Verde Place"/><tag k="addr:postcode" v="95133"/></way>
+<way visible="true" id="-51"><nd ref="-52"/><nd ref="-53"/><nd ref="-54"/><nd ref="-55"/><nd ref="-56"/><nd ref="-57"/><nd ref="-58"/><nd ref="-59"/><nd ref="-60"/><nd ref="-61"/><nd ref="-62"/><nd ref="-63"/><nd ref="-64"/><nd ref="-65"/><nd ref="-66"/><nd ref="-67"/><nd ref="-68"/><nd ref="-69"/><nd ref="-70"/><nd ref="-71"/><nd ref="-72"/><nd ref="-73"/><nd ref="-74"/><nd ref="-75"/><nd ref="-76"/><nd ref="-77"/><nd ref="-78"/><nd ref="-52"/><tag k="landuse" v="residential"/><tag k="name" v="Westwinds Hermitage Mobile Hom"/></way>
 </osm>

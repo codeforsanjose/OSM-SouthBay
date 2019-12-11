@@ -4,22 +4,22 @@
 <node visible="true" id="-3" lat="37.32878728" lon="-121.857857397"/>
 <node visible="true" id="-4" lat="37.328940289" lon="-121.857614447"/>
 <node visible="true" id="-5" lat="37.328659866" lon="-121.85733745"/>
-<node visible="true" id="-7" lat="37.32847092" lon="-121.85757197100001"/>
-<node visible="true" id="-8" lat="37.328494574000004" lon="-121.857595309"/>
-<node visible="true" id="-9" lat="37.328515728" lon="-121.85756171000001"/>
-<node visible="true" id="-10" lat="37.328492075" lon="-121.85753837300001"/>
-<node visible="true" id="-12" lat="37.328592347000004" lon="-121.85808940300001"/>
-<node visible="true" id="-13" lat="37.328994733" lon="-121.858486361"/>
-<node visible="true" id="-14" lat="37.329040597" lon="-121.85841344800001"/>
-<node visible="true" id="-15" lat="37.329045866" lon="-121.858418635"/>
-<node visible="true" id="-16" lat="37.329080034" lon="-121.85836432400001"/>
-<node visible="true" id="-17" lat="37.329073353000005" lon="-121.85835773500001"/>
-<node visible="true" id="-18" lat="37.329106905" lon="-121.85830437700001"/>
-<node visible="true" id="-19" lat="37.328686513" lon="-121.85788968800001"/>
-<node visible="true" id="-20" lat="37.328653353" lon="-121.85794240000001"/>
-<node visible="true" id="-21" lat="37.328646237" lon="-121.85793542500001"/>
-<node visible="true" id="-22" lat="37.328610446" lon="-121.85799232000001"/>
-<node visible="true" id="-23" lat="37.328636952000004" lon="-121.85801849500001"/>
+<node visible="true" id="-7" lat="37.328592347000004" lon="-121.85808940300001"/>
+<node visible="true" id="-8" lat="37.328994733" lon="-121.858486361"/>
+<node visible="true" id="-9" lat="37.329040597" lon="-121.85841344800001"/>
+<node visible="true" id="-10" lat="37.329045866" lon="-121.858418635"/>
+<node visible="true" id="-11" lat="37.329080034" lon="-121.85836432400001"/>
+<node visible="true" id="-12" lat="37.329073353000005" lon="-121.85835773500001"/>
+<node visible="true" id="-13" lat="37.329106905" lon="-121.85830437700001"/>
+<node visible="true" id="-14" lat="37.328686513" lon="-121.85788968800001"/>
+<node visible="true" id="-15" lat="37.328653353" lon="-121.85794240000001"/>
+<node visible="true" id="-16" lat="37.328646237" lon="-121.85793542500001"/>
+<node visible="true" id="-17" lat="37.328610446" lon="-121.85799232000001"/>
+<node visible="true" id="-18" lat="37.328636952000004" lon="-121.85801849500001"/>
+<node visible="true" id="-20" lat="37.32847092" lon="-121.85757197100001"/>
+<node visible="true" id="-21" lat="37.328494574000004" lon="-121.857595309"/>
+<node visible="true" id="-22" lat="37.328515728" lon="-121.85756171000001"/>
+<node visible="true" id="-23" lat="37.328492075" lon="-121.85753837300001"/>
 <node visible="true" id="-25" lat="37.328174352000005" lon="-121.85836124000001"/>
 <node visible="true" id="-26" lat="37.328206046000005" lon="-121.858392464"/>
 <node visible="true" id="-27" lat="37.328200784" lon="-121.858400829"/>
@@ -36,78 +36,57 @@
 <node visible="true" id="-38" lat="37.328490622000004" lon="-121.85793868600001"/>
 <node visible="true" id="-39" lat="37.328486341" lon="-121.85794552200001"/>
 <node visible="true" id="-40" lat="37.328455056" lon="-121.85791468400001"/>
-<node visible="true" id="-42" lat="37.325865306000004" lon="-121.860554375"/>
-<node visible="true" id="-43" lat="37.325890056000006" lon="-121.86057790400001"/>
-<node visible="true" id="-44" lat="37.325879975" lon="-121.86059447000001"/>
-<node visible="true" id="-45" lat="37.325894074000004" lon="-121.86060790100001"/>
-<node visible="true" id="-46" lat="37.32589161" lon="-121.860611984"/>
-<node visible="true" id="-47" lat="37.325909486" lon="-121.86062902500001"/>
-<node visible="true" id="-48" lat="37.325921135" lon="-121.860609839"/>
-<node visible="true" id="-49" lat="37.32593423" lon="-121.86062228700001"/>
-<node visible="true" id="-50" lat="37.326054084" lon="-121.86042483800001"/>
-<node visible="true" id="-51" lat="37.326035283" lon="-121.86040695400001"/>
-<node visible="true" id="-52" lat="37.326039456000004" lon="-121.860400083"/>
-<node visible="true" id="-53" lat="37.326024569000005" lon="-121.86038591500001"/>
-<node visible="true" id="-54" lat="37.326071250000005" lon="-121.86030903300001"/>
-<node visible="true" id="-55" lat="37.326041610000004" lon="-121.86028083900001"/>
-<node visible="true" id="-56" lat="37.325987592000004" lon="-121.86036979900001"/>
-<node visible="true" id="-57" lat="37.325974796000004" lon="-121.860357632"/>
-<node visible="true" id="-58" lat="37.325948977" lon="-121.86040015600001"/>
-<node visible="true" id="-59" lat="37.325921946" lon="-121.860374417"/>
-<node visible="true" id="-60" lat="37.325875293" lon="-121.860451267"/>
-<node visible="true" id="-61" lat="37.325908626" lon="-121.860483001"/>
-<node visible="true" id="-62" lat="37.327723047" lon="-121.85810922700001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="850"/><tag k="addr:street" v="Roberts Place"/><tag k="addr:postcode" v="95122"/></node>
-<node visible="true" id="-63" lat="37.327647463000005" lon="-121.85925520500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="640"/><tag k="addr:street" v="Story Road"/><tag k="addr:postcode" v="95122"/></node>
-<node visible="true" id="-64" lat="37.328668261000004" lon="-121.857657082"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="750"/><tag k="addr:street" v="Story Road"/><tag k="addr:postcode" v="95122"/></node>
-<node visible="true" id="-65" lat="37.325688747" lon="-121.85418506200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1385"/><tag k="addr:street" v="Lucretia Avenue"/><tag k="addr:postcode" v="95122"/></node>
-<node visible="true" id="-66" lat="37.328441080000005" lon="-121.857706284"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="893"/><tag k="addr:street" v="Roberts Place"/><tag k="addr:postcode" v="95122"/></node>
-<node visible="true" id="-67" lat="37.325757227000004" lon="-121.854454016"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1385"/><tag k="addr:street" v="Lucretia Avenue"/><tag k="addr:unit" v="2307;2308;3101;3102;3110;3201-3203;3302-3305"/><tag k="addr:postcode" v="95122"/></node>
-<node visible="true" id="-68" lat="37.329124539000006" lon="-121.85751813200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="756"/><tag k="addr:street" v="Story Road"/><tag k="addr:postcode" v="95122"/></node>
-<node visible="true" id="-69" lat="37.32848035" lon="-121.85833975400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="740"/><tag k="addr:street" v="Story Road"/><tag k="addr:postcode" v="95122"/></node>
-<node visible="true" id="-70" lat="37.328078167" lon="-121.85826176100001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="857"/><tag k="addr:street" v="Roberts Place"/><tag k="addr:postcode" v="95122"/></node>
-<node visible="true" id="-71" lat="37.328127175000006" lon="-121.85818065000001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="863"/><tag k="addr:street" v="Roberts Place"/><tag k="addr:postcode" v="95122"/></node>
-<node visible="true" id="-72" lat="37.32818993" lon="-121.858098415"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="869"/><tag k="addr:street" v="Roberts Place"/><tag k="addr:postcode" v="95122"/></node>
-<node visible="true" id="-73" lat="37.328358481" lon="-121.85820549700001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="730"/><tag k="addr:street" v="Story Road"/><tag k="addr:unit" v="1-8"/><tag k="addr:postcode" v="95122"/></node>
-<node visible="true" id="-74" lat="37.328311098" lon="-121.857915219"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="881"/><tag k="addr:street" v="Roberts Place"/><tag k="addr:postcode" v="95122"/></node>
-<node visible="true" id="-75" lat="37.32544776" lon="-121.85429554100001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1385"/><tag k="addr:street" v="Lucretia Avenue"/><tag k="addr:unit" v="3310;4101-4104;4201-4205;4302-4306"/><tag k="addr:postcode" v="95122"/></node>
-<node visible="true" id="-76" lat="37.328864674" lon="-121.858236911"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="740"/><tag k="addr:street" v="Story Road"/><tag k="addr:unit" v="1-8"/><tag k="addr:postcode" v="95122"/></node>
-<node visible="true" id="-77" lat="37.3279887" lon="-121.858364081"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="851"/><tag k="addr:street" v="Roberts Place"/><tag k="addr:postcode" v="95122"/></node>
-<node visible="true" id="-78" lat="37.328236987000004" lon="-121.857977128"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="875"/><tag k="addr:street" v="Roberts Place"/><tag k="addr:postcode" v="95122"/></node>
-<node visible="true" id="-79" lat="37.328373214" lon="-121.857814672"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="887"/><tag k="addr:street" v="Roberts Place"/><tag k="addr:postcode" v="95122"/></node>
-<node visible="true" id="-81" lat="37.329608753" lon="-121.85743555200001"/>
-<node visible="true" id="-82" lat="37.329679148000004" lon="-121.857509374"/>
-<node visible="true" id="-83" lat="37.329772089" lon="-121.85737037800001"/>
-<node visible="true" id="-84" lat="37.32970172" lon="-121.85729655700001"/>
-<node visible="true" id="-86" lat="37.32835318" lon="-121.856617364"/>
-<node visible="true" id="-87" lat="37.328359499" lon="-121.85662425400001"/>
-<node visible="true" id="-88" lat="37.328357181" lon="-121.856627617"/>
-<node visible="true" id="-89" lat="37.328495083" lon="-121.85677819700001"/>
-<node visible="true" id="-90" lat="37.32873407" lon="-121.856434891"/>
-<node visible="true" id="-91" lat="37.328595163" lon="-121.856283296"/>
-<node visible="true" id="-92" lat="37.328598962" lon="-121.85627786100001"/>
-<node visible="true" id="-93" lat="37.328593618" lon="-121.856272019"/>
-<node visible="true" id="-95" lat="37.328672842" lon="-121.85896945500001"/>
-<node visible="true" id="-96" lat="37.328688703000005" lon="-121.858985015"/>
-<node visible="true" id="-97" lat="37.328686016" lon="-121.85898930100001"/>
-<node visible="true" id="-98" lat="37.328719205000006" lon="-121.85902179000001"/>
-<node visible="true" id="-99" lat="37.328721304000005" lon="-121.85901842300001"/>
-<node visible="true" id="-100" lat="37.328736784" lon="-121.85903359800001"/>
-<node visible="true" id="-101" lat="37.328770649" lon="-121.858979386"/>
-<node visible="true" id="-102" lat="37.328776244000004" lon="-121.85898485400001"/>
-<node visible="true" id="-103" lat="37.328802132" lon="-121.858943429"/>
-<node visible="true" id="-104" lat="37.328795993" lon="-121.858937401"/>
-<node visible="true" id="-105" lat="37.328836939000006" lon="-121.858871863"/>
-<node visible="true" id="-106" lat="37.328842643" lon="-121.85887747100001"/>
-<node visible="true" id="-107" lat="37.328861701" lon="-121.858846998"/>
-<node visible="true" id="-108" lat="37.328793532" lon="-121.85878019900001"/>
-<node visible="true" id="-109" lat="37.328692303000004" lon="-121.85894222300001"/>
-<node visible="true" id="-110" lat="37.328690781" lon="-121.85894075"/>
+<node visible="true" id="-41" lat="37.32544776" lon="-121.85429554100001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1385"/><tag k="addr:street" v="Lucretia Avenue"/><tag k="addr:unit" v="3310;4101-4104;4201-4205;4302-4306"/><tag k="addr:postcode" v="95122"/></node>
+<node visible="true" id="-42" lat="37.328358481" lon="-121.85820549700001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="730"/><tag k="addr:street" v="Story Road"/><tag k="addr:unit" v="1-8"/><tag k="addr:postcode" v="95122"/></node>
+<node visible="true" id="-43" lat="37.328864674" lon="-121.858236911"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="740"/><tag k="addr:street" v="Story Road"/><tag k="addr:unit" v="1-8"/><tag k="addr:postcode" v="95122"/></node>
+<node visible="true" id="-44" lat="37.328236987000004" lon="-121.857977128"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="875"/><tag k="addr:street" v="Roberts Place"/><tag k="addr:postcode" v="95122"/></node>
+<node visible="true" id="-45" lat="37.325757227000004" lon="-121.854454016"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1385"/><tag k="addr:street" v="Lucretia Avenue"/><tag k="addr:unit" v="2307;2308;3101;3102;3110;3201-3203;3302-3305"/><tag k="addr:postcode" v="95122"/></node>
+<node visible="true" id="-46" lat="37.327647463000005" lon="-121.85925520500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="640"/><tag k="addr:street" v="Story Road"/><tag k="addr:postcode" v="95122"/></node>
+<node visible="true" id="-47" lat="37.327723047" lon="-121.85810922700001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="850"/><tag k="addr:street" v="Roberts Place"/><tag k="addr:postcode" v="95122"/></node>
+<node visible="true" id="-48" lat="37.3279887" lon="-121.858364081"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="851"/><tag k="addr:street" v="Roberts Place"/><tag k="addr:postcode" v="95122"/></node>
+<node visible="true" id="-49" lat="37.328668261000004" lon="-121.857657082"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="750"/><tag k="addr:street" v="Story Road"/><tag k="addr:postcode" v="95122"/></node>
+<node visible="true" id="-50" lat="37.329124539000006" lon="-121.85751813200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="756"/><tag k="addr:street" v="Story Road"/><tag k="addr:postcode" v="95122"/></node>
+<node visible="true" id="-51" lat="37.328441080000005" lon="-121.857706284"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="893"/><tag k="addr:street" v="Roberts Place"/><tag k="addr:postcode" v="95122"/></node>
+<node visible="true" id="-52" lat="37.32848035" lon="-121.85833975400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="740"/><tag k="addr:street" v="Story Road"/><tag k="addr:postcode" v="95122"/></node>
+<node visible="true" id="-53" lat="37.328078167" lon="-121.85826176100001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="857"/><tag k="addr:street" v="Roberts Place"/><tag k="addr:postcode" v="95122"/></node>
+<node visible="true" id="-54" lat="37.328127175000006" lon="-121.85818065000001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="863"/><tag k="addr:street" v="Roberts Place"/><tag k="addr:postcode" v="95122"/></node>
+<node visible="true" id="-55" lat="37.32818993" lon="-121.858098415"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="869"/><tag k="addr:street" v="Roberts Place"/><tag k="addr:postcode" v="95122"/></node>
+<node visible="true" id="-56" lat="37.328311098" lon="-121.857915219"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="881"/><tag k="addr:street" v="Roberts Place"/><tag k="addr:postcode" v="95122"/></node>
+<node visible="true" id="-57" lat="37.328373214" lon="-121.857814672"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="887"/><tag k="addr:street" v="Roberts Place"/><tag k="addr:postcode" v="95122"/></node>
+<node visible="true" id="-58" lat="37.325688747" lon="-121.85418506200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1385"/><tag k="addr:street" v="Lucretia Avenue"/><tag k="addr:postcode" v="95122"/></node>
+<node visible="true" id="-60" lat="37.329608753" lon="-121.85743555200001"/>
+<node visible="true" id="-61" lat="37.329679148000004" lon="-121.857509374"/>
+<node visible="true" id="-62" lat="37.329772089" lon="-121.85737037800001"/>
+<node visible="true" id="-63" lat="37.32970172" lon="-121.85729655700001"/>
+<node visible="true" id="-65" lat="37.32835318" lon="-121.856617364"/>
+<node visible="true" id="-66" lat="37.328359499" lon="-121.85662425400001"/>
+<node visible="true" id="-67" lat="37.328357181" lon="-121.856627617"/>
+<node visible="true" id="-68" lat="37.328495083" lon="-121.85677819700001"/>
+<node visible="true" id="-69" lat="37.32873407" lon="-121.856434891"/>
+<node visible="true" id="-70" lat="37.328595163" lon="-121.856283296"/>
+<node visible="true" id="-71" lat="37.328598962" lon="-121.85627786100001"/>
+<node visible="true" id="-72" lat="37.328593618" lon="-121.856272019"/>
+<node visible="true" id="-74" lat="37.328672842" lon="-121.85896945500001"/>
+<node visible="true" id="-75" lat="37.328688703000005" lon="-121.858985015"/>
+<node visible="true" id="-76" lat="37.328686016" lon="-121.85898930100001"/>
+<node visible="true" id="-77" lat="37.328719205000006" lon="-121.85902179000001"/>
+<node visible="true" id="-78" lat="37.328721304000005" lon="-121.85901842300001"/>
+<node visible="true" id="-79" lat="37.328736784" lon="-121.85903359800001"/>
+<node visible="true" id="-80" lat="37.328770649" lon="-121.858979386"/>
+<node visible="true" id="-81" lat="37.328776244000004" lon="-121.85898485400001"/>
+<node visible="true" id="-82" lat="37.328802132" lon="-121.858943429"/>
+<node visible="true" id="-83" lat="37.328795993" lon="-121.858937401"/>
+<node visible="true" id="-84" lat="37.328836939000006" lon="-121.858871863"/>
+<node visible="true" id="-85" lat="37.328842643" lon="-121.85887747100001"/>
+<node visible="true" id="-86" lat="37.328861701" lon="-121.858846998"/>
+<node visible="true" id="-87" lat="37.328793532" lon="-121.85878019900001"/>
+<node visible="true" id="-88" lat="37.328692303000004" lon="-121.85894222300001"/>
+<node visible="true" id="-89" lat="37.328690781" lon="-121.85894075"/>
 <way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="3.98"/><tag k="ele" v="37.34"/></way>
-<way visible="true" id="-6"><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-7"/><tag k="building" v="yes"/><tag k="height" v="2.82"/><tag k="ele" v="35.28"/></way>
-<way visible="true" id="-11"><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-12"/><tag k="building" v="yes"/><tag k="height" v="4.25"/><tag k="ele" v="40.00"/></way>
+<way visible="true" id="-6"><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-7"/><tag k="building" v="yes"/><tag k="height" v="4.25"/><tag k="ele" v="40.00"/></way>
+<way visible="true" id="-19"><nd ref="-20"/><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-20"/><tag k="building" v="yes"/><tag k="height" v="2.82"/><tag k="ele" v="35.28"/></way>
 <way visible="true" id="-24"><nd ref="-25"/><nd ref="-26"/><nd ref="-27"/><nd ref="-28"/><nd ref="-29"/><nd ref="-30"/><nd ref="-31"/><nd ref="-32"/><nd ref="-33"/><nd ref="-34"/><nd ref="-35"/><nd ref="-36"/><nd ref="-37"/><nd ref="-38"/><nd ref="-39"/><nd ref="-40"/><nd ref="-25"/><tag k="building" v="yes"/><tag k="height" v="4.32"/><tag k="ele" v="40.66"/></way>
-<way visible="true" id="-41"><nd ref="-42"/><nd ref="-43"/><nd ref="-44"/><nd ref="-45"/><nd ref="-46"/><nd ref="-47"/><nd ref="-48"/><nd ref="-49"/><nd ref="-50"/><nd ref="-51"/><nd ref="-52"/><nd ref="-53"/><nd ref="-54"/><nd ref="-55"/><nd ref="-56"/><nd ref="-57"/><nd ref="-58"/><nd ref="-59"/><nd ref="-60"/><nd ref="-61"/><nd ref="-42"/><tag k="building" v="yes"/><tag k="height" v="2.58"/><tag k="ele" v="33.19"/></way>
-<way visible="true" id="-80"><nd ref="-81"/><nd ref="-82"/><nd ref="-83"/><nd ref="-84"/><nd ref="-81"/><tag k="building" v="yes"/><tag k="height" v="4.27"/><tag k="ele" v="36.53"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="888"/><tag k="addr:street" v="Story Road"/><tag k="addr:postcode" v="95122"/></way>
-<way visible="true" id="-85"><nd ref="-86"/><nd ref="-87"/><nd ref="-88"/><nd ref="-89"/><nd ref="-90"/><nd ref="-91"/><nd ref="-92"/><nd ref="-93"/><nd ref="-86"/><tag k="building" v="yes"/><tag k="height" v="6.77"/><tag k="ele" v="40.08"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1205"/><tag k="addr:street" v="Lucretia Avenue"/><tag k="addr:postcode" v="95122"/></way>
-<way visible="true" id="-94"><nd ref="-95"/><nd ref="-96"/><nd ref="-97"/><nd ref="-98"/><nd ref="-99"/><nd ref="-100"/><nd ref="-101"/><nd ref="-102"/><nd ref="-103"/><nd ref="-104"/><nd ref="-105"/><nd ref="-106"/><nd ref="-107"/><nd ref="-108"/><nd ref="-109"/><nd ref="-110"/><nd ref="-95"/><tag k="building" v="yes"/><tag k="height" v="4.12"/><tag k="ele" v="39.11"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="720"/><tag k="addr:street" v="Story Road"/><tag k="addr:postcode" v="95122"/></way>
+<way visible="true" id="-59"><nd ref="-60"/><nd ref="-61"/><nd ref="-62"/><nd ref="-63"/><nd ref="-60"/><tag k="building" v="yes"/><tag k="height" v="4.27"/><tag k="ele" v="36.53"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="888"/><tag k="addr:street" v="Story Road"/><tag k="addr:postcode" v="95122"/></way>
+<way visible="true" id="-64"><nd ref="-65"/><nd ref="-66"/><nd ref="-67"/><nd ref="-68"/><nd ref="-69"/><nd ref="-70"/><nd ref="-71"/><nd ref="-72"/><nd ref="-65"/><tag k="building" v="yes"/><tag k="height" v="6.77"/><tag k="ele" v="40.08"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1205"/><tag k="addr:street" v="Lucretia Avenue"/><tag k="addr:postcode" v="95122"/></way>
+<way visible="true" id="-73"><nd ref="-74"/><nd ref="-75"/><nd ref="-76"/><nd ref="-77"/><nd ref="-78"/><nd ref="-79"/><nd ref="-80"/><nd ref="-81"/><nd ref="-82"/><nd ref="-83"/><nd ref="-84"/><nd ref="-85"/><nd ref="-86"/><nd ref="-87"/><nd ref="-88"/><nd ref="-89"/><nd ref="-74"/><tag k="building" v="yes"/><tag k="height" v="4.12"/><tag k="ele" v="39.11"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="720"/><tag k="addr:street" v="Story Road"/><tag k="addr:postcode" v="95122"/></way>
 </osm>

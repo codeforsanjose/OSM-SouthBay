@@ -88,74 +88,79 @@
 <node visible="true" id="-88" lat="37.383389544" lon="-121.89313366600001"/>
 <node visible="true" id="-89" lat="37.383355144" lon="-121.893196911"/>
 <node visible="true" id="-90" lat="37.383350386000004" lon="-121.89319286300001"/>
-<node visible="true" id="-91" lat="37.385396026" lon="-121.89232045700001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1368;1370;1372;1374;1376;1378;1380;1382;1384;1386;1388"/><tag k="addr:street" v="Lakeshore Circle"/><tag k="addr:postcode" v="95131"/></node>
-<node visible="true" id="-92" lat="37.384632212" lon="-121.892754275"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1731"/><tag k="addr:street" v="Birch Lake Court"/><tag k="addr:postcode" v="95131"/></node>
-<node visible="true" id="-93" lat="37.384310282" lon="-121.895865631"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1233"/><tag k="addr:street" v="Elm Lake Court"/><tag k="addr:postcode" v="95131"/></node>
-<node visible="true" id="-94" lat="37.385791045000005" lon="-121.89202475200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1388;1390;1392;1394;1396;1398"/><tag k="addr:street" v="Pine Lake Court"/><tag k="addr:postcode" v="95131"/></node>
-<node visible="true" id="-95" lat="37.385675264" lon="-121.89199927800001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1823"/><tag k="addr:street" v="Willow Lake Lane"/><tag k="addr:postcode" v="95131"/></node>
-<node visible="true" id="-96" lat="37.385459094000005" lon="-121.89610338300001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1817"/><tag k="addr:street" v="English Bay Terrace"/><tag k="addr:postcode" v="95131"/></node>
-<node visible="true" id="-97" lat="37.385514625" lon="-121.896140977"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1819"/><tag k="addr:street" v="English Bay Terrace"/><tag k="addr:postcode" v="95131"/></node>
-<node visible="true" id="-98" lat="37.387389079" lon="-121.89452949500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1164"/><tag k="addr:street" v="Tea Rose Circle"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-91" lat="37.383841187" lon="-121.894349246"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1704"/><tag k="addr:street" v="Oakland Road"/><tag k="addr:unit" v="100;200;300;400"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-92" lat="37.383927667" lon="-121.89439139800001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1708"/><tag k="addr:street" v="Oakland Road"/><tag k="addr:unit" v="100;200;300;400;500;600"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-93" lat="37.385396026" lon="-121.89232045700001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1368;1370;1372;1374;1376;1378;1380;1382;1384;1386;1388"/><tag k="addr:street" v="Lakeshore Circle"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-94" lat="37.385404187" lon="-121.896061703"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1815"/><tag k="addr:street" v="English Bay Terrace"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-95" lat="37.385459094000005" lon="-121.89610338300001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1817"/><tag k="addr:street" v="English Bay Terrace"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-96" lat="37.385675264" lon="-121.89199927800001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1823"/><tag k="addr:street" v="Willow Lake Lane"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-97" lat="37.385426739" lon="-121.892356335"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1366"/><tag k="addr:street" v="Lakeshore Circle"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-98" lat="37.385791045000005" lon="-121.89202475200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1388;1390;1392;1394;1396;1398"/><tag k="addr:street" v="Pine Lake Court"/><tag k="addr:postcode" v="95131"/></node>
 <node visible="true" id="-99" lat="37.385572302" lon="-121.892010329"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1700;1702;1704;1706;1708;1710;1712;1714;1716;1718;1720;1722;1724;1726;1728;1730;1732"/><tag k="addr:street" v="Willow Lake Lane"/><tag k="addr:postcode" v="95131"/></node>
-<node visible="true" id="-100" lat="37.385404187" lon="-121.896061703"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1815"/><tag k="addr:street" v="English Bay Terrace"/><tag k="addr:postcode" v="95131"/></node>
-<node visible="true" id="-101" lat="37.383726192000005" lon="-121.893443996"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1296"/><tag k="addr:street" v="Lakeshore Circle"/><tag k="addr:postcode" v="95131"/></node>
-<node visible="true" id="-102" lat="37.387719748" lon="-121.894087056"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1350"/><tag k="addr:street" v="Tea Rose Circle"/><tag k="addr:postcode" v="95131"/></node>
-<node visible="true" id="-103" lat="37.383854563" lon="-121.89518020000001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1712"/><tag k="addr:street" v="Oakland Road"/><tag k="addr:postcode" v="95131"/></node>
-<node visible="true" id="-104" lat="37.383927667" lon="-121.89439139800001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1708"/><tag k="addr:street" v="Oakland Road"/><tag k="addr:unit" v="100;200;300;400;500;600"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-100" lat="37.385514625" lon="-121.896140977"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1819"/><tag k="addr:street" v="English Bay Terrace"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-101" lat="37.387389079" lon="-121.89452949500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1164"/><tag k="addr:street" v="Tea Rose Circle"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-102" lat="37.384310282" lon="-121.895865631"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1233"/><tag k="addr:street" v="Elm Lake Court"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-103" lat="37.383726192000005" lon="-121.893443996"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1296"/><tag k="addr:street" v="Lakeshore Circle"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-104" lat="37.384016936" lon="-121.89301866000001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1334"/><tag k="addr:street" v="Lakeshore Circle"/><tag k="addr:postcode" v="95131"/></node>
 <node visible="true" id="-105" lat="37.387611178" lon="-121.89397532100001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1338"/><tag k="addr:street" v="Tea Rose Circle"/><tag k="addr:postcode" v="95131"/></node>
-<node visible="true" id="-106" lat="37.383448130000005" lon="-121.893111488"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1706"/><tag k="addr:street" v="Oakland Road"/><tag k="addr:postcode" v="95131"/></node>
-<node visible="true" id="-107" lat="37.383572567" lon="-121.893691102"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1708"/><tag k="addr:street" v="Oakland Road"/><tag k="addr:postcode" v="95131"/></node>
-<node visible="true" id="-108" lat="37.383642814000005" lon="-121.894727226"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1710"/><tag k="addr:street" v="Oakland Road"/><tag k="addr:postcode" v="95131"/></node>
-<node visible="true" id="-109" lat="37.384016936" lon="-121.89301866000001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1334"/><tag k="addr:street" v="Lakeshore Circle"/><tag k="addr:postcode" v="95131"/></node>
-<node visible="true" id="-110" lat="37.387663905000004" lon="-121.89403406900001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1346"/><tag k="addr:street" v="Tea Rose Circle"/><tag k="addr:postcode" v="95131"/></node>
-<node visible="true" id="-111" lat="37.385426739" lon="-121.892356335"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1366"/><tag k="addr:street" v="Lakeshore Circle"/><tag k="addr:postcode" v="95131"/></node>
-<node visible="true" id="-112" lat="37.383841187" lon="-121.894349246"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1704"/><tag k="addr:street" v="Oakland Road"/><tag k="addr:unit" v="100;200;300;400"/><tag k="addr:postcode" v="95131"/></node>
-<node visible="true" id="-114" lat="37.382956227" lon="-121.8945884"/>
-<node visible="true" id="-115" lat="37.382956743" lon="-121.89460964800001"/>
-<node visible="true" id="-116" lat="37.382960748" lon="-121.89464473000001"/>
-<node visible="true" id="-117" lat="37.382964198" lon="-121.89466193700001"/>
-<node visible="true" id="-118" lat="37.382976763" lon="-121.894697797"/>
-<node visible="true" id="-119" lat="37.382987328000006" lon="-121.89472639200001"/>
-<node visible="true" id="-120" lat="37.382988857" lon="-121.894729381"/>
-<node visible="true" id="-121" lat="37.382990416000005" lon="-121.89473233700001"/>
-<node visible="true" id="-122" lat="37.383172613" lon="-121.89460720800001"/>
-<node visible="true" id="-123" lat="37.383176438" lon="-121.894615954"/>
-<node visible="true" id="-124" lat="37.383269655" lon="-121.894551949"/>
-<node visible="true" id="-125" lat="37.383253641" lon="-121.894517366"/>
-<node visible="true" id="-126" lat="37.383323454" lon="-121.894469619"/>
-<node visible="true" id="-127" lat="37.383275308" lon="-121.894358295"/>
-<node visible="true" id="-128" lat="37.383267029" lon="-121.89436392200001"/>
-<node visible="true" id="-129" lat="37.38323896" lon="-121.89429902900001"/>
-<node visible="true" id="-130" lat="37.383087516" lon="-121.894401876"/>
-<node visible="true" id="-131" lat="37.383074363000006" lon="-121.89437147800001"/>
-<node visible="true" id="-132" lat="37.383056517" lon="-121.89438240000001"/>
-<node visible="true" id="-133" lat="37.383041991" lon="-121.894393557"/>
-<node visible="true" id="-134" lat="37.383019674" lon="-121.894415514"/>
-<node visible="true" id="-135" lat="37.383009528" lon="-121.89442792300001"/>
-<node visible="true" id="-136" lat="37.383001958" lon="-121.894438522"/>
-<node visible="true" id="-137" lat="37.382991539" lon="-121.89445540000001"/>
-<node visible="true" id="-138" lat="37.382986792000004" lon="-121.89446426200001"/>
-<node visible="true" id="-139" lat="37.382982344000006" lon="-121.89447336900001"/>
-<node visible="true" id="-140" lat="37.382978223" lon="-121.89448272400001"/>
-<node visible="true" id="-141" lat="37.382974428000004" lon="-121.894492256"/>
-<node visible="true" id="-142" lat="37.382968850000005" lon="-121.894508606"/>
-<node visible="true" id="-143" lat="37.382965957" lon="-121.89451867100001"/>
-<node visible="true" id="-144" lat="37.382961263000006" lon="-121.89453916800001"/>
-<node visible="true" id="-145" lat="37.382957593" lon="-121.89456364200001"/>
-<node visible="true" id="-147" lat="37.383049116" lon="-121.89561876"/>
-<node visible="true" id="-148" lat="37.383061754" lon="-121.89562774000001"/>
-<node visible="true" id="-149" lat="37.383055859" lon="-121.895640744"/>
-<node visible="true" id="-150" lat="37.383313765000004" lon="-121.895824316"/>
-<node visible="true" id="-151" lat="37.383367446" lon="-121.89570591"/>
-<node visible="true" id="-152" lat="37.383260186" lon="-121.89562958900001"/>
-<node visible="true" id="-153" lat="37.383267971" lon="-121.89561242"/>
-<node visible="true" id="-154" lat="37.383159432" lon="-121.89553514600001"/>
-<node visible="true" id="-155" lat="37.383151873" lon="-121.89555183600001"/>
-<node visible="true" id="-156" lat="37.383109873" lon="-121.895521931"/>
-<node visible="true" id="-157" lat="37.383104683" lon="-121.8955334"/>
-<node visible="true" id="-158" lat="37.383091937" lon="-121.895524315"/>
+<node visible="true" id="-106" lat="37.387663905000004" lon="-121.89403406900001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1346"/><tag k="addr:street" v="Tea Rose Circle"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-107" lat="37.387719748" lon="-121.894087056"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1350"/><tag k="addr:street" v="Tea Rose Circle"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-108" lat="37.383448130000005" lon="-121.893111488"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1706"/><tag k="addr:street" v="Oakland Road"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-109" lat="37.383572567" lon="-121.893691102"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1708"/><tag k="addr:street" v="Oakland Road"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-110" lat="37.383642814000005" lon="-121.894727226"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1710"/><tag k="addr:street" v="Oakland Road"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-111" lat="37.383854563" lon="-121.89518020000001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1712"/><tag k="addr:street" v="Oakland Road"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-112" lat="37.384632212" lon="-121.892754275"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1731"/><tag k="addr:street" v="Birch Lake Court"/><tag k="addr:postcode" v="95131"/></node>
+<node visible="true" id="-114" lat="37.386345532" lon="-121.899036159"/>
+<node visible="true" id="-115" lat="37.386481899" lon="-121.89904614800001"/>
+<node visible="true" id="-116" lat="37.386493185" lon="-121.898804674"/>
+<node visible="true" id="-117" lat="37.386356816" lon="-121.89879468400001"/>
+<node visible="true" id="-119" lat="37.382956227" lon="-121.8945884"/>
+<node visible="true" id="-120" lat="37.382956743" lon="-121.89460964800001"/>
+<node visible="true" id="-121" lat="37.382960748" lon="-121.89464473000001"/>
+<node visible="true" id="-122" lat="37.382964198" lon="-121.89466193700001"/>
+<node visible="true" id="-123" lat="37.382976763" lon="-121.894697797"/>
+<node visible="true" id="-124" lat="37.382987328000006" lon="-121.89472639200001"/>
+<node visible="true" id="-125" lat="37.382988857" lon="-121.894729381"/>
+<node visible="true" id="-126" lat="37.382990416000005" lon="-121.89473233700001"/>
+<node visible="true" id="-127" lat="37.383172613" lon="-121.89460720800001"/>
+<node visible="true" id="-128" lat="37.383176438" lon="-121.894615954"/>
+<node visible="true" id="-129" lat="37.383269655" lon="-121.894551949"/>
+<node visible="true" id="-130" lat="37.383253641" lon="-121.894517366"/>
+<node visible="true" id="-131" lat="37.383323454" lon="-121.894469619"/>
+<node visible="true" id="-132" lat="37.383275308" lon="-121.894358295"/>
+<node visible="true" id="-133" lat="37.383267029" lon="-121.89436392200001"/>
+<node visible="true" id="-134" lat="37.38323896" lon="-121.89429902900001"/>
+<node visible="true" id="-135" lat="37.383087516" lon="-121.894401876"/>
+<node visible="true" id="-136" lat="37.383074363000006" lon="-121.89437147800001"/>
+<node visible="true" id="-137" lat="37.383056517" lon="-121.89438240000001"/>
+<node visible="true" id="-138" lat="37.383041991" lon="-121.894393557"/>
+<node visible="true" id="-139" lat="37.383019674" lon="-121.894415514"/>
+<node visible="true" id="-140" lat="37.383009528" lon="-121.89442792300001"/>
+<node visible="true" id="-141" lat="37.383001958" lon="-121.894438522"/>
+<node visible="true" id="-142" lat="37.382991539" lon="-121.89445540000001"/>
+<node visible="true" id="-143" lat="37.382986792000004" lon="-121.89446426200001"/>
+<node visible="true" id="-144" lat="37.382982344000006" lon="-121.89447336900001"/>
+<node visible="true" id="-145" lat="37.382978223" lon="-121.89448272400001"/>
+<node visible="true" id="-146" lat="37.382974428000004" lon="-121.894492256"/>
+<node visible="true" id="-147" lat="37.382968850000005" lon="-121.894508606"/>
+<node visible="true" id="-148" lat="37.382965957" lon="-121.89451867100001"/>
+<node visible="true" id="-149" lat="37.382961263000006" lon="-121.89453916800001"/>
+<node visible="true" id="-150" lat="37.382957593" lon="-121.89456364200001"/>
+<node visible="true" id="-152" lat="37.383049116" lon="-121.89561876"/>
+<node visible="true" id="-153" lat="37.383061754" lon="-121.89562774000001"/>
+<node visible="true" id="-154" lat="37.383055859" lon="-121.895640744"/>
+<node visible="true" id="-155" lat="37.383313765000004" lon="-121.895824316"/>
+<node visible="true" id="-156" lat="37.383367446" lon="-121.89570591"/>
+<node visible="true" id="-157" lat="37.383260186" lon="-121.89562958900001"/>
+<node visible="true" id="-158" lat="37.383267971" lon="-121.89561242"/>
+<node visible="true" id="-159" lat="37.383159432" lon="-121.89553514600001"/>
+<node visible="true" id="-160" lat="37.383151873" lon="-121.89555183600001"/>
+<node visible="true" id="-161" lat="37.383109873" lon="-121.895521931"/>
+<node visible="true" id="-162" lat="37.383104683" lon="-121.8955334"/>
+<node visible="true" id="-163" lat="37.383091937" lon="-121.895524315"/>
 <way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-26"/><nd ref="-27"/><nd ref="-28"/><nd ref="-29"/><nd ref="-30"/><nd ref="-31"/><nd ref="-32"/><nd ref="-33"/><nd ref="-34"/><nd ref="-35"/><nd ref="-36"/><nd ref="-37"/><nd ref="-38"/><nd ref="-39"/><nd ref="-40"/><nd ref="-41"/><nd ref="-42"/><nd ref="-43"/><nd ref="-44"/><nd ref="-45"/><nd ref="-46"/><nd ref="-47"/><nd ref="-48"/><nd ref="-49"/><nd ref="-50"/><nd ref="-51"/><nd ref="-52"/><nd ref="-53"/><nd ref="-54"/><nd ref="-55"/><nd ref="-56"/><nd ref="-57"/><nd ref="-58"/><nd ref="-59"/><nd ref="-60"/><nd ref="-61"/><nd ref="-62"/><nd ref="-63"/><nd ref="-64"/><nd ref="-65"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="6.99"/><tag k="ele" v="27.32"/></way>
 <way visible="true" id="-66"><nd ref="-67"/><nd ref="-68"/><nd ref="-69"/><nd ref="-70"/><nd ref="-71"/><nd ref="-72"/><nd ref="-73"/><nd ref="-74"/><nd ref="-75"/><nd ref="-76"/><nd ref="-77"/><nd ref="-78"/><nd ref="-79"/><nd ref="-80"/><nd ref="-81"/><nd ref="-82"/><nd ref="-83"/><nd ref="-84"/><nd ref="-85"/><nd ref="-86"/><nd ref="-87"/><nd ref="-88"/><nd ref="-89"/><nd ref="-90"/><nd ref="-67"/><tag k="building" v="yes"/><tag k="height" v="5.83"/><tag k="ele" v="29.43"/></way>
-<way visible="true" id="-113"><nd ref="-114"/><nd ref="-115"/><nd ref="-116"/><nd ref="-117"/><nd ref="-118"/><nd ref="-119"/><nd ref="-120"/><nd ref="-121"/><nd ref="-122"/><nd ref="-123"/><nd ref="-124"/><nd ref="-125"/><nd ref="-126"/><nd ref="-127"/><nd ref="-128"/><nd ref="-129"/><nd ref="-130"/><nd ref="-131"/><nd ref="-132"/><nd ref="-133"/><nd ref="-134"/><nd ref="-135"/><nd ref="-136"/><nd ref="-137"/><nd ref="-138"/><nd ref="-139"/><nd ref="-140"/><nd ref="-141"/><nd ref="-142"/><nd ref="-143"/><nd ref="-144"/><nd ref="-145"/><nd ref="-114"/><tag k="building" v="yes"/><tag k="height" v="8.29"/><tag k="ele" v="27.71"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1704"/><tag k="addr:street" v="Oakland Road"/><tag k="addr:postcode" v="95131"/></way>
-<way visible="true" id="-146"><nd ref="-147"/><nd ref="-148"/><nd ref="-149"/><nd ref="-150"/><nd ref="-151"/><nd ref="-152"/><nd ref="-153"/><nd ref="-154"/><nd ref="-155"/><nd ref="-156"/><nd ref="-157"/><nd ref="-158"/><nd ref="-147"/><tag k="building" v="yes"/><tag k="height" v="3.98"/><tag k="ele" v="25.18"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1702"/><tag k="addr:street" v="Oakland Road"/><tag k="addr:postcode" v="95131"/></way>
+<way visible="true" id="-113"><nd ref="-114"/><nd ref="-115"/><nd ref="-116"/><nd ref="-117"/><nd ref="-114"/><tag k="building" v="commercial"/><tag k="height" v="5.39"/><tag k="ele" v="20.35"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1799"/><tag k="addr:street" v="Oakland Road"/><tag k="addr:postcode" v="95131"/></way>
+<way visible="true" id="-118"><nd ref="-119"/><nd ref="-120"/><nd ref="-121"/><nd ref="-122"/><nd ref="-123"/><nd ref="-124"/><nd ref="-125"/><nd ref="-126"/><nd ref="-127"/><nd ref="-128"/><nd ref="-129"/><nd ref="-130"/><nd ref="-131"/><nd ref="-132"/><nd ref="-133"/><nd ref="-134"/><nd ref="-135"/><nd ref="-136"/><nd ref="-137"/><nd ref="-138"/><nd ref="-139"/><nd ref="-140"/><nd ref="-141"/><nd ref="-142"/><nd ref="-143"/><nd ref="-144"/><nd ref="-145"/><nd ref="-146"/><nd ref="-147"/><nd ref="-148"/><nd ref="-149"/><nd ref="-150"/><nd ref="-119"/><tag k="building" v="yes"/><tag k="height" v="8.29"/><tag k="ele" v="27.71"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1704"/><tag k="addr:street" v="Oakland Road"/><tag k="addr:postcode" v="95131"/></way>
+<way visible="true" id="-151"><nd ref="-152"/><nd ref="-153"/><nd ref="-154"/><nd ref="-155"/><nd ref="-156"/><nd ref="-157"/><nd ref="-158"/><nd ref="-159"/><nd ref="-160"/><nd ref="-161"/><nd ref="-162"/><nd ref="-163"/><nd ref="-152"/><tag k="building" v="yes"/><tag k="height" v="3.98"/><tag k="ele" v="25.18"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1702"/><tag k="addr:street" v="Oakland Road"/><tag k="addr:postcode" v="95131"/></way>
 </osm>

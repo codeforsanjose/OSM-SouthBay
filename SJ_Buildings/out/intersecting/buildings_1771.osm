@@ -1,83 +1,92 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="uvmogr2osm" upload="false">
-<node visible="true" id="-2" lat="37.361344387" lon="-121.876052177"/>
-<node visible="true" id="-3" lat="37.361733241" lon="-121.87645277200001"/>
-<node visible="true" id="-4" lat="37.361902103000006" lon="-121.87642312300001"/>
-<node visible="true" id="-5" lat="37.362024897000005" lon="-121.876234812"/>
-<node visible="true" id="-6" lat="37.362014855000005" lon="-121.87622451000001"/>
-<node visible="true" id="-7" lat="37.362083328000004" lon="-121.876119508"/>
-<node visible="true" id="-8" lat="37.362150463" lon="-121.87618925800001"/>
-<node visible="true" id="-9" lat="37.36244063" lon="-121.875800964"/>
-<node visible="true" id="-10" lat="37.362449187" lon="-121.87571075500001"/>
-<node visible="true" id="-11" lat="37.362391496" lon="-121.87564358700001"/>
-<node visible="true" id="-12" lat="37.362211845000004" lon="-121.875885808"/>
-<node visible="true" id="-13" lat="37.362142882" lon="-121.87589445"/>
-<node visible="true" id="-14" lat="37.361827268" lon="-121.87557005000001"/>
-<node visible="true" id="-15" lat="37.361660668" lon="-121.87554740200001"/>
-<node visible="true" id="-16" lat="37.361607809" lon="-121.87562795000001"/>
-<node visible="true" id="-17" lat="37.361914811000005" lon="-121.87594420500001"/>
-<node visible="true" id="-18" lat="37.361844892" lon="-121.87605069600001"/>
-<node visible="true" id="-19" lat="37.361599930000004" lon="-121.87579834900001"/>
-<node visible="true" id="-20" lat="37.361476034" lon="-121.87598708700001"/>
-<node visible="true" id="-21" lat="37.361422976" lon="-121.87593242700001"/>
-<node visible="true" id="-23" lat="37.35988802" lon="-121.87258710900001"/>
-<node visible="true" id="-24" lat="37.359921392000004" lon="-121.872648217"/>
-<node visible="true" id="-25" lat="37.359966479" lon="-121.872609576"/>
-<node visible="true" id="-26" lat="37.359933080000005" lon="-121.872548467"/>
-<node visible="true" id="-27" lat="37.362043484000004" lon="-121.87595187400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1355"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-28" lat="37.361868219" lon="-121.87614426200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1345"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:unit" v="A"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-29" lat="37.361780049000004" lon="-121.876034571"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1345"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-30" lat="37.362084761000006" lon="-121.875989974"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1353"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-31" lat="37.362153341" lon="-121.875987503"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1359"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-32" lat="37.361999312" lon="-121.87590625200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1363"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-33" lat="37.361960969" lon="-121.87587194100001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1365"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-34" lat="37.361817212000005" lon="-121.876223975"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1345"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:unit" v="B"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-35" lat="37.362140296" lon="-121.87573893000001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1347"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-36" lat="37.362128933" lon="-121.876035594"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1357"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-37" lat="37.362183884000004" lon="-121.875924588"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1361"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-38" lat="37.361988619" lon="-121.875801506"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1369"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-39" lat="37.362024026" lon="-121.87583202900001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1373"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-40" lat="37.362059301" lon="-121.87587375100001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1351"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-2" lat="37.361616101" lon="-121.87273180300001"/>
+<node visible="true" id="-3" lat="37.361650357" lon="-121.872743169"/>
+<node visible="true" id="-4" lat="37.361627761" lon="-121.87285022100001"/>
+<node visible="true" id="-5" lat="37.361949176" lon="-121.872956716"/>
+<node visible="true" id="-6" lat="37.361984918000005" lon="-121.87278730800001"/>
+<node visible="true" id="-7" lat="37.361664405" lon="-121.872681142"/>
+<node visible="true" id="-8" lat="37.361666035" lon="-121.87267336000001"/>
+<node visible="true" id="-9" lat="37.361630902" lon="-121.872661703"/>
+<node visible="true" id="-11" lat="37.361344387" lon="-121.876052177"/>
+<node visible="true" id="-12" lat="37.361733241" lon="-121.87645277200001"/>
+<node visible="true" id="-13" lat="37.361902103000006" lon="-121.87642312300001"/>
+<node visible="true" id="-14" lat="37.362024897000005" lon="-121.876234812"/>
+<node visible="true" id="-15" lat="37.362014855000005" lon="-121.87622451000001"/>
+<node visible="true" id="-16" lat="37.362083328000004" lon="-121.876119508"/>
+<node visible="true" id="-17" lat="37.362150463" lon="-121.87618925800001"/>
+<node visible="true" id="-18" lat="37.36244063" lon="-121.875800964"/>
+<node visible="true" id="-19" lat="37.362449187" lon="-121.87571075500001"/>
+<node visible="true" id="-20" lat="37.362391496" lon="-121.87564358700001"/>
+<node visible="true" id="-21" lat="37.362211845000004" lon="-121.875885808"/>
+<node visible="true" id="-22" lat="37.362142882" lon="-121.87589445"/>
+<node visible="true" id="-23" lat="37.361827268" lon="-121.87557005000001"/>
+<node visible="true" id="-24" lat="37.361660668" lon="-121.87554740200001"/>
+<node visible="true" id="-25" lat="37.361607809" lon="-121.87562795000001"/>
+<node visible="true" id="-26" lat="37.361914811000005" lon="-121.87594420500001"/>
+<node visible="true" id="-27" lat="37.361844892" lon="-121.87605069600001"/>
+<node visible="true" id="-28" lat="37.361599930000004" lon="-121.87579834900001"/>
+<node visible="true" id="-29" lat="37.361476034" lon="-121.87598708700001"/>
+<node visible="true" id="-30" lat="37.361422976" lon="-121.87593242700001"/>
+<node visible="true" id="-32" lat="37.35988802" lon="-121.87258710900001"/>
+<node visible="true" id="-33" lat="37.359921392000004" lon="-121.872648217"/>
+<node visible="true" id="-34" lat="37.359966479" lon="-121.872609576"/>
+<node visible="true" id="-35" lat="37.359933080000005" lon="-121.872548467"/>
+<node visible="true" id="-36" lat="37.362183884000004" lon="-121.875924588"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1361"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-37" lat="37.361780049000004" lon="-121.876034571"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1345"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-38" lat="37.361868219" lon="-121.87614426200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1345"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:unit" v="A"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-39" lat="37.361817212000005" lon="-121.876223975"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1345"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:unit" v="B"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-40" lat="37.362140296" lon="-121.87573893000001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1347"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
 <node visible="true" id="-41" lat="37.362103342000005" lon="-121.875930573"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1349"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
-<node visible="true" id="-43" lat="37.360921048" lon="-121.87500401700001"/>
-<node visible="true" id="-44" lat="37.360954518" lon="-121.87513388200001"/>
-<node visible="true" id="-45" lat="37.360997462" lon="-121.875116504"/>
-<node visible="true" id="-46" lat="37.361038972" lon="-121.875277522"/>
-<node visible="true" id="-47" lat="37.360990261000005" lon="-121.875297204"/>
-<node visible="true" id="-48" lat="37.361024913" lon="-121.875431703"/>
-<node visible="true" id="-49" lat="37.361229722000004" lon="-121.87534886"/>
-<node visible="true" id="-50" lat="37.361154269000004" lon="-121.87505603900001"/>
-<node visible="true" id="-51" lat="37.361179413" lon="-121.87504583500001"/>
-<node visible="true" id="-52" lat="37.361169639" lon="-121.87500790600001"/>
-<node visible="true" id="-53" lat="37.361144469" lon="-121.87501807500001"/>
-<node visible="true" id="-54" lat="37.361140371000005" lon="-121.87500217"/>
-<node visible="true" id="-55" lat="37.361161898" lon="-121.874993481"/>
-<node visible="true" id="-56" lat="37.361135152" lon="-121.874889756"/>
-<node visible="true" id="-57" lat="37.361138491000006" lon="-121.87488840600001"/>
-<node visible="true" id="-58" lat="37.361130924" lon="-121.87485912000001"/>
-<node visible="true" id="-59" lat="37.361152948000004" lon="-121.87485020000001"/>
-<node visible="true" id="-60" lat="37.361146748" lon="-121.874826169"/>
-<node visible="true" id="-61" lat="37.361074688" lon="-121.874855331"/>
-<node visible="true" id="-62" lat="37.361094891" lon="-121.87493371500001"/>
-<node visible="true" id="-64" lat="37.360386854000005" lon="-121.87302156300001"/>
-<node visible="true" id="-65" lat="37.36049358" lon="-121.873214954"/>
-<node visible="true" id="-66" lat="37.360807896000004" lon="-121.87294265400001"/>
-<node visible="true" id="-67" lat="37.360792215000004" lon="-121.872914217"/>
-<node visible="true" id="-68" lat="37.360839238000004" lon="-121.87292843300001"/>
-<node visible="true" id="-69" lat="37.360824371" lon="-121.87299705100001"/>
-<node visible="true" id="-70" lat="37.361030573" lon="-121.873062543"/>
-<node visible="true" id="-71" lat="37.361003859" lon="-121.873197563"/>
-<node visible="true" id="-72" lat="37.361185524" lon="-121.87325668400001"/>
-<node visible="true" id="-73" lat="37.361269741" lon="-121.87286022800001"/>
-<node visible="true" id="-74" lat="37.361138982" lon="-121.87281677200001"/>
-<node visible="true" id="-75" lat="37.361146469000005" lon="-121.872782567"/>
-<node visible="true" id="-76" lat="37.360838935000004" lon="-121.87268221500001"/>
-<node visible="true" id="-77" lat="37.360833712" lon="-121.87270840900001"/>
-<node visible="true" id="-78" lat="37.360799735" lon="-121.87269901"/>
-<node visible="true" id="-79" lat="37.360713353" lon="-121.872773678"/>
-<node visible="true" id="-80" lat="37.360700114000004" lon="-121.87275017200001"/>
-<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-21"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="6.95"/><tag k="ele" v="35.46"/></way>
-<way visible="true" id="-22"><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-26"/><nd ref="-23"/><tag k="building" v="yes"/><tag k="height" v="3.48"/><tag k="ele" v="27.29"/></way>
-<way visible="true" id="-42"><nd ref="-43"/><nd ref="-44"/><nd ref="-45"/><nd ref="-46"/><nd ref="-47"/><nd ref="-48"/><nd ref="-49"/><nd ref="-50"/><nd ref="-51"/><nd ref="-52"/><nd ref="-53"/><nd ref="-54"/><nd ref="-55"/><nd ref="-56"/><nd ref="-57"/><nd ref="-58"/><nd ref="-59"/><nd ref="-60"/><nd ref="-61"/><nd ref="-62"/><nd ref="-43"/><tag k="building" v="yes"/><tag k="height" v="5.33"/><tag k="ele" v="32.44"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1346"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></way>
-<way visible="true" id="-63"><nd ref="-64"/><nd ref="-65"/><nd ref="-66"/><nd ref="-67"/><nd ref="-68"/><nd ref="-69"/><nd ref="-70"/><nd ref="-71"/><nd ref="-72"/><nd ref="-73"/><nd ref="-74"/><nd ref="-75"/><nd ref="-76"/><nd ref="-77"/><nd ref="-78"/><nd ref="-79"/><nd ref="-80"/><nd ref="-64"/><tag k="building" v="yes"/><tag k="height" v="8.63"/><tag k="ele" v="34.33"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1404"/><tag k="addr:street" v="Mabury Road"/><tag k="addr:postcode" v="95133"/></way>
+<node visible="true" id="-42" lat="37.362043484000004" lon="-121.87595187400001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1355"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-43" lat="37.362059301" lon="-121.87587375100001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1351"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-44" lat="37.362084761000006" lon="-121.875989974"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1353"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-45" lat="37.362128933" lon="-121.876035594"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1357"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-46" lat="37.362153341" lon="-121.875987503"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1359"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-47" lat="37.361999312" lon="-121.87590625200001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1363"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-48" lat="37.361960969" lon="-121.87587194100001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1365"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-49" lat="37.361988619" lon="-121.875801506"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1369"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-50" lat="37.362024026" lon="-121.87583202900001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1373"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></node>
+<node visible="true" id="-52" lat="37.360386854000005" lon="-121.87302156300001"/>
+<node visible="true" id="-53" lat="37.36049358" lon="-121.873214954"/>
+<node visible="true" id="-54" lat="37.360807896000004" lon="-121.87294265400001"/>
+<node visible="true" id="-55" lat="37.360792215000004" lon="-121.872914217"/>
+<node visible="true" id="-56" lat="37.360839238000004" lon="-121.87292843300001"/>
+<node visible="true" id="-57" lat="37.360824371" lon="-121.87299705100001"/>
+<node visible="true" id="-58" lat="37.361030573" lon="-121.873062543"/>
+<node visible="true" id="-59" lat="37.361003859" lon="-121.873197563"/>
+<node visible="true" id="-60" lat="37.361185524" lon="-121.87325668400001"/>
+<node visible="true" id="-61" lat="37.361269741" lon="-121.87286022800001"/>
+<node visible="true" id="-62" lat="37.361138982" lon="-121.87281677200001"/>
+<node visible="true" id="-63" lat="37.361146469000005" lon="-121.872782567"/>
+<node visible="true" id="-64" lat="37.360838935000004" lon="-121.87268221500001"/>
+<node visible="true" id="-65" lat="37.360833712" lon="-121.87270840900001"/>
+<node visible="true" id="-66" lat="37.360799735" lon="-121.87269901"/>
+<node visible="true" id="-67" lat="37.360713353" lon="-121.872773678"/>
+<node visible="true" id="-68" lat="37.360700114000004" lon="-121.87275017200001"/>
+<node visible="true" id="-70" lat="37.360921048" lon="-121.87500401700001"/>
+<node visible="true" id="-71" lat="37.360954518" lon="-121.87513388200001"/>
+<node visible="true" id="-72" lat="37.360997462" lon="-121.875116504"/>
+<node visible="true" id="-73" lat="37.361038972" lon="-121.875277522"/>
+<node visible="true" id="-74" lat="37.360990261000005" lon="-121.875297204"/>
+<node visible="true" id="-75" lat="37.361024913" lon="-121.875431703"/>
+<node visible="true" id="-76" lat="37.361229722000004" lon="-121.87534886"/>
+<node visible="true" id="-77" lat="37.361154269000004" lon="-121.87505603900001"/>
+<node visible="true" id="-78" lat="37.361179413" lon="-121.87504583500001"/>
+<node visible="true" id="-79" lat="37.361169639" lon="-121.87500790600001"/>
+<node visible="true" id="-80" lat="37.361144469" lon="-121.87501807500001"/>
+<node visible="true" id="-81" lat="37.361140371000005" lon="-121.87500217"/>
+<node visible="true" id="-82" lat="37.361161898" lon="-121.874993481"/>
+<node visible="true" id="-83" lat="37.361135152" lon="-121.874889756"/>
+<node visible="true" id="-84" lat="37.361138491000006" lon="-121.87488840600001"/>
+<node visible="true" id="-85" lat="37.361130924" lon="-121.87485912000001"/>
+<node visible="true" id="-86" lat="37.361152948000004" lon="-121.87485020000001"/>
+<node visible="true" id="-87" lat="37.361146748" lon="-121.874826169"/>
+<node visible="true" id="-88" lat="37.361074688" lon="-121.874855331"/>
+<node visible="true" id="-89" lat="37.361094891" lon="-121.87493371500001"/>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="7.32"/><tag k="ele" v="32.30"/></way>
+<way visible="true" id="-10"><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-26"/><nd ref="-27"/><nd ref="-28"/><nd ref="-29"/><nd ref="-30"/><nd ref="-11"/><tag k="building" v="yes"/><tag k="height" v="6.95"/><tag k="ele" v="35.46"/></way>
+<way visible="true" id="-31"><nd ref="-32"/><nd ref="-33"/><nd ref="-34"/><nd ref="-35"/><nd ref="-32"/><tag k="building" v="yes"/><tag k="height" v="3.48"/><tag k="ele" v="27.29"/></way>
+<way visible="true" id="-51"><nd ref="-52"/><nd ref="-53"/><nd ref="-54"/><nd ref="-55"/><nd ref="-56"/><nd ref="-57"/><nd ref="-58"/><nd ref="-59"/><nd ref="-60"/><nd ref="-61"/><nd ref="-62"/><nd ref="-63"/><nd ref="-64"/><nd ref="-65"/><nd ref="-66"/><nd ref="-67"/><nd ref="-68"/><nd ref="-52"/><tag k="building" v="yes"/><tag k="height" v="8.63"/><tag k="ele" v="34.33"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1404"/><tag k="addr:street" v="Mabury Road"/><tag k="addr:postcode" v="95133"/></way>
+<way visible="true" id="-69"><nd ref="-70"/><nd ref="-71"/><nd ref="-72"/><nd ref="-73"/><nd ref="-74"/><nd ref="-75"/><nd ref="-76"/><nd ref="-77"/><nd ref="-78"/><nd ref="-79"/><nd ref="-80"/><nd ref="-81"/><nd ref="-82"/><nd ref="-83"/><nd ref="-84"/><nd ref="-85"/><nd ref="-86"/><nd ref="-87"/><nd ref="-88"/><nd ref="-89"/><nd ref="-70"/><tag k="building" v="yes"/><tag k="height" v="5.33"/><tag k="ele" v="32.44"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1346"/><tag k="addr:street" v="East Taylor Street"/><tag k="addr:postcode" v="95133"/></way>
 </osm>

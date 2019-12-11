@@ -1,46 +1,18 @@
 <?xml version="1.0"?>
 <osm version="0.6" generator="uvmogr2osm" upload="false">
-<node visible="true" id="-2" lat="37.299802613000004" lon="-121.822439496"/>
-<node visible="true" id="-3" lat="37.299844531000005" lon="-121.82248304500001"/>
-<node visible="true" id="-4" lat="37.299817678000004" lon="-121.82252355400001"/>
-<node visible="true" id="-5" lat="37.299874066" lon="-121.82258210900001"/>
-<node visible="true" id="-6" lat="37.299896589" lon="-121.82254812400001"/>
-<node visible="true" id="-7" lat="37.299906417" lon="-121.822558337"/>
-<node visible="true" id="-8" lat="37.299902225000004" lon="-121.822564693"/>
-<node visible="true" id="-9" lat="37.299916505" lon="-121.822579524"/>
-<node visible="true" id="-10" lat="37.299921116" lon="-121.822572558"/>
-<node visible="true" id="-11" lat="37.299925161000004" lon="-121.82257678900001"/>
-<node visible="true" id="-12" lat="37.299928598" lon="-121.822571624"/>
-<node visible="true" id="-13" lat="37.299962643" lon="-121.82260698700001"/>
-<node visible="true" id="-14" lat="37.300058015000005" lon="-121.822462993"/>
-<node visible="true" id="-15" lat="37.299897481" lon="-121.82229631800001"/>
-<node visible="true" id="-17" lat="37.299121915" lon="-121.82375253000001"/>
-<node visible="true" id="-18" lat="37.299239638" lon="-121.823869419"/>
-<node visible="true" id="-19" lat="37.299256503" lon="-121.82384279600001"/>
-<node visible="true" id="-20" lat="37.29933139" lon="-121.823917151"/>
-<node visible="true" id="-21" lat="37.299450972" lon="-121.823728478"/>
-<node visible="true" id="-22" lat="37.299400912" lon="-121.82367876800001"/>
-<node visible="true" id="-23" lat="37.299418949" lon="-121.82365034300001"/>
-<node visible="true" id="-24" lat="37.299385213" lon="-121.823616841"/>
-<node visible="true" id="-25" lat="37.299393213" lon="-121.82360419300001"/>
-<node visible="true" id="-26" lat="37.299351816000005" lon="-121.82356309500001"/>
-<node visible="true" id="-27" lat="37.299327319" lon="-121.82360172000001"/>
-<node visible="true" id="-28" lat="37.2992599" lon="-121.82353478600001"/>
-<node visible="true" id="-30" lat="37.300130197" lon="-121.821925487"/>
-<node visible="true" id="-31" lat="37.300181388000006" lon="-121.821977312"/>
-<node visible="true" id="-32" lat="37.300177697" lon="-121.821983024"/>
-<node visible="true" id="-33" lat="37.300303461000006" lon="-121.822110437"/>
-<node visible="true" id="-34" lat="37.30030704" lon="-121.82210489500001"/>
-<node visible="true" id="-35" lat="37.300376399" lon="-121.822175165"/>
-<node visible="true" id="-36" lat="37.300471727" lon="-121.82202773"/>
-<node visible="true" id="-37" lat="37.300281791" lon="-121.821835332"/>
-<node visible="true" id="-38" lat="37.300295601" lon="-121.821813984"/>
-<node visible="true" id="-39" lat="37.300239359" lon="-121.82175697900001"/>
-<node visible="true" id="-40" lat="37.3002083" lon="-121.82180504700001"/>
-<node visible="true" id="-41" lat="37.300205747" lon="-121.82180245800001"/>
-<node visible="true" id="-42" lat="37.300163227000006" lon="-121.82186820400001"/>
-<node visible="true" id="-43" lat="37.300165644" lon="-121.821870653"/>
-<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="3.72"/><tag k="ele" v="53.87"/></way>
-<way visible="true" id="-16"><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-26"/><nd ref="-27"/><nd ref="-28"/><nd ref="-17"/><tag k="building" v="yes"/><tag k="height" v="3.54"/><tag k="ele" v="53.60"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1001"/><tag k="addr:street" v="East Capitol Expressway"/><tag k="addr:postcode" v="95121"/></way>
-<way visible="true" id="-29"><nd ref="-30"/><nd ref="-31"/><nd ref="-32"/><nd ref="-33"/><nd ref="-34"/><nd ref="-35"/><nd ref="-36"/><nd ref="-37"/><nd ref="-38"/><nd ref="-39"/><nd ref="-40"/><nd ref="-41"/><nd ref="-42"/><nd ref="-43"/><nd ref="-30"/><tag k="building" v="yes"/><tag k="height" v="6.26"/><tag k="ele" v="56.15"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1041"/><tag k="addr:street" v="East Capitol Expressway"/><tag k="addr:postcode" v="95121"/></way>
+<node visible="true" id="-2" lat="37.300130197" lon="-121.821925487"/>
+<node visible="true" id="-3" lat="37.300181388000006" lon="-121.821977312"/>
+<node visible="true" id="-4" lat="37.300177697" lon="-121.821983024"/>
+<node visible="true" id="-5" lat="37.300303461000006" lon="-121.822110437"/>
+<node visible="true" id="-6" lat="37.30030704" lon="-121.82210489500001"/>
+<node visible="true" id="-7" lat="37.300376399" lon="-121.822175165"/>
+<node visible="true" id="-8" lat="37.300471727" lon="-121.82202773"/>
+<node visible="true" id="-9" lat="37.300281791" lon="-121.821835332"/>
+<node visible="true" id="-10" lat="37.300295601" lon="-121.821813984"/>
+<node visible="true" id="-11" lat="37.300239359" lon="-121.82175697900001"/>
+<node visible="true" id="-12" lat="37.3002083" lon="-121.82180504700001"/>
+<node visible="true" id="-13" lat="37.300205747" lon="-121.82180245800001"/>
+<node visible="true" id="-14" lat="37.300163227000006" lon="-121.82186820400001"/>
+<node visible="true" id="-15" lat="37.300165644" lon="-121.821870653"/>
+<way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-6"/><nd ref="-7"/><nd ref="-8"/><nd ref="-9"/><nd ref="-10"/><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="6.26"/><tag k="ele" v="56.15"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1041"/><tag k="addr:street" v="East Capitol Expressway"/><tag k="addr:postcode" v="95121"/></way>
 </osm>

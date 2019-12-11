@@ -4,9 +4,9 @@
 <node visible="true" id="-3" lat="37.244056089000004" lon="-121.78630810700001"/>
 <node visible="true" id="-4" lat="37.244141073" lon="-121.78622807400001"/>
 <node visible="true" id="-5" lat="37.243995166000005" lon="-121.78598561400001"/>
-<node visible="true" id="-6" lat="37.240935276" lon="-121.784616838"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="7"/><tag k="addr:street" v="Great Oaks Boulevard"/><tag k="addr:postcode" v="95119"/></node>
-<node visible="true" id="-7" lat="37.242212095" lon="-121.781743198"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="9"/><tag k="addr:street" v="Great Oaks Boulevard"/><tag k="addr:postcode" v="95119"/></node>
-<node visible="true" id="-8" lat="37.244572077" lon="-121.78721355500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1"/><tag k="addr:street" v="Great Oaks Boulevard"/><tag k="addr:postcode" v="95119"/></node>
+<node visible="true" id="-6" lat="37.242212095" lon="-121.781743198"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="9"/><tag k="addr:street" v="Great Oaks Boulevard"/><tag k="addr:postcode" v="95119"/></node>
+<node visible="true" id="-7" lat="37.240935276" lon="-121.784616838"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="7"/><tag k="addr:street" v="Great Oaks Boulevard"/><tag k="addr:postcode" v="95119"/></node>
+<node visible="true" id="-8" lat="37.244572077" lon="-121.78721355500001"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="1"/><tag k="addr:street" v="Great Oaks Boulevard"/><tag k="addr:postcode" v="95119"/><tag k="shop" v="yes"/></node>
 <node visible="true" id="-9" lat="37.244776555" lon="-121.787043904"><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="6898"/><tag k="addr:street" v="Raleigh Road"/><tag k="addr:postcode" v="95119"/></node>
 <node visible="true" id="-11" lat="37.241957836000005" lon="-121.78290357300001"/>
 <node visible="true" id="-12" lat="37.241799083000004" lon="-121.78263960700001"/>
@@ -29,5 +29,5 @@
 <node visible="true" id="-29" lat="37.241944705" lon="-121.78378809"/>
 <node visible="true" id="-30" lat="37.24229282" lon="-121.783460532"/>
 <way visible="true" id="-1"><nd ref="-2"/><nd ref="-3"/><nd ref="-4"/><nd ref="-5"/><nd ref="-2"/><tag k="building" v="yes"/><tag k="height" v="4.36"/><tag k="ele" v="64.17"/></way>
-<way visible="true" id="-10"><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-26"/><nd ref="-27"/><nd ref="-28"/><nd ref="-29"/><nd ref="-30"/><nd ref="-11"/><tag k="building" v="yes"/><tag k="height" v="8.39"/><tag k="ele" v="71.27"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="11"/><tag k="addr:street" v="Great Oaks Boulevard"/><tag k="addr:postcode" v="95119"/></way>
+<way visible="true" id="-10"><nd ref="-11"/><nd ref="-12"/><nd ref="-13"/><nd ref="-14"/><nd ref="-15"/><nd ref="-16"/><nd ref="-17"/><nd ref="-18"/><nd ref="-19"/><nd ref="-20"/><nd ref="-21"/><nd ref="-22"/><nd ref="-23"/><nd ref="-24"/><nd ref="-25"/><nd ref="-26"/><nd ref="-27"/><nd ref="-28"/><nd ref="-29"/><nd ref="-30"/><nd ref="-11"/><tag k="building" v="commercial"/><tag k="height" v="8.39"/><tag k="ele" v="71.27"/><tag k="addr:city" v="San Jose"/><tag k="addr:housenumber" v="11"/><tag k="addr:street" v="Great Oaks Boulevard"/><tag k="addr:postcode" v="95119"/></way>
 </osm>
