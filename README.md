@@ -7,7 +7,7 @@ Mappers in the South Bay need to meet each other!
 Thus we are listing issues of things to work on in the South Bay as well as steps towards creating a community.
 
 
-## What is Open Street Map?
+## What is OpenStreetMap?
 OpenStreetMap is open data: Open Maps.  you are free to use it for any purpose as long as you credit OpenStreetMap 
 and its contributors. 
 
