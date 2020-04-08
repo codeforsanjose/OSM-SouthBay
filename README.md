@@ -14,10 +14,10 @@ A better OpenStreetMap will make a difference for tripplanners, mappers, planner
 
 ## Current projects
 
-* [Import San José buildings and addresses from city datasets](https://tasks.openstreetmap.us/project/175)
-* [Fix mismatched San José road names between OSM and city parcel data](https://maproulette.org/browse/challenges/12630)
-* [Validate imported San José crosswalks and fill in missing crosswalks](https://maproulette.org/browse/challenges/3199)
-* [Add points of interest from street-level imagery](http://tasks2.openstreetmap.us/project/130)
+* [Import San José buildings and addresses from city datasets](https://tasks.openstreetmap.us/project/175) (requires JOSM)
+* [Fix mismatched San José road names between OSM and city parcel data](https://maproulette.org/browse/challenges/12630) (good starting point)
+* [Validate imported San José crosswalks and fill in missing crosswalks](https://maproulette.org/browse/challenges/3199) (good starting point)
+* [Add points of interest from street-level imagery](http://tasks2.openstreetmap.us/project/130) (good starting point)
 
 ## Completed projects
 
