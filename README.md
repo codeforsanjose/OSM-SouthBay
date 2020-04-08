@@ -6,18 +6,28 @@ Mappers in the South Bay need to meet each other!
 
 Thus we are listing issues of things to work on in the South Bay as well as steps towards creating a community.
 
-
 ## What is OpenStreetMap?
 OpenStreetMap is open data: Open Maps.  you are free to use it for any purpose as long as you credit OpenStreetMap 
 and its contributors. 
 
 A better OpenStreetMap will make a difference for tripplanners, mappers, planners, and businesses!
 
+## Current projects
+
+* [Import San José buildings and addresses from city datasets](https://tasks.openstreetmap.us/project/175)
+* [Fix mismatched San José road names between OSM and city parcel data](https://maproulette.org/browse/challenges/12630)
+* [Validate imported San José crosswalks and fill in missing crosswalks](https://maproulette.org/browse/challenges/3199)
+* [Add points of interest from street-level imagery](http://tasks2.openstreetmap.us/project/130)
+
+## Completed projects
+
+* [Import San José sidewalks from city data](https://wiki.openstreetmap.org/wiki/Santa_Clara_County,_California/San_Jose_Sidewalk_Import)
+* [Import San José crosswalks inferred from sidewalks](http://tasks2.openstreetmap.us/project/141)
+* Collect street-level imagery around San José with a DIY camera rig
+
 ## Resources
-[Code for San Jose Slack](https://slackin-c4sj.herokuapp.com/) and then channel #osm
 
-[OSMUS Slack](https://osmus-slack.herokuapp.com/)
-
-[Bay Area OSM email list](https://lists.openstreetmap.org/listinfo/talk-us-sfbay/)
-
-[South Bay GIS Resources Compiled by the VTA](https://github.com/vta/GIS-Resources-Santa-Clara-County)
+* [Code for San Jose Slack](https://slackin-c4sj.herokuapp.com/) and then channel #osm
+* [OSMUS Slack](https://osmus-slack.herokuapp.com/)
+* [Bay Area OSM mailing list](https://lists.openstreetmap.org/listinfo/talk-us-sfbay/)
+* [South Bay GIS Resources Compiled by the VTA](https://github.com/vta/GIS-Resources-Santa-Clara-County)
