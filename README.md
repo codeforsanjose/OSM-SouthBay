@@ -31,4 +31,5 @@ To get in touch with other South Bay mappers and civic tech volunteers, invite y
 
 ## Resources
 
-* [South Bay GIS Resources Compiled by the VTA](https://github.com/vta/GIS-Resources-Santa-Clara-County)
+* [South Bay GIS resources compiled by the VTA](https://github.com/vta/GIS-Resources-Santa-Clara-County/)
+* [More South Bay datasets](https://github.com/impiaaa/SV-OSM/)
