@@ -1,16 +1,18 @@
-# OSM-SouthBay
+# OpenStreetMap in the South Bay
 
-This is project towards improving the quality of [OSM data in the South Bay](https://wiki.openstreetmap.org/wiki/South_Bay_%28SF%29,_California) as well as improving the community!
+We develop and maintain [OpenStreetMap’s coverage of San José and surrounding Santa Clara County](https://www.openstreetmap.org/#map=12/37.3358/-121.8906). Together as volunteers with Code for San José, we’re working to ensure that all South Bay residents have adequate representation on the map and benefit from the community-based and commercial services in the OpenStreetMap ecosystem. This repository tracks our editing campaigns, including easy ways to get started, and contains code for carrying out our data imports, so that other local mapping communities can build on our work.
 
-Mappers in the South Bay need to meet each other!
+## About OpenStreetMap
 
-Thus we are listing issues of things to work on in the South Bay as well as steps towards creating a community.
+[OpenStreetMap](https://www.openstreetmap.org/) (OSM) is an open-source project collecting all the data needed for making a worldwide, street-level map of the world and putting it in a single database. You are welcome to contribute to the project as a mapper, field surveyor, or developer. You can also reuse the data in a myriad of ways based on an open source license. Because of its openness, OSM is often described as the “Wikipedia of maps”. OSM is a useful resource on its own, as infrastructure for other civic tech projects, and as a low-barrier way for anyone to get involved with civic tech.
 
-## What is [OpenStreetMap](https://www.openstreetmap.org/#map=12/37.3358/-121.8906)?
-OpenStreetMap is open data: Open Maps.  you are free to use it for any purpose as long as you credit OpenStreetMap 
-and its contributors. 
+To get in touch with other Bay Area mappers and the broader U.S. mapper community, invite yourself to the [OSMUS Slack](https://slack.openstreetmap.us/) workspace and join the [#local-ca-sfbay](https://osmus.slack.com/archives/C8MQCCX9V) channel. There is also [a low-volume mailing list](https://lists.openstreetmap.org/listinfo/talk-us-sfbay/) and [additional documentation on the OSM Wiki](https://wiki.openstreetmap.org/wiki/Santa_Clara_County,_California).
 
-A better OpenStreetMap will make a difference for tripplanners, mappers, planners, and businesses!
+## About Code for San José
+
+[Code for San José](https://www.codeforsanjose.com/) (CfSJ) is a nonprofit community organization and a member of the national Code for America network. CfSJ organizes a monthly Map Night for South Bay mappers as part of its biweekly [https://www.meetup.com/Code-for-San-Jose/ Civic Hack Nights].
+
+To get in touch with other South Bay mappers and civic tech volunteers, invite yourself to the [Code for San José Slack](https://slackin-c4sj.herokuapp.com/) workspace and join the [#proj-osm](https://codeforsanjose.slack.com/archives/C69JM3UDD) channel.
 
 ## Current projects
 
@@ -29,7 +31,4 @@ A better OpenStreetMap will make a difference for tripplanners, mappers, planner
 
 ## Resources
 
-* [Code for San Jose Slack](https://slackin-c4sj.herokuapp.com/) and then channel #osm
-* [OSMUS Slack](https://osmus-slack.herokuapp.com/)
-* [Bay Area OSM mailing list](https://lists.openstreetmap.org/listinfo/talk-us-sfbay/)
 * [South Bay GIS Resources Compiled by the VTA](https://github.com/vta/GIS-Resources-Santa-Clara-County)
