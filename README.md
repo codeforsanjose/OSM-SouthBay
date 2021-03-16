@@ -6,7 +6,7 @@ We develop and maintain [OpenStreetMap’s coverage of San José and surrounding
 
 [OpenStreetMap](https://www.openstreetmap.org/) (OSM) is an open-source project collecting all the data needed for making a worldwide, street-level map of the world and putting it in a single database. You are welcome to contribute to the project as a mapper, field surveyor, or developer. You can also reuse the data in a myriad of ways based on an open source license. Because of its openness, OSM is often described as the “Wikipedia of maps”. OSM is a useful resource on its own, as infrastructure for other civic tech projects, and as a low-barrier way for anyone to get involved with civic tech.
 
-To get in touch with other Bay Area mappers and the broader U.S. mapper community, invite yourself to the [OSMUS Slack](https://slack.openstreetmap.us/) workspace and join the [#local-ca-sfbay](https://osmus.slack.com/archives/C8MQCCX9V) channel. There is also [a low-volume mailing list](https://lists.openstreetmap.org/listinfo/talk-us-sfbay/) and [additional documentation on the OSM Wiki](https://wiki.openstreetmap.org/wiki/Santa_Clara_County,_California).
+To get in touch with other Bay Area mappers and the broader U.S. mapper community, invite yourself to the [OSMUS Slack](https://slack.openstreetmap.us/) workspace and join the [#local-california](https://osmus.slack.com/archives/CCN1KJ76U) channel. There is also [a low-volume mailing list](https://lists.openstreetmap.org/listinfo/talk-us-sfbay/) and [additional documentation on the OSM Wiki](https://wiki.openstreetmap.org/wiki/Santa_Clara_County,_California).
 
 ## About Code for San José
 
