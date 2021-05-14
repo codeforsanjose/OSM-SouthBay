@@ -23,6 +23,7 @@ To get in touch with other South Bay mappers and civic tech volunteers, invite y
 * [Fix mismatched San José road names between OSM and city parcel data](https://maproulette.org/browse/challenges/12630) (requires field surveying)
 * [Validate imported San José crosswalks and fill in missing crosswalks](https://maproulette.org/browse/challenges/3199) (good starting point)
 * [Verify roads named after human rights activists and racist historical figures](https://maproulette.org/browse/projects/40933) (good starting point)
+* [Tag roads that have adjacent sidewalks](https://maproulette.org/browse/challenges/18088)
 
 ## Completed projects
 
