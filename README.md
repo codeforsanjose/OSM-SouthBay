@@ -12,7 +12,7 @@ To get in touch with other Bay Area mappers and the broader U.S. mapper communit
 
 ## About Code for San José
 
-[Code for San José](https://www.codeforsanjose.org/) (CfSJ) is a nonprofit community organization and a member of the national Code for America network. CfSJ hosts a biweekly Map Night for South Bay mappers as part of its [Civic Action Nights](https://www.meetup.com/Code-for-San-Jose/).
+[Code for San José](https://www.codeforsanjose.org/) (CfSJ) is a nonprofit community organization and a member of the national Code for America network. CfSJ hosts a biweekly Map Night for South Bay mappers. Upcoming Map Nights are listed on [Meetup](https://www.meetup.com/Code-for-San-Jose/) and [OSMCal](https://osmcal.org/?in=United%20States) and are currently online-only due to the pandemic.
 
 To get in touch with other South Bay mappers and civic tech volunteers, invite yourself to the [Code for San José Slack](https://slackin-c4sj.herokuapp.com/) workspace and join the [#proj-osm](https://codeforsanjose.slack.com/archives/C69JM3UDD) channel.
 
