@@ -21,7 +21,6 @@ To get in touch with other South Bay mappers and civic tech volunteers, invite y
 * [Map businesses based on Santa Clara County social distancing protocol filings](https://maproulette.org/browse/projects/42122) (good starting point)
 * [Replace hand-drawn buildings with municipal data in San José](https://tasks.openstreetmap.us/projects/249) (requires JOSM)
 * [Validate imported San José buildings and addresses](https://tasks.openstreetmap.us/project/175) (requires JOSM)
-* [Fix mismatched San José road names between OSM and city parcel data](https://maproulette.org/browse/challenges/12630) (requires field surveying)
 * [Validate imported San José crosswalks and fill in missing crosswalks](https://maproulette.org/browse/challenges/3199) (good starting point)
 * [Verify roads named after human rights activists and racist historical figures](https://maproulette.org/browse/projects/40933) (good starting point)
 * [Tag roads that have adjacent sidewalks](https://maproulette.org/browse/challenges/18088)
@@ -33,6 +32,7 @@ To get in touch with other South Bay mappers and civic tech volunteers, invite y
 * [Import San José crosswalks inferred from sidewalks](http://tasks2.openstreetmap.us/project/141)
 * Collect street-level imagery around San José with a DIY camera rig
 * [Add points of interest from street-level imagery](https://github.com/codeforsanjose/OSM-SouthBay/issues/9)
+* [Fix mismatched San José road names between OSM and city parcel data](https://maproulette.org/browse/challenges/12630)
 
 ## Resources
 
