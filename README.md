@@ -8,6 +8,8 @@ We develop and maintain [OpenStreetMap’s coverage of San José and surrounding
 
 To get started with OpenStreetMap, go to [openstreetmap.org](http://www.openstreetmap.org/) and create a free user account. Once you’ve logged in, zoom into your neighborhood and click the “Edit” button at the top of the page. Spend a few minutes completing the interactive tutorial to get a feel for editing, then dive in and add missing details to your neighborhood. If you’d rather edit from your phone, download [Vespucci](https://vespucci.io/) for Android or [Go Map!!](https://apps.apple.com/app/id592990211) for iOS. To contribute while you’re out and about, download [StreetComplete](https://github.com/streetcomplete/StreetComplete/) for Android and answer questions about your surroundings, or download [Mapillary](https://www.mapillary.com/mobile-apps) for Android or iOS and capture street-level imagery that makes it easier to edit at home.
 
+If you’re interested in local history or genealogy, also check out OSM’s sister project, [OpenHistoricalMap]([https://www.openhistoricalmap.org/](https://www.openhistoricalmap.org/#map=12/37.3355/-121.8906)). It’s just getting off the ground but will eventually depict the evolution of places like San José over time.
+
 To get in touch with other Bay Area mappers and the broader U.S. mapper community, invite yourself to the [OSMUS Slack](https://slack.openstreetmap.us/) workspace and join the [#local-california](https://osmus.slack.com/archives/CCN1KJ76U) channel. There is also [a low-volume mailing list](https://lists.openstreetmap.org/listinfo/talk-us-sfbay/) and [additional documentation on the OSM Wiki](https://wiki.openstreetmap.org/wiki/Santa_Clara_County,_California).
 
 ## About Code for San José
