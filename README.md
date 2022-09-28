@@ -32,7 +32,7 @@ To get in touch with other South Bay mappers and civic tech volunteers, invite y
 
 * [Import San José sidewalks from city data](https://wiki.openstreetmap.org/wiki/Santa_Clara_County,_California/San_Jose_Sidewalk_Import)
 * [Import San José crosswalks inferred from sidewalks](http://tasks2.openstreetmap.us/project/141)
-* Collect street-level imagery around San José with a DIY camera rig
+* [Collect street-level imagery around San José with a DIY camera rig](https://github.com/codeforsanjose/OSM-SouthBay/issues/12)
 * [Add points of interest from street-level imagery](https://github.com/codeforsanjose/OSM-SouthBay/issues/9)
 * [Fix mismatched San José road names between OSM and city parcel data](https://maproulette.org/browse/challenges/12630)
 
