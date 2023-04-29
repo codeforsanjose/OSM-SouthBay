@@ -21,6 +21,7 @@ To get in touch with other South Bay mappers and civic tech volunteers, invite y
 ## Current projects
 
 * [Map businesses based on Santa Clara County social distancing protocol filings](https://maproulette.org/browse/projects/42122) (good starting point)
+* [Review legacy sidewalk tags on streets](https://maproulette.org/browse/challenges/18088) (good starting point)
 * [Validate imported San José buildings and addresses](https://tasks.openstreetmap.us/project/175)
 * [Validate imported replacement San José buildings and addresses](https://tasks.openstreetmap.us/projects/249)
 * [Validate imported San José crosswalks and fill in missing crosswalks](https://maproulette.org/browse/challenges/3199) (good starting point)
