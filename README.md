@@ -26,7 +26,6 @@ To get in touch with other South Bay mappers and civic tech volunteers, invite y
 * [Validate imported replacement San José buildings and addresses](https://tasks.openstreetmap.us/projects/249)
 * [Validate imported San José crosswalks and fill in missing crosswalks](https://maproulette.org/browse/challenges/3199) (good starting point)
 * [Verify roads named after human rights activists and racist historical figures](https://maproulette.org/browse/projects/40933) (good starting point)
-* [Tag roads that have adjacent sidewalks](https://maproulette.org/browse/challenges/18088)
 * [Map bridge details](https://github.com/codeforsanjose/OSM-SouthBay/issues/24)
 
 ## Completed projects
