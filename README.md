@@ -1,6 +1,6 @@
 # OpenStreetMap in the South Bay
 
-We develop and maintain [OpenStreetMap’s coverage of San José and surrounding Santa Clara County](https://www.openstreetmap.org/#map=12/37.3358/-121.8906). Together as volunteers with Code for San José, we’re working to ensure that all South Bay residents have adequate representation on the map and benefit from the community-based and commercial services in the OpenStreetMap ecosystem. This repository tracks our editing campaigns, including easy ways to get started, and contains code for carrying out our data imports, so that other local mapping communities can build on our work.
+We develop and maintain [OpenStreetMap’s coverage of San José and surrounding Santa Clara County](https://www.openstreetmap.org/#map=12/37.3358/-121.8906). Together as volunteers with Open Source San José, we’re working to ensure that all South Bay residents have adequate representation on the map and benefit from the community-based and commercial services in the OpenStreetMap ecosystem. This repository tracks our editing campaigns, including easy ways to get started, and contains code for carrying out our data imports, so that other local mapping communities can build on our work.
 
 ## About OpenStreetMap
 
@@ -12,11 +12,11 @@ If you’re interested in local history or genealogy, also check out OSM’s sis
 
 To get in touch with other Bay Area mappers and the broader U.S. mapper community, invite yourself to the [OSMUS Slack](https://slack.openstreetmap.us/) workspace and join the [#local-california](https://osmus.slack.com/archives/CCN1KJ76U) channel. There is also [a low-volume mailing list](https://lists.openstreetmap.org/listinfo/talk-us-sfbay/) and [additional documentation on the OSM Wiki](https://wiki.openstreetmap.org/wiki/Santa_Clara_County,_California).
 
-## About Code for San José
+## About Open Source San José
 
-[Code for San José](https://www.codeforsanjose.org/) (CfSJ) is a nonprofit community organization and a member of the national Code for America network. CfSJ hosts a biweekly Map Night for South Bay mappers. Upcoming Map Nights are listed on [Meetup](https://www.meetup.com/Code-for-San-Jose/) and [OSMCal](https://osmcal.org/?in=United%20States) and are currently online-only due to the pandemic.
+[Open Source San José](https://www.codeforsanjose.org/) (formerly Code for San José) is a nonprofit community organization that focuses on open-source civic technology. OSSJ hosts a biweekly Map Night for South Bay mappers. Upcoming Map Nights are listed on [Meetup](https://www.meetup.com/Code-for-San-Jose/) and [OSMCal](https://osmcal.org/?in=United%20States) and are currently online-only due to the pandemic.
 
-To get in touch with other South Bay mappers and civic tech volunteers, invite yourself to the [Code for San José Slack](https://join.slack.com/t/codeforsanjose/shared_invite/zt-iwnx99kh-motBC0J47O8ItlR3zjAIBA) workspace and join the [#proj-osm](https://codeforsanjose.slack.com/archives/C69JM3UDD) channel, or join the [Code for San José Discord](https://discord.gg/wNZpgCEYDu) server and join the [#🗺️openstreetmap](https://discord.com/channels/1086028270455230625/1086348869329227877) channel. If you have a cool idea for something local mappers could add to OpenStreetMap, please [open a new issue](https://github.com/codeforsanjose/OSM-SouthBay/issues/new/).
+To get in touch with other South Bay mappers and civic tech volunteers, invite yourself to the [Open Source San José Slack](https://join.slack.com/t/opensourcesanjose/shared_invite/zt-1yt8dkv1y-Pn47~dt9of8nNHa2U9kioA) workspace and join the [#proj-osm](https://opensourcesanjose.slack.com/archives/C69JM3UDD) channel, or join the [Code for San José Discord](https://discord.gg/wNZpgCEYDu) server and join the [#🗺️openstreetmap](https://discord.com/channels/1086028270455230625/1086348869329227877) channel. If you have a cool idea for something local mappers could add to OpenStreetMap, please [open a new issue](https://github.com/codeforsanjose/OSM-SouthBay/issues/new/).
 
 ## Current projects
 
